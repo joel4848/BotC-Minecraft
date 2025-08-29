@@ -1,0 +1,19 @@
+execute as @e[limit=1,tag=seat1,type=minecraft:marker] at @s run execute if entity @a[scores={Player=-1},distance=2..] run tp @a[scores={Player=-1}] ~ ~ ~ facing entity @e[limit=1,sort=nearest,tag=votelight1,type=marker]
+execute as @e[limit=1,tag=seat2,type=minecraft:marker] at @s run execute if entity @a[scores={Player=-2},distance=2..] run tp @a[scores={Player=-2}] ~ ~ ~ facing entity @e[limit=1,sort=nearest,tag=votelight2,type=marker]
+execute as @e[limit=1,tag=seat3,type=minecraft:marker] at @s run execute if entity @a[scores={Player=-3},distance=2..] run tp @a[scores={Player=-3}] ~ ~ ~ facing entity @e[limit=1,sort=nearest,tag=votelight3,type=marker]
+execute as @e[limit=1,tag=seat4,type=minecraft:marker] at @s run execute if entity @a[scores={Player=-4},distance=2..] run tp @a[scores={Player=-4}] ~ ~ ~ facing entity @e[limit=1,sort=nearest,tag=votelight4,type=marker]
+execute as @e[limit=1,tag=seat5,type=minecraft:marker] at @s run execute if entity @a[scores={Player=-5},distance=2..] run tp @a[scores={Player=-5}] ~ ~ ~ facing entity @e[limit=1,sort=nearest,tag=votelight5,type=marker]
+execute as @e[limit=1,tag=seat6,type=minecraft:marker] at @s run execute if entity @a[scores={Player=-6},distance=2..] run tp @a[scores={Player=-6}] ~ ~ ~ facing entity @e[limit=1,sort=nearest,tag=votelight6,type=marker]
+execute as @e[limit=1,tag=seat7,type=minecraft:marker] at @s run execute if entity @a[scores={Player=-7},distance=2..] run tp @a[scores={Player=-7}] ~ ~ ~ facing entity @e[limit=1,sort=nearest,tag=votelight7,type=marker]
+execute as @e[limit=1,tag=seat8,type=minecraft:marker] at @s run execute if entity @a[scores={Player=-8},distance=2..] run tp @a[scores={Player=-8}] ~ ~ ~ facing entity @e[limit=1,sort=nearest,tag=votelight8,type=marker]
+execute as @e[limit=1,tag=seat9,type=minecraft:marker] at @s run execute if entity @a[scores={Player=-9},distance=2..] run tp @a[scores={Player=-9}] ~ ~ ~ facing entity @e[limit=1,sort=nearest,tag=votelight9,type=marker]
+execute as @e[limit=1,tag=seat10,type=minecraft:marker] at @s run execute if entity @a[scores={Player=-10},distance=2..] run tp @a[scores={Player=-10}] ~ ~ ~ facing entity @e[limit=1,sort=nearest,tag=votelight10,type=marker]
+execute as @e[limit=1,tag=seat11,type=minecraft:marker] at @s run execute if entity @a[scores={Player=-11},distance=2..] run tp @a[scores={Player=-11}] ~ ~ ~ facing entity @e[limit=1,sort=nearest,tag=votelight11,type=marker]
+execute as @e[limit=1,tag=seat12,type=minecraft:marker] at @s run execute if entity @a[scores={Player=-12},distance=2..] run tp @a[scores={Player=-12}] ~ ~ ~ facing entity @e[limit=1,sort=nearest,tag=votelight12,type=marker]
+execute as @e[limit=1,tag=seat13,type=minecraft:marker] at @s run execute if entity @a[scores={Player=-13},distance=2..] run tp @a[scores={Player=-13}] ~ ~ ~ facing entity @e[limit=1,sort=nearest,tag=votelight13,type=marker]
+execute as @e[limit=1,tag=seat14,type=minecraft:marker] at @s run execute if entity @a[scores={Player=-14},distance=2..] run tp @a[scores={Player=-14}] ~ ~ ~ facing entity @e[limit=1,sort=nearest,tag=votelight14,type=marker]
+execute as @e[limit=1,tag=seat15,type=minecraft:marker] at @s run execute if entity @a[scores={Player=-15},distance=2..] run tp @a[scores={Player=-15}] ~ ~ ~ facing entity @e[limit=1,sort=nearest,tag=votelight15,type=marker]
+execute as @e[limit=1,tag=seat16,type=minecraft:marker] at @s run execute if entity @a[scores={Player=-16},distance=2..] run tp @a[scores={Player=-16}] ~ ~ ~ facing entity @e[limit=1,sort=nearest,tag=votelight16,type=marker]
+
+execute if score #vote_running temp matches 1 run schedule function voting:lock_to_seats 1t replace
+execute if score #lock_to_seats temp matches 1 run schedule function voting:lock_to_seats 1t replace

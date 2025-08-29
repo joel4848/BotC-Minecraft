@@ -1,0 +1,9 @@
+# set vote light on (run in command block setup)
+
+execute as @e[type=marker,tag=votelight1] at @s if block ~ ~ ~ minecraft:waxed_copper_bulb[lit=true] run setblock ~ ~ ~ minecraft:waxed_copper_bulb[lit=false]
+execute as @e[type=marker,tag=votelight1] at @s if block ~ ~ ~ minecraft:waxed_oxidized_copper_bulb[lit=true] run setblock ~ ~ ~ minecraft:waxed_oxidized_copper_bulb[lit=false]
+
+# set vote light off (run in command block setup)
+
+execute as @e[type=marker,tag=votelight1] at @s if block ~ ~ ~ minecraft:waxed_copper_bulb[lit=false] run setblock ~ ~ ~ minecraft:waxed_copper_bulb[lit=true]
+execute as @e[type=marker,tag=votelight1] at @s if block ~ ~ ~ minecraft:waxed_oxidized_copper_bulb[lit=false] run setblock ~ ~ ~ minecraft:waxed_oxidized_copper_bulb[lit=true]

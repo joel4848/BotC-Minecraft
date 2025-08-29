@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "players:dead_alive_events",
+      "required": false
+    },
+    {
+      "id": "extras:organ_grinder/silence_levers",
+      "required": false
+    },
+    {
+      "id": "extras:organ_grinder/hide_ghost_votes/og_hgv_particles",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+playsound minecraft:block.bell.use ambient @a ~ ~ ~ 5 0.6 1

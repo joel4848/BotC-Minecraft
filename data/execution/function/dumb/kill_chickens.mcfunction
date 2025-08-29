@@ -1,0 +1,1 @@
+execute at @e[type=marker,tag=mapcentre] run kill @e[type=chicken,distance=..3]

@@ -1,0 +1,1 @@
+summon chicken 167 92 1 {DeathLootTable:"minecraft:empty",active_effects:[{id:"minecraft:wind_charged",amplifier:1,duration:-1,show_particles:1b,show_icon:0b}]}

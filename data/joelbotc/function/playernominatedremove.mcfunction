@@ -1,0 +1,12 @@
+setblock 202 85 -9 minecraft:air
+setblock 202 85 -12 minecraft:air
+setblock 202 85 -15 minecraft:air
+setblock 202 85 -18 minecraft:air
+setblock 202 85 -21 minecraft:air
+setblock 202 85 -24 minecraft:air
+setblock 202 85 -27 minecraft:air
+setblock 202 85 -30 minecraft:air
+setblock 202 85 -33 minecraft:air
+setblock 202 85 -36 minecraft:air
+setblock 202 85 -39 minecraft:air
+setblock 202 85 -42 minecraft:air

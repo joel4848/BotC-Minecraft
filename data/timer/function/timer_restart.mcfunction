@@ -1,0 +1,3 @@
+scoreboard players set TimerEntity TimerPaused 0
+function timer:countdown_timer
+function timer:countdown_bossbar

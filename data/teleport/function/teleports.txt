@@ -1,0 +1,65 @@
+# Teleports defined as commands to add to book/fancymenu as all are single commands, so not necessary to have in functions
+
+# ST to houses/town square
+
+tp /teleport @a[scores={Storyteller=1}] @e[limit=1,tag=townsquare,type=minecraft:marker]
+
+/execute if score #tp_disabled temp matches 0 run teleport @a[scores={Storyteller=1}] @e[limit=1,tag=house1,type=minecraft:marker]
+/execute if score #tp_disabled temp matches 1 run title @a[scores={Storyteller=1}] title {"color":"gold","text":"You must run 'End Day' first!","underlined":true}
+/teleport @a[scores={Storyteller=1}] @e[limit=1,tag=house2,type=minecraft:marker]
+/teleport @a[scores={Storyteller=1}] @e[limit=1,tag=house3,type=minecraft:marker]
+/teleport @a[scores={Storyteller=1}] @e[limit=1,tag=house4,type=minecraft:marker]
+/teleport @a[scores={Storyteller=1}] @e[limit=1,tag=house5,type=minecraft:marker]
+/teleport @a[scores={Storyteller=1}] @e[limit=1,tag=house6,type=minecraft:marker]
+/teleport @a[scores={Storyteller=1}] @e[limit=1,tag=house7,type=minecraft:marker]
+/teleport @a[scores={Storyteller=1}] @e[limit=1,tag=house8,type=minecraft:marker]
+/teleport @a[scores={Storyteller=1}] @e[limit=1,tag=house9,type=minecraft:marker]
+/teleport @a[scores={Storyteller=1}] @e[limit=1,tag=house10,type=minecraft:marker]
+/teleport @a[scores={Storyteller=1}] @e[limit=1,tag=house11,type=minecraft:marker]
+/teleport @a[scores={Storyteller=1}] @e[limit=1,tag=house12,type=minecraft:marker]
+/teleport @a[scores={Storyteller=1}] @e[limit=1,tag=house13,type=minecraft:marker]
+/teleport @a[scores={Storyteller=1}] @e[limit=1,tag=house14,type=minecraft:marker]
+/teleport @a[scores={Storyteller=1}] @e[limit=1,tag=house15,type=minecraft:marker]
+/teleport @a[scores={Storyteller=1}] @e[limit=1,tag=house16,type=minecraft:marker]
+
+# Players to houses
+
+In function tp_all_to_houses
+
+# Players to seats
+
+/teleport @a[scores={Player=-1}] @e[limit=1,tag=seat1,type=minecraft:marker]
+/teleport @a[scores={Player=-2}] @e[limit=1,tag=seat2,type=minecraft:marker]
+/teleport @a[scores={Player=-3}] @e[limit=1,tag=seat3,type=minecraft:marker]
+/teleport @a[scores={Player=-4}] @e[limit=1,tag=seat4,type=minecraft:marker]
+/teleport @a[scores={Player=-5}] @e[limit=1,tag=seat5,type=minecraft:marker]
+/teleport @a[scores={Player=-6}] @e[limit=1,tag=seat6,type=minecraft:marker]
+/teleport @a[scores={Player=-7}] @e[limit=1,tag=seat7,type=minecraft:marker]
+/teleport @a[scores={Player=-8}] @e[limit=1,tag=seat8,type=minecraft:marker]
+/teleport @a[scores={Player=-9}] @e[limit=1,tag=seat9,type=minecraft:marker]
+/teleport @a[scores={Player=-10}] @e[limit=1,tag=seat10,type=minecraft:marker]
+/teleport @a[scores={Player=-11}] @e[limit=1,tag=seat11,type=minecraft:marker]
+/teleport @a[scores={Player=-12}] @e[limit=1,tag=seat12,type=minecraft:marker]
+/teleport @a[scores={Player=-13}] @e[limit=1,tag=seat13,type=minecraft:marker]
+/teleport @a[scores={Player=-14}] @e[limit=1,tag=seat14,type=minecraft:marker]
+/teleport @a[scores={Player=-15}] @e[limit=1,tag=seat15,type=minecraft:marker]
+/teleport @a[scores={Player=-16}] @e[limit=1,tag=seat16,type=minecraft:marker]
+
+# Players to ST?
+
+/teleport @a[scores={Player=-1}] @e[scores={Storyteller=1}]
+/teleport @a[scores={Player=-2}] @e[scores={Storyteller=1}]
+/teleport @a[scores={Player=-3}] @e[scores={Storyteller=1}]
+/teleport @a[scores={Player=-4}] @e[scores={Storyteller=1}]
+/teleport @a[scores={Player=-5}] @e[scores={Storyteller=1}]
+/teleport @a[scores={Player=-6}] @e[scores={Storyteller=1}]
+/teleport @a[scores={Player=-7}] @e[scores={Storyteller=1}]
+/teleport @a[scores={Player=-8}] @e[scores={Storyteller=1}]
+/teleport @a[scores={Player=-9}] @e[scores={Storyteller=1}]
+/teleport @a[scores={Player=-10}] @e[scores={Storyteller=1}]
+/teleport @a[scores={Player=-11}] @e[scores={Storyteller=1}]
+/teleport @a[scores={Player=-12}] @e[scores={Storyteller=1}]
+/teleport @a[scores={Player=-13}] @e[scores={Storyteller=1}]
+/teleport @a[scores={Player=-14}] @e[scores={Storyteller=1}]
+/teleport @a[scores={Player=-15}] @e[scores={Storyteller=1}]
+/teleport @a[scores={Player=-16}] @e[scores={Storyteller=1}]

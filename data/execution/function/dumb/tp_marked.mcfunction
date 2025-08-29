@@ -1,0 +1,1 @@
+tp @a[scores={Marked=1}] 167 92 1

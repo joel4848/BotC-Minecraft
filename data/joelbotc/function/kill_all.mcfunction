@@ -1,0 +1,12 @@
+setblock 172 84 -9 minecraft:redstone_block
+setblock 172 84 -12 minecraft:redstone_block
+setblock 172 84 -15 minecraft:redstone_block
+setblock 172 84 -18 minecraft:redstone_block
+setblock 172 84 -21 minecraft:redstone_block
+setblock 172 84 -24 minecraft:redstone_block
+setblock 172 84 -27 minecraft:redstone_block
+setblock 172 84 -30 minecraft:redstone_block
+setblock 172 84 -33 minecraft:redstone_block
+setblock 172 84 -36 minecraft:redstone_block
+setblock 172 84 -39 minecraft:redstone_block
+setblock 172 84 -42 minecraft:redstone_block

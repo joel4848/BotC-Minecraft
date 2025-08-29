@@ -1,0 +1,1 @@
+$time set $(timer_day_time)

@@ -1,0 +1,1 @@
+$execute as @e[type=marker,scores={lightID=..$(player_count)}] at @s run function setup:player_count/replace_wanted_votelights_action

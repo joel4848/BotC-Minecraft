@@ -1,0 +1,1 @@
+bossbar set minecraft:timerbar visible false
