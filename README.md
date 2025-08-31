@@ -22,4 +22,4 @@ Coming after v1 completion
 
 ## License
 
-[Joel's BotC in Minecraft datapack](https://github.com/joel4848/Joel-BotC-Rewrite) © 2025 by [Joel4848](https://github.com/joel4848) is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)![](https://mirrors.creativecommons.org/presskit/icons/cc.svg)![](https://mirrors.creativecommons.org/presskit/icons/by.svg)![](https://mirrors.creativecommons.org/presskit/icons/nc.svg)![](https://mirrors.creativecommons.org/presskit/icons/sa.svg)
+[Joel's BotC in Minecraft datapack](https://github.com/joel4848/Joel-BotC-Rewrite) by [Joel4848](https://github.com/joel4848) is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
