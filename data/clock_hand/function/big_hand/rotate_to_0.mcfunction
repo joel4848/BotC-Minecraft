@@ -111,5 +111,3 @@ $execute as @e[type=block_display,tag=big_hand108] run data merge entity @s {sta
 $execute as @e[type=block_display,tag=big_hand110] run data merge entity @s {start_interpolation:-1,interpolation_duration:$(big_hand_speed),transformation:{left_rotation: [0.5f, 0.5f, -0.5f, 0.5f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [0.06999997f, 0.14999984f, 0.06999992f], translation: [6.2000003f, 0.006250058f, 0.1762507f]}}
 $execute as @e[type=block_display,tag=big_hand109] run data merge entity @s {start_interpolation:-1,interpolation_duration:$(big_hand_speed),transformation:{left_rotation: [0.0f, -6.533591E-8f, 0.0f, 1.0f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [6.499995f, 0.19999987f, 0.1999999f], translation: [-0.24999572f, 6.053597E-8f, -0.10000005f]}}
 $execute as @e[type=block_display,tag=big_hand86] run data merge entity @s {start_interpolation:-1,interpolation_duration:$(big_hand_speed),transformation:{left_rotation: [0.5f, 0.5f, -0.5f, 0.5f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [0.06999999f, 0.1499999f, 0.069999926f], translation: [6.2000003f, 0.28624994f, -0.103749245f]}}
-
-say rotate to 0

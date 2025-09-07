@@ -262,3 +262,7 @@ execute as @e[tag=votelight16] run execute at @s run setblock ~ ~-3 ~ redstone_b
 
 # kill @e[type=item,name="Redstone Torch"]
 # tellraw @a [{"text":"Voting system fully reset.","color":"yellow"}]
+
+# Remove clock hands
+
+function clock_hand:big_hand/remove_big_hand
