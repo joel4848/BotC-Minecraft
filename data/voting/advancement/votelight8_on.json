@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "click": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{\"Tags\":[\"vote_interaction8\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "voting:switch_lights/light_8_on"
+  }
+}

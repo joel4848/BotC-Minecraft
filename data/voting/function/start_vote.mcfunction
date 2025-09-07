@@ -22,12 +22,17 @@ execute if score #storyteller Nominated matches 1 run scoreboard players set #st
 # Initialize vote counter
 scoreboard players set #current_player temp 0
 scoreboard players set #vote_tally temp 0
+scoreboard players reset #current_votelight temp
 
 # Start announcing who voted:
 
 execute if score #og_enabled temp matches 0 run tellraw @a [{"color":"aqua","text":"These players voted","underlined":true},{"color":"aqua","text":":","underlined":false}]
 execute if score #og_enabled temp matches 1 run tellraw @a [{"color":"red","text":"The Organ Grinder obscures the vote...","underlined":false}]
 execute if score #og_enabled temp matches 1 run tellraw @a[scores={Storyteller=1}] [{"color":"aqua","text":"These players voted","underlined":true},{"color":"aqua","text":":","underlined":false}]
+
+# Set big hand rotation speed
+
+scoreboard players set #big_hand_speed temp 8
 
 # Start the voting sequence
 function voting:vote_sequence

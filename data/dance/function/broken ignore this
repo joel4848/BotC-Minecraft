@@ -1,0 +1,62 @@
+
+# bottom layer at ~ ~213 ~
+
+# execute if score layer dance_settings matches 1 run clone ~ ~-13 ~ ~7 ~-13 ~7 ~ ~2 ~ replace
+# execute if score layer dance_settings matches 1 run clone ~ ~-13 ~ ~7 ~-13 ~7 ~ ~2 ~ replace
+# execute if score layer dance_settings matches 2 run clone ~ ~-12 ~ ~7 ~-12 ~7 ~ ~2 ~ replace
+# execute if score layer dance_settings matches 3 run clone ~ ~-11 ~ ~7 ~-11 ~7 ~ ~2 ~ replace
+# execute if score layer dance_settings matches 4 run clone ~ ~-10 ~ ~7 ~-10 ~7 ~ ~2 ~ replace
+# execute if score layer dance_settings matches 5 run clone ~ ~-9 ~ ~7 ~-9 ~7 ~ ~2 ~ replace
+# execute if score layer dance_settings matches 6 run clone ~ ~-8 ~ ~7 ~-8 ~7 ~ ~2 ~ replace
+# execute if score layer dance_settings matches 7 run clone ~ ~-7 ~ ~7 ~-7 ~7 ~ ~2 ~ replace
+# execute if score layer dance_settings matches 8 run clone ~ ~-6 ~ ~7 ~-6 ~7 ~ ~2 ~ replace
+# execute if score layer dance_settings matches 9 run clone ~ ~-5 ~ ~7 ~-5 ~7 ~ ~2 ~ replace
+# execute if score layer dance_settings matches 10 run clone ~ ~-4 ~ ~7 ~-4 ~7 ~ ~2 ~ replace
+# execute if score layer dance_settings matches 11 run clone ~ ~-3 ~ ~7 ~-3 ~7 ~ ~2 ~ replace
+# execute if score layer dance_settings matches 12 run clone ~ ~-2 ~ ~7 ~-2 ~7 ~ ~2 ~ replace
+# 
+execute if score layer dance_settings matches 1 run say "Layer 1"
+execute if score layer dance_settings matches 1 run function dance:layer1
+# execute if score layer dance_settings matches 1 run clone ~ ~-13 ~ ~7 ~-13 ~7 ~ ~7 ~ replace
+# 
+execute if score layer dance_settings matches 2 run say "Layer 2"
+execute if score layer dance_settings matches 2 run function dance:layer2
+# execute if score layer dance_settings matches 2 run clone ~ ~-12 ~ ~7 ~-12 ~7 ~ ~8 ~ replace
+# 
+execute if score layer dance_settings matches 3 run say "Layer 3"
+execute if score layer dance_settings matches 3 run function dance:layer3
+# execute if score layer dance_settings matches 3 run clone ~ ~-11 ~ ~7 ~-11 ~7 ~ ~9 ~ replace
+# 
+# execute if score layer dance_settings matches 4 run say "Layer 4"
+# execute if score layer dance_settings matches 4 run clone ~ ~-10 ~ ~7 ~-10 ~7 ~ ~10 ~ replace
+# 
+# execute if score layer dance_settings matches 5 run say "Layer 5"
+# execute if score layer dance_settings matches 5 run clone ~ ~-9 ~ ~7 ~-9 ~7 ~ ~11 ~ replace
+# 
+# execute if score layer dance_settings matches 6 run say "Layer 6"
+# execute if score layer dance_settings matches 6 run clone ~ ~-8 ~ ~7 ~-8 ~7 ~ ~12 ~ replace
+# 
+# execute if score layer dance_settings matches 7 run say "Layer 7"
+# execute if score layer dance_settings matches 7 run clone ~ ~-7 ~ ~7 ~-7 ~7 ~ ~13 ~ replace
+# 
+# execute if score layer dance_settings matches 8 run say "Layer 8"
+# execute if score layer dance_settings matches 8 run clone ~ ~-6 ~ ~7 ~-6 ~7 ~ ~14 ~ replace
+# 
+# execute if score layer dance_settings matches 9 run say "Layer 9"
+# execute if score layer dance_settings matches 9 run clone ~ ~-5 ~ ~7 ~-5 ~7 ~ ~15 ~ replace
+# 
+# execute if score layer dance_settings matches 10 run say "Layer 10"
+# execute if score layer dance_settings matches 10 run clone ~ ~-4 ~ ~7 ~-4 ~7 ~ ~16 ~ replace
+# 
+# execute if score layer dance_settings matches 11 run say "Layer 11"
+# execute if score layer dance_settings matches 11 run clone ~ ~-3 ~ ~7 ~-3 ~7 ~ ~17 ~ replace
+# 
+# execute if score layer dance_settings matches 12 run say "Layer 12"
+# execute if score layer dance_settings matches 12 run clone ~ ~-2 ~ ~7 ~-2 ~7 ~ ~18 ~ replace
+
+# Increment layer by 1
+scoreboard players add layer dance_settings 1
+
+# If layer is 13, reset layer to 1
+execute if score layer dance_settings matches 4 run scoreboard players set layer dance_settings 1
+

@@ -9,6 +9,10 @@ team leave @a[team=!Storyteller]
 
 function setup:clonechests
 
+# Revive everyone
+
+function players:kill_revive/revive_all
+
 # Make nametags visible
 
 team modify Alive nametagVisibility always

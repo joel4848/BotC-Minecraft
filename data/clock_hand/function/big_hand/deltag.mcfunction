@@ -1,0 +1,2 @@
+$kill @e[type=minecraft:block_display,tag=big_hand$(deleted_tag)]
+tellraw @a [{"hoverEvent":{"action":"show_text","value":[{"text":"","color":"green"}]},"text":"Deleted tag "},{"hoverEvent":{"action":"show_text","value":[{"text":"","color":"green"}]},"nbt":"deleted_tag","storage":"joelbotc"}]

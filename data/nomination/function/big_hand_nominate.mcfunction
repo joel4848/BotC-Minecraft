@@ -1,0 +1,1 @@
+$function clock_hand:big_hand/rotate_to_$(nominated_player_big_hand) with storage joelbotc

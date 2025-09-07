@@ -1,14 +1,14 @@
 # Retracts the piston for the current player's seat
 
-# Calculate which player we're currently processing
-scoreboard players operation #current_seat temp = #start_player temp
-scoreboard players operation #current_seat temp += #current_player temp
-
-# Handle wraparound for seat numbers
-execute if score #current_seat temp > #player_count temp run scoreboard players operation #current_seat temp -= #player_count temp
-
-# Store current seat in a more convenient variable
-scoreboard players operation #seat temp = #current_seat temp
+# # Calculate which player we're currently processing
+# scoreboard players operation #current_seat temp = #start_player temp
+# scoreboard players operation #current_seat temp += #current_player temp
+# 
+# # Handle wraparound for seat numbers
+# execute if score #current_seat temp > #player_count temp run scoreboard players operation #current_seat temp -= #player_count temp
+# 
+# # Store current seat in a more convenient variable
+# scoreboard players operation #seat temp = #current_seat temp
 
 # Retract the piston for this seat by removing redstone power
 execute as @e[tag=votelight1] if score #seat temp matches 1 run execute at @s run setblock ~ ~-3 ~ air

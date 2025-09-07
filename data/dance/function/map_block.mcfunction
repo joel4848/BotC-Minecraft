@@ -1,0 +1,18 @@
+# For each possible random score, maps the nbt data of the current block number being tested to the correct coloured glass
+
+$execute if score $(blockname) dance_random matches 0 run data modify storage dancesetblock $(blockname) set value "minecraft:white_stained_glass"
+$execute if score $(blockname) dance_random matches 1 run data modify storage dancesetblock $(blockname) set value "minecraft:light_gray_stained_glass"
+$execute if score $(blockname) dance_random matches 2 run data modify storage dancesetblock $(blockname) set value "minecraft:gray_stained_glass"
+$execute if score $(blockname) dance_random matches 3 run data modify storage dancesetblock $(blockname) set value "minecraft:black_stained_glass"
+$execute if score $(blockname) dance_random matches 4 run data modify storage dancesetblock $(blockname) set value "minecraft:brown_stained_glass"
+$execute if score $(blockname) dance_random matches 5 run data modify storage dancesetblock $(blockname) set value "minecraft:red_stained_glass"
+$execute if score $(blockname) dance_random matches 6 run data modify storage dancesetblock $(blockname) set value "minecraft:orange_stained_glass"
+$execute if score $(blockname) dance_random matches 7 run data modify storage dancesetblock $(blockname) set value "minecraft:yellow_stained_glass"
+$execute if score $(blockname) dance_random matches 8 run data modify storage dancesetblock $(blockname) set value "minecraft:lime_stained_glass"
+$execute if score $(blockname) dance_random matches 9 run data modify storage dancesetblock $(blockname) set value "minecraft:green_stained_glass"
+$execute if score $(blockname) dance_random matches 10 run data modify storage dancesetblock $(blockname) set value "minecraft:cyan_stained_glass"
+$execute if score $(blockname) dance_random matches 11 run data modify storage dancesetblock $(blockname) set value "minecraft:light_blue_stained_glass"
+$execute if score $(blockname) dance_random matches 12 run data modify storage dancesetblock $(blockname) set value "minecraft:blue_stained_glass"
+$execute if score $(blockname) dance_random matches 13 run data modify storage dancesetblock $(blockname) set value "minecraft:purple_stained_glass"
+$execute if score $(blockname) dance_random matches 14 run data modify storage dancesetblock $(blockname) set value "minecraft:magenta_stained_glass"
+$execute if score $(blockname) dance_random matches 15 run data modify storage dancesetblock $(blockname) set value "minecraft:pink_stained_glass"

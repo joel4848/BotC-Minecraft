@@ -35,8 +35,8 @@ scoreboard objectives add Wheee dummy
 scoreboard objectives add VoteValue dummy
 scoreboard objectives add ThiefSelected dummy
 scoreboard objectives add BureaucratSelected dummy
-# scoreboard objectives add  dummy
-# scoreboard objectives add  dummy
+scoreboard objectives add IsBanshee dummy
+scoreboard objectives add BansheeVoteValue dummy
 # scoreboard objectives add  dummy
 
 
@@ -71,6 +71,7 @@ scoreboard objectives add VoteTally dummy
 scoreboard objectives add const dummy
 scoreboard players set #-1 const -1
 scoreboard players set #2 const 2
+scoreboard players set #const_16 const 16
 
 # Give required IDs to the votelights
 
