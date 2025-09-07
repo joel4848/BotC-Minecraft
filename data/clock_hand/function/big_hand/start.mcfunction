@@ -28,7 +28,7 @@ execute unless score #big_hand_current_pos temp = #big_hand_target temp unless s
 execute unless score #big_hand_current_pos temp = #big_hand_target temp unless score #big_hand_target temp matches 0 if score #cw_dist temp > #ccw_dist temp run scoreboard players set #dirflag temp 0
 
 # Start stepping for targets 1-16
-execute unless score #big_hand_current_pos temp = #big_hand_target temp unless score #big_hand_target temp matches 0 run function clock_hand:big_hand/step
+execute unless score #big_hand_current_pos temp = #big_hand_target temp unless score #big_hand_target temp matches 0 run schedule function clock_hand:big_hand/step 10t
 
 # ---- SPECIAL CASE: Storyteller / neutral target (0) ----
 # For target 0: clockwise distance is 17 - current_pos, counter-clockwise is current_pos
@@ -41,4 +41,4 @@ execute unless score #big_hand_current_pos temp = #big_hand_target temp if score
 execute unless score #big_hand_current_pos temp = #big_hand_target temp if score #big_hand_target temp matches 0 if score #cw_dist temp > #ccw_dist temp run scoreboard players set #dirflag temp 0
 
 # Start stepping for target 0
-execute unless score #big_hand_current_pos temp = #big_hand_target temp if score #big_hand_target temp matches 0 run function clock_hand:big_hand/step
+execute unless score #big_hand_current_pos temp = #big_hand_target temp if score #big_hand_target temp matches 0 run schedule function clock_hand:big_hand/step 10t

@@ -22,3 +22,7 @@ function voting:reset_vote_full
 # Reenable tp
 
 scoreboard players set #tp_disabled temp 0
+
+# Remove hands
+
+function clock_hand:remove_hands

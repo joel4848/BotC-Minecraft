@@ -1,0 +1,3 @@
+scoreboard players set #big_hand_pos temp 0
+
+execute as @e[limit=1,tag=mapcentre,type=minecraft:marker] at @s run summon minecraft:block_display ~ ~0.45 ~ {Tags:["little_hand"],FallDistance: 0.0f, block_state: {Name: "minecraft:black_concrete"}, id: "minecraft:block_display", transformation: {left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [5.5f, 0.15f, 0.15f], translation: [-0.25f, 0.0f, -0.075f]}}

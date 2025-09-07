@@ -12,19 +12,19 @@ function voting:lock_to_seats
 
 function voting:countdown_3
 
-schedule function voting:countdown_2 10t
+schedule function voting:countdown_2 30t
 # 30t
 
-schedule function voting:countdown_1 20t
+schedule function voting:countdown_1 60t
 # 60t
 
-schedule function voting:countdown_now 30t
+schedule function voting:countdown_now 90t
 # 90t
 
-schedule function voting:start_vote 40t
+schedule function voting:start_vote 120t
 # 120t
 
-schedule function setup:reset_title_times 60t
+schedule function setup:reset_title_times 140t
 # 140t
 
 # Set default vote_sequence_time

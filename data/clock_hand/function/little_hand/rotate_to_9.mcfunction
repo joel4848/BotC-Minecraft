@@ -1,0 +1,2 @@
+scoreboard players set #little_hand_current_pos temp 9
+$execute as @e[type=block_display,tag=little_hand] run data merge entity @s {start_interpolation:-1,interpolation_duration:$(little_hand_speed),transformation:{left_rotation: [0.0f, 0.9940282f, 0.0f, 0.10912351f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [5.5000024f, 0.15000002f, 0.15000011f], translation: [0.22777519f, 0.0f, 0.12744977f]}}
