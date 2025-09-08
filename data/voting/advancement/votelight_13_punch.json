@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "click": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{\"Tags\":[\"vote_interaction13\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "voting:switch_lights/votelight_13_punch"
+  }
+}

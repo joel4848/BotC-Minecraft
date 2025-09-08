@@ -265,4 +265,4 @@ execute as @e[tag=votelight16] run execute at @s run setblock ~ ~-3 ~ redstone_b
 
 # Remove clock hands
 
-function clock_hand:big_hand/remove_big_hand
+function clock_hand:remove_hands
