@@ -94,22 +94,22 @@ execute if entity @a[scores={Player=-16,Alive=1}] run execute as @e[tag=voteligh
 
 # Return revived players' used ghost votes
 
-execute if entity @a[scores={Player=-1,Alive=1}] run execute as @e[tag=votelight1] run execute at @s if block ~ ~-1 ~ reinforced_deepslate run setblock ~ ~-1 ~ waxed_oxidized_copper_bulb[lit=false]
-execute if entity @a[scores={Player=-2,Alive=1}] run execute as @e[tag=votelight2] run execute at @s if block ~ ~-1 ~ reinforced_deepslate run setblock ~ ~-1 ~ waxed_oxidized_copper_bulb[lit=false]
-execute if entity @a[scores={Player=-3,Alive=1}] run execute as @e[tag=votelight3] run execute at @s if block ~ ~-1 ~ reinforced_deepslate run setblock ~ ~-1 ~ waxed_oxidized_copper_bulb[lit=false]
-execute if entity @a[scores={Player=-4,Alive=1}] run execute as @e[tag=votelight4] run execute at @s if block ~ ~-1 ~ reinforced_deepslate run setblock ~ ~-1 ~ waxed_oxidized_copper_bulb[lit=false]
-execute if entity @a[scores={Player=-5,Alive=1}] run execute as @e[tag=votelight5] run execute at @s if block ~ ~-1 ~ reinforced_deepslate run setblock ~ ~-1 ~ waxed_oxidized_copper_bulb[lit=false]
-execute if entity @a[scores={Player=-6,Alive=1}] run execute as @e[tag=votelight6] run execute at @s if block ~ ~-1 ~ reinforced_deepslate run setblock ~ ~-1 ~ waxed_oxidized_copper_bulb[lit=false]
-execute if entity @a[scores={Player=-7,Alive=1}] run execute as @e[tag=votelight7] run execute at @s if block ~ ~-1 ~ reinforced_deepslate run setblock ~ ~-1 ~ waxed_oxidized_copper_bulb[lit=false]
-execute if entity @a[scores={Player=-8,Alive=1}] run execute as @e[tag=votelight8] run execute at @s if block ~ ~-1 ~ reinforced_deepslate run setblock ~ ~-1 ~ waxed_oxidized_copper_bulb[lit=false]
-execute if entity @a[scores={Player=-9,Alive=1}] run execute as @e[tag=votelight9] run execute at @s if block ~ ~-1 ~ reinforced_deepslate run setblock ~ ~-1 ~ waxed_oxidized_copper_bulb[lit=false]
-execute if entity @a[scores={Player=-10,Alive=1}] run execute as @e[tag=votelight10] run execute at @s if block ~ ~-1 ~ reinforced_deepslate run setblock ~ ~-1 ~ waxed_oxidized_copper_bulb[lit=false]
-execute if entity @a[scores={Player=-11,Alive=1}] run execute as @e[tag=votelight11] run execute at @s if block ~ ~-1 ~ reinforced_deepslate run setblock ~ ~-1 ~ waxed_oxidized_copper_bulb[lit=false]
-execute if entity @a[scores={Player=-12,Alive=1}] run execute as @e[tag=votelight12] run execute at @s if block ~ ~-1 ~ reinforced_deepslate run setblock ~ ~-1 ~ waxed_oxidized_copper_bulb[lit=false]
-execute if entity @a[scores={Player=-13,Alive=1}] run execute as @e[tag=votelight13] run execute at @s if block ~ ~-1 ~ reinforced_deepslate run setblock ~ ~-1 ~ waxed_oxidized_copper_bulb[lit=false]
-execute if entity @a[scores={Player=-14,Alive=1}] run execute as @e[tag=votelight14] run execute at @s if block ~ ~-1 ~ reinforced_deepslate run setblock ~ ~-1 ~ waxed_oxidized_copper_bulb[lit=false]
-execute if entity @a[scores={Player=-15,Alive=1}] run execute as @e[tag=votelight15] run execute at @s if block ~ ~-1 ~ reinforced_deepslate run setblock ~ ~-1 ~ waxed_oxidized_copper_bulb[lit=false]
-execute if entity @a[scores={Player=-16,Alive=1}] run execute as @e[tag=votelight16] run execute at @s if block ~ ~-1 ~ reinforced_deepslate run setblock ~ ~-1 ~ waxed_oxidized_copper_bulb[lit=false]
+execute if score #player_count PlayerCount matches 5.. run execute if entity @a[scores={Player=-1,Alive=1}] run execute as @e[tag=votelight1] run execute at @s if block ~ ~-1 ~ reinforced_deepslate run setblock ~ ~-1 ~ waxed_oxidized_copper_bulb[lit=false]
+execute if score #player_count PlayerCount matches 5.. run execute if entity @a[scores={Player=-2,Alive=1}] run execute as @e[tag=votelight2] run execute at @s if block ~ ~-1 ~ reinforced_deepslate run setblock ~ ~-1 ~ waxed_oxidized_copper_bulb[lit=false]
+execute if score #player_count PlayerCount matches 5.. run execute if entity @a[scores={Player=-3,Alive=1}] run execute as @e[tag=votelight3] run execute at @s if block ~ ~-1 ~ reinforced_deepslate run setblock ~ ~-1 ~ waxed_oxidized_copper_bulb[lit=false]
+execute if score #player_count PlayerCount matches 5.. run execute if entity @a[scores={Player=-4,Alive=1}] run execute as @e[tag=votelight4] run execute at @s if block ~ ~-1 ~ reinforced_deepslate run setblock ~ ~-1 ~ waxed_oxidized_copper_bulb[lit=false]
+execute if score #player_count PlayerCount matches 5.. run execute if entity @a[scores={Player=-5,Alive=1}] run execute as @e[tag=votelight5] run execute at @s if block ~ ~-1 ~ reinforced_deepslate run setblock ~ ~-1 ~ waxed_oxidized_copper_bulb[lit=false]
+execute if score #player_count PlayerCount matches 6.. run execute if entity @a[scores={Player=-6,Alive=1}] run execute as @e[tag=votelight6] run execute at @s if block ~ ~-1 ~ reinforced_deepslate run setblock ~ ~-1 ~ waxed_oxidized_copper_bulb[lit=false]
+execute if score #player_count PlayerCount matches 7.. run execute if entity @a[scores={Player=-7,Alive=1}] run execute as @e[tag=votelight7] run execute at @s if block ~ ~-1 ~ reinforced_deepslate run setblock ~ ~-1 ~ waxed_oxidized_copper_bulb[lit=false]
+execute if score #player_count PlayerCount matches 8.. run execute if entity @a[scores={Player=-8,Alive=1}] run execute as @e[tag=votelight8] run execute at @s if block ~ ~-1 ~ reinforced_deepslate run setblock ~ ~-1 ~ waxed_oxidized_copper_bulb[lit=false]
+execute if score #player_count PlayerCount matches 9.. run execute if entity @a[scores={Player=-9,Alive=1}] run execute as @e[tag=votelight9] run execute at @s if block ~ ~-1 ~ reinforced_deepslate run setblock ~ ~-1 ~ waxed_oxidized_copper_bulb[lit=false]
+execute if score #player_count PlayerCount matches 10.. run execute if entity @a[scores={Player=-10,Alive=1}] run execute as @e[tag=votelight10] run execute at @s if block ~ ~-1 ~ reinforced_deepslate run setblock ~ ~-1 ~ waxed_oxidized_copper_bulb[lit=false]
+execute if score #player_count PlayerCount matches 11.. run execute if entity @a[scores={Player=-11,Alive=1}] run execute as @e[tag=votelight11] run execute at @s if block ~ ~-1 ~ reinforced_deepslate run setblock ~ ~-1 ~ waxed_oxidized_copper_bulb[lit=false]
+execute if score #player_count PlayerCount matches 12.. run execute if entity @a[scores={Player=-12,Alive=1}] run execute as @e[tag=votelight12] run execute at @s if block ~ ~-1 ~ reinforced_deepslate run setblock ~ ~-1 ~ waxed_oxidized_copper_bulb[lit=false]
+execute if score #player_count PlayerCount matches 13.. run execute if entity @a[scores={Player=-13,Alive=1}] run execute as @e[tag=votelight13] run execute at @s if block ~ ~-1 ~ reinforced_deepslate run setblock ~ ~-1 ~ waxed_oxidized_copper_bulb[lit=false]
+execute if score #player_count PlayerCount matches 14.. run execute if entity @a[scores={Player=-14,Alive=1}] run execute as @e[tag=votelight14] run execute at @s if block ~ ~-1 ~ reinforced_deepslate run setblock ~ ~-1 ~ waxed_oxidized_copper_bulb[lit=false]
+execute if score #player_count PlayerCount matches 15.. run execute if entity @a[scores={Player=-15,Alive=1}] run execute as @e[tag=votelight15] run execute at @s if block ~ ~-1 ~ reinforced_deepslate run setblock ~ ~-1 ~ waxed_oxidized_copper_bulb[lit=false]
+execute if score #player_count PlayerCount matches 16.. run execute if entity @a[scores={Player=-16,Alive=1}] run execute as @e[tag=votelight16] run execute at @s if block ~ ~-1 ~ reinforced_deepslate run setblock ~ ~-1 ~ waxed_oxidized_copper_bulb[lit=false]
 
 # Reset revived Banshee's froglight
 
@@ -129,3 +129,14 @@ execute if entity @a[scores={Player=-13,Alive=1}] run execute as @e[tag=voteligh
 execute if entity @a[scores={Player=-14,Alive=1}] run execute as @e[tag=votelight14] run execute at @s if block ~ ~ ~ pearlescent_froglight run setblock ~ ~ ~ waxed_oxidized_copper_bulb[lit=false]
 execute if entity @a[scores={Player=-15,Alive=1}] run execute as @e[tag=votelight15] run execute at @s if block ~ ~ ~ pearlescent_froglight run setblock ~ ~ ~ waxed_oxidized_copper_bulb[lit=false]
 execute if entity @a[scores={Player=-16,Alive=1}] run execute as @e[tag=votelight16] run execute at @s if block ~ ~ ~ pearlescent_froglight run setblock ~ ~ ~ waxed_oxidized_copper_bulb[lit=false]
+
+
+
+
+
+# Test auto remove/replace interaction entities
+
+# execute as @e[scores={lightID=1}] at @s if score #testtest_0 temp matches 1 if block ~ ~ ~ air run function players:test_0
+# execute as @e[scores={lightID=1}] at @s if score #testtest_0 temp matches 0 if block ~ ~ ~ waxed_copper_bulb run function players:test_1
+# execute as @e[scores={lightID=1}] at @s if score #testtest_0 temp matches 0 if block ~ ~ ~ waxed_oxidized_copper_bulb run function players:test_1
+# execute as @e[scores={lightID=1}] at @s if score #testtest_0 temp matches 0 if block ~ ~ ~ pearlescent_froglight run function players:test_1

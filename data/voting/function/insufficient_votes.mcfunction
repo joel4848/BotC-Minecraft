@@ -13,10 +13,13 @@ execute if score #og_enabled temp matches 1 run tellraw @a [{"color":"red","text
 # Clear nominated status and glowing
 
 execute as @a[scores={Nominated=1}] run scoreboard players set @s Nominated 0
-team join Alive @a[scores={Alive=1}]
-team join Dead @a[scores={Alive=0}]
-team join Storyteller @a[scores={Storyteller=1}]
-effect clear @a glowing
+execute as @a[scores={Marked=0,Alive=1}] run team join Alive @s
+execute as @a[scores={Marked=0,Alive=0}] run team join Dead @s
+execute as @a[scores={Marked=0,Storyteller=1}] run team join Storyteller @s
+execute as @a[scores={Marked=0 }] run effect clear @s glowing
+execute if score #storyteller Nominated matches 1 run effect clear @a[scores={Storyteller=1}] glowing
+execute if score #storyteller Nominated matches 1 run scoreboard players set #storyteller Nominated 0
+execute as @a[scores={Nominated=1}] run scoreboard players set @s Nominated 0
 
 # Hide nominated annoucement
 
