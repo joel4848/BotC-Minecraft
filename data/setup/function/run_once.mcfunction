@@ -37,7 +37,12 @@ scoreboard objectives add ThiefSelected dummy
 scoreboard objectives add BureaucratSelected dummy
 scoreboard objectives add IsBanshee dummy
 scoreboard objectives add BansheeVoteValue dummy
+scoreboard objectives add HasSeat dummy
 # scoreboard objectives add  dummy
+# scoreboard objectives add  dummy
+# scoreboard objectives add  dummy
+# scoreboard objectives add  dummy
+
 
 
 # Creates teams

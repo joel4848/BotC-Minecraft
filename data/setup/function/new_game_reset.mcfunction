@@ -4,6 +4,8 @@ scoreboard objectives remove Player
 scoreboard objectives add Player dummy
 scoreboard objectives setdisplay sidebar Player
 team leave @a[team=!Storyteller]
+scoreboard objectives remove HasSeat
+scoreboard objectives add HasSeat dummy
 
 # Clone chests
 

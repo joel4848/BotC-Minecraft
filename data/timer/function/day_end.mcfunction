@@ -26,3 +26,7 @@ scoreboard players set #tp_disabled temp 0
 # Remove hands
 
 function clock_hand:remove_hands
+
+# Remove pickers if still present
+
+function setup:remove_buttons
