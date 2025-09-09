@@ -30,7 +30,14 @@ scoreboard players set #big_hand_speed temp 6
 # tellraw @a [{"text":"[Current Seat] - ","color":"yellow"},{"score":{"name":"#current_seat","objective":"temp"}}]
 
 # execute unless score #current_seat temp = #start_player temp run 
-execute unless score #current_seat temp matches 1 run schedule function voting:call_move_big_hand 2t
+
+########
+
+# execute unless score #current_seat temp matches 1 run schedule function voting:call_move_big_hand 2t
+
+execute unless score #next_seat temp > player_count PlayerCount run schedule function voting:call_move_big_hand 2t
+
+########
 # execute if score #start_player_passed temp matches 0 run execute unless score #current_seat temp matches 1 run schedule function voting:call_move_big_hand 2t
 # execute unless score #current_seat temp = #start_player temp run execute unless score #current_seat temp matches 1 run say VS called Move Big Hand
 

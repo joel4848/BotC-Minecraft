@@ -6,8 +6,8 @@ scoreboard players operation #little_hand_current_working temp = #little_hand_cu
 scoreboard players operation #little_hand_target_working temp = #little_hand_target_pos temp
 
 # Handle edge cases where positions are 0 (convert to 16 for calculation)
-execute if score #little_hand_current_working temp matches 0 run scoreboard players set #little_hand_current_working temp 16
-execute if score #little_hand_target_working temp matches 0 run scoreboard players set #little_hand_target_working temp 16
+execute if score #little_hand_current_working temp matches 0 run scoreboard players set #little_hand_current_working temp 1
+execute if score #little_hand_target_working temp matches 0 run scoreboard players set #little_hand_target_working temp 1
 
 # Calculate anticlockwise distance
 scoreboard players operation #little_hand_anticlockwise_steps temp = #little_hand_current_working temp

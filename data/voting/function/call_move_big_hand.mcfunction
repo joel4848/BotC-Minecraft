@@ -9,6 +9,12 @@ execute store result storage joelbotc current_votelight int 1 run scoreboard pla
 
 # Rotate big hand to next seat unless it is at last occupied seat
 
+# say ----------------------------------------------
+# tellraw @a ["seat score: ",{"score":{"name":"#seat","objective":"temp"}}]
+# tellraw @a ["current_seat score: ",{"score":{"name":"#current_seat","objective":"temp"}}]
+# tellraw @a ["current_votelight score: ",{"score":{"name":"#current_votelight","objective":"temp"}}]
+# tellraw @a ["current_votelight NBT: ",{"nbt":"current_votelight","storage":"joelbotc"}]
+
 # execute unless score #current_votelight temp = player_count PlayerCount run 
 # execute unless score #current_votelight temp matches 1 run 
 function voting:move_big_hand with storage joelbotc
