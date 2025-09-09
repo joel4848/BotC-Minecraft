@@ -33,8 +33,8 @@ scoreboard players set #vote_running temp 0
 
 # Enable hide ghost votes if OG mode enabled
 
-execute if score #og_enabled temp matches 1 run function voting:reset_vote
-
 execute if score #og_enabled temp matches 1 run function extras:organ_grinder/hide_ghost_votes/set_scores
+
+execute if score #og_enabled temp matches 1 run function voting:reset_vote
 
 execute if score #og_enabled temp matches 1 run schedule function extras:organ_grinder/hide_ghost_votes/og_hgv_enable 2t
