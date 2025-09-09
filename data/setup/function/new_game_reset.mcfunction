@@ -27,6 +27,9 @@ function setup:place_buttons
 function voting:reset_vote_full
 schedule function setup:replace_votelights 5t replace
 
+function voting:remove_votelight_interactions_all
+function voting:summon_votelight_interactions
+
 # Clear GhostVoteUsed scoreboards
 
 scoreboard objectives remove GhostVoteUsedMaster

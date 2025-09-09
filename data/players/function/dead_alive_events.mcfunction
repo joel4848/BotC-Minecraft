@@ -136,6 +136,8 @@ execute if entity @a[scores={Player=-16,Alive=1}] run execute as @e[tag=voteligh
 
 # Test auto remove/replace interaction entities
 
+# execute as @e[type=marker,tag=votelight] at @s if block ~ ~-1 ~ reinforced_deepslate run kill @e[type=interaction,distance=..1,limit=1]
+
 # execute as @e[scores={lightID=1}] at @s if score #testtest_0 temp matches 1 if block ~ ~ ~ air run function players:test_0
 # execute as @e[scores={lightID=1}] at @s if score #testtest_0 temp matches 0 if block ~ ~ ~ waxed_copper_bulb run function players:test_1
 # execute as @e[scores={lightID=1}] at @s if score #testtest_0 temp matches 0 if block ~ ~ ~ waxed_oxidized_copper_bulb run function players:test_1
