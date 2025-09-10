@@ -3,12 +3,16 @@
 scoreboard players set @a[gamemode=spectator] Alive 0
 scoreboard players set @a[scores={Storyteller=1}] Alive 0
 
+# Give everyone fire resistance because they can't be trusted
+
+effect give @a minecraft:fire_resistance infinite 99 true
+
 # Give alive players visibility and no helmet
 
 effect clear @a[scores={Alive=1}] invisibility
 execute as @a[scores={Alive=1,Player=..0}] run execute if items entity @s armor.head golden_helmet run item replace entity @s armor.head with minecraft:air
 
-# Give dead players invisibility and golden helmet
+# Give dead players invisibility
 
 effect give @a[scores={Alive=0,Storyteller=0}] invisibility infinite 99 true
 

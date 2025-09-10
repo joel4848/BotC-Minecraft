@@ -15,6 +15,10 @@
     {
       "id": "players:set_signs",
       "required": false
+    },
+    {
+      "id": "setup:voice_groups",
+      "required": false
     }
   ]
 }
