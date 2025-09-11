@@ -6,4 +6,4 @@ data modify block 161 106 41 front_text.messages[3] set value '{"nbt":"banshee_3
 
 function extras:banshee/update_fmvs with storage minecraft:joelbotc
 
-say ran call update FMVs
+# say ran call update FMVs

@@ -36,4 +36,4 @@ execute as @e[tag=votelight14] unless score @a[scores={Player=-14},limit=1] Ghos
 execute as @e[tag=votelight15] unless score @a[scores={Player=-15},limit=1] GhostVoteUsedMaster matches 1 run execute as @e[tag=votelight15] unless score @a[scores={Player=-15},limit=1] IsBanshee matches 1 run execute if score @a[scores={Player=-15},limit=1] GhostVoteUnusedToday matches 1 run function extras:organ_grinder/hide_ghost_votes/unused_hide_stack
 execute as @e[tag=votelight16] unless score @a[scores={Player=-16},limit=1] GhostVoteUsedMaster matches 1 run execute as @e[tag=votelight16] unless score @a[scores={Player=-16},limit=1] IsBanshee matches 1 run execute if score @a[scores={Player=-16},limit=1] GhostVoteUnusedToday matches 1 run function extras:organ_grinder/hide_ghost_votes/unused_hide_stack
 
-say Ran set_hide_stacks
+# say Ran set_hide_stacks

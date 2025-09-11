@@ -5,4 +5,4 @@ $fmvariable set banshee_2_username false $(banshee_2_username)
 $fmvariable set banshee_3_username false $(banshee_3_username)
 
 
-say Ran update FMVs
+# say Ran update FMVs

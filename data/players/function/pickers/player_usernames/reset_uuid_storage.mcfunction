@@ -1,22 +1,3 @@
-# Set blank values for username storage
-
-# data modify storage minecraft:joelbotc player_1_username set value ' '
-# data modify storage minecraft:joelbotc player_2_username set value ' '
-# data modify storage minecraft:joelbotc player_3_username set value ' '
-# data modify storage minecraft:joelbotc player_4_username set value ' '
-# data modify storage minecraft:joelbotc player_5_username set value ' '
-# data modify storage minecraft:joelbotc player_6_username set value ' '
-# data modify storage minecraft:joelbotc player_7_username set value ' '
-# data modify storage minecraft:joelbotc player_8_username set value ' '
-# data modify storage minecraft:joelbotc player_9_username set value ' '
-# data modify storage minecraft:joelbotc player_10_username set value ' '
-# data modify storage minecraft:joelbotc player_11_username set value ' '
-# data modify storage minecraft:joelbotc player_12_username set value ' '
-# data modify storage minecraft:joelbotc player_13_username set value ' '
-# data modify storage minecraft:joelbotc player_14_username set value ' '
-# data modify storage minecraft:joelbotc player_15_username set value ' '
-# data modify storage minecraft:joelbotc player_16_username set value ' '
-
 data modify storage minecraft:joelbotc player_1_uuid_0 set value 1
 data modify storage minecraft:joelbotc player_2_uuid_0 set value 1
 data modify storage minecraft:joelbotc player_3_uuid_0 set value 1
