@@ -10,7 +10,7 @@ $data modify storage joelbotc banshee_$(banshee_number)_username set value ' '
 $data modify storage joelbotc banshee_$(banshee_number)_username set from storage temp:parse extracted_username
 
 # Optional: Display success message
-$tellraw @a [{"text":"Extracted username: ","color":"green"},{"storage":"joelbotc","nbt":"banshee_$(banshee_number)_username","color":"yellow"}]
+# $tellraw @a [{"text":"Extracted username: ","color":"green"},{"storage":"joelbotc","nbt":"banshee_$(banshee_number)_username","color":"yellow"}]
 
 # Clean up temporary storage
 data remove storage temp:parse json_string

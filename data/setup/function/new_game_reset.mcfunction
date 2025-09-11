@@ -23,6 +23,7 @@ team modify Storyteller nametagVisibility always
 
 # Reset vote lights & seat buttons
 
+function setup:remove_buttons
 function setup:place_buttons
 function voting:reset_vote_full
 schedule function setup:replace_votelights 5t replace
