@@ -2,13 +2,17 @@
 
 # Initialize vote values and apply Thief/Bureaucrat effects
 
+scoreboard players set #thief_constant temp -1
+scoreboard players set #bureaucrat_constant temp 3
+
+
 scoreboard players set @a VoteValue 1
-execute as @a[scores={ThiefSelected=1}] run scoreboard players operation @s VoteValue *= thief_constant temp
-execute as @a[scores={BureaucratSelected=1}] run scoreboard players operation @s VoteValue *= bureaucrat_constant temp
+execute as @a[scores={ThiefSelected=1}] run scoreboard players operation @s VoteValue *= #thief_constant temp
+execute as @a[scores={BureaucratSelected=1}] run scoreboard players operation @s VoteValue *= #bureaucrat_constant temp
 
 scoreboard players set @a BansheeVoteValue 2
-execute as @a[scores={ThiefSelected=1}] run scoreboard players operation @s BansheeVoteValue *= thief_constant temp
-execute as @a[scores={BureaucratSelected=1}] run scoreboard players operation @s BansheeVoteValue *= bureaucrat_constant temp
+execute as @a[scores={ThiefSelected=1}] run scoreboard players operation @s BansheeVoteValue *= #thief_constant temp
+execute as @a[scores={BureaucratSelected=1}] run scoreboard players operation @s BansheeVoteValue *= #bureaucrat_constant temp
 
 # Check if the vote light shows a positive vote and add the player's vote value to tally
 

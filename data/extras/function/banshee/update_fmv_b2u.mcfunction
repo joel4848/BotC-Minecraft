@@ -1,0 +1,1 @@
+$fmvariable set banshee_2_username false $(banshee_2_username)
