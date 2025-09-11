@@ -12,6 +12,6 @@ execute as @e[tag=votelight10,limit=1,sort=nearest] at @s unless block ~ ~ ~ wax
 execute as @e[tag=votelight10,limit=1,sort=nearest] at @s if score @a[scores={Player=-10},limit=1] IsBanshee matches 1 unless block ~ ~ ~ waxed_copper_bulb if score #votelight_banshee_state_10 temp matches 0 run setblock ~ ~ ~ pearlescent_froglight
 
 
-execute at @e[tag=votelight10,limit=1,sort=nearest] run playsound minecraft:block.lever.click block @a ~ ~ ~ 1.0 1.0
+execute at @e[tag=votelight10,limit=1,sort=nearest] if score @a[scores={Player=-10},limit=1] Alive matches 0 if score @a[scores={Player=-10},limit=1] IsBanshee matches 1 run playsound minecraft:block.lever.click block @a ~ ~ ~ 1.0 1.0
 
 advancement revoke @s only voting:votelight_10_punch
