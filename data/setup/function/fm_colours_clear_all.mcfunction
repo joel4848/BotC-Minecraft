@@ -1,0 +1,35 @@
+
+execute as @p run execute if score #fm_colours_on temp matches 1 run fmvariable set player_1_colour false ‌
+execute as @p run execute if score #fm_colours_on temp matches 1 run fmvariable set player_2_colour false ‌
+execute as @p run execute if score #fm_colours_on temp matches 1 run fmvariable set player_3_colour false ‌
+execute as @p run execute if score #fm_colours_on temp matches 1 run fmvariable set player_4_colour false ‌
+execute as @p run execute if score #fm_colours_on temp matches 1 run fmvariable set player_5_colour false ‌
+execute as @p run execute if score #fm_colours_on temp matches 1 run fmvariable set player_6_colour false ‌
+execute as @p run execute if score #fm_colours_on temp matches 1 run fmvariable set player_7_colour false ‌
+execute as @p run execute if score #fm_colours_on temp matches 1 run fmvariable set player_8_colour false ‌
+execute as @p run execute if score #fm_colours_on temp matches 1 run fmvariable set player_9_colour false ‌
+execute as @p run execute if score #fm_colours_on temp matches 1 run fmvariable set player_10_colour false ‌
+execute as @p run execute if score #fm_colours_on temp matches 1 run fmvariable set player_11_colour false ‌
+execute as @p run execute if score #fm_colours_on temp matches 1 run fmvariable set player_12_colour false ‌
+execute as @p run execute if score #fm_colours_on temp matches 1 run fmvariable set player_13_colour false ‌
+execute as @p run execute if score #fm_colours_on temp matches 1 run fmvariable set player_14_colour false ‌
+execute as @p run execute if score #fm_colours_on temp matches 1 run fmvariable set player_15_colour false ‌
+execute as @p run execute if score #fm_colours_on temp matches 1 run fmvariable set player_16_colour false ‌
+
+execute as @p run execute if score #fm_colours_on temp matches 1 run fmvariable set player_1_colour_suffix false ‌
+execute as @p run execute if score #fm_colours_on temp matches 1 run fmvariable set player_2_colour_suffix false ‌
+execute as @p run execute if score #fm_colours_on temp matches 1 run fmvariable set player_3_colour_suffix false ‌
+execute as @p run execute if score #fm_colours_on temp matches 1 run fmvariable set player_4_colour_suffix false ‌
+execute as @p run execute if score #fm_colours_on temp matches 1 run fmvariable set player_5_colour_suffix false ‌
+execute as @p run execute if score #fm_colours_on temp matches 1 run fmvariable set player_6_colour_suffix false ‌
+execute as @p run execute if score #fm_colours_on temp matches 1 run fmvariable set player_7_colour_suffix false ‌
+execute as @p run execute if score #fm_colours_on temp matches 1 run fmvariable set player_8_colour_suffix false ‌
+execute as @p run execute if score #fm_colours_on temp matches 1 run fmvariable set player_9_colour_suffix false ‌
+execute as @p run execute if score #fm_colours_on temp matches 1 run fmvariable set player_10_colour_suffix false ‌
+execute as @p run execute if score #fm_colours_on temp matches 1 run fmvariable set player_11_colour_suffix false ‌
+execute as @p run execute if score #fm_colours_on temp matches 1 run fmvariable set player_12_colour_suffix false ‌
+execute as @p run execute if score #fm_colours_on temp matches 1 run fmvariable set player_13_colour_suffix false ‌
+execute as @p run execute if score #fm_colours_on temp matches 1 run fmvariable set player_14_colour_suffix false ‌
+execute as @p run execute if score #fm_colours_on temp matches 1 run fmvariable set player_15_colour_suffix false ‌
+execute as @p run execute if score #fm_colours_on temp matches 1 run fmvariable set player_16_colour_suffix false ‌
+
