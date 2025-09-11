@@ -1,0 +1,134 @@
+type = user_variables
+
+variable {
+  name = banshee_3
+  value = 
+  reset_on_launch = false
+}
+
+variable {
+  name = banshee_2_username
+  value =  
+  reset_on_launch = false
+}
+
+variable {
+  name = og_enabled
+  value = false
+  reset_on_launch = false
+}
+
+variable {
+  name = banshee_0_username
+  value = joel4848 
+  reset_on_launch = false
+}
+
+variable {
+  name = banshee_username_extract
+  value = 
+  reset_on_launch = false
+}
+
+variable {
+  name = lock_to_seats
+  value = false
+  reset_on_launch = false
+}
+
+variable {
+  name = banshee_0
+  value = hello world
+  reset_on_launch = false
+}
+
+variable {
+  name = banshee_1
+  value = 
+  reset_on_launch = false
+}
+
+variable {
+  name = banshee_1_username
+  value =  
+  reset_on_launch = false
+}
+
+variable {
+  name = kill_revive_multiple
+  value = Enabled
+  reset_on_launch = false
+}
+
+variable {
+  name = banshee_2
+  value = 
+  reset_on_launch = false
+}
+
+variable {
+  name = player_count
+  value = 16
+  reset_on_launch = false
+}
+
+variable {
+  name = bureaucrat_chosen
+  value = 
+  reset_on_launch = false
+}
+
+variable {
+  name = bureaucrat_change
+  value = true
+  reset_on_launch = false
+}
+
+variable {
+  name = is_banshee
+  value = 
+  reset_on_launch = false
+}
+
+variable {
+  name = thief_chosen
+  value = 
+  reset_on_launch = false
+}
+
+variable {
+  name = banshee_3_username
+  value =  
+  reset_on_launch = false
+}
+
+variable {
+  name = banshee_change
+  value = false
+  reset_on_launch = false
+}
+
+variable {
+  name = og_change
+  value = true
+  reset_on_launch = false
+}
+
+variable {
+  name = thief_change
+  value = true
+  reset_on_launch = false
+}
+
+variable {
+  name = burnout
+  value = pair of dice
+  reset_on_launch = false
+}
+
+variable {
+  name = lock_player_count_slider
+  value = false
+  reset_on_launch = false
+}
+
