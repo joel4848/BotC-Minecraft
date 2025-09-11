@@ -23,13 +23,25 @@ execute if score #storyteller Nominated matches 1 run scoreboard players set #so
 
 # Announce required votes
 
-execute if score #og_enabled temp matches 0 run execute if score #has_anyone_been_marked temp matches 0 run tellraw @a [{"text":"","color":"green"},{"score":{"name":"#required_votes","objective":"temp"}},{"text":" votes are needed to mark for execution."}]
-execute if score #og_enabled temp matches 0 run execute if score #has_anyone_been_marked temp matches 1 run tellraw @a [{"text":"","color":"green"},{"score":{"name":"#highest_previous","objective":"temp"}},{"text":" votes are needed to tie - "},{"score":{"name":"#beat_highest_previous","objective":"temp"}},{"text":" are needed to mark for execution."}]
-
-execute if score #og_enabled temp matches 1 run execute if score #has_anyone_been_marked temp matches 0 run tellraw @a[scores={Storyteller=1}] [{"text":"","color":"green"},{"score":{"name":"#required_votes","objective":"temp"}},{"text":" votes are needed to mark for execution."}]
-execute if score #og_enabled temp matches 1 run execute if score #has_anyone_been_marked temp matches 1 run tellraw @a[scores={Storyteller=1}] [{"text":"","color":"green"},{"score":{"name":"#highest_previous","objective":"temp"}},{"text":" votes are needed to tie - "},{"score":{"name":"#beat_highest_previous","objective":"temp"}},{"text":" are needed to mark for execution."}]
+# OG Hidden
 
 execute if score #og_enabled temp matches 1 run tellraw @a [{"text":"?","color":"light_purple"},{"text":" votes are needed to mark for execution.","color":"red"}]
+
+# Non-hidden singular
+
+execute if score #required_votes temp matches 1 run execute if score #og_enabled temp matches 0 run execute if score #has_anyone_been_marked temp matches 0 run tellraw @a [{"text":"","color":"green"},{"score":{"name":"#required_votes","objective":"temp"}},{"text":" vote is needed to mark for execution."}]
+execute if score #highest_previous temp matches 1 run execute if score #og_enabled temp matches 0 run execute if score #has_anyone_been_marked temp matches 1 run tellraw @a [{"text":"","color":"green"},{"score":{"name":"#highest_previous","objective":"temp"}},{"text":" votee is needed to tie - "},{"score":{"name":"#beat_highest_previous","objective":"temp"}},{"text":" are needed to mark for execution."}]
+ 
+execute if score #required_votes temp matches 1 run execute if score #og_enabled temp matches 1 run execute if score #has_anyone_been_marked temp matches 0 run tellraw @a[scores={Storyteller=1}] [{"text":"","color":"green"},{"score":{"name":"#required_votes","objective":"temp"}},{"text":" votee is needed to mark for execution."}]
+execute if score #highest_previous temp matches 1 run execute if score #og_enabled temp matches 1 run execute if score #has_anyone_been_marked temp matches 1 run tellraw @a[scores={Storyteller=1}] [{"text":"","color":"green"},{"score":{"name":"#highest_previous","objective":"temp"}},{"text":" votee is needed to tie - "},{"score":{"name":"#beat_highest_previous","objective":"temp"}},{"text":" are needed to mark for execution."}]
+
+# Non-hidden plural
+
+execute unless score #required_votes temp matches 1 run execute if score #og_enabled temp matches 0 run execute if score #has_anyone_been_marked temp matches 0 run tellraw @a [{"text":"","color":"green"},{"score":{"name":"#required_votes","objective":"temp"}},{"text":" votes are needed to mark for execution."}]
+execute unless score #highest_previous temp matches 1 run execute if score #og_enabled temp matches 0 run execute if score #has_anyone_been_marked temp matches 1 run tellraw @a [{"text":"","color":"green"},{"score":{"name":"#highest_previous","objective":"temp"}},{"text":" votes are needed to tie - "},{"score":{"name":"#beat_highest_previous","objective":"temp"}},{"text":" are needed to mark for execution."}]
+
+execute unless score #required_votes temp matches 1 run execute if score #og_enabled temp matches 1 run execute if score #has_anyone_been_marked temp matches 0 run tellraw @a[scores={Storyteller=1}] [{"text":"","color":"green"},{"score":{"name":"#required_votes","objective":"temp"}},{"text":" votes are needed to mark for execution."}]
+execute unless score #highest_previous temp matches 1 run execute if score #og_enabled temp matches 1 run execute if score #has_anyone_been_marked temp matches 1 run tellraw @a[scores={Storyteller=1}] [{"text":"","color":"green"},{"score":{"name":"#highest_previous","objective":"temp"}},{"text":" votes are needed to tie - "},{"score":{"name":"#beat_highest_previous","objective":"temp"}},{"text":" are needed to mark for execution."}]
 
 # Start titlebar announcement of nominated player
 
