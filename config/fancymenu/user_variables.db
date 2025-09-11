@@ -1,8 +1,20 @@
 type = user_variables
 
 variable {
-  name = banshee_3
-  value = 
+  name = player_9_colour_suffix
+  value = ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = player_11_colour_suffix
+  value = ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = player_16_colour_suffix
+  value = ‌
   reset_on_launch = false
 }
 
@@ -13,14 +25,56 @@ variable {
 }
 
 variable {
-  name = og_enabled
-  value = false
+  name = player_11_colour
+  value = ‌
   reset_on_launch = false
 }
 
 variable {
-  name = banshee_0_username
-  value = joel4848 
+  name = player_2_username
+  value = ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = player_8_username
+  value = ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = player_10_colour
+  value = ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = player_12_colour
+  value = ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = player_13_colour
+  value = ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = player_14_colour
+  value = ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = player_15_colour
+  value = ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = player_16_colour
+  value = ‌
   reset_on_launch = false
 }
 
@@ -37,38 +91,8 @@ variable {
 }
 
 variable {
-  name = banshee_0
-  value = hello world
-  reset_on_launch = false
-}
-
-variable {
-  name = banshee_1
-  value = 
-  reset_on_launch = false
-}
-
-variable {
-  name = banshee_1_username
-  value =  
-  reset_on_launch = false
-}
-
-variable {
-  name = kill_revive_multiple
-  value = Enabled
-  reset_on_launch = false
-}
-
-variable {
-  name = banshee_2
-  value = 
-  reset_on_launch = false
-}
-
-variable {
-  name = player_count
-  value = 16
+  name = player_4_colour_suffix
+  value = ‌
   reset_on_launch = false
 }
 
@@ -79,8 +103,272 @@ variable {
 }
 
 variable {
+  name = player_11_username
+  value = ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = banshee_change
+  value = false
+  reset_on_launch = false
+}
+
+variable {
+  name = player_8_colour_suffix
+  value = ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = player_12_colour_suffix
+  value = ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = player_8_colour
+  value = ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = og_enabled
+  value = false
+  reset_on_launch = false
+}
+
+variable {
+  name = player_10_colour_suffix
+  value = ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = player_3_colour_suffix
+  value = ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = banshee_1_username
+  value =  
+  reset_on_launch = false
+}
+
+variable {
+  name = player_3_username
+  value = ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = player_7_username
+  value = ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = player_count
+  value = 16
+  reset_on_launch = false
+}
+
+variable {
+  name = player_7_colour_suffix
+  value = ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = player_15_colour_suffix
+  value = ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = player_4_colour
+  value = ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = player_2_colour_suffix
+  value = ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = thief_change
+  value = true
+  reset_on_launch = false
+}
+
+variable {
+  name = player_6_colour
+  value = ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = player_2_colour
+  value = ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = player_12_username
+  value = ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = player_13_username
+  value = ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = player_10_username
+  value = ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = kill_revive_multiple
+  value = Enabled
+  reset_on_launch = false
+}
+
+variable {
+  name = fm_colours_on
+  value = 1
+  reset_on_launch = false
+}
+
+variable {
+  name = player_14_colour_suffix
+  value = ‌
+  reset_on_launch = false
+}
+
+variable {
   name = bureaucrat_change
   value = true
+  reset_on_launch = false
+}
+
+variable {
+  name = player_6_colour_suffix
+  value = ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = player_6_username
+  value = ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = banshee_3_username
+  value =  
+  reset_on_launch = false
+}
+
+variable {
+  name = player_1_username
+  value = ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = burnout
+  value = pair of dice
+  reset_on_launch = false
+}
+
+variable {
+  name = player_9_username
+  value = ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = player_16_username
+  value = ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = player_1_colour_suffix
+  value = ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = banshee_3
+  value = 
+  reset_on_launch = false
+}
+
+variable {
+  name = player_9_colour
+  value = ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = banshee_0_username
+  value =  
+  reset_on_launch = false
+}
+
+variable {
+  name = player_4_username
+  value = ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = player_14_username
+  value = ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = banshee_0
+  value = 
+  reset_on_launch = false
+}
+
+variable {
+  name = banshee_1
+  value = 
+  reset_on_launch = false
+}
+
+variable {
+  name = banshee_2
+  value = 
+  reset_on_launch = false
+}
+
+variable {
+  name = player_5_colour_suffix
+  value = %#%
+  reset_on_launch = false
+}
+
+variable {
+  name = player_1_colour
+  value = ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = player_15_username
+  value = ‌
   reset_on_launch = false
 }
 
@@ -97,14 +385,8 @@ variable {
 }
 
 variable {
-  name = banshee_3_username
-  value =  
-  reset_on_launch = false
-}
-
-variable {
-  name = banshee_change
-  value = false
+  name = player_5_colour
+  value = %#55FF55%
   reset_on_launch = false
 }
 
@@ -115,14 +397,26 @@ variable {
 }
 
 variable {
-  name = thief_change
-  value = true
+  name = player_3_colour
+  value = ‌
   reset_on_launch = false
 }
 
 variable {
-  name = burnout
-  value = pair of dice
+  name = player_13_colour_suffix
+  value = ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = player_7_colour
+  value = ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = player_5_username
+  value = joel4848
   reset_on_launch = false
 }
 
