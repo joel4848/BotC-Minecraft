@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = setup
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1757690691230
+  last_edited_time = 1757692637253
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:d50ba017-7e53-4806-bd2b-50b4d99f72d1-1757690687670] = [groups:][instances:]
+  [loading_requirement_container_meta:1998df19-4a4b-4f61-8cc1-e3349c2d0561-1757692635232] = [groups:][instances:]
 }
 
 customization {
@@ -988,6 +988,48 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = b4c12df5-074e-44ca-bec7-577f1121cde7-1757608575573
   [loading_requirement_container_meta:b4c12df5-074e-44ca-bec7-577f1121cde7-1757608575573] = [groups:][instances:]
+  enable_parallax = false
+  parallax_intensity_v2 = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+  layer_hidden_in_editor = false
+}
+
+element {
+  is_async = false
+  tick_delay = 0
+  tick_mode = on_menu_load
+  ticker_element_executable_block_identifier = 66a0b0fa-5d9b-40fe-ac10-6064907a8791-1757692506002
+  [executable_action_instance:d9d7a3ae-99dd-4317-b8f3-eab963840d3e-1757692595682][action_type:sendmessage] = /execute as @a run function setup:fm_player_colours
+  [executable_action_instance:75a726d6-df38-401a-b0dc-0e354e9300d2-1757692605864][action_type:sendmessage] = /execute as @a run function setup:fm_player_colours_all_white
+  [executable_block:66a0b0fa-5d9b-40fe-ac10-6064907a8791-1757692506002][type:generic] = [executables:d9d7a3ae-99dd-4317-b8f3-eab963840d3e-1757692595682;75a726d6-df38-401a-b0dc-0e354e9300d2-1757692605864;]
+  element_type = fancymenu_customization_item_ticker
+  instance_identifier = c7264139-c42f-4d1c-a7cb-97fb7f682f94-1757692635774
+  custom_element_layer_name = Set Colours
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1011
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = 223
+  y = 118
+  width = 60
+  height = 10
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = b77dbd3d-f23c-42c7-a6ea-38f81b731734-1757692506002
+  [loading_requirement_container_meta:b77dbd3d-f23c-42c7-a6ea-38f81b731734-1757692506002] = [groups:][instances:]
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false

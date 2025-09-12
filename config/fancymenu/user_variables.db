@@ -32,7 +32,7 @@ variable {
 
 variable {
   name = player_2_username
-  value = joel4848
+  value = ‌
   reset_on_launch = false
 }
 
@@ -170,7 +170,7 @@ variable {
 
 variable {
   name = player_count
-  value = 6
+  value = 5
   reset_on_launch = false
 }
 
@@ -194,7 +194,7 @@ variable {
 
 variable {
   name = player_2_colour_suffix
-  value = %#%
+  value = ‌
   reset_on_launch = false
 }
 
@@ -212,7 +212,7 @@ variable {
 
 variable {
   name = player_2_colour
-  value = %#55FF55%
+  value = ‌
   reset_on_launch = false
 }
 
@@ -278,7 +278,7 @@ variable {
 
 variable {
   name = player_1_username
-  value = ‌
+  value = joel4848
   reset_on_launch = false
 }
 
@@ -302,7 +302,7 @@ variable {
 
 variable {
   name = player_1_colour_suffix
-  value = ‌
+  value = %#%
   reset_on_launch = false
 }
 
@@ -362,7 +362,7 @@ variable {
 
 variable {
   name = player_1_colour
-  value = ‌
+  value = %#00AA00%
   reset_on_launch = false
 }
 
