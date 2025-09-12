@@ -13,4 +13,7 @@ item replace entity @a[scores={Marked=1}] armor.head with minecraft:golden_helme
 
 scoreboard players set @a[scores={Marked=1}] Wheee 1
 
+title @a title ""
+title @a subtitle [{"color":"red","italic":true,"text":"... "},{"color":"red","italic":true,"selector":"@a[scores={Marked=1}]"},{"color":"red","italic":true,"text":" was ejected"}]
+
 scoreboard players set @a[scores={Marked=1}] Marked 0
