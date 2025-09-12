@@ -19,10 +19,6 @@
     {
       "id": "setup:voice_groups",
       "required": false
-    },
-    {
-      "id": "setup:fm_player_colours",
-      "required": false
     }
   ]
 }

@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = master
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1757614195093
+  last_edited_time = 1757690681416
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:9151b276-e5ea-428a-9983-d0745ed4dfef-1757614189263] = [groups:][instances:]
+  [loading_requirement_container_meta:73634f27-66ad-41bc-868a-b247c2abe021-1757690672844] = [groups:][instances:]
 }
 
 customization {
@@ -2026,7 +2026,8 @@ element {
   button_element_executable_block_identifier = d76c3363-2cdd-404a-9d41-8335ea9aca16-1757608575573
   [executable_action_instance:b82ffe0e-4974-49ab-b25e-a888dd9a4c12-1757608742189][action_type:sendmessage] = /scoreboard players set #fm_colours_on temp 1
   [executable_action_instance:cb35448d-6290-45b8-8d3d-aca4bf22fc64-1757609465247][action_type:set_variable] = fm_colours_on:1
-  [executable_block:37c74fd5-5b40-426b-8537-fe18d06770cb-1757608733104][type:if] = [executables:b82ffe0e-4974-49ab-b25e-a888dd9a4c12-1757608742189;cb35448d-6290-45b8-8d3d-aca4bf22fc64-1757609465247;][appended:8d927f82-f980-459b-b4ab-f0406ebd587d-1757608738537]
+  [executable_action_instance:d3e3b8d9-15d8-4330-9989-bedea0934d40-1757690560182][action_type:sendmessage] = /execute as @a run function setup:fm_player_colours
+  [executable_block:37c74fd5-5b40-426b-8537-fe18d06770cb-1757608733104][type:if] = [executables:b82ffe0e-4974-49ab-b25e-a888dd9a4c12-1757608742189;cb35448d-6290-45b8-8d3d-aca4bf22fc64-1757609465247;d3e3b8d9-15d8-4330-9989-bedea0934d40-1757690560182;][appended:8d927f82-f980-459b-b4ab-f0406ebd587d-1757608738537]
   [executable_action_instance:5305dd7d-892e-4e4d-b254-23cc66e00d3d-1757608769037][action_type:sendmessage] = /scoreboard players set #fm_colours_on temp 0
   [executable_action_instance:43db3d3d-eeec-4725-9c69-2dad91565296-1757609484197][action_type:set_variable] = fm_colours_on:0
   [executable_action_instance:75035c1d-9c5a-4d2f-9c48-3e4eb07c6f5b-1757609614645][action_type:sendmessage] = /function setup:fm_player_colours_all_white
@@ -2056,7 +2057,7 @@ element {
   nine_slice_slider_handle_border_x = 5
   nine_slice_slider_handle_border_y = 5
   element_type = custom_button
-  instance_identifier = 6e659df8-1d8d-4b41-815f-87458ab3f60d-1757613446883
+  instance_identifier = fe10828b-7998-4ae7-bf1f-5a4b04e0416a-1757690672232
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = no_fading
