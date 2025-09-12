@@ -224,7 +224,7 @@ variable {
 
 variable {
   name = player_13_username
-  value = ‌
+  value =  
   reset_on_launch = false
 }
 
@@ -236,13 +236,13 @@ variable {
 
 variable {
   name = kill_revive_multiple
-  value = Enabled
+  value = Disabled
   reset_on_launch = false
 }
 
 variable {
   name = fm_colours_on
-  value = 1
+  value = 0
   reset_on_launch = false
 }
 
@@ -356,7 +356,7 @@ variable {
 
 variable {
   name = player_5_colour_suffix
-  value = %#%
+  value = ‌
   reset_on_launch = false
 }
 
@@ -386,7 +386,7 @@ variable {
 
 variable {
   name = player_5_colour
-  value = %#55FF55%
+  value = ‌
   reset_on_launch = false
 }
 
@@ -416,7 +416,7 @@ variable {
 
 variable {
   name = player_5_username
-  value = joel4848
+  value = ‌
   reset_on_launch = false
 }
 

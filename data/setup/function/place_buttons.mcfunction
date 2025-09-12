@@ -21,7 +21,8 @@
 function players:pickers/summon_picker_blocks
 function players:pickers/summon_picker_interactions
 function players:pickers/summon_picker_labels
-schedule function picker_block:a/picker_rotate/play_anim_loop 1t
+function picker_block:stop/stop_anim
+schedule function picker_block:a/picker_rotate/play_anim_loop 5t replace
 
 execute as @e[tag=picker_block] at @s run setblock ~ ~-1 ~ minecraft:light
 execute as @e[tag=picker_block] at @s run setblock ~ ~-2 ~ minecraft:gold_block

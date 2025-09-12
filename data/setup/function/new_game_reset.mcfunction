@@ -41,3 +41,19 @@ scoreboard objectives add GhostVoteUsedToday dummy
 
 scoreboard objectives remove GhostVoteUnusedToday
 scoreboard objectives add GhostVoteUnusedToday dummy
+
+# Clear NBT storage for the username extraction/storing system
+
+function setup:clear_username_storage
+
+# Empty FM player list
+
+function players:pickers/player_usernames/set_fmvs with storage minecraft:joelbotc
+
+scoreboard players operation #were_fm_colours_on temp = #fm_colours_on temp
+
+scoreboard players set #fm_colours_on temp 1
+
+function setup:fm_colours_clear_all
+
+scoreboard players operation #fm_colours_on temp = #were_fm_colours_on temp

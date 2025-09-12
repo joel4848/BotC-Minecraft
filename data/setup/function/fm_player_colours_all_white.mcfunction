@@ -49,7 +49,6 @@ execute as @a[scores={Player=-14}] run fmvariable set player_14_colour false %#F
 execute as @a[scores={Player=-15}] run fmvariable set player_15_colour false %#FFFFFF%
 execute as @a[scores={Player=-16}] run fmvariable set player_16_colour false %#FFFFFF%
 
-
 execute as @a[scores={Player=-1}] run fmvariable set player_1_colour_suffix false %#%
 execute as @a[scores={Player=-2}] run fmvariable set player_2_colour_suffix false %#%
 execute as @a[scores={Player=-3}] run fmvariable set player_3_colour_suffix false %#%
