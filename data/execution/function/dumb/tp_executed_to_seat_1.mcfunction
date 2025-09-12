@@ -23,7 +23,7 @@ scoreboard players set @a[scores={Wheee=1}] Wheee 0
 
 execute if score #was_lts_enabled temp matches 0 run scoreboard players set #lock_to_seats temp 0
 execute if score #was_lts_enabled temp matches 1 run scoreboard players set #lock_to_seats temp 1
-execute if score #lock_to_seats temp matches 1 run fmvariable set lock_to_seats true true
+execute if score #lock_to_seats temp matches 1 run execute as @a run fmvariable set lock_to_seats true true
 execute if score #lock_to_seats temp matches 1 run schedule function voting:lock_to_seats 1t replace
 
 # tellraw @a [{"text":"TP 1","color":"gray"}]

@@ -9,12 +9,12 @@ scoreboard players set #og_enabled temp 0
 # 
 # schedule function execution:finish_execution 80t
 
-fmvariable set lock_to_seats false false
+execute as @a run fmvariable set lock_to_seats false false
 
 execute if score #lock_to_seats temp matches 0 run scoreboard players set #was_lts_enabled temp 0
 execute if score #lock_to_seats temp matches 1 run scoreboard players set #was_lts_enabled temp 1
 
 scoreboard players set #lock_to_seats temp 0
-fmvariable set lock_to_seats false false
+execute as @a run fmvariable set lock_to_seats false false
 
 function execution:dumb/dumb_process

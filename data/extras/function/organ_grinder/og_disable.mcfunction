@@ -6,4 +6,4 @@ function extras:organ_grinder/hide_ghost_votes/set_scores
 
 function extras:organ_grinder/hide_ghost_votes/set_unhide_stacks
 
-fmvariable set og_enabled false false
+execute as @a run fmvariable set og_enabled false false

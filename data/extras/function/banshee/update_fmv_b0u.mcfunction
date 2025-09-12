@@ -1,1 +1,1 @@
-$fmvariable set banshee_0_username false $(banshee_0_username)
+$execute as @a run fmvariable set banshee_0_username false $(banshee_0_username)
