@@ -1,4 +1,3 @@
-
 # say ran call fmvs
 # tellraw @a ["Player_2_username: ",{"color":"green","nbt":"player_2_username","storage":"minecraft:joelbotc"}]
 # tellraw @a ["#picked_picker temp: ",{"color":"green","score":{"name":"#picked_picker","objective":"temp"}}]

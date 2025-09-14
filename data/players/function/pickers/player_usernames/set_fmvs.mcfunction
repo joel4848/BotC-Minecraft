@@ -1,4 +1,3 @@
-
 # $execute as @a[scores={Storyteller=1}] run execute if score #picked_picker temp matches 1 run fmvariable set player_1_username false $(player_1_username)
 # $execute as @a[scores={Storyteller=1}] run execute if score #picked_picker temp matches 2 run fmvariable set player_2_username false $(player_2_username)
 # $execute as @a[scores={Storyteller=1}] run execute if score #picked_picker temp matches 3 run fmvariable set player_3_username false $(player_3_username)
@@ -54,3 +53,21 @@ $execute as @s run execute if score #picked_picker temp matches 16 run fmvariabl
 
 
 # say ran set fmvs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -25,5 +25,5 @@ schedule function players:pickers/player_usernames/call_store_username 5t
 
 schedule function players:pickers/player_usernames/call_set_fmvs 10t
 
-execute as @a run schedule function setup:fm_player_colours 15t
-execute as @a run schedule function setup:fm_player_colours_all_white 15t
+# execute as @a run schedule function setup:fm_player_colours 15t
+# execute as @a run schedule function setup:fm_player_colours_all_white 15t

@@ -43,6 +43,7 @@ execute unless score #next_seat temp > player_count PlayerCount run schedule fun
 
 # execute unless score #current_seat temp = #start_player temp run 
 execute if score #next_seat temp matches 1 run function voting:call_move_big_hand_skip
+
 # execute if score #start_player_passed temp matches 0 run execute if score #next_seat temp matches 1 run schedule function voting:call_move_big_hand_skip 7t
 # execute unless score #current_seat temp = #start_player temp run execute if score #next_seat temp matches 1 run say VS called Move Big Hand Skip
 
