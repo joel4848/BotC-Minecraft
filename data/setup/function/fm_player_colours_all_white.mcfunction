@@ -65,3 +65,24 @@ execute as @a run execute unless score #fm_colours_on temp matches 1 run execute
 execute as @a run execute unless score #fm_colours_on temp matches 1 run execute as @a run execute if entity @a[scores={Player=-14}] run fmvariable set player_14_colour_suffix false %#%
 execute as @a run execute unless score #fm_colours_on temp matches 1 run execute as @a run execute if entity @a[scores={Player=-15}] run fmvariable set player_15_colour_suffix false %#%
 execute as @a run execute unless score #fm_colours_on temp matches 1 run execute as @a run execute if entity @a[scores={Player=-16}] run fmvariable set player_16_colour_suffix false %#%
+
+
+
+
+
+# execute unless data storage minecraft:joelbotc {player_1_username:" "} run
+# execute unless data storage minecraft:joelbotc {player_2_username:" "} run
+# execute unless data storage minecraft:joelbotc {player_3_username:" "} run
+# execute unless data storage minecraft:joelbotc {player_4_username:" "} run
+# execute unless data storage minecraft:joelbotc {player_5_username:" "} run
+# execute unless data storage minecraft:joelbotc {player_6_username:" "} run
+# execute unless data storage minecraft:joelbotc {player_7_username:" "} run
+# execute unless data storage minecraft:joelbotc {player_8_username:" "} run
+# execute unless data storage minecraft:joelbotc {player_9_username:" "} run
+# execute unless data storage minecraft:joelbotc {player_10_username:" "} run
+# execute unless data storage minecraft:joelbotc {player_11_username:" "} run
+# execute unless data storage minecraft:joelbotc {player_12_username:" "} run
+# execute unless data storage minecraft:joelbotc {player_13_username:" "} run
+# execute unless data storage minecraft:joelbotc {player_14_username:" "} run
+# execute unless data storage minecraft:joelbotc {player_15_username:" "} run
+# execute unless data storage minecraft:joelbotc {player_16_username:" "} run

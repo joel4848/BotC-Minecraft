@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = timer
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1757692647250
+  last_edited_time = 1757852058916
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:61f3fda9-6f11-49e9-9e0a-61954f5b7872-1757692642888] = [groups:][instances:]
+  [loading_requirement_container_meta:6c0dd367-3931-46a5-a305-2e0907d09c0d-1757852051130] = [groups:][instances:]
 }
 
 customization {
@@ -1617,7 +1617,7 @@ element {
 
 element {
   interactable = true
-  source = |||%n%{"placeholder":"getvariable","values":{"name":"player_1_colour"}}{"placeholder":"getvariable","values":{"name":"player_1_username"}}{"placeholder":"getvariable","values":{"name":"player_1_colour_suffix"}}%n%{"placeholder":"getvariable","values":{"name":"player_2_colour"}}{"placeholder":"getvariable","values":{"name":"player_2_username"}}{"placeholder":"getvariable","values":{"name":"player_2_colour_suffix"}}%n%{"placeholder":"getvariable","values":{"name":"player_3_colour"}}{"placeholder":"getvariable","values":{"name":"player_3_username"}}{"placeholder":"getvariable","values":{"name":"player_3_colour_suffix"}}%n%{"placeholder":"getvariable","values":{"name":"player_4_colour"}}{"placeholder":"getvariable","values":{"name":"player_4_username"}}{"placeholder":"getvariable","values":{"name":"player_4_colour_suffix"}}%n%{"placeholder":"getvariable","values":{"name":"player_5_colour"}}{"placeholder":"getvariable","values":{"name":"player_5_username"}}{"placeholder":"getvariable","values":{"name":"player_5_colour_suffix"}}%n%{"placeholder":"getvariable","values":{"name":"player_6_colour"}}{"placeholder":"getvariable","values":{"name":"player_6_username"}}{"placeholder":"getvariable","values":{"name":"player_6_colour_suffix"}}%n%{"placeholder":"getvariable","values":{"name":"player_7_colour"}}{"placeholder":"getvariable","values":{"name":"player_7_username"}}{"placeholder":"getvariable","values":{"name":"player_7_colour_suffix"}}%n%{"placeholder":"getvariable","values":{"name":"player_8_colour"}}{"placeholder":"getvariable","values":{"name":"player_8_username"}}{"placeholder":"getvariable","values":{"name":"player_8_colour_suffix"}}%n%{"placeholder":"getvariable","values":{"name":"player_9_colour"}}{"placeholder":"getvariable","values":{"name":"player_9_username"}}{"placeholder":"getvariable","values":{"name":"player_9_colour_suffix"}}%n%{"placeholder":"getvariable","values":{"name":"player_10_colour"}}{"placeholder":"getvariable","values":{"name":"player_10_username"}}{"placeholder":"getvariable","values":{"name":"player_10_colour_suffix"}}%n%{"placeholder":"getvariable","values":{"name":"player_11_colour"}}{"placeholder":"getvariable","values":{"name":"player_11_username"}}{"placeholder":"getvariable","values":{"name":"player_11_colour_suffix"}}%n%{"placeholder":"getvariable","values":{"name":"player_12_colour"}}{"placeholder":"getvariable","values":{"name":"player_12_username"}}{"placeholder":"getvariable","values":{"name":"player_12_colour_suffix"}}%n%{"placeholder":"getvariable","values":{"name":"player_13_colour"}}{"placeholder":"getvariable","values":{"name":"player_13_username"}}{"placeholder":"getvariable","values":{"name":"player_13_colour_suffix"}}%n%{"placeholder":"getvariable","values":{"name":"player_14_colour"}}{"placeholder":"getvariable","values":{"name":"player_14_username"}}{"placeholder":"getvariable","values":{"name":"player_14_colour_suffix"}}%n%{"placeholder":"getvariable","values":{"name":"player_15_colour"}}{"placeholder":"getvariable","values":{"name":"player_15_username"}}{"placeholder":"getvariable","values":{"name":"player_15_colour_suffix"}}%n%{"placeholder":"getvariable","values":{"name":"player_16_colour"}}{"placeholder":"getvariable","values":{"name":"player_16_username"}}{"placeholder":"getvariable","values":{"name":"player_16_colour_suffix"}}%n%|||
+  source = |||%n%{"placeholder":"getvariable","values":{"name":"player_1_username"}}%n%{"placeholder":"getvariable","values":{"name":"player_2_username"}}%n%{"placeholder":"getvariable","values":{"name":"player_3_username"}}%n%{"placeholder":"getvariable","values":{"name":"player_4_username"}}%n%{"placeholder":"getvariable","values":{"name":"player_5_username"}}%n%{"placeholder":"getvariable","values":{"name":"player_6_username"}}%n%{"placeholder":"getvariable","values":{"name":"player_7_username"}}%n%{"placeholder":"getvariable","values":{"name":"player_8_username"}}%n%{"placeholder":"getvariable","values":{"name":"player_9_username"}}%n%{"placeholder":"getvariable","values":{"name":"player_10_username"}}%n%{"placeholder":"getvariable","values":{"name":"player_11_username"}}%n%{"placeholder":"getvariable","values":{"name":"player_12_username"}}%n%{"placeholder":"getvariable","values":{"name":"player_13_username"}}%n%{"placeholder":"getvariable","values":{"name":"player_14_username"}}%n%{"placeholder":"getvariable","values":{"name":"player_15_username"}}%n%{"placeholder":"getvariable","values":{"name":"player_16_username"}}%n%|||
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -1649,7 +1649,7 @@ element {
   table_cell_padding = 8.0
   table_margin = 4.0
   element_type = text_v2
-  instance_identifier = b97a1960-ed18-4ad3-9288-74aee856bc51-1757613495582
+  instance_identifier = 78d364ac-e22d-4f0e-b13d-459bfd199189-1757852054549
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = no_fading
@@ -1661,10 +1661,9 @@ element {
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1011
   sticky_anchor = false
-  anchor_point = element
-  anchor_point_element = 8a7dfdf4-4bd5-4056-96c6-2be36bccfffb-1757601817078
-  x = 493
-  y = 80
+  anchor_point = mid-right
+  x = -147
+  y = -93
   width = 102
   height = 180
   stretch_x = false
@@ -1716,7 +1715,7 @@ element {
   table_cell_padding = 8.0
   table_margin = 4.0
   element_type = text_v2
-  instance_identifier = c1637811-60ff-4966-b32a-8e37a940e655-1757614217042
+  instance_identifier = 5d4e5f46-8976-412e-9b29-d34e41cbaf67-1757852054550
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = no_fading
@@ -1728,9 +1727,9 @@ element {
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1011
   sticky_anchor = false
-  anchor_point = mid-centered
-  x = 274
-  y = -88
+  anchor_point = mid-right
+  x = -46
+  y = -93
   width = 33
   height = 180
   stretch_x = false
@@ -1749,84 +1748,15 @@ element {
 }
 
 element {
-  button_element_executable_block_identifier = d76c3363-2cdd-404a-9d41-8335ea9aca16-1757608575573
-  [executable_action_instance:b82ffe0e-4974-49ab-b25e-a888dd9a4c12-1757608742189][action_type:sendmessage] = /scoreboard players set #fm_colours_on temp 1
-  [executable_action_instance:cb35448d-6290-45b8-8d3d-aca4bf22fc64-1757609465247][action_type:set_variable] = fm_colours_on:1
-  [executable_action_instance:d3e3b8d9-15d8-4330-9989-bedea0934d40-1757690560182][action_type:sendmessage] = /execute as @a run function setup:fm_player_colours
-  [executable_block:37c74fd5-5b40-426b-8537-fe18d06770cb-1757608733104][type:if] = [executables:b82ffe0e-4974-49ab-b25e-a888dd9a4c12-1757608742189;cb35448d-6290-45b8-8d3d-aca4bf22fc64-1757609465247;d3e3b8d9-15d8-4330-9989-bedea0934d40-1757690560182;][appended:8d927f82-f980-459b-b4ab-f0406ebd587d-1757608738537]
-  [executable_action_instance:5305dd7d-892e-4e4d-b254-23cc66e00d3d-1757608769037][action_type:sendmessage] = /scoreboard players set #fm_colours_on temp 0
-  [executable_action_instance:43db3d3d-eeec-4725-9c69-2dad91565296-1757609484197][action_type:set_variable] = fm_colours_on:0
-  [executable_action_instance:75035c1d-9c5a-4d2f-9c48-3e4eb07c6f5b-1757609614645][action_type:sendmessage] = /function setup:fm_player_colours_all_white
-  [executable_block:8d927f82-f980-459b-b4ab-f0406ebd587d-1757608738537][type:else] = [executables:5305dd7d-892e-4e4d-b254-23cc66e00d3d-1757608769037;43db3d3d-eeec-4725-9c69-2dad91565296-1757609484197;75035c1d-9c5a-4d2f-9c48-3e4eb07c6f5b-1757609614645;]
-  [if_executable_block_body:37c74fd5-5b40-426b-8537-fe18d06770cb-1757608733104] = af39d466-811e-4b30-b368-b629eac57042-1757608645240
-  [loading_requirement_container_meta:af39d466-811e-4b30-b368-b629eac57042-1757608645240] = [groups:][instances:5607fcd5-e53d-4ebc-8294-d7ec3d43745d-1757608648089;]
-  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:5607fcd5-e53d-4ebc-8294-d7ec3d43745d-1757608648089] = fm_colours_on:0
-  [executable_block:d76c3363-2cdd-404a-9d41-8335ea9aca16-1757608575573][type:generic] = [executables:37c74fd5-5b40-426b-8537-fe18d06770cb-1757608733104;]
-  restartbackgroundanimations = true
-  nine_slice_custom_background = false
-  nine_slice_border_x = 5
-  nine_slice_border_y = 5
-  label = Toggle Colours
-  navigatable = true
-  widget_active_state_requirement_container_identifier = 54f93f03-2302-4f97-9b6c-ab1305419b22-1757608575573
-  [loading_requirement_container_meta:54f93f03-2302-4f97-9b6c-ab1305419b22-1757608575573] = [groups:][instances:]
-  is_template = false
-  template_apply_width = false
-  template_apply_height = false
-  template_apply_posx = false
-  template_apply_posy = false
-  template_apply_opacity = false
-  template_apply_visibility = false
-  template_apply_label = false
-  template_share_with = buttons
-  nine_slice_slider_handle = false
-  nine_slice_slider_handle_border_x = 5
-  nine_slice_slider_handle_border_y = 5
-  element_type = custom_button
-  instance_identifier = b08298de-7074-49d8-a517-ac44acce65f3-1757690701464
-  appearance_delay = no_delay
-  appearance_delay_seconds = 1.0
-  fade_in_v2 = no_fading
-  fade_in_speed = 1.0
-  fade_out = no_fading
-  fade_out_speed = 1.0
-  base_opacity = 1.0
-  auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1011
-  sticky_anchor = false
-  anchor_point = element
-  anchor_point_element = 0f64c31b-e7e3-4213-8b86-4a6c45ec9b16-1757597111103
-  x = 523
-  y = 261
-  width = 100
-  height = 20
-  stretch_x = false
-  stretch_y = false
-  stay_on_screen = true
-  element_loading_requirement_container_identifier = b4c12df5-074e-44ca-bec7-577f1121cde7-1757608575573
-  [loading_requirement_container_meta:b4c12df5-074e-44ca-bec7-577f1121cde7-1757608575573] = [groups:][instances:]
-  enable_parallax = false
-  parallax_intensity_v2 = 0.5
-  invert_parallax = false
-  animated_offset_x = 0
-  animated_offset_y = 0
-  load_once_per_session = false
-  in_editor_color = #FFC800FF
-  layer_hidden_in_editor = false
-}
-
-element {
   is_async = false
   tick_delay = 0
   tick_mode = on_menu_load
-  ticker_element_executable_block_identifier = 66a0b0fa-5d9b-40fe-ac10-6064907a8791-1757692506002
-  [executable_action_instance:d9d7a3ae-99dd-4317-b8f3-eab963840d3e-1757692595682][action_type:sendmessage] = /execute as @a run function setup:fm_player_colours
-  [executable_action_instance:75a726d6-df38-401a-b0dc-0e354e9300d2-1757692605864][action_type:sendmessage] = /execute as @a run function setup:fm_player_colours_all_white
-  [executable_block:66a0b0fa-5d9b-40fe-ac10-6064907a8791-1757692506002][type:generic] = [executables:d9d7a3ae-99dd-4317-b8f3-eab963840d3e-1757692595682;75a726d6-df38-401a-b0dc-0e354e9300d2-1757692605864;]
+  ticker_element_executable_block_identifier = 8290f6bc-f5d7-4c77-95e5-b14c39d01a30-1757851322805
+  [executable_action_instance:5e84305e-c1d7-4bfa-a6fd-14bf99323848-1757851335927][action_type:sendmessage] = /function players:pickers/player_usernames/call_set_fmvs
+  [executable_block:8290f6bc-f5d7-4c77-95e5-b14c39d01a30-1757851322805][type:generic] = [executables:5e84305e-c1d7-4bfa-a6fd-14bf99323848-1757851335927;]
   element_type = fancymenu_customization_item_ticker
-  instance_identifier = c75f7c39-8c18-4eb0-a7a6-213933c72e23-1757692644097
-  custom_element_layer_name = Set Colours
+  instance_identifier = 8c02397a-f5fe-432b-8dea-4cc8a8538334-1757852054550
+  custom_element_layer_name = Set Usernames
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = no_fading
@@ -1838,16 +1768,16 @@ element {
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1011
   sticky_anchor = false
-  anchor_point = mid-centered
-  x = 223
-  y = 118
-  width = 60
+  anchor_point = mid-right
+  x = -101
+  y = 90
+  width = 80
   height = 10
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
-  element_loading_requirement_container_identifier = b77dbd3d-f23c-42c7-a6ea-38f81b731734-1757692506002
-  [loading_requirement_container_meta:b77dbd3d-f23c-42c7-a6ea-38f81b731734-1757692506002] = [groups:][instances:]
+  element_loading_requirement_container_identifier = 65698b91-afc4-4780-a6f4-a1346db79c9b-1757851322805
+  [loading_requirement_container_meta:65698b91-afc4-4780-a6f4-a1346db79c9b-1757851322805] = [groups:][instances:]
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false

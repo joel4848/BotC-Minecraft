@@ -98,7 +98,7 @@ variable {
 
 variable {
   name = bureaucrat_chosen
-  value = 
+  value = 5
   reset_on_launch = false
 }
 
@@ -170,7 +170,7 @@ variable {
 
 variable {
   name = player_count
-  value = 5
+  value = 16
   reset_on_launch = false
 }
 
@@ -236,13 +236,13 @@ variable {
 
 variable {
   name = kill_revive_multiple
-  value = Disabled
+  value = Enabled
   reset_on_launch = false
 }
 
 variable {
   name = fm_colours_on
-  value = 1
+  value = 0
   reset_on_launch = false
 }
 
@@ -278,7 +278,7 @@ variable {
 
 variable {
   name = player_1_username
-  value = joel4848
+  value =  
   reset_on_launch = false
 }
 
@@ -302,7 +302,7 @@ variable {
 
 variable {
   name = player_1_colour_suffix
-  value = %#%
+  value = ‌
   reset_on_launch = false
 }
 
@@ -320,7 +320,7 @@ variable {
 
 variable {
   name = banshee_0_username
-  value =  
+  value = p1 
   reset_on_launch = false
 }
 
@@ -338,7 +338,7 @@ variable {
 
 variable {
   name = banshee_0
-  value = 
+  value = 1
   reset_on_launch = false
 }
 
@@ -362,7 +362,7 @@ variable {
 
 variable {
   name = player_1_colour
-  value = %#00AA00%
+  value = ‌
   reset_on_launch = false
 }
 
@@ -380,7 +380,7 @@ variable {
 
 variable {
   name = thief_chosen
-  value = 
+  value = 5
   reset_on_launch = false
 }
 

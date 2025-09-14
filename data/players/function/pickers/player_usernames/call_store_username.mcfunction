@@ -1,1 +1,1 @@
-execute as @a[scores={Storyteller=1}] run function players:pickers/player_usernames/store_username with storage minecraft:joelbotc
+function players:pickers/player_usernames/store_username with storage minecraft:joelbotc

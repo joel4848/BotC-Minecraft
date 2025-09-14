@@ -10,3 +10,6 @@ execute store result storage joelbotc player_count_plus_1 int 1 run scoreboard p
 function setup:player_count/replace_wanted_votelights with storage joelbotc
 function setup:player_count/remove_unwanted_votelights with storage joelbotc
 schedule function voting:reset_vote 10t
+
+function setup:number_list_empty_seats
+

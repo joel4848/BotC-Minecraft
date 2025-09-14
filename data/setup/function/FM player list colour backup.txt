@@ -1,0 +1,57 @@
+Player list text element:
+
+|||
+{"placeholder":"getvariable","values":{"name":"player_1_colour"}}{"placeholder":"getvariable","values":{"name":"player_1_username"}}{"placeholder":"getvariable","values":{"name":"player_1_colour_suffix"}}
+{"placeholder":"getvariable","values":{"name":"player_2_colour"}}{"placeholder":"getvariable","values":{"name":"player_2_username"}}{"placeholder":"getvariable","values":{"name":"player_2_colour_suffix"}}
+{"placeholder":"getvariable","values":{"name":"player_3_colour"}}{"placeholder":"getvariable","values":{"name":"player_3_username"}}{"placeholder":"getvariable","values":{"name":"player_3_colour_suffix"}}
+{"placeholder":"getvariable","values":{"name":"player_4_colour"}}{"placeholder":"getvariable","values":{"name":"player_4_username"}}{"placeholder":"getvariable","values":{"name":"player_4_colour_suffix"}}
+{"placeholder":"getvariable","values":{"name":"player_5_colour"}}{"placeholder":"getvariable","values":{"name":"player_5_username"}}{"placeholder":"getvariable","values":{"name":"player_5_colour_suffix"}}
+{"placeholder":"getvariable","values":{"name":"player_6_colour"}}{"placeholder":"getvariable","values":{"name":"player_6_username"}}{"placeholder":"getvariable","values":{"name":"player_6_colour_suffix"}}
+{"placeholder":"getvariable","values":{"name":"player_7_colour"}}{"placeholder":"getvariable","values":{"name":"player_7_username"}}{"placeholder":"getvariable","values":{"name":"player_7_colour_suffix"}}
+{"placeholder":"getvariable","values":{"name":"player_8_colour"}}{"placeholder":"getvariable","values":{"name":"player_8_username"}}{"placeholder":"getvariable","values":{"name":"player_8_colour_suffix"}}
+{"placeholder":"getvariable","values":{"name":"player_9_colour"}}{"placeholder":"getvariable","values":{"name":"player_9_username"}}{"placeholder":"getvariable","values":{"name":"player_9_colour_suffix"}}
+{"placeholder":"getvariable","values":{"name":"player_10_colour"}}{"placeholder":"getvariable","values":{"name":"player_10_username"}}{"placeholder":"getvariable","values":{"name":"player_10_colour_suffix"}}
+{"placeholder":"getvariable","values":{"name":"player_11_colour"}}{"placeholder":"getvariable","values":{"name":"player_11_username"}}{"placeholder":"getvariable","values":{"name":"player_11_colour_suffix"}}
+{"placeholder":"getvariable","values":{"name":"player_12_colour"}}{"placeholder":"getvariable","values":{"name":"player_12_username"}}{"placeholder":"getvariable","values":{"name":"player_12_colour_suffix"}}
+{"placeholder":"getvariable","values":{"name":"player_13_colour"}}{"placeholder":"getvariable","values":{"name":"player_13_username"}}{"placeholder":"getvariable","values":{"name":"player_13_colour_suffix"}}
+{"placeholder":"getvariable","values":{"name":"player_14_colour"}}{"placeholder":"getvariable","values":{"name":"player_14_username"}}{"placeholder":"getvariable","values":{"name":"player_14_colour_suffix"}}
+{"placeholder":"getvariable","values":{"name":"player_15_colour"}}{"placeholder":"getvariable","values":{"name":"player_15_username"}}{"placeholder":"getvariable","values":{"name":"player_15_colour_suffix"}}
+{"placeholder":"getvariable","values":{"name":"player_16_colour"}}{"placeholder":"getvariable","values":{"name":"player_16_username"}}{"placeholder":"getvariable","values":{"name":"player_16_colour_suffix"}}
+|||
+
+Number list text element:
+
+{"placeholder":"getvariable","values":{"name":"player_1_colour"}}- 1{"placeholder":"getvariable","values":{"name":"player_1_colour_suffix"}}
+{"placeholder":"getvariable","values":{"name":"player_2_colour"}}- 2{"placeholder":"getvariable","values":{"name":"player_2_colour_suffix"}}
+{"placeholder":"getvariable","values":{"name":"player_3_colour"}}- 3{"placeholder":"getvariable","values":{"name":"player_3_colour_suffix"}}
+{"placeholder":"getvariable","values":{"name":"player_4_colour"}}- 4{"placeholder":"getvariable","values":{"name":"player_4_colour_suffix"}}
+{"placeholder":"getvariable","values":{"name":"player_5_colour"}}- 5{"placeholder":"getvariable","values":{"name":"player_5_colour_suffix"}}
+{"placeholder":"getvariable","values":{"name":"player_6_colour"}}- 6{"placeholder":"getvariable","values":{"name":"player_6_colour_suffix"}}
+{"placeholder":"getvariable","values":{"name":"player_7_colour"}}- 7{"placeholder":"getvariable","values":{"name":"player_7_colour_suffix"}}
+{"placeholder":"getvariable","values":{"name":"player_8_colour"}}- 8{"placeholder":"getvariable","values":{"name":"player_8_colour_suffix"}}
+{"placeholder":"getvariable","values":{"name":"player_9_colour"}}- 9{"placeholder":"getvariable","values":{"name":"player_9_colour_suffix"}}
+{"placeholder":"getvariable","values":{"name":"player_10_colour"}}- 10{"placeholder":"getvariable","values":{"name":"player_10_colour_suffix"}}
+{"placeholder":"getvariable","values":{"name":"player_11_colour"}}- 11{"placeholder":"getvariable","values":{"name":"player_11_colour_suffix"}}
+{"placeholder":"getvariable","values":{"name":"player_12_colour"}}- 12{"placeholder":"getvariable","values":{"name":"player_12_colour_suffix"}}
+{"placeholder":"getvariable","values":{"name":"player_13_colour"}}- 13{"placeholder":"getvariable","values":{"name":"player_13_colour_suffix"}}
+{"placeholder":"getvariable","values":{"name":"player_14_colour"}}- 14{"placeholder":"getvariable","values":{"name":"player_14_colour_suffix"}}
+{"placeholder":"getvariable","values":{"name":"player_15_colour"}}- 15{"placeholder":"getvariable","values":{"name":"player_15_colour_suffix"}}
+{"placeholder":"getvariable","values":{"name":"player_16_colour"}}- 16{"placeholder":"getvariable","values":{"name":"player_16_colour_suffix"}}
+
+;;-;; 1
+;;-;; 2
+;;-;; 3
+;;-;; 4
+;;-;; 5
+;;-;; 6
+;;-;; 7
+;;-;; 8
+;;-;; 9
+;;-;; 10
+;;-;; 11
+;;-;; 12
+;;-;; 13
+;;-;; 14
+;;-;; 15
+;;-;; 16
+
