@@ -92,13 +92,13 @@ variable {
 
 variable {
   name = player_4_colour_suffix
-  value = ‌
+  value = %#%
   reset_on_launch = false
 }
 
 variable {
   name = bureaucrat_chosen
-  value = 5
+  value = 
   reset_on_launch = false
 }
 
@@ -146,7 +146,7 @@ variable {
 
 variable {
   name = player_3_colour_suffix
-  value = ‌
+  value = %#%
   reset_on_launch = false
 }
 
@@ -170,7 +170,7 @@ variable {
 
 variable {
   name = player_count
-  value = 16
+  value = 6
   reset_on_launch = false
 }
 
@@ -188,13 +188,13 @@ variable {
 
 variable {
   name = player_4_colour
-  value = ‌
+  value = %#FFFFFF%
   reset_on_launch = false
 }
 
 variable {
   name = player_2_colour_suffix
-  value = ‌
+  value = %#%
   reset_on_launch = false
 }
 
@@ -206,13 +206,13 @@ variable {
 
 variable {
   name = player_6_colour
-  value = ‌
+  value = %#FFFFFF%
   reset_on_launch = false
 }
 
 variable {
   name = player_2_colour
-  value = ‌
+  value = %#FFFFFF%
   reset_on_launch = false
 }
 
@@ -260,13 +260,13 @@ variable {
 
 variable {
   name = player_6_colour_suffix
-  value = ‌
+  value = %#%
   reset_on_launch = false
 }
 
 variable {
   name = player_6_username
-  value = ‌
+  value =  
   reset_on_launch = false
 }
 
@@ -278,7 +278,7 @@ variable {
 
 variable {
   name = player_1_username
-  value =  
+  value = ‌
   reset_on_launch = false
 }
 
@@ -302,7 +302,7 @@ variable {
 
 variable {
   name = player_1_colour_suffix
-  value = ‌
+  value = %#%
   reset_on_launch = false
 }
 
@@ -320,7 +320,7 @@ variable {
 
 variable {
   name = banshee_0_username
-  value = p1 
+  value =  
   reset_on_launch = false
 }
 
@@ -338,7 +338,7 @@ variable {
 
 variable {
   name = banshee_0
-  value = 1
+  value = 
   reset_on_launch = false
 }
 
@@ -356,13 +356,13 @@ variable {
 
 variable {
   name = player_5_colour_suffix
-  value = ‌
+  value = %#%
   reset_on_launch = false
 }
 
 variable {
   name = player_1_colour
-  value = ‌
+  value = %#FFFFFF%
   reset_on_launch = false
 }
 
@@ -380,13 +380,13 @@ variable {
 
 variable {
   name = thief_chosen
-  value = 5
+  value = 
   reset_on_launch = false
 }
 
 variable {
   name = player_5_colour
-  value = ‌
+  value = %#FFFFFF%
   reset_on_launch = false
 }
 
@@ -398,7 +398,7 @@ variable {
 
 variable {
   name = player_3_colour
-  value = ‌
+  value = %#FFFFFF%
   reset_on_launch = false
 }
 

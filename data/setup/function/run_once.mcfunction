@@ -40,6 +40,10 @@ scoreboard objectives add BansheeVoteValue dummy
 scoreboard objectives add HasSeat dummy
 scoreboard objectives add VoudonGhostVotePreviouslyUsed dummy
 scoreboard objectives add IsVoudon dummy
+scoreboard objectives add FerrymanWasDead dummy
+# scoreboard objectives add  dummy
+# scoreboard objectives add  dummy
+# scoreboard objectives add  dummy
 # scoreboard objectives add  dummy
 # scoreboard objectives add  dummy
 
