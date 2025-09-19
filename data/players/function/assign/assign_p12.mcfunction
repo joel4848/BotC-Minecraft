@@ -7,7 +7,7 @@ team join Alive @p
 
 scoreboard players set #picked_picker temp 12
 
-function players:pickers/player_usernames/get_username
+function players:usernames/update_username/player_12
 
 
 function setup:fm_colours_clear_all

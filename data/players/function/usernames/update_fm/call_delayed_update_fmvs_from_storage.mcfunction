@@ -1,0 +1,2 @@
+
+execute as @e[tag=updatingfmvs] run function players:usernames/update_fm/delayed_update_fmvs_from_storage with storage joelbotc
