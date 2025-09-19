@@ -32,13 +32,13 @@ variable {
 
 variable {
   name = player_2_username
-  value = ‌
+  value =  ‌
   reset_on_launch = false
 }
 
 variable {
   name = player_8_username
-  value = ‌
+  value =  ‌
   reset_on_launch = false
 }
 
@@ -104,7 +104,7 @@ variable {
 
 variable {
   name = player_11_username
-  value = ‌
+  value =  ‌
   reset_on_launch = false
 }
 
@@ -158,25 +158,25 @@ variable {
 
 variable {
   name = player_3_username
-  value = ‌
+  value =  ‌
   reset_on_launch = false
 }
 
 variable {
   name = player_7_username
-  value = ‌
+  value =  ‌
   reset_on_launch = false
 }
 
 variable {
   name = player_count
-  value = 6
+  value = 7
   reset_on_launch = false
 }
 
 variable {
   name = player_7_colour_suffix
-  value = ‌
+  value = %#%
   reset_on_launch = false
 }
 
@@ -218,19 +218,19 @@ variable {
 
 variable {
   name = player_12_username
-  value = ‌
+  value =  ‌
   reset_on_launch = false
 }
 
 variable {
   name = player_13_username
-  value = ‌
+  value =  ‌
   reset_on_launch = false
 }
 
 variable {
   name = player_10_username
-  value = ‌
+  value =  ‌
   reset_on_launch = false
 }
 
@@ -266,7 +266,7 @@ variable {
 
 variable {
   name = player_6_username
-  value =  
+  value =  ‌
   reset_on_launch = false
 }
 
@@ -278,7 +278,7 @@ variable {
 
 variable {
   name = player_1_username
-  value = ‌
+  value =  ‌
   reset_on_launch = false
 }
 
@@ -290,13 +290,13 @@ variable {
 
 variable {
   name = player_9_username
-  value = ‌
+  value =  ‌
   reset_on_launch = false
 }
 
 variable {
   name = player_16_username
-  value = ‌
+  value =  ‌
   reset_on_launch = false
 }
 
@@ -326,13 +326,13 @@ variable {
 
 variable {
   name = player_4_username
-  value = ‌
+  value = joel4848 
   reset_on_launch = false
 }
 
 variable {
   name = player_14_username
-  value = ‌
+  value =  ‌
   reset_on_launch = false
 }
 
@@ -368,7 +368,7 @@ variable {
 
 variable {
   name = player_15_username
-  value = ‌
+  value =  ‌
   reset_on_launch = false
 }
 
@@ -410,13 +410,13 @@ variable {
 
 variable {
   name = player_7_colour
-  value = ‌
+  value = %#FFFFFF%
   reset_on_launch = false
 }
 
 variable {
   name = player_5_username
-  value = ‌
+  value =  ‌
   reset_on_launch = false
 }
 

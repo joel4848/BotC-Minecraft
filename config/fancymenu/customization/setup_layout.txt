@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = setup
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1757852044141
+  last_edited_time = 1758130575159
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:049965be-a5ea-4ca5-9add-df266673542f-1757852021250] = [groups:][instances:]
+  [loading_requirement_container_meta:92d0983e-c204-43e5-a7e0-11483b9cc942-1758130569729] = [groups:][instances:]
 }
 
 customization {
@@ -930,15 +930,32 @@ element {
 }
 
 element {
-  is_async = false
-  tick_delay = 0
-  tick_mode = on_menu_load
-  ticker_element_executable_block_identifier = 8290f6bc-f5d7-4c77-95e5-b14c39d01a30-1757851322805
-  [executable_action_instance:5e84305e-c1d7-4bfa-a6fd-14bf99323848-1757851335927][action_type:sendmessage] = /function players:pickers/player_usernames/call_set_fmvs
-  [executable_block:8290f6bc-f5d7-4c77-95e5-b14c39d01a30-1757851322805][type:generic] = [executables:5e84305e-c1d7-4bfa-a6fd-14bf99323848-1757851335927;]
-  element_type = fancymenu_customization_item_ticker
-  instance_identifier = bddbf922-2157-4fee-af5a-87466da36c60-1757851951151
-  custom_element_layer_name = Set Usernames
+  button_element_executable_block_identifier = c8d081f2-bf95-4471-b4ef-7ba29ed3321a-1757874480393
+  [executable_action_instance:dddb37f9-0b68-4a3a-83b3-54ac86bf0dfe-1757874497309][action_type:sendmessage] = /function extras:waltz/shuffle
+  [executable_action_instance:a472b78d-ed87-469d-ac5d-bda830d5d0c8-1757874512343][action_type:closegui] = 
+  [executable_block:c8d081f2-bf95-4471-b4ef-7ba29ed3321a-1757874480393][type:generic] = [executables:dddb37f9-0b68-4a3a-83b3-54ac86bf0dfe-1757874497309;a472b78d-ed87-469d-ac5d-bda830d5d0c8-1757874512343;]
+  restartbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = Shuffle Seats
+  navigatable = true
+  widget_active_state_requirement_container_identifier = e3255fbd-ea05-4deb-b4f4-90c691d12263-1757874480393
+  [loading_requirement_container_meta:e3255fbd-ea05-4deb-b4f4-90c691d12263-1757874480393] = [groups:][instances:]
+  is_template = false
+  template_apply_width = false
+  template_apply_height = false
+  template_apply_posx = false
+  template_apply_posy = false
+  template_apply_opacity = false
+  template_apply_visibility = false
+  template_apply_label = false
+  template_share_with = buttons
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+  element_type = custom_button
+  instance_identifier = 0a078770-2083-4181-aae3-67ae143f0a3a-1757874480393
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = no_fading
@@ -950,16 +967,57 @@ element {
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1011
   sticky_anchor = false
-  anchor_point = mid-right
-  x = -101
-  y = 90
-  width = 80
+  anchor_point = mid-centered
+  x = -50
+  y = 97
+  width = 100
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 096cf194-a687-45ec-8696-012ff0f34f15-1757874480393
+  [loading_requirement_container_meta:096cf194-a687-45ec-8696-012ff0f34f15-1757874480393] = [groups:][instances:]
+  enable_parallax = false
+  parallax_intensity_v2 = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+  layer_hidden_in_editor = false
+}
+
+element {
+  is_async = false
+  tick_delay = 0
+  tick_mode = on_menu_load
+  ticker_element_executable_block_identifier = a6b605ce-ac54-43a4-abc8-478e9e09369e-1758129750847
+  [executable_action_instance:fc286a6c-807e-462d-87dd-d42b69a63ce4-1758129795263][action_type:sendmessage] = /execute as @s run function players:usernames/update_fm/update_fmvs_from_storage with storage minecraft:joelbotc
+  [executable_block:a6b605ce-ac54-43a4-abc8-478e9e09369e-1758129750847][type:generic] = [executables:fc286a6c-807e-462d-87dd-d42b69a63ce4-1758129795263;]
+  element_type = fancymenu_customization_item_ticker
+  instance_identifier = f1c3215c-6d6d-49fa-9ec2-5372d4adca4e-1758130572892
+  custom_element_layer_name = Update Names
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1011
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = 230
+  y = 93
+  width = 70
   height = 10
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
-  element_loading_requirement_container_identifier = 65698b91-afc4-4780-a6f4-a1346db79c9b-1757851322805
-  [loading_requirement_container_meta:65698b91-afc4-4780-a6f4-a1346db79c9b-1757851322805] = [groups:][instances:]
+  element_loading_requirement_container_identifier = 61716490-0318-413f-b248-fef09f438923-1758129750847
+  [loading_requirement_container_meta:61716490-0318-413f-b248-fef09f438923-1758129750847] = [groups:][instances:]
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false

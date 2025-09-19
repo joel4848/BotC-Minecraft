@@ -17,6 +17,7 @@ scoreboard objectives add TimerPaused dummy
 scoreboard objectives add TickTimer dummy
 scoreboard objectives add Storyteller dummy
 scoreboard objectives add Nominated dummy
+scoreboard objectives add Nominator dummy
 scoreboard objectives add PlayerCount dummy
 scoreboard objectives add Marked dummy
 scoreboard objectives add LivingPlayers dummy
@@ -41,7 +42,9 @@ scoreboard objectives add HasSeat dummy
 scoreboard objectives add VoudonGhostVotePreviouslyUsed dummy
 scoreboard objectives add IsVoudon dummy
 scoreboard objectives add FerrymanWasDead dummy
-# scoreboard objectives add  dummy
+scoreboard objectives add Roshambo trigger
+scoreboard objectives add RoshamboLocked trigger
+scoreboard objectives add ConfirmRoshamboLock trigger
 # scoreboard objectives add  dummy
 # scoreboard objectives add  dummy
 # scoreboard objectives add  dummy
