@@ -1,3 +1,9 @@
+# Announce who has nominated whom
+
+tellraw @a [{"color":"gold","text":"------------------------------------"}]
+tellraw @a [{"color":"gold","selector":"@a[scores={Nominator=1}]","underlined":true},{"text":" nominated ","underlined":false},{"selector":"@a[scores={Nominated=1}]","underlined":true}]
+tellraw @a [{"color":"gold","text":"------------------------------------"}]
+
 # Display how many votes are required to mark/tie
 
 # Calculate required votes (half of living players rounded up)
