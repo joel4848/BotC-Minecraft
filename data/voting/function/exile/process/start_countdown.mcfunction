@@ -1,0 +1,27 @@
+
+# Lock players to seats
+scoreboard players set #vote_running temp 1
+function voting:lock_to_seats
+
+# Start Countdown
+
+function voting:countdown_3
+
+schedule function voting:countdown_2 30t
+# 30t
+
+schedule function voting:countdown_1 60t
+# 60t
+
+schedule function voting:countdown_now 90t
+# 90t
+
+schedule function voting:exile/process/start_vote 120t
+# 120t
+
+schedule function setup:reset_title_times 140t
+# 140t
+
+# Set default vote_sequence_time
+
+data modify storage joelbotc vote_sequence_time set value 25
