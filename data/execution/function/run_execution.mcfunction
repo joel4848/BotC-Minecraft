@@ -18,3 +18,8 @@ scoreboard players set #lock_to_seats temp 0
 execute as @a run fmvariable set lock_to_seats false false
 
 function execution:dumb/dumb_process
+
+# Hide scoreboard, so more room for execution message
+
+scoreboard objectives setdisplay sidebar
+
