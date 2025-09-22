@@ -67,7 +67,8 @@ execute unless score #current_seat temp = #nominated temp run execute if score #
 # If we've processed all players, evaluate the results (also with delay)
 
 # execute if score #current_player temp >= #player_count temp run schedule function voting:evaluate_vote_result 20t
-execute unless score #current_seat temp = #nominated temp run execute if score #current_player temp < #player_count temp run schedule function voting:evaluate_vote_result 45t
+
+execute if score #current_seat temp = #nominated temp run schedule function voting:evaluate_vote_result 45t
 
 # tellraw @a [{"text":"[Current Player] - ","color":"yellow"},{"score":{"name":"#current_player","objective":"temp"}}]
 # tellraw @a [{"text":"[Current Seat] - ","color":"yellow"},{"score":{"name":"#current_seat","objective":"temp"}}]

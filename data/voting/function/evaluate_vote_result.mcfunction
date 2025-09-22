@@ -1,4 +1,4 @@
-# evaluate_vote_result.mcfunction
+
 # Evaluates the final vote tally and determines execution status
 
 # Store the vote tally for the nominated player
