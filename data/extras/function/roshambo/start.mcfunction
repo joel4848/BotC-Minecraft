@@ -24,4 +24,4 @@ schedule function extras:roshambo/tick_change_signs 2t
 # tp players
 
 tp @a[scores={Nominator=1}] 149 99 1 facing entity @e[limit=1,sort=nearest,tag=mapcentre,type=marker]
-tp @a[scores={Nominated=1}] 185 99 1 facing entity @e[limit=1,sort=nearest,tag=mapcentre,type=marker]
+tp @a[scores={Marked=1}] 185 99 1 facing entity @e[limit=1,sort=nearest,tag=mapcentre,type=marker]

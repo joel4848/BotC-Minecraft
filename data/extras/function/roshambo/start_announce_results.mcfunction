@@ -7,7 +7,7 @@ summon text_display 167 100.5 1 {billboard:"vertical",alignment:"center",Tags:["
 
 # Announce Nominated's choice
 
-summon text_display 167 99 1 {billboard:"vertical",alignment:"center",Tags:["roshambo","nominated_roshambo"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},text:'[{"color":"red","selector":"@a[scores={Nominated=1}]"},{"color":"red","text":" chose:"},{"text":"\\n "}]',background:-16777216}
+summon text_display 167 99 1 {billboard:"vertical",alignment:"center",Tags:["roshambo","marked_roshambo"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[2f,2f,2f]},text:'[{"color":"red","selector":"@a[scores={Nominated=1}]"},{"color":"red","text":" chose:"},{"text":"\\n "}]',background:-16777216}
 
 # Start cycle
 
@@ -17,5 +17,5 @@ schedule function extras:roshambo/cycle_choices 5t
 
 # Announce results
 
-schedule function extras:roshambo/announce_results 4s
+schedule function extras:roshambo/announce_results 71t
 
