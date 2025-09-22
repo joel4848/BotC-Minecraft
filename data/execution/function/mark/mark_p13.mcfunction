@@ -1,3 +1,5 @@
+effect clear @a[scores={Marked=1}] glowing
+
 scoreboard players set @a Marked 0
 scoreboard players set @a[scores={Player=-13}] Marked 1
 team join Marked @a[scores={Player=-13}]
