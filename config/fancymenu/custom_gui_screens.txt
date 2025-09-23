@@ -22,6 +22,15 @@ custom_gui {
 }
 
 custom_gui {
+  identifier = extras_and_travellers
+  title = 
+  allow_esc = true
+  transparent_world_background = true
+  transparent_world_background_overlay = true
+  pause_game = false
+}
+
+custom_gui {
   identifier = teleport
   title = 
   allow_esc = true

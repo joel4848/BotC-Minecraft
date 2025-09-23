@@ -26,7 +26,7 @@ variable {
 
 variable {
   name = player_11_colour
-  value = %#FFFFFF%
+  value = %#55FF55%
   reset_on_launch = false
 }
 
@@ -44,37 +44,37 @@ variable {
 
 variable {
   name = player_10_colour
-  value = %#FFFFFF%
+  value = %#55FF55%
   reset_on_launch = false
 }
 
 variable {
   name = player_12_colour
-  value = %#FFFFFF%
+  value = %#55FF55%
   reset_on_launch = false
 }
 
 variable {
   name = player_13_colour
-  value = %#FFFFFF%
+  value = %#55FF55%
   reset_on_launch = false
 }
 
 variable {
   name = player_14_colour
-  value = %#FFFFFF%
+  value = %#55FF55%
   reset_on_launch = false
 }
 
 variable {
   name = player_15_colour
-  value = %#555555%
+  value = %#55FF55%
   reset_on_launch = false
 }
 
 variable {
   name = player_16_colour
-  value = %#555555%
+  value = %#55FF55%
   reset_on_launch = false
 }
 
@@ -109,6 +109,12 @@ variable {
 }
 
 variable {
+  name = voudon_enabled
+  value = false
+  reset_on_launch = false
+}
+
+variable {
   name = banshee_change
   value = false
   reset_on_launch = false
@@ -128,7 +134,7 @@ variable {
 
 variable {
   name = player_8_colour
-  value = %#FFFFFF%
+  value = %#55FF55%
   reset_on_launch = false
 }
 
@@ -176,7 +182,7 @@ variable {
 
 variable {
   name = player_count
-  value = 14
+  value = 16
   reset_on_launch = false
 }
 
@@ -194,7 +200,7 @@ variable {
 
 variable {
   name = player_4_colour
-  value = %#FFFFFF%
+  value = %#55FF55%
   reset_on_launch = false
 }
 
@@ -212,13 +218,13 @@ variable {
 
 variable {
   name = player_6_colour
-  value = %#FFFFFF%
+  value = %#55FF55%
   reset_on_launch = false
 }
 
 variable {
   name = player_2_colour
-  value = %#FFFFFF%
+  value = %#55FF55%
   reset_on_launch = false
 }
 
@@ -320,7 +326,7 @@ variable {
 
 variable {
   name = player_9_colour
-  value = %#FFFFFF%
+  value = %#55FF55%
   reset_on_launch = false
 }
 
@@ -368,7 +374,7 @@ variable {
 
 variable {
   name = player_1_colour
-  value = %#FFFFFF%
+  value = %#55FF55%
   reset_on_launch = false
 }
 
@@ -392,7 +398,7 @@ variable {
 
 variable {
   name = player_5_colour
-  value = %#FFFFFF%
+  value = %#55FF55%
   reset_on_launch = false
 }
 
@@ -404,7 +410,7 @@ variable {
 
 variable {
   name = player_3_colour
-  value = %#FFFFFF%
+  value = %#55FF55%
   reset_on_launch = false
 }
 
@@ -416,7 +422,7 @@ variable {
 
 variable {
   name = player_7_colour
-  value = %#FFFFFF%
+  value = %#55FF55%
   reset_on_launch = false
 }
 

@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = setup
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1758477840417
+  last_edited_time = 1758639387808
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:f2833016-17b8-4c83-8f73-595f5b66b9a4-1758477833370] = [groups:][instances:]
+  [loading_requirement_container_meta:af5f5e6f-987f-4c12-9d21-51267c52439a-1758639286109] = [groups:][instances:]
 }
 
 customization {
@@ -631,6 +631,7 @@ element {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
+  description = Enter the number of players%n%in the box, then click here
   label = Set Player Count
   navigatable = true
   widget_active_state_requirement_container_identifier = 78978e45-2a68-4715-9b2e-224d7c67a79f-1756313067842
@@ -806,6 +807,7 @@ element {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
+  description = Shuffles the players around to random seats
   label = Shuffle Seats
   navigatable = true
   widget_active_state_requirement_container_identifier = e3255fbd-ea05-4deb-b4f4-90c691d12263-1757874480393
