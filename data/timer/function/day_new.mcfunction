@@ -22,3 +22,8 @@ team modify Storyteller nametagVisibility always
 # Disable ST tp to house
 
 scoreboard players set #tp_disabled temp 1
+
+# Set score for "It is nighttime" action bar announcement
+
+scoreboard players set #is_nighttime temp 0
+title @a actionbar ""

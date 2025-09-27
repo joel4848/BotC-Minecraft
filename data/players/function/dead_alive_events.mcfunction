@@ -1,3 +1,7 @@
+# Put this in here rather than having another tick function
+
+execute if score #is_nighttime temp matches 1 run title @a actionbar "It is nighttime"
+
 # Don't have spectators count towards alive player count
 
 scoreboard players set @a[gamemode=spectator] Alive 0

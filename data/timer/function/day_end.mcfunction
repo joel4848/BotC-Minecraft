@@ -30,3 +30,8 @@ function clock_hand:remove_hands
 # Remove pickers if still present
 
 function setup:remove_buttons
+
+# Set score for "It is nighttime" action bar announcement
+
+scoreboard players set #is_nighttime temp 1
+
