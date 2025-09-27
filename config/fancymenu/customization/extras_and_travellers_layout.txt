@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = extras_and_travellers
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1758635111890
+  last_edited_time = 1758999601100
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:0a81e082-f392-4343-8d73-94ad7633a4f0-1758634754535] = [groups:][instances:]
+  [loading_requirement_container_meta:f04c7903-b38f-4a1b-9a43-a2316e008a98-1758999583930] = [groups:][instances:]
 }
 
 customization {
@@ -4803,7 +4803,7 @@ element {
 
 element {
   button_element_executable_block_identifier = a64efe72-5235-4bab-b38c-1a57a96843ed-1758633182199
-  [executable_action_instance:65f55074-fd2a-40fa-83ba-f519212b268c-1758633265712][action_type:sendmessage] = /function voting:exile/process/start_vote
+  [executable_action_instance:65f55074-fd2a-40fa-83ba-f519212b268c-1758633265712][action_type:sendmessage] = /function voting:exile/process/start_countdown
   [executable_action_instance:ffbaf104-60c8-4962-98a4-1185d1cb2f2d-1758633299425][action_type:closegui] = 
   [executable_block:a64efe72-5235-4bab-b38c-1a57a96843ed-1758633182199][type:generic] = [executables:65f55074-fd2a-40fa-83ba-f519212b268c-1758633265712;ffbaf104-60c8-4962-98a4-1185d1cb2f2d-1758633299425;]
   restartbackgroundanimations = true

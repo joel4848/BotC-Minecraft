@@ -32,7 +32,7 @@ variable {
 
 variable {
   name = player_2_username
-  value = p2 
+  value =  ‌
   reset_on_launch = false
 }
 
@@ -98,7 +98,7 @@ variable {
 
 variable {
   name = bureaucrat_chosen
-  value = 6
+  value = 
   reset_on_launch = false
 }
 
@@ -170,7 +170,7 @@ variable {
 
 variable {
   name = player_3_username
-  value = p3 
+  value =  ‌
   reset_on_launch = false
 }
 
@@ -200,7 +200,7 @@ variable {
 
 variable {
   name = player_4_colour
-  value = %#55FF55%
+  value = %#00AA00%
   reset_on_launch = false
 }
 
@@ -224,7 +224,7 @@ variable {
 
 variable {
   name = player_2_colour
-  value = %#55FF55%
+  value = %#00AA00%
   reset_on_launch = false
 }
 
@@ -278,7 +278,7 @@ variable {
 
 variable {
   name = player_6_username
-  value = p6 
+  value =  ‌
   reset_on_launch = false
 }
 
@@ -290,7 +290,7 @@ variable {
 
 variable {
   name = player_1_username
-  value = p1 
+  value =  ‌
   reset_on_launch = false
 }
 
@@ -332,13 +332,13 @@ variable {
 
 variable {
   name = banshee_0_username
-  value = p6 
+  value =  
   reset_on_launch = false
 }
 
 variable {
   name = player_4_username
-  value = p4 
+  value =  ‌
   reset_on_launch = false
 }
 
@@ -350,7 +350,7 @@ variable {
 
 variable {
   name = banshee_0
-  value = 6
+  value = 
   reset_on_launch = false
 }
 
@@ -374,7 +374,7 @@ variable {
 
 variable {
   name = player_1_colour
-  value = %#55FF55%
+  value = %#00AA00%
   reset_on_launch = false
 }
 
@@ -392,7 +392,7 @@ variable {
 
 variable {
   name = thief_chosen
-  value = 3
+  value = 
   reset_on_launch = false
 }
 
@@ -410,7 +410,7 @@ variable {
 
 variable {
   name = player_3_colour
-  value = %#55FF55%
+  value = %#00AA00%
   reset_on_launch = false
 }
 
@@ -428,7 +428,7 @@ variable {
 
 variable {
   name = player_5_username
-  value = p5 
+  value =  ‌
   reset_on_launch = false
 }
 
