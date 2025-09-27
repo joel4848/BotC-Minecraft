@@ -14,6 +14,7 @@ execute as @a[scores={Marked=0,Storyteller=1}] run team join Storyteller @s
 execute as @a[scores={Marked=0 }] run effect clear @s glowing
 execute if score #storyteller Nominated matches 1 run effect clear @a[scores={Storyteller=1}] glowing
 execute if score #storyteller Nominated matches 1 run scoreboard players set #storyteller Nominated 0
+scoreboard players set @a[scores={Nominated=1},limit=1] VoteTally 0
 execute as @a[scores={Nominated=1}] run scoreboard players set @s Nominated 0
 
 # Hide nominated annoucement

@@ -9,13 +9,13 @@ tellraw @a [{"color":"gold","text":"------------------------------------"}]
 # Calculate how many votes are needed (half of all players, rounded up)
 
 # Calculate half rounded up: (player_count PlayerCount + 1) / 2
-scoreboard players operation #required_votes temp = player_count PlayerCount
-scoreboard players add #required_votes temp 1
-scoreboard players operation #required_votes temp /= #2 const
+scoreboard players operation #required_votes_traveller temp = player_count PlayerCount
+scoreboard players add #required_votes_traveller temp 1
+scoreboard players operation #required_votes_traveller temp /= #2 const
 
 # Announce required votes
 
-tellraw @a [{"text":"","color":"green"},{"score":{"name":"#required_votes","objective":"temp"}},{"text":" votes are needed to exile."}]
+tellraw @a [{"text":"","color":"green"},{"score":{"name":"#required_votes_traveller","objective":"temp"}},{"text":" votes are needed to exile."}]
 
 # Start titlebar announcement of nominated player
 

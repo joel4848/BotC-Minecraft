@@ -14,6 +14,8 @@ execute as @a[scores={Nominated=1}] run scoreboard players set @s Alive 0
 execute as @a[scores={Nominated=1}] run item replace entity @s armor.head with minecraft:golden_helmet 1
 execute as @a[scores={Nominated=1}] run team join Dead
 
+scoreboard players set @a[scores={Nominated=1},limit=1] VoteTally 0
+
 execute as @a[scores={Nominated=1}] run scoreboard players set @s Nominated 0
 
 # Hide nominated announcement
