@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = nominations
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1758633927945
+  last_edited_time = 1758983164590
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:7d146a28-c76c-4e00-b1b9-4fc7e3e5e80c-1758633916039] = [groups:][instances:]
+  [loading_requirement_container_meta:f53fefd2-0ec3-40d7-8e0e-0d2d43e57c70-1758983151887] = [groups:][instances:]
 }
 
 customization {
@@ -3563,7 +3563,7 @@ element {
 
 element {
   interactable = true
-  source = Thief chosen%n%player #: %#ff8d00%{"placeholder":"switch_case","values":{"value":"{"placeholder":"getvariable","values":{"name":"thief_chosen"}}","cases":"0:‌","default":"{"placeholder":"getvariable","values":{"name":"thief_chosen"}}"}}%#%
+  source = Thief chosen%n%player #:%#ff8d00% {"placeholder":"switch_case","values":{"value":"{"placeholder":"getvariable","values":{"name":"thief_chosen"}}","cases":"0:‌","default":"{"placeholder":"getvariable","values":{"name":"thief_chosen"}}"}}%#%
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -3611,7 +3611,7 @@ element {
   x = -300
   y = -43
   width = 110
-  height = 25
+  height = 26
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -3629,7 +3629,7 @@ element {
 
 element {
   interactable = true
-  source = Bureaucrat chosen%n%player #: %#ff8d00%{"placeholder":"switch_case","values":{"value":"{"placeholder":"getvariable","values":{"name":"bureaucrat_chosen"}}","cases":"0:‌","default":"{"placeholder":"getvariable","values":{"name":"bureaucrat_chosen"}}"}}%#%
+  source = Bureaucrat chosen%n%player #:%#ff8d00% {"placeholder":"switch_case","values":{"value":"{"placeholder":"getvariable","values":{"name":"bureaucrat_chosen"}}","cases":"0:‌","default":"{"placeholder":"getvariable","values":{"name":"bureaucrat_chosen"}}"}}%#%
   source_mode = direct
   shadow = true
   scale = 1.0
