@@ -12,21 +12,22 @@ function voting:lock_to_seats
 
 function voting:countdown_3
 
-schedule function voting:countdown_2 30t
+execute unless score #vote_testing temp matches 1 run schedule function voting:countdown_2 30t
+execute if score #vote_testing temp matches 1 run schedule function voting:countdown_2 5t
 # 30t
 
-schedule function voting:countdown_1 60t
+execute unless score #vote_testing temp matches 1 run schedule function voting:countdown_1 60t
+execute if score #vote_testing temp matches 1 run schedule function voting:countdown_1 10t
 # 60t
 
-schedule function voting:countdown_now 90t
+execute unless score #vote_testing temp matches 1 run schedule function voting:countdown_now 90t
+execute if score #vote_testing temp matches 1 run schedule function voting:countdown_now 15t
 # 90t
 
-schedule function voting:start_vote 120t
+execute unless score #vote_testing temp matches 1 run schedule function voting:start_vote 120t
+execute if score #vote_testing temp matches 1 run schedule function voting:start_vote 20t
 # 120t
 
-schedule function setup:reset_title_times 140t
+execute unless score #vote_testing temp matches 1 run schedule function setup:reset_title_times 140t
+execute if score #vote_testing temp matches 1 run schedule function setup:reset_title_times 25t
 # 140t
-
-# Set default vote_sequence_time
-
-data modify storage joelbotc vote_sequence_time set value 25

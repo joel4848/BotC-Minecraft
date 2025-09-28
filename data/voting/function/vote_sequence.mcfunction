@@ -62,7 +62,8 @@ schedule function voting:increment_current_player_counter 5t
 
 # Continue if we haven't processed all players yet (with longer delay to account for piston + counting time)
 
-execute unless score #current_seat temp = #nominated temp run execute if score #current_player temp < #player_count temp run schedule function voting:vote_sequence 25t
+execute unless score #vote_testing temp matches 1 run execute unless score #current_seat temp = #nominated temp run execute if score #current_player temp < #player_count temp run schedule function voting:vote_sequence 25t
+execute if score #vote_testing temp matches 1 run execute unless score #current_seat temp = #nominated temp run execute if score #current_player temp < #player_count temp run schedule function voting:vote_sequence 10t
 
 # If we've processed all players, evaluate the results (also with delay)
 
