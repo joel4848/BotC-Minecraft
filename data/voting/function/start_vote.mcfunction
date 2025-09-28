@@ -5,7 +5,8 @@ scoreboard players set #vote_running temp 1
 function voting:lock_to_seats
 
 # Get the nominated player's seat number
-scoreboard players operation #nominated temp = @e[scores={Nominated=1},limit=1] Player
+execute unless score #storyteller Nominated matches 1 run scoreboard players operation #nominated temp = @e[scores={Nominated=1},limit=1] Player
+execute if score #storyteller Nominated matches 1 run scoreboard players set #nominated temp -17
 scoreboard players operation #nominated temp *= #-1 const
 
 # Get player count for wraparound logic

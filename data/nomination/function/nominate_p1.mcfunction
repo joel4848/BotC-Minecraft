@@ -8,7 +8,7 @@ team join Nominated @a[scores={Player=-1}]
 scoreboard players set @a[scores={Player=-1}] Nominated 1
 effect give @a[scores={Player=-1}] glowing infinite 99 true
 
-function voting:reset_vote
+# function voting:reset_vote
 
 function nomination:announce_required_votes
 

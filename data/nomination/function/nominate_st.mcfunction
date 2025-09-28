@@ -4,7 +4,7 @@ scoreboard players set #storyteller Player -17
 scoreboard players set #storyteller Nominated 1
 effect give @a[scores={Storyteller=1}] glowing infinite 99 true
 
-function voting:reset_vote
+# function voting:reset_vote
 
 function nomination:announce_required_votes
 

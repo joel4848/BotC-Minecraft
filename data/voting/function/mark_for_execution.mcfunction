@@ -3,10 +3,10 @@
 # Announce result first (while we can still target the nominated player)
 
 execute if score #og_enabled temp matches 0 run execute unless score #storyteller Nominated matches 1 run tellraw @a [{"text":"","color":"red"},{"score":{"name":"#vote_tally","objective":"temp"}},{"text":" votes is enough to mark "},{"selector":"@a[scores={Nominated=1}]"},{"text":" for execution."}]
-execute if score #og_enabled temp matches 0 run execute if score #storyteller Nominated matches 1 run tellraw @a [{"text":"","color":"red"},{"score":{"name":"#vote_tally","objective":"temp"}},{"text":" votes is enough to mark The Storyteller for execution."}]
+execute if score #og_enabled temp matches 0 run execute if score #storyteller Nominated matches 1 run tellraw @a [{"text":"","color":"red"},{"score":{"name":"#vote_tally","objective":"temp"}},{"text":" votes is enough to mark "},{"text":"The Storyteller","color":"blue"},{"text":" for execution"}]
 
 execute if score #og_enabled temp matches 1 run execute unless score #storyteller Nominated matches 1 run tellraw @a[scores={Storyteller=1}] [{"text":"","color":"red"},{"score":{"name":"#vote_tally","objective":"temp"}},{"text":" votes is enough to mark "},{"selector":"@a[scores={Nominated=1}]"},{"text":" for execution."}]
-execute if score #og_enabled temp matches 1 run execute if score #storyteller Nominated matches 1 run tellraw @a[scores={Storyteller=1}] [{"text":"","color":"red"},{"score":{"name":"#vote_tally","objective":"temp"}},{"text":" votes is enough to mark The Storyteller for execution."}]
+execute if score #og_enabled temp matches 1 run execute if score #storyteller Nominated matches 1 run tellraw @a[scores={Storyteller=1}] [{"text":"","color":"red"},{"score":{"name":"#vote_tally","objective":"temp"}},{"text":" votes is enough to mark "},{"text":"The Storyteller","color":"blue"},{"text":" for execution"}]
 
 execute if score #og_enabled temp matches 1 run tellraw @a [{"color":"red","text":"The Organ Grinder obscures the result...","underlined":false}]
 

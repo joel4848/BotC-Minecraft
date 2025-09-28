@@ -42,7 +42,7 @@ execute unless score #next_seat temp > player_count PlayerCount run schedule fun
 # execute unless score #current_seat temp = #start_player temp run execute unless score #current_seat temp matches 1 run say VS called Move Big Hand
 
 # execute unless score #current_seat temp = #start_player temp run 
-execute if score #next_seat temp matches 1 run function voting:call_move_big_hand_skip
+execute unless score #storyteller Nominated matches 1 run execute if score #next_seat temp matches 1 run function voting:call_move_big_hand_skip
 
 # execute if score #start_player_passed temp matches 0 run execute if score #next_seat temp matches 1 run schedule function voting:call_move_big_hand_skip 7t
 # execute unless score #current_seat temp = #start_player temp run execute if score #next_seat temp matches 1 run say VS called Move Big Hand Skip
@@ -62,17 +62,23 @@ schedule function voting:increment_current_player_counter 5t
 
 # Continue if we haven't processed all players yet (with longer delay to account for piston + counting time)
 
-execute unless score #vote_testing temp matches 1 run execute unless score #current_seat temp = #nominated temp run execute if score #current_player temp < #player_count temp run schedule function voting:vote_sequence 25t
-execute if score #vote_testing temp matches 1 run execute unless score #current_seat temp = #nominated temp run execute if score #current_player temp < #player_count temp run schedule function voting:vote_sequence 10t
+execute unless score #storyteller Nominated matches 1 run execute unless score #vote_testing temp matches 1 run execute unless score #current_seat temp = #nominated temp run execute if score #current_player temp < #player_count temp run schedule function voting:vote_sequence 25t
+execute unless score #storyteller Nominated matches 1 run execute if score #vote_testing temp matches 1 run execute unless score #current_seat temp = #nominated temp run execute if score #current_player temp < #player_count temp run schedule function voting:vote_sequence 10t
+
+execute if score #storyteller Nominated matches 1 run execute unless score #vote_testing temp matches 1 run execute unless score #current_seat temp = player_count PlayerCount run execute if score #current_player temp < #player_count temp run schedule function voting:vote_sequence 25t
+execute if score #storyteller Nominated matches 1 run execute if score #vote_testing temp matches 1 run execute unless score #current_seat temp = player_count PlayerCount run execute if score #current_player temp < #player_count temp run schedule function voting:vote_sequence 10t
+
 
 # If we've processed all players, evaluate the results (also with delay)
 
 # execute if score #current_player temp >= #player_count temp run schedule function voting:evaluate_vote_result 20t
 
-execute if score #current_seat temp = #nominated temp run schedule function voting:evaluate_vote_result 45t
+execute unless score #storyteller Nominated matches 1 run execute if score #current_seat temp = #nominated temp run schedule function voting:evaluate_vote_result 25t
+execute if score #storyteller Nominated matches 1 run execute if score #current_seat temp = player_count PlayerCount run schedule function voting:evaluate_vote_result 25t
 
 # tellraw @a [{"text":"[Current Player] - ","color":"yellow"},{"score":{"name":"#current_player","objective":"temp"}}]
 # tellraw @a [{"text":"[Current Seat] - ","color":"yellow"},{"score":{"name":"#current_seat","objective":"temp"}}]
+# tellraw @a [{"text":"[Current Seat] - ","color":"yellow"},{"score":{"name":"player_count","objective":"PlayerCount"}}]
 # tellraw @a [{"text":"[Seat] - ","color":"yellow"},{"score":{"name":"#seat","objective":"temp"}}]
 # tellraw @a [{"text":"[Current Votelight] - ","color":"yellow"},{"score":{"name":"#current_votelight","objective":"temp"}}]
 
