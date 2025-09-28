@@ -1,5 +1,6 @@
 
-scoreboard players reset @a Nominator
+scoreboard objectives remove Nominator
+scoreboard objectives add Nominator dummy
 
 scoreboard players set @a[scores={Player=-11}] Nominator 1
 

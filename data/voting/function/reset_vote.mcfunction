@@ -1,8 +1,9 @@
 # Resets vote
 
-# function extras:organ_grinder/hide_ghost_votes/set_scores
+# Reset Nominator scoreboard
 
-
+scoreboard objectives remove Nominator
+scoreboard objectives add Nominator dummy
 
 # Replace votelight interactions
 

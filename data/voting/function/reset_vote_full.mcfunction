@@ -1,5 +1,10 @@
 # Completely resets all voting systems for the next day
 
+# Reset Nominator scoreboard
+
+scoreboard objectives remove Nominator
+scoreboard objectives add Nominator dummy
+
 # Replace votelight interactions
 
 function voting:remove_votelight_interactions_all
