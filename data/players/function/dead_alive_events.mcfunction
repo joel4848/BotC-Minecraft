@@ -14,7 +14,7 @@ effect give @a minecraft:fire_resistance infinite 99 true
 # Give alive players visibility, no helmet and no chestplate
 
 effect clear @a[scores={Alive=1}] invisibility
-execute as @a[scores={Alive=1,Player=..0}] run execute if items entity @s armor.head golden_helmet run item replace entity @s armor.head with minecraft:air
+execute as @a[scores={Alive=1,Player=..0}] run execute if items entity @s armor.head player_head run item replace entity @s armor.head with minecraft:air
 execute as @a[scores={Alive=1,Player=..0}] run execute if items entity @s armor.chest golden_chestplate run item replace entity @s armor.chest with minecraft:air
 
 # Give dead players invisibility
