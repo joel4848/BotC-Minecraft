@@ -5,9 +5,9 @@
 data remove storage temp:parse json_string
 $data modify storage temp:parse json_string set from block $(username_sign_pos) front_text.messages[$(username_sign_line)]
 
-# Remove the first 98 characters: {"clickEvent":{"action":"suggest_command","value":"/tell 
+# Remove the first 57 characters: {"clickEvent":{"action":"suggest_command","value":"/tell 
 data remove storage temp:parse after_prefix
-data modify storage temp:parse after_prefix set string storage temp:parse json_string 98
+data modify storage temp:parse after_prefix set string storage temp:parse json_string 57
 
 # Initialize the search for the closing quote
 scoreboard players set username_length temp 1

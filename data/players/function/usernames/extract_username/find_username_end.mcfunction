@@ -19,6 +19,7 @@ data modify storage temp:parse quote_test set value '"'
 execute store success score is_quote temp run data modify storage temp:parse quote_test set from storage temp:parse test_char
 
 # If it's a quote (no change = success score 0), extract the username
+execute if score is_quote temp matches 0 run scoreboard players remove username_length temp 1
 execute if score is_quote temp matches 0 run function players:usernames/extract_username/extract_final_username with storage joelbotc
 
 # If it's not a quote, increment length and try next position
