@@ -10,6 +10,7 @@ execute as @a[scores={Marked=1}] run execute if score @s Storyteller matches 1 r
 effect clear @a[scores={Marked=1}] glowing
 effect give @a[scores={Marked=1}] invisibility infinite 99 true
 item replace entity @a[scores={Marked=1}] armor.head with minecraft:golden_helmet 1
+item replace entity @a[scores={Marked=1}] armor.chest with golden_chestplate 1
 
 scoreboard players set @a[scores={Marked=1}] Wheee 1
 
