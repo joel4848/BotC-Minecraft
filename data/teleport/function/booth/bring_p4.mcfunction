@@ -1,0 +1,4 @@
+scoreboard players set @a[scores={Player=-4}] Booth 1
+teleport @a[scores={Player=-4}] @e[limit=1,tag=boothplayer,type=marker]
+
+function teleport:booth/bring_storyteller

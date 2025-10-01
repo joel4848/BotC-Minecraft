@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "click": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:interaction",
+                    "nbt": "{\"Tags\":[\"grimoire_interaction\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "teleport:booth/grimoire_interaction"
+    }
+}

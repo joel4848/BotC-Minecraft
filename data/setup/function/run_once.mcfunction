@@ -46,6 +46,7 @@ scoreboard objectives add Roshambo trigger
 scoreboard objectives add RoshamboLocked trigger
 scoreboard objectives add ConfirmRoshamboLock trigger
 scoreboard objectives add temp dummy
+scoreboard objectives add Booth dummy
 # scoreboard objectives add  dummy
 # scoreboard objectives add  dummy
 # scoreboard objectives add  dummy
