@@ -1,4 +1,3 @@
-say Ran remove lever
 # Set lit lamps to temporary blocks
 
 execute as @e[tag=votelight1] if score #seat temp matches 1 run execute at @s run execute if block ~ ~ ~ redstone_lamp[lit=true] run setblock ~ ~ ~ gold_block

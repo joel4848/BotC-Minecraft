@@ -1,8 +1,5 @@
 # call with players:assign/assign {player:%d}
 
-say "running assign"
-$say "assigning -$(player)"
-
 $execute unless score @p Player matches -$(player) run give @p writable_book
 $scoreboard players set @p Player -$(player)
 scoreboard players set @p Alive 1
