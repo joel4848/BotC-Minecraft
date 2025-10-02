@@ -1,4 +1,3 @@
-
 # If dead player used vote set scores
 
 execute as @e[tag=votelight1] unless score @a[scores={Player=-1},limit=1] GhostVoteUsedMaster matches 1 run execute as @e[tag=votelight1] unless score @a[scores={Player=-1},limit=1] IsBanshee matches 1 run execute at @s if block ~ ~-1 ~ waxed_oxidized_copper_bulb[lit=true] run scoreboard players set @a[scores={Player=-1}] GhostVoteUsedToday 1

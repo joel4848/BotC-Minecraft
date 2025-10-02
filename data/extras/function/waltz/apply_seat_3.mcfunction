@@ -1,14 +1,8 @@
 # Apply seat 3 assignment to the executing player
-scoreboard players set @s Player -3
-# scoreboard players set @s Alive 1
-# scoreboard players set @s Storyteller 0
-# team leave @s
-# team join Alive @s
 
+execute as @a[scores={WaltzNewSeat=3}] run scoreboard players set @s Player -3
 scoreboard players set #picked_picker temp 3
 
-function players:pickers/player_usernames/get_username
-
-function players:usernames/update_username/player_3
+execute as @a[scores={WaltzNewSeat=3}] run function players:usernames/update_username/player_3
 
 function setup:fm_colours_clear_all

@@ -62,4 +62,3 @@ execute if entity @a[scores={Player=-16,Alive=0,VoudonGhostVotePreviouslyUsed=1}
 # Set temp scoreboard
 
 scoreboard players set #voudon temp 0
-

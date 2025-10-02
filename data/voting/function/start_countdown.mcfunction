@@ -5,6 +5,7 @@
 execute if score #og_enabled temp matches 1 run function extras:organ_grinder/hide_ghost_votes/og_hgv_disable
 
 # Lock players to seats
+
 scoreboard players set #vote_running temp 1
 function voting:lock_to_seats
 

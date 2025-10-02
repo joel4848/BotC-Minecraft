@@ -3,12 +3,8 @@ execute if score @s Player matches -1 run tellraw @s {"color":"red","text":"You'
 
 advancement revoke @s only players:picker_1_interact
 
-
 execute at @s unless score @s Player matches -1 run playsound minecraft:entity.experience_orb.pickup block @a ~ ~ ~ 1.0 1.0
 
 scoreboard players set @s HasSeat 1
 
-function players:assign/assign_p1
-
-
-
+function players:assign/assign {player:1}

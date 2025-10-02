@@ -1,4 +1,3 @@
-
 # For testing: Hide scoreboard, so more room for execution message
 
 # scoreboard objectives setdisplay sidebar
@@ -95,8 +94,6 @@ execute if score #execution_message_number temp matches 79 run data modify stora
 # execute if score #execution_message_number temp matches 81 run data modify storage minecraft:joelbotc execution_message set value "<new_custom_execution_message_3>"
 # execute if score #execution_message_number temp matches 82 run data modify storage minecraft:joelbotc execution_message set value "<new_custom_execution_message_3>"
 # etc.
-
-
 
 # Run function to display execution message
 

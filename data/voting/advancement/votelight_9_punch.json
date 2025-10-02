@@ -11,6 +11,6 @@
     }
   },
   "rewards": {
-    "function": "voting:switch_lights/votelight_9_punch"
+    "function": "voting:switch_lights_check/votelight_9_punch"
   }
 }

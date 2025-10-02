@@ -1,4 +1,3 @@
-
 scoreboard players enable @a RoshamboLocked
 scoreboard players enable @a ConfirmRoshamboLock
 
@@ -208,7 +207,6 @@ execute if score @a[scores={Nominator=1},limit=1] ConfirmRoshamboLock matches 1 
 execute if score @a[scores={Nominator=1},limit=1] RoshamboLocked matches 1 run execute unless block 150 99 0 air run fill 150 99 0 150 100 2 air
 
 execute if score @a[scores={Nominator=1},limit=1] RoshamboLocked matches 1 run execute unless block 151 99 0 light_blue_stained_glass run fill 151 99 0 151 100 2 light_blue_stained_glass
-
 
 # Repeat if roshambo running
 

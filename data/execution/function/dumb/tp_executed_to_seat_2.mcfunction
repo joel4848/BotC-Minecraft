@@ -17,5 +17,4 @@ execute as @e[limit=1,tag=seat16,type=minecraft:marker] at @s run execute if ent
 
 scoreboard players set @a[scores={Wheee=1}] Wheee 0
 
-
 # tellraw @a [{"text":"TP 2","color":"gray"}]

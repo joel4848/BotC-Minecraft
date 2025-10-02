@@ -15,6 +15,7 @@ function voting:summon_votelight_interactions
 scoreboard players set #player_currently_nominated temp 0
 
 # Clear all nomination and marking scores
+
 scoreboard players set @a Nominated 0
 scoreboard players set @a Marked 0
 scoreboard players set #has_anyone_been_marked temp 0
@@ -22,20 +23,25 @@ scoreboard players set #has_anyone_been_marked temp 0
 scoreboard players set #storyteller Nominated 0
 
 # Clear all vote tallies from previous votes
+
 scoreboard players reset @a VoteTally
 
 # Move all players to correct team
+
 team join Alive @a[scores={Alive=1}]
 team join Dead @a[scores={Alive=0}]
 team join Storyteller @a[scores={Storyteller=1}]
 
 # Clear any glowing effects
+
 effect clear @a glowing
 
 # Clear temporary storage
+
 data remove storage voting:temp nominated_player
 
 # Clear all temporary scoreboard values
+
 scoreboard players reset #vote_tally temp
 scoreboard players reset #nominated temp
 scoreboard players reset #start_player temp

@@ -1,4 +1,3 @@
-
 execute as @a[scores={Player=-1,Marked=0,Wheee=..0}] at @e[limit=1,tag=seat1,type=minecraft:marker] if entity @s[distance=2..] run tp @s ~ ~ ~ facing entity @e[limit=1,sort=nearest,tag=votelight1,type=marker]
 execute as @a[scores={Player=-2,Marked=0,Wheee=..0}] at @e[limit=1,tag=seat2,type=minecraft:marker] if entity @s[distance=2..] run tp @s ~ ~ ~ facing entity @e[limit=1,sort=nearest,tag=votelight2,type=marker]
 execute as @a[scores={Player=-3,Marked=0,Wheee=..0}] at @e[limit=1,tag=seat3,type=minecraft:marker] if entity @s[distance=2..] run tp @s ~ ~ ~ facing entity @e[limit=1,sort=nearest,tag=votelight3,type=marker]

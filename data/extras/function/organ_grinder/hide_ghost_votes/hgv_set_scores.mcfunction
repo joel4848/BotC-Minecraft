@@ -35,4 +35,3 @@ execute as @e[tag=votelight13] at @s if block ~ ~-1 ~ waxed_oxidized_copper_bulb
 execute as @e[tag=votelight14] at @s if block ~ ~-1 ~ waxed_oxidized_copper_bulb[lit=true] run scoreboard players set @a[scores={Player=-14}] GhostVoteUnusedToday 1
 execute as @e[tag=votelight15] at @s if block ~ ~-1 ~ waxed_oxidized_copper_bulb[lit=true] run scoreboard players set @a[scores={Player=-15}] GhostVoteUnusedToday 1
 execute as @e[tag=votelight16] at @s if block ~ ~-1 ~ waxed_oxidized_copper_bulb[lit=true] run scoreboard players set @a[scores={Player=-16}] GhostVoteUnusedToday 1
-

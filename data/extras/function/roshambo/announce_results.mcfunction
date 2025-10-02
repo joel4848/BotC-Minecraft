@@ -1,4 +1,3 @@
-
 scoreboard players set #cycle_roshambo_choices temp 0
 schedule clear extras:roshambo/cycle_choices
 
@@ -31,4 +30,3 @@ execute if score @a[scores={Nominator=1},limit=1] Roshambo matches 3 if score @a
 execute if score @a[scores={Marked=1},limit=1] Roshambo matches 1 if score @a[scores={Nominator=1},limit=1] Roshambo matches 3 run summon text_display 167 97 1 {billboard:"vertical",alignment:"center",Tags:["roshambo","result_roshambo"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[8f,8f,8f]},text:'[{"selector":"@a[scores={Marked=1},limit=1]"},{"color":"gold","text":" wins!"}]',background:-16777216}
 execute if score @a[scores={Marked=1},limit=1] Roshambo matches 2 if score @a[scores={Nominator=1},limit=1] Roshambo matches 1 run summon text_display 167 97 1 {billboard:"vertical",alignment:"center",Tags:["roshambo","result_roshambo"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[8f,8f,8f]},text:'[{"selector":"@a[scores={Marked=1},limit=1]"},{"color":"gold","text":" wins!"}]',background:-16777216}
 execute if score @a[scores={Marked=1},limit=1] Roshambo matches 3 if score @a[scores={Nominator=1},limit=1] Roshambo matches 2 run summon text_display 167 97 1 {billboard:"vertical",alignment:"center",Tags:["roshambo","result_roshambo"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[8f,8f,8f]},text:'[{"selector":"@a[scores={Marked=1},limit=1]"},{"color":"gold","text":" wins!"}]',background:-16777216}
-

@@ -1,7 +1,7 @@
 scoreboard objectives remove Alive
 scoreboard objectives add Alive dummy
 scoreboard objectives remove Player
-scoreboard objectives add Player dummy
+scoreboard objectives add Player dummy "Players"
 scoreboard objectives setdisplay sidebar Player
 team leave @a[team=!Storyteller]
 scoreboard objectives remove HasSeat

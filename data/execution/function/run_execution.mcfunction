@@ -22,4 +22,3 @@ function execution:dumb/dumb_process
 # Hide scoreboard, so more room for execution message
 
 scoreboard objectives setdisplay sidebar
-

@@ -163,7 +163,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function nomination:nominate_p2
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function nomination:nominate {player:2}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_action_instance:85debe75-8fc1-435e-8471-01a94309df25-1757273334661][action_type:sendmessage] = /function clock_hand:little_hand/move_to_target
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;85debe75-8fc1-435e-8471-01a94309df25-1757273334661;]
@@ -223,7 +223,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function nomination:nominate_p3
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function nomination:nominate {player:3}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_action_instance:b30b9c84-d139-4f9f-a24a-bd48d27fe9d1-1757273455860][action_type:sendmessage] = /function clock_hand:little_hand/move_to_target
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;b30b9c84-d139-4f9f-a24a-bd48d27fe9d1-1757273455860;]
@@ -283,7 +283,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function nomination:nominate_p1
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function nomination:nominate {player:1}
   [executable_action_instance:0a4e78ad-3d7f-4cd1-987d-685ad1b00814-1757273275712][action_type:sendmessage] = /function clock_hand:little_hand/move_to_target
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;0a4e78ad-3d7f-4cd1-987d-685ad1b00814-1757273275712;02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
@@ -343,7 +343,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function nomination:nominate_p4
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function nomination:nominate {player:4}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_action_instance:f132e159-58aa-48ac-9fea-225dfb7138e1-1757273471944][action_type:sendmessage] = /function clock_hand:little_hand/move_to_target
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;f132e159-58aa-48ac-9fea-225dfb7138e1-1757273471944;]
@@ -403,7 +403,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function nomination:nominate_p9
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function nomination:nominate {player:9}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_action_instance:245864cc-f2f1-4954-a1f6-c8fcd1e9ba96-1757273522809][action_type:sendmessage] = /function clock_hand:little_hand/move_to_target
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;245864cc-f2f1-4954-a1f6-c8fcd1e9ba96-1757273522809;]
@@ -463,7 +463,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function nomination:nominate_p10
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function nomination:nominate {player:10}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_action_instance:8f979e0a-c0dc-4332-bbce-2318e160b870-1757273532376][action_type:sendmessage] = /function clock_hand:little_hand/move_to_target
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;8f979e0a-c0dc-4332-bbce-2318e160b870-1757273532376;]
@@ -523,7 +523,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function nomination:nominate_p11
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function nomination:nominate {player:11}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_action_instance:32652009-f46b-4bb6-bc3e-2c42ac6e3810-1757273541926][action_type:sendmessage] = /function clock_hand:little_hand/move_to_target
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;32652009-f46b-4bb6-bc3e-2c42ac6e3810-1757273541926;]
@@ -583,7 +583,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function nomination:nominate_p12
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function nomination:nominate {player:12}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_action_instance:2be5b975-9e0f-466b-adda-f3a671bd356f-1757273554959][action_type:sendmessage] = /function clock_hand:little_hand/move_to_target
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;2be5b975-9e0f-466b-adda-f3a671bd356f-1757273554959;]
@@ -643,7 +643,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function nomination:nominate_p13
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function nomination:nominate {player:13}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_action_instance:3e45f4dd-3db6-47b6-a2fb-c5dcc7d2c830-1757273563476][action_type:sendmessage] = /function clock_hand:little_hand/move_to_target
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;3e45f4dd-3db6-47b6-a2fb-c5dcc7d2c830-1757273563476;]
@@ -703,7 +703,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function nomination:nominate_p14
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function nomination:nominate {player:14}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_action_instance:e59c6d51-1b08-4686-8a6d-2afb96efe481-1757273572693][action_type:sendmessage] = /function clock_hand:little_hand/move_to_target
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;e59c6d51-1b08-4686-8a6d-2afb96efe481-1757273572693;]
@@ -763,7 +763,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function nomination:nominate_p15
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function nomination:nominate {player:15}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_action_instance:b694e105-ceca-46c0-8cb9-810ca7ea9cb8-1757273580826][action_type:sendmessage] = /function clock_hand:little_hand/move_to_target
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;b694e105-ceca-46c0-8cb9-810ca7ea9cb8-1757273580826;]
@@ -823,7 +823,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function nomination:nominate_p16
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function nomination:nominate {player:16}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_action_instance:f888c87a-10ec-4c76-89c0-a6fa5a5031ad-1757273588225][action_type:sendmessage] = /function clock_hand:little_hand/move_to_target
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;f888c87a-10ec-4c76-89c0-a6fa5a5031ad-1757273588225;]
@@ -883,7 +883,7 @@ element {
 
 element {
   button_element_executable_block_identifier = d8a77f49-babe-4ef0-baec-e0ba5c9a6abe-1755893093619
-  [executable_action_instance:bee11eb8-7dd1-4ed3-8742-14bb5ad830f5-1755893456667][action_type:sendmessage] = /function execution:mark/clear_mark
+  [executable_action_instance:bee11eb8-7dd1-4ed3-8742-14bb5ad830f5-1755893456667][action_type:sendmessage] = /function execution:clear_mark
   [executable_action_instance:6060689d-0f16-4c2d-b8b8-0b2ec286ba3e-1755893480500][action_type:closegui] = 
   [executable_block:d8a77f49-babe-4ef0-baec-e0ba5c9a6abe-1755893093619][type:generic] = [executables:bee11eb8-7dd1-4ed3-8742-14bb5ad830f5-1755893456667;6060689d-0f16-4c2d-b8b8-0b2ec286ba3e-1755893480500;]
   restartbackgroundanimations = true
@@ -1892,7 +1892,7 @@ element {
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
   [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /scoreboard players set #little_hand_target_pos temp 1
-  [executable_action_instance:f5c6e7cb-2485-4b1e-a4fc-bb1fa9a54a85-1758307077565][action_type:sendmessage] = /function nomination:nominator/nominator_p1
+  [executable_action_instance:f5c6e7cb-2485-4b1e-a4fc-bb1fa9a54a85-1758307077565][action_type:sendmessage] = /function nomination:set_nominator {player:1}
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;f5c6e7cb-2485-4b1e-a4fc-bb1fa9a54a85-1758307077565;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
@@ -1950,7 +1950,7 @@ element {
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
   [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /scoreboard players set #little_hand_target_pos temp 2
-  [executable_action_instance:7ceef0f5-0c73-49a6-9890-c0bdb730b6bc-1758307126431][action_type:sendmessage] = /function nomination:nominator/nominator_p2
+  [executable_action_instance:7ceef0f5-0c73-49a6-9890-c0bdb730b6bc-1758307126431][action_type:sendmessage] = /function nomination:set_nominator {player:2}
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;7ceef0f5-0c73-49a6-9890-c0bdb730b6bc-1758307126431;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
@@ -2008,7 +2008,7 @@ element {
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
   [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /scoreboard players set #little_hand_target_pos temp 3
-  [executable_action_instance:580fc04f-ce14-429f-bfca-f560778f7e2c-1758307135231][action_type:sendmessage] = /function nomination:nominator/nominator_p3
+  [executable_action_instance:580fc04f-ce14-429f-bfca-f560778f7e2c-1758307135231][action_type:sendmessage] = /function nomination:set_nominator {player:3}
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;580fc04f-ce14-429f-bfca-f560778f7e2c-1758307135231;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
@@ -2066,7 +2066,7 @@ element {
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
   [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /scoreboard players set #little_hand_target_pos temp 4
-  [executable_action_instance:c73efbe7-9b31-454f-88df-514c9aaf1ca2-1758307144179][action_type:sendmessage] = /function nomination:nominator/nominator_p4
+  [executable_action_instance:c73efbe7-9b31-454f-88df-514c9aaf1ca2-1758307144179][action_type:sendmessage] = /function nomination:set_nominator {player:4}
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;c73efbe7-9b31-454f-88df-514c9aaf1ca2-1758307144179;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
@@ -2124,7 +2124,7 @@ element {
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
   [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /scoreboard players set #little_hand_target_pos temp 5
-  [executable_action_instance:bcd7af85-1eb7-4761-9537-78bba5912fbb-1758307161363][action_type:sendmessage] = /function nomination:nominator/nominator_p5
+  [executable_action_instance:bcd7af85-1eb7-4761-9537-78bba5912fbb-1758307161363][action_type:sendmessage] = /function nomination:set_nominator {player:5}
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;bcd7af85-1eb7-4761-9537-78bba5912fbb-1758307161363;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
@@ -2182,7 +2182,7 @@ element {
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
   [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /scoreboard players set #little_hand_target_pos temp 6
-  [executable_action_instance:4f1aa00e-e97b-47f0-a735-4100036d5d5c-1758307174196][action_type:sendmessage] = /function nomination:nominator/nominator_p6
+  [executable_action_instance:4f1aa00e-e97b-47f0-a735-4100036d5d5c-1758307174196][action_type:sendmessage] = /function nomination:set_nominator {player:6}
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;4f1aa00e-e97b-47f0-a735-4100036d5d5c-1758307174196;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
@@ -2240,7 +2240,7 @@ element {
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
   [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /scoreboard players set #little_hand_target_pos temp 7
-  [executable_action_instance:9cc390be-b6c7-4525-b6ab-79ffdd83d705-1758307190129][action_type:sendmessage] = /function nomination:nominator/nominator_p7
+  [executable_action_instance:9cc390be-b6c7-4525-b6ab-79ffdd83d705-1758307190129][action_type:sendmessage] = /function nomination:set_nominator {player:7}
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;9cc390be-b6c7-4525-b6ab-79ffdd83d705-1758307190129;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
@@ -2298,7 +2298,7 @@ element {
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
   [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /scoreboard players set #little_hand_target_pos temp 8
-  [executable_action_instance:ba747946-f75f-4b2f-b806-10617059e9fd-1758307197630][action_type:sendmessage] = /function nomination:nominator/nominator_p8
+  [executable_action_instance:ba747946-f75f-4b2f-b806-10617059e9fd-1758307197630][action_type:sendmessage] = /function nomination:set_nominator {player:8}
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;ba747946-f75f-4b2f-b806-10617059e9fd-1758307197630;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
@@ -2356,7 +2356,7 @@ element {
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
   [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /scoreboard players set #little_hand_target_pos temp 9
-  [executable_action_instance:59506ccd-82f1-4740-8902-5d39efe3be27-1758307227679][action_type:sendmessage] = /function nomination:nominator/nominator_p9
+  [executable_action_instance:59506ccd-82f1-4740-8902-5d39efe3be27-1758307227679][action_type:sendmessage] = /function nomination:set_nominator {player:9}
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;59506ccd-82f1-4740-8902-5d39efe3be27-1758307227679;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
@@ -2414,7 +2414,7 @@ element {
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
   [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /scoreboard players set #little_hand_target_pos temp 10
-  [executable_action_instance:40eccbee-1e8b-4094-93c3-2945b62b5d18-1758307237162][action_type:sendmessage] = /function nomination:nominator/nominator_p10
+  [executable_action_instance:40eccbee-1e8b-4094-93c3-2945b62b5d18-1758307237162][action_type:sendmessage] = /function nomination:set_nominator {player:10}
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;40eccbee-1e8b-4094-93c3-2945b62b5d18-1758307237162;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
@@ -2472,7 +2472,7 @@ element {
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
   [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /scoreboard players set #little_hand_target_pos temp 11
-  [executable_action_instance:2a3ad5d2-5c2b-40c3-8413-90587ffd247f-1758307256629][action_type:sendmessage] = /function nomination:nominator/nominator_p11
+  [executable_action_instance:2a3ad5d2-5c2b-40c3-8413-90587ffd247f-1758307256629][action_type:sendmessage] = /function nomination:set_nominator {player:11}
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;2a3ad5d2-5c2b-40c3-8413-90587ffd247f-1758307256629;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
@@ -2530,7 +2530,7 @@ element {
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
   [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /scoreboard players set #little_hand_target_pos temp 12
-  [executable_action_instance:e69f8e65-f5e5-45ec-923f-e521a817a618-1758307267363][action_type:sendmessage] = /function nomination:nominator/nominator_p12
+  [executable_action_instance:e69f8e65-f5e5-45ec-923f-e521a817a618-1758307267363][action_type:sendmessage] = /function nomination:set_nominator {player:12}
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;e69f8e65-f5e5-45ec-923f-e521a817a618-1758307267363;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
@@ -2588,7 +2588,7 @@ element {
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
   [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /scoreboard players set #little_hand_target_pos temp 14
-  [executable_action_instance:b0b75899-03b9-4aa3-9dc5-f4228b9e5751-1758307301446][action_type:sendmessage] = /function nomination:nominator/nominator_p14
+  [executable_action_instance:b0b75899-03b9-4aa3-9dc5-f4228b9e5751-1758307301446][action_type:sendmessage] = /function nomination:set_nominator {player:14}
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;b0b75899-03b9-4aa3-9dc5-f4228b9e5751-1758307301446;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
@@ -2646,7 +2646,7 @@ element {
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
   [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /scoreboard players set #little_hand_target_pos temp 15
-  [executable_action_instance:5850212e-bec4-419f-a238-d72f8dec8a80-1758307312511][action_type:sendmessage] = /function nomination:nominator/nominator_p15
+  [executable_action_instance:5850212e-bec4-419f-a238-d72f8dec8a80-1758307312511][action_type:sendmessage] = /function nomination:set_nominator {player:15}
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;5850212e-bec4-419f-a238-d72f8dec8a80-1758307312511;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
@@ -2704,7 +2704,7 @@ element {
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
   [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /scoreboard players set #little_hand_target_pos temp 16
-  [executable_action_instance:6376954a-818c-4e7b-be5c-a7851e36aaef-1758307321028][action_type:sendmessage] = /function nomination:nominator/nominator_p16
+  [executable_action_instance:6376954a-818c-4e7b-be5c-a7851e36aaef-1758307321028][action_type:sendmessage] = /function nomination:set_nominator {player:16}
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;6376954a-818c-4e7b-be5c-a7851e36aaef-1758307321028;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
@@ -2762,7 +2762,7 @@ element {
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
   [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /scoreboard players set #little_hand_target_pos temp 13
-  [executable_action_instance:1e4fea95-683a-4d8a-9e60-d61cc2bc3a6d-1758307293162][action_type:sendmessage] = /function nomination:nominator/nominator_p13
+  [executable_action_instance:1e4fea95-683a-4d8a-9e60-d61cc2bc3a6d-1758307293162][action_type:sendmessage] = /function nomination:set_nominator {player:13}
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;1e4fea95-683a-4d8a-9e60-d61cc2bc3a6d-1758307293162;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
@@ -2885,7 +2885,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function nomination:nominate_p5
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function nomination:nominate {player:5}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_action_instance:66ef4007-d30e-4fe0-8e82-5ed87e76917c-1757273490927][action_type:sendmessage] = /function clock_hand:little_hand/move_to_target
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;66ef4007-d30e-4fe0-8e82-5ed87e76917c-1757273490927;]
@@ -2945,7 +2945,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function nomination:nominate_p6
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function nomination:nominate {player:6}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_action_instance:84f9c9ab-00f1-484f-be7f-6dd7f45a7df0-1757273498943][action_type:sendmessage] = /function clock_hand:little_hand/move_to_target
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;84f9c9ab-00f1-484f-be7f-6dd7f45a7df0-1757273498943;]
@@ -3005,7 +3005,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function nomination:nominate_p7
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function nomination:nominate {player:7}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_action_instance:60746830-eb01-4457-9a4a-977505c43777-1757273506493][action_type:sendmessage] = /function clock_hand:little_hand/move_to_target
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;60746830-eb01-4457-9a4a-977505c43777-1757273506493;]
@@ -3065,7 +3065,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function nomination:nominate_p8
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function nomination:nominate {player:8}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_action_instance:f4e65f99-c40b-4f20-a1fb-f9e1d36f4ad4-1757273513693][action_type:sendmessage] = /function clock_hand:little_hand/move_to_target
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;f4e65f99-c40b-4f20-a1fb-f9e1d36f4ad4-1757273513693;]

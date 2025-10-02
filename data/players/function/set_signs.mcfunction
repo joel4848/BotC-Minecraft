@@ -14,4 +14,3 @@ execute as @e[tag=votelight13] run execute at @s run data modify block ~ ~ ~-2 f
 execute as @e[tag=votelight14] run execute at @s run data modify block ~ ~ ~-2 front_text.messages[2] set value '{"selector":"@a[scores={Player=-14}]"}'
 execute as @e[tag=votelight15] run execute at @s run data modify block ~2 ~ ~ front_text.messages[2] set value '{"selector":"@a[scores={Player=-15}]"}'
 execute as @e[tag=votelight16] run execute at @s run data modify block ~2 ~ ~ front_text.messages[2] set value '{"selector":"@a[scores={Player=-16}]"}'
-

@@ -1,4 +1,3 @@
-
 # Exiles the nominated player
 
 # Announce result first (while we can still target the nominated player)
