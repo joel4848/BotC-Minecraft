@@ -4,8 +4,8 @@ player p3 spawn
 player p4 spawn
 player p5 spawn
 player p6 spawn
-# player p7 spawn
-# player p8 spawn
+player p7 spawn
+player p8 spawn
 # player p9 spawn
 # player p10 spawn
 # player p11 spawn
