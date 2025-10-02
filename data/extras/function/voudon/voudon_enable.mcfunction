@@ -1,5 +1,3 @@
-say Voudon enabled
-
 # Reset vote (to fully use ghost votes used pre-Voudon, and not require unnecessary extra commands to detect blocks beneath votelight marker)
 
 function voting:reset_vote
