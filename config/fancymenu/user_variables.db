@@ -26,7 +26,7 @@ variable {
 
 variable {
   name = player_11_colour
-  value = %#555555%
+  value = %#FFFFFF%
   reset_on_launch = false
 }
 
@@ -44,37 +44,37 @@ variable {
 
 variable {
   name = player_10_colour
-  value = %#555555%
+  value = %#FFFFFF%
   reset_on_launch = false
 }
 
 variable {
   name = player_12_colour
-  value = %#555555%
+  value = %#FFFFFF%
   reset_on_launch = false
 }
 
 variable {
   name = player_13_colour
-  value = %#555555%
+  value = %#FFFFFF%
   reset_on_launch = false
 }
 
 variable {
   name = player_14_colour
-  value = %#555555%
+  value = %#FFFFFF%
   reset_on_launch = false
 }
 
 variable {
   name = player_15_colour
-  value = %#555555%
+  value = %#FFFFFF%
   reset_on_launch = false
 }
 
 variable {
   name = player_16_colour
-  value = %#555555%
+  value = %#FFFFFF%
   reset_on_launch = false
 }
 
@@ -134,7 +134,7 @@ variable {
 
 variable {
   name = player_8_colour
-  value = %#555555%
+  value = %#FFFFFF%
   reset_on_launch = false
 }
 
@@ -182,7 +182,7 @@ variable {
 
 variable {
   name = player_count
-  value = 6
+  value = 16
   reset_on_launch = false
 }
 
@@ -200,7 +200,7 @@ variable {
 
 variable {
   name = player_4_colour
-  value = %#00AA00%
+  value = %#FFFFFF%
   reset_on_launch = false
 }
 
@@ -218,13 +218,13 @@ variable {
 
 variable {
   name = player_6_colour
-  value = %#55FF55%
+  value = %#FFFFFF%
   reset_on_launch = false
 }
 
 variable {
   name = player_2_colour
-  value = %#00AA00%
+  value = %#FFFFFF%
   reset_on_launch = false
 }
 
@@ -326,7 +326,7 @@ variable {
 
 variable {
   name = player_9_colour
-  value = %#555555%
+  value = %#FFFFFF%
   reset_on_launch = false
 }
 
@@ -374,7 +374,7 @@ variable {
 
 variable {
   name = player_1_colour
-  value = %#00AA00%
+  value = %#FFFFFF%
   reset_on_launch = false
 }
 
@@ -398,7 +398,7 @@ variable {
 
 variable {
   name = player_5_colour
-  value = %#55FF55%
+  value = %#FFFFFF%
   reset_on_launch = false
 }
 
@@ -410,7 +410,7 @@ variable {
 
 variable {
   name = player_3_colour
-  value = %#00AA00%
+  value = %#FFFFFF%
   reset_on_launch = false
 }
 
@@ -422,7 +422,7 @@ variable {
 
 variable {
   name = player_7_colour
-  value = %#555555%
+  value = %#FFFFFF%
   reset_on_launch = false
 }
 

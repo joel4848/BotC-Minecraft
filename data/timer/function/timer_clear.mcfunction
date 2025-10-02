@@ -3,4 +3,5 @@ function timer:hide_bossbar
 
 #scoreboard players set TimerEntity TimerMinutes 0
 #scoreboard players set TimerEntity TimerSeconds 1
+
 bossbar set minecraft:timerbar value 1

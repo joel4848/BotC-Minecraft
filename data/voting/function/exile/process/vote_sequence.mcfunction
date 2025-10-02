@@ -1,8 +1,10 @@
 # Calculate which player we're going to process
+
 scoreboard players operation #current_seat temp = #start_player temp
 scoreboard players operation #current_seat temp += #current_player temp
 
 # Handle wraparound for seat numbers
+
 execute if score #current_seat temp > #player_count temp run scoreboard players operation #current_seat temp -= #player_count temp
 
 scoreboard players operation #next_seat temp = #current_seat temp
@@ -14,6 +16,7 @@ scoreboard players add #previous_seat temp 1
 execute if score #previous_seat temp > #player_count temp run scoreboard players operation #previous_seat temp -= #player_count temp
 
 # Store current seat in a more convenient variable
+
 scoreboard players operation #seat temp = #current_seat temp
 
 # Set big hand rotation speed
@@ -42,6 +45,7 @@ execute unless score #next_seat temp > player_count PlayerCount run schedule fun
 # execute unless score #current_seat temp = #start_player temp run execute unless score #current_seat temp matches 1 run say VS called Move Big Hand
 
 # execute unless score #current_seat temp = #start_player temp run 
+
 execute if score #next_seat temp matches 1 run function voting:call_move_big_hand_skip
 
 # execute if score #start_player_passed temp matches 0 run execute if score #next_seat temp matches 1 run schedule function voting:call_move_big_hand_skip 7t
@@ -67,6 +71,7 @@ execute unless score #current_seat temp = #nominated temp run execute if score #
 # If we've processed all players, evaluate the results (also with delay)
 
 # execute if score #current_player temp >= #player_count temp run schedule function voting:evaluate_vote_result 20t
+
 execute if score #current_seat temp = #nominated temp run schedule function voting:exile/process/evaluate_vote_result 45t
 
 # tellraw @a [{"text":"[Current Player] - ","color":"yellow"},{"score":{"name":"#current_player","objective":"temp"}}]

@@ -66,7 +66,9 @@ execute store result score block63 dance_random run random value 4..15
 execute store result score block64 dance_random run random value 4..15
 
 # Maps scores to block strings
+
 function dance:map_all
 
 # Sets the floor
+
 function dance:set_floor with storage dancesetblock

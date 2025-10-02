@@ -8,13 +8,11 @@ schedule function extras:organ_grinder/hide_ghost_votes/set_hide_stacks 2t
 
 schedule function extras:organ_grinder/hide_ghost_votes/og_questionmark 3t
 
-
 # Remove OG votelights
 
 schedule function extras:organ_grinder/og_remove_votelights 5t
 
 schedule function extras:organ_grinder/og_remove_blocks 10t
-
 
 # If dead player has used ghost vote, set their score on GhostVoteUsedToday to 1
 
@@ -53,9 +51,6 @@ schedule function extras:organ_grinder/og_remove_blocks 10t
 # execute as @e[tag=votelight14] if score #seat temp matches 14 run execute at @s if block ~ ~-1 ~ waxed_oxidized_copper_bulb[lit=true] run scoreboard players set @a[scores={Player=-14}] GhostVoteUnusedToday 1
 # execute as @e[tag=votelight15] if score #seat temp matches 15 run execute at @s if block ~ ~-1 ~ waxed_oxidized_copper_bulb[lit=true] run scoreboard players set @a[scores={Player=-15}] GhostVoteUnusedToday 1
 # execute as @e[tag=votelight16] if score #seat temp matches 16 run execute at @s if block ~ ~-1 ~ waxed_oxidized_copper_bulb[lit=true] run scoreboard players set @a[scores={Player=-16}] GhostVoteUnusedToday 1
-
-
-
 
 # Replace used ghost votes with reinforced deepslate
 

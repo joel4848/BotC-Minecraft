@@ -18,4 +18,3 @@ execute as @e[type=marker,tag=seat15] at @s run summon interaction ~2 ~0.3 ~ {wi
 execute as @e[type=marker,tag=seat16] at @s run summon interaction ~2 ~0.3 ~ {width:0.4f,height:0.4f,response:1b,Tags:["picker_interaction","picker_interaction16"]}
 
 execute as @e[type=marker,tag=mapcentre] at @s run summon interaction ~ ~1.3 ~ {width:0.4f,height:0.4f,Tags:["picker_interaction","picker_interaction_auto"]}
-

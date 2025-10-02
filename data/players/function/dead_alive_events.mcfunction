@@ -158,10 +158,6 @@ execute if entity @a[scores={Player=-14,Alive=1}] run execute as @e[tag=voteligh
 execute if entity @a[scores={Player=-15,Alive=1}] run execute as @e[tag=votelight15] run execute at @s if block ~ ~ ~ pearlescent_froglight run setblock ~ ~ ~ waxed_oxidized_copper_bulb[lit=false]
 execute if entity @a[scores={Player=-16,Alive=1}] run execute as @e[tag=votelight16] run execute at @s if block ~ ~ ~ pearlescent_froglight run setblock ~ ~ ~ waxed_oxidized_copper_bulb[lit=false]
 
-
-
-
-
 # Test auto remove/replace interaction entities
 
 # execute as @e[type=marker,tag=votelight] at @s if block ~ ~-1 ~ reinforced_deepslate run kill @e[type=interaction,distance=..1,limit=1]

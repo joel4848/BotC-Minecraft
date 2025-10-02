@@ -11,4 +11,3 @@ scoreboard players set #voudon temp 1
 # Set correct votelights
 
 schedule function extras:voudon/voudon_enable_set_votelights 5t
-

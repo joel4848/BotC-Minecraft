@@ -163,7 +163,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/kill_p1
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/kill {player:1}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:0f238a84-ab26-459e-82ea-40ad95598e24-1756138117202][type:if] = [executables:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   [if_executable_block_body:0f238a84-ab26-459e-82ea-40ad95598e24-1756138117202] = c4c12ec4-4a27-4bee-ae9b-c8ada9c4a754-1756138097535
@@ -351,7 +351,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/revive_p1
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/revive {player:1}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:e7590906-b377-4de5-80c5-c2b20bd5ef2f-1756138322300][type:if] = [executables:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   [if_executable_block_body:e7590906-b377-4de5-80c5-c2b20bd5ef2f-1756138322300] = 5ae98780-6607-4457-8879-b7ac00cac3e0-1756138308150
@@ -594,7 +594,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/kill_p2
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/kill {player:2}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:0f238a84-ab26-459e-82ea-40ad95598e24-1756138117202][type:if] = [executables:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   [if_executable_block_body:0f238a84-ab26-459e-82ea-40ad95598e24-1756138117202] = c4c12ec4-4a27-4bee-ae9b-c8ada9c4a754-1756138097535
@@ -657,7 +657,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/kill_p3
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/kill {player:3}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:0f238a84-ab26-459e-82ea-40ad95598e24-1756138117202][type:if] = [executables:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   [if_executable_block_body:0f238a84-ab26-459e-82ea-40ad95598e24-1756138117202] = c4c12ec4-4a27-4bee-ae9b-c8ada9c4a754-1756138097535
@@ -720,7 +720,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/kill_p4
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/kill {player:4}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:0f238a84-ab26-459e-82ea-40ad95598e24-1756138117202][type:if] = [executables:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   [if_executable_block_body:0f238a84-ab26-459e-82ea-40ad95598e24-1756138117202] = c4c12ec4-4a27-4bee-ae9b-c8ada9c4a754-1756138097535
@@ -783,7 +783,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/kill_p5
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/kill {player:5}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:0f238a84-ab26-459e-82ea-40ad95598e24-1756138117202][type:if] = [executables:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   [if_executable_block_body:0f238a84-ab26-459e-82ea-40ad95598e24-1756138117202] = c4c12ec4-4a27-4bee-ae9b-c8ada9c4a754-1756138097535
@@ -846,7 +846,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/kill_p6
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/kill {player:6}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:0f238a84-ab26-459e-82ea-40ad95598e24-1756138117202][type:if] = [executables:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   [if_executable_block_body:0f238a84-ab26-459e-82ea-40ad95598e24-1756138117202] = c4c12ec4-4a27-4bee-ae9b-c8ada9c4a754-1756138097535
@@ -909,7 +909,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/kill_p7
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/kill {player:7}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:0f238a84-ab26-459e-82ea-40ad95598e24-1756138117202][type:if] = [executables:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   [if_executable_block_body:0f238a84-ab26-459e-82ea-40ad95598e24-1756138117202] = c4c12ec4-4a27-4bee-ae9b-c8ada9c4a754-1756138097535
@@ -972,7 +972,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/kill_p8
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/kill {player:8}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:0f238a84-ab26-459e-82ea-40ad95598e24-1756138117202][type:if] = [executables:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   [if_executable_block_body:0f238a84-ab26-459e-82ea-40ad95598e24-1756138117202] = c4c12ec4-4a27-4bee-ae9b-c8ada9c4a754-1756138097535
@@ -1035,7 +1035,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/kill_p9
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/kill {player:9}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:0f238a84-ab26-459e-82ea-40ad95598e24-1756138117202][type:if] = [executables:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   [if_executable_block_body:0f238a84-ab26-459e-82ea-40ad95598e24-1756138117202] = c4c12ec4-4a27-4bee-ae9b-c8ada9c4a754-1756138097535
@@ -1098,7 +1098,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/kill_p10
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/kill {player:10}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:0f238a84-ab26-459e-82ea-40ad95598e24-1756138117202][type:if] = [executables:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   [if_executable_block_body:0f238a84-ab26-459e-82ea-40ad95598e24-1756138117202] = c4c12ec4-4a27-4bee-ae9b-c8ada9c4a754-1756138097535
@@ -1161,7 +1161,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/kill_p11
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/kill {player:11}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:0f238a84-ab26-459e-82ea-40ad95598e24-1756138117202][type:if] = [executables:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   [if_executable_block_body:0f238a84-ab26-459e-82ea-40ad95598e24-1756138117202] = c4c12ec4-4a27-4bee-ae9b-c8ada9c4a754-1756138097535
@@ -1224,7 +1224,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/kill_p12
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/kill {player:12}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:0f238a84-ab26-459e-82ea-40ad95598e24-1756138117202][type:if] = [executables:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   [if_executable_block_body:0f238a84-ab26-459e-82ea-40ad95598e24-1756138117202] = c4c12ec4-4a27-4bee-ae9b-c8ada9c4a754-1756138097535
@@ -1287,7 +1287,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/kill_p13
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/kill {player:13}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:0f238a84-ab26-459e-82ea-40ad95598e24-1756138117202][type:if] = [executables:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   [if_executable_block_body:0f238a84-ab26-459e-82ea-40ad95598e24-1756138117202] = c4c12ec4-4a27-4bee-ae9b-c8ada9c4a754-1756138097535
@@ -1350,7 +1350,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/kill_p14
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/kill {player:14}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:0f238a84-ab26-459e-82ea-40ad95598e24-1756138117202][type:if] = [executables:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   [if_executable_block_body:0f238a84-ab26-459e-82ea-40ad95598e24-1756138117202] = c4c12ec4-4a27-4bee-ae9b-c8ada9c4a754-1756138097535
@@ -1413,7 +1413,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/kill_p15
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/kill {player:15}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:0f238a84-ab26-459e-82ea-40ad95598e24-1756138117202][type:if] = [executables:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   [if_executable_block_body:0f238a84-ab26-459e-82ea-40ad95598e24-1756138117202] = c4c12ec4-4a27-4bee-ae9b-c8ada9c4a754-1756138097535
@@ -1476,7 +1476,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/kill_p16
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/kill {player:16}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:0f238a84-ab26-459e-82ea-40ad95598e24-1756138117202][type:if] = [executables:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   [if_executable_block_body:0f238a84-ab26-459e-82ea-40ad95598e24-1756138117202] = c4c12ec4-4a27-4bee-ae9b-c8ada9c4a754-1756138097535
@@ -1539,7 +1539,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/revive_p2
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/revive {player:2}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:e7590906-b377-4de5-80c5-c2b20bd5ef2f-1756138322300][type:if] = [executables:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   [if_executable_block_body:e7590906-b377-4de5-80c5-c2b20bd5ef2f-1756138322300] = 5ae98780-6607-4457-8879-b7ac00cac3e0-1756138308150
@@ -1602,7 +1602,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/revive_p3
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/revive {player:3}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:e7590906-b377-4de5-80c5-c2b20bd5ef2f-1756138322300][type:if] = [executables:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   [if_executable_block_body:e7590906-b377-4de5-80c5-c2b20bd5ef2f-1756138322300] = 5ae98780-6607-4457-8879-b7ac00cac3e0-1756138308150
@@ -1665,7 +1665,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/revive_p4
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/revive {player:4}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:e7590906-b377-4de5-80c5-c2b20bd5ef2f-1756138322300][type:if] = [executables:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   [if_executable_block_body:e7590906-b377-4de5-80c5-c2b20bd5ef2f-1756138322300] = 5ae98780-6607-4457-8879-b7ac00cac3e0-1756138308150
@@ -1728,7 +1728,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/revive_p5
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/revive {player:5}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:e7590906-b377-4de5-80c5-c2b20bd5ef2f-1756138322300][type:if] = [executables:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   [if_executable_block_body:e7590906-b377-4de5-80c5-c2b20bd5ef2f-1756138322300] = 5ae98780-6607-4457-8879-b7ac00cac3e0-1756138308150
@@ -1791,7 +1791,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/revive_p6
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/revive {player:6}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:e7590906-b377-4de5-80c5-c2b20bd5ef2f-1756138322300][type:if] = [executables:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   [if_executable_block_body:e7590906-b377-4de5-80c5-c2b20bd5ef2f-1756138322300] = 5ae98780-6607-4457-8879-b7ac00cac3e0-1756138308150
@@ -1854,7 +1854,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/revive_p7
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/revive {player:7}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:e7590906-b377-4de5-80c5-c2b20bd5ef2f-1756138322300][type:if] = [executables:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   [if_executable_block_body:e7590906-b377-4de5-80c5-c2b20bd5ef2f-1756138322300] = 5ae98780-6607-4457-8879-b7ac00cac3e0-1756138308150
@@ -1917,7 +1917,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/revive_p8
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/revive {player:8}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:e7590906-b377-4de5-80c5-c2b20bd5ef2f-1756138322300][type:if] = [executables:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   [if_executable_block_body:e7590906-b377-4de5-80c5-c2b20bd5ef2f-1756138322300] = 5ae98780-6607-4457-8879-b7ac00cac3e0-1756138308150
@@ -1980,7 +1980,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/revive_p9
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/revive {player:9}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:e7590906-b377-4de5-80c5-c2b20bd5ef2f-1756138322300][type:if] = [executables:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   [if_executable_block_body:e7590906-b377-4de5-80c5-c2b20bd5ef2f-1756138322300] = 5ae98780-6607-4457-8879-b7ac00cac3e0-1756138308150
@@ -2043,7 +2043,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/revive_p10
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/revive {player:10}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:e7590906-b377-4de5-80c5-c2b20bd5ef2f-1756138322300][type:if] = [executables:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   [if_executable_block_body:e7590906-b377-4de5-80c5-c2b20bd5ef2f-1756138322300] = 5ae98780-6607-4457-8879-b7ac00cac3e0-1756138308150
@@ -2106,7 +2106,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/revive_p11
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/revive {player:11}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:e7590906-b377-4de5-80c5-c2b20bd5ef2f-1756138322300][type:if] = [executables:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   [if_executable_block_body:e7590906-b377-4de5-80c5-c2b20bd5ef2f-1756138322300] = 5ae98780-6607-4457-8879-b7ac00cac3e0-1756138308150
@@ -2169,7 +2169,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/revive_p12
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/revive {player:12}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:e7590906-b377-4de5-80c5-c2b20bd5ef2f-1756138322300][type:if] = [executables:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   [if_executable_block_body:e7590906-b377-4de5-80c5-c2b20bd5ef2f-1756138322300] = 5ae98780-6607-4457-8879-b7ac00cac3e0-1756138308150
@@ -2232,7 +2232,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/revive_p13
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/revive {player:13}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:e7590906-b377-4de5-80c5-c2b20bd5ef2f-1756138322300][type:if] = [executables:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   [if_executable_block_body:e7590906-b377-4de5-80c5-c2b20bd5ef2f-1756138322300] = 5ae98780-6607-4457-8879-b7ac00cac3e0-1756138308150
@@ -2295,7 +2295,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/revive_p14
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/revive {player:14}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:e7590906-b377-4de5-80c5-c2b20bd5ef2f-1756138322300][type:if] = [executables:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   [if_executable_block_body:e7590906-b377-4de5-80c5-c2b20bd5ef2f-1756138322300] = 5ae98780-6607-4457-8879-b7ac00cac3e0-1756138308150
@@ -2358,7 +2358,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/revive_p15
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/revive {player:15}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:e7590906-b377-4de5-80c5-c2b20bd5ef2f-1756138322300][type:if] = [executables:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   [if_executable_block_body:e7590906-b377-4de5-80c5-c2b20bd5ef2f-1756138322300] = 5ae98780-6607-4457-8879-b7ac00cac3e0-1756138308150
@@ -2421,7 +2421,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/revive_p16
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function players:kill_revive/revive {player:16}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:e7590906-b377-4de5-80c5-c2b20bd5ef2f-1756138322300][type:if] = [executables:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   [if_executable_block_body:e7590906-b377-4de5-80c5-c2b20bd5ef2f-1756138322300] = 5ae98780-6607-4457-8879-b7ac00cac3e0-1756138308150

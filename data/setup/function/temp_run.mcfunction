@@ -1,5 +1,6 @@
 # Set blank values for username storage
 
+# data modify storage minecraft:joelbotc player_username set value ' '
 # data modify storage minecraft:joelbotc player_1_username set value ' '
 # data modify storage minecraft:joelbotc player_2_username set value ' '
 # data modify storage minecraft:joelbotc player_3_username set value ' '
@@ -17,6 +18,7 @@
 # data modify storage minecraft:joelbotc player_15_username set value ' '
 # data modify storage minecraft:joelbotc player_16_username set value ' '
 
+data modify storage minecraft:joelbotc player_uuid_0 set value 1
 data modify storage minecraft:joelbotc player_1_uuid_0 set value 1
 data modify storage minecraft:joelbotc player_2_uuid_0 set value 1
 data modify storage minecraft:joelbotc player_3_uuid_0 set value 1
@@ -34,6 +36,7 @@ data modify storage minecraft:joelbotc player_14_uuid_0 set value 1
 data modify storage minecraft:joelbotc player_15_uuid_0 set value 1
 data modify storage minecraft:joelbotc player_16_uuid_0 set value 1
 
+data modify storage minecraft:joelbotc player_uuid_1 set value 1
 data modify storage minecraft:joelbotc player_1_uuid_1 set value 1
 data modify storage minecraft:joelbotc player_2_uuid_1 set value 1
 data modify storage minecraft:joelbotc player_3_uuid_1 set value 1
@@ -51,6 +54,7 @@ data modify storage minecraft:joelbotc player_14_uuid_1 set value 1
 data modify storage minecraft:joelbotc player_15_uuid_1 set value 1
 data modify storage minecraft:joelbotc player_16_uuid_1 set value 1
 
+data modify storage minecraft:joelbotc player_uuid_2 set value 1
 data modify storage minecraft:joelbotc player_1_uuid_2 set value 1
 data modify storage minecraft:joelbotc player_2_uuid_2 set value 1
 data modify storage minecraft:joelbotc player_3_uuid_2 set value 1
@@ -68,6 +72,7 @@ data modify storage minecraft:joelbotc player_14_uuid_2 set value 1
 data modify storage minecraft:joelbotc player_15_uuid_2 set value 1
 data modify storage minecraft:joelbotc player_16_uuid_2 set value 1
 
+data modify storage minecraft:joelbotc player_uuid_3 set value 1
 data modify storage minecraft:joelbotc player_1_uuid_3 set value 1
 data modify storage minecraft:joelbotc player_2_uuid_3 set value 1
 data modify storage minecraft:joelbotc player_3_uuid_3 set value 1

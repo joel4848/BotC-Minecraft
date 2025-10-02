@@ -1,4 +1,3 @@
-
 # Handles case where votes are insufficient for exile
 
 # Announce result using selector, then clear nomination

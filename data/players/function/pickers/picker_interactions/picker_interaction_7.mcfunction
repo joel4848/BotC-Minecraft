@@ -11,4 +11,4 @@ execute at @s unless score @s Player matches -7 run playsound minecraft:entity.e
 
 scoreboard players set @s HasSeat 1
 
-function players:assign/assign_p7
+function players:assign/assign {player:7}

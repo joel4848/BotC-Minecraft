@@ -4,11 +4,9 @@ scoreboard players set #HGV_enabled temp 0
 
 schedule function extras:organ_grinder/og_votelights 2t replace
 
-
 function extras:organ_grinder/hide_ghost_votes/set_scores
 
 schedule function extras:organ_grinder/hide_ghost_votes/set_unhide_stacks 4t
-
 
 function extras:organ_grinder/og_place_blocks
 

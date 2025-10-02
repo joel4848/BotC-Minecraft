@@ -13,7 +13,6 @@ schedule function voting:reset_vote 10t
 
 function setup:number_list_empty_seats
 
-
 execute as @s unless entity @a[scores={Player=-1}] run fmvariable set player_1_colour false %#FFFFFF%
 execute as @s unless entity @a[scores={Player=-2}] run fmvariable set player_2_colour false %#FFFFFF%
 execute as @s unless entity @a[scores={Player=-3}] run fmvariable set player_3_colour false %#FFFFFF%
@@ -31,6 +30,4 @@ execute as @s unless entity @a[scores={Player=-14}] run fmvariable set player_14
 execute as @s unless entity @a[scores={Player=-15}] run fmvariable set player_15_colour false %#FFFFFF%
 execute as @s unless entity @a[scores={Player=-16}] run fmvariable set player_16_colour false %#FFFFFF%
 
-
 function players:fm_colours/fmv_colours_set
-

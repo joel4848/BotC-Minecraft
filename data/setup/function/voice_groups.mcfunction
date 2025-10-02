@@ -8,6 +8,3 @@ execute as @a[x=184,y=104,z=-16,dx=0,dy=-11,dz=34,] run voicechat leave
 execute as @a[x=150,y=93,z=-16,dx=34,dy=11,dz=0,] run voicechat leave
 execute as @a[x=150,y=104,z=18,dx=0,dy=-11,dz=-34,] run voicechat leave
 execute as @a[x=184,y=93,z=18,dx=-34,dy=11,dz=0] run voicechat leave
-
-
-

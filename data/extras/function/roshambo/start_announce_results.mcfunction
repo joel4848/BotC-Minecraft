@@ -18,4 +18,3 @@ schedule function extras:roshambo/cycle_choices 5t
 # Announce results
 
 schedule function extras:roshambo/announce_results 71t
-

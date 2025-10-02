@@ -1,4 +1,3 @@
-
 execute as @e[tag=votelight1] run execute at @s run setblock ~ ~-2 ~ sticky_piston[facing=up,extended=false]
 execute as @e[tag=votelight2] run execute at @s run setblock ~ ~-2 ~ sticky_piston[facing=up,extended=false]
 execute as @e[tag=votelight3] run execute at @s run setblock ~ ~-2 ~ sticky_piston[facing=up,extended=false]
@@ -15,4 +14,3 @@ execute as @e[tag=votelight13] run execute at @s run setblock ~ ~-2 ~ sticky_pis
 execute as @e[tag=votelight14] run execute at @s run setblock ~ ~-2 ~ sticky_piston[facing=up,extended=false]
 execute as @e[tag=votelight15] run execute at @s run setblock ~ ~-2 ~ sticky_piston[facing=up,extended=false]
 execute as @e[tag=votelight16] run execute at @s run setblock ~ ~-2 ~ sticky_piston[facing=up,extended=false]
-

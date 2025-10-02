@@ -55,4 +55,3 @@ execute if score #storyteller Nominated matches 1 run execute unless score #high
 scoreboard players set #player_currently_nominated temp 1
 
 function nomination:actionbar_required_votes
-

@@ -1,4 +1,3 @@
-
 execute as @s run execute unless entity @a[scores={Player=-1}] run data modify storage joelbotc player_1_username set value ' ‌'
 execute as @s run execute unless entity @a[scores={Player=-2}] run data modify storage joelbotc player_2_username set value ' ‌'
 execute as @s run execute unless entity @a[scores={Player=-3}] run data modify storage joelbotc player_3_username set value ' ‌'

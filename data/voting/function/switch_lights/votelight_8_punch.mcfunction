@@ -17,5 +17,3 @@ execute as @e[tag=votelight8,limit=1,sort=nearest] at @s if score @a[scores={Pla
 execute at @e[tag=votelight8,limit=1,sort=nearest] if score @a[scores={Player=-8},limit=1] Alive matches 0 if score @a[scores={Player=-8},limit=1] IsBanshee matches 1 run playsound minecraft:block.lever.click block @a ~ ~ ~ 1.0 1.0
 
 advancement revoke @s only voting:votelight_8_punch
-
-

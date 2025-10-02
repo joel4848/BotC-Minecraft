@@ -1,4 +1,3 @@
-
 execute if score layer dance_settings matches 1 run execute as @e[type=marker,tag=dance1] at @s run place template minecraft:layer2-1 ~ ~-1 ~
 execute if score layer dance_settings matches 2 run execute as @e[type=marker,tag=dance1] at @s run place template minecraft:layer2-2 ~ ~-1 ~
 execute if score layer dance_settings matches 3 run execute as @e[type=marker,tag=dance1] at @s run place template minecraft:layer3-1 ~ ~-1 ~
@@ -14,8 +13,9 @@ execute if score layer dance_settings matches 12 run execute as @e[type=marker,t
 execute if score layer dance_settings matches 13 run execute as @e[type=marker,tag=dance1] at @s run place template minecraft:layer6 ~ ~-1 ~
 
 # Increment layer by 1
+
 scoreboard players add layer dance_settings 1
 
 # If layer is 13, reset layer to 1
-execute if score layer dance_settings matches 14.. run scoreboard players set layer dance_settings 1
 
+execute if score layer dance_settings matches 14.. run scoreboard players set layer dance_settings 1

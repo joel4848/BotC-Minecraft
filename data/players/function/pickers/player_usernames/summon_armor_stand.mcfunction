@@ -1,4 +1,3 @@
-
 execute if score #picked_picker temp matches 1 run kill @e[type=armor_stand,limit=1,tag=player_head_1]
 execute if score #picked_picker temp matches 2 run kill @e[type=armor_stand,limit=1,tag=player_head_2]
 execute if score #picked_picker temp matches 3 run kill @e[type=armor_stand,limit=1,tag=player_head_3]
@@ -33,4 +32,3 @@ $execute if score #picked_picker temp matches 13 run summon armor_stand 162 84 0
 $execute if score #picked_picker temp matches 14 run summon armor_stand 163 84 0 {Tags:["player_head_armor_stand","player_head_14"],ArmorItems:[{},{},{},{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;$(player_14_uuid_0),$(player_14_uuid_1),$(player_14_uuid_2),$(player_14_uuid_3)]}}}]}
 $execute if score #picked_picker temp matches 15 run summon armor_stand 164 84 0 {Tags:["player_head_armor_stand","player_head_15"],ArmorItems:[{},{},{},{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;$(player_15_uuid_0),$(player_15_uuid_1),$(player_15_uuid_2),$(player_15_uuid_3)]}}}]}
 $execute if score #picked_picker temp matches 16 run summon armor_stand 165 84 0 {Tags:["player_head_armor_stand","player_head_16"],ArmorItems:[{},{},{},{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;$(player_16_uuid_0),$(player_16_uuid_1),$(player_16_uuid_2),$(player_16_uuid_3)]}}}]}
-

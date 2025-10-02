@@ -19,5 +19,3 @@ execute unless score #voudon temp matches 1 run execute at @e[type=marker,tag=vo
 execute as @e[type=marker,tag=votelight4,limit=1,sort=nearest] at @s if score #voudon temp matches 1 run execute if block ~ ~ ~ waxed_weathered_copper_bulb run playsound minecraft:block.lever.click block @a ~ ~ ~ 1.0 1.0
 
 advancement revoke @s only voting:votelight_4_interact
-
-

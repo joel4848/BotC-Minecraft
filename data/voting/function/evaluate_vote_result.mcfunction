@@ -1,4 +1,3 @@
-
 # Evaluates the final vote tally and determines execution status
 
 # Store the vote tally for the nominated player
@@ -43,4 +42,3 @@ execute if score #og_enabled temp matches 1 run schedule function extras:organ_g
 # Reset vote automatically after voting complete
 
 schedule function voting:reset_vote 2s
-
