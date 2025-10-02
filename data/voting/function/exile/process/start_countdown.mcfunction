@@ -1,4 +1,3 @@
-
 # Lock players to seats
 scoreboard players set #vote_running temp 1
 function voting:lock_to_seats
@@ -26,4 +25,3 @@ execute if score #vote_testing temp matches 1 run schedule function voting:start
 execute unless score #vote_testing temp matches 1 run schedule function setup:reset_title_times 140t
 execute if score #vote_testing temp matches 1 run schedule function setup:reset_title_times 25t
 # 140t
-

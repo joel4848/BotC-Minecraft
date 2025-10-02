@@ -1,4 +1,3 @@
-
 data modify block 171 87 0 front_text.messages[0] set value '{"selector":"@a[scores={Player=-1}]"}'
 
 data modify storage joelbotc player_seat_number set value 1

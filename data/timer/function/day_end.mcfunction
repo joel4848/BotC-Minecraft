@@ -34,4 +34,3 @@ function setup:remove_buttons
 # Set score for "It is nighttime" action bar announcement
 
 scoreboard players set #is_nighttime temp 1
-

@@ -15,7 +15,7 @@ effect give @a minecraft:fire_resistance infinite 99 true
 
 effect clear @a[scores={Alive=1}] invisibility
 execute as @a[scores={Alive=1,Player=..0}] run execute if items entity @s armor.head player_head run item replace entity @s armor.head with minecraft:air
-execute as @a[scores={Alive=1,Player=..0}] run execute if items entity @s armor.feet golden_boots run item replace entity @s armor.chest with minecraft:air
+execute as @a[scores={Alive=1,Player=..0}] run execute if items entity @s armor.feet golden_boots run item replace entity @s armor.feet with minecraft:air
 
 # Give dead players invisibility
 
@@ -157,10 +157,6 @@ execute if entity @a[scores={Player=-13,Alive=1}] run execute as @e[tag=voteligh
 execute if entity @a[scores={Player=-14,Alive=1}] run execute as @e[tag=votelight14] run execute at @s if block ~ ~ ~ pearlescent_froglight run setblock ~ ~ ~ waxed_oxidized_copper_bulb[lit=false]
 execute if entity @a[scores={Player=-15,Alive=1}] run execute as @e[tag=votelight15] run execute at @s if block ~ ~ ~ pearlescent_froglight run setblock ~ ~ ~ waxed_oxidized_copper_bulb[lit=false]
 execute if entity @a[scores={Player=-16,Alive=1}] run execute as @e[tag=votelight16] run execute at @s if block ~ ~ ~ pearlescent_froglight run setblock ~ ~ ~ waxed_oxidized_copper_bulb[lit=false]
-
-
-
-
 
 # Test auto remove/replace interaction entities
 

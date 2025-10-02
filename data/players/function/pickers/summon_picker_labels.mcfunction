@@ -18,4 +18,3 @@ execute as @e[type=item_display,tag=picker_block_16] at @s run summon text_displ
 
 
 execute as @e[type=item_display,tag=picker_block_auto] at @s run summon text_display ~ ~0.8 ~ {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1.5f,1.5f,1.5f]},alignment:"center",billboard:"vertical",Tags:["seat_label","seat_label_auto"],text:'"I\'m not fussy"',background:-939196416}
-

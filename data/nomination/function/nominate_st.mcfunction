@@ -16,7 +16,6 @@ function nomination:nominated_particles
 execute if score #big_hand_present temp matches 0 run function clock_hand:big_hand/summon_neutral
 execute if score #big_hand_present temp matches 0 run scoreboard players set #big_hand_present temp 1
 
-
 scoreboard players set #big_hand_target temp 0
 
 scoreboard players set #nominated_player_big_hand temp 0

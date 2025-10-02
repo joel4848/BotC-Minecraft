@@ -1,8 +1,10 @@
 # Calculate which player we're going to process
+
 scoreboard players operation #current_seat temp = #start_player temp
 scoreboard players operation #current_seat temp += #current_player temp
 
 # Handle wraparound for seat numbers
+
 execute if score #current_seat temp > #player_count temp run scoreboard players operation #current_seat temp -= #player_count temp
 
 scoreboard players operation #next_seat temp = #current_seat temp
@@ -14,6 +16,7 @@ scoreboard players add #previous_seat temp 1
 execute if score #previous_seat temp > #player_count temp run scoreboard players operation #previous_seat temp -= #player_count temp
 
 # Store current seat in a more convenient variable
+
 scoreboard players operation #seat temp = #current_seat temp
 
 # Set big hand rotation speed

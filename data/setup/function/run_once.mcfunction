@@ -46,11 +46,13 @@ scoreboard objectives add Roshambo trigger
 scoreboard objectives add RoshamboLocked trigger
 scoreboard objectives add ConfirmRoshamboLock trigger
 scoreboard objectives add temp dummy
+scoreboard objectives add Booth dummy
+
 # scoreboard objectives add  dummy
 # scoreboard objectives add  dummy
 # scoreboard objectives add  dummy
 
-
+scoreboard objectives setdisplay sidebar Player
 
 # Creates teams
 
@@ -85,6 +87,14 @@ scoreboard players set #-1 const -1
 scoreboard players set #2 const 2
 scoreboard players set #const_16 const 16
 
+# Sets up constant values used by the timer system
+
+scoreboard players set #ticks_per_minute temp 1200
+scoreboard players set #ticks_per_second temp 20
+scoreboard players set #minutes_to_add temp 0
+scoreboard players set #seconds_to_add temp 0
+scoreboard players set #time_to_add temp 0
+
 # Give required IDs to the votelights
 
 scoreboard players set @e[tag=votelight1,type=marker] lightID 1
@@ -106,6 +116,7 @@ scoreboard players set @e[tag=votelight16,type=marker] lightID 16
 
 # Set blank values for username storage
 
+data modify storage minecraft:joelbotc player_username set value ' '
 data modify storage minecraft:joelbotc player_1_username set value ' '
 data modify storage minecraft:joelbotc player_2_username set value ' '
 data modify storage minecraft:joelbotc player_3_username set value ' '
@@ -122,6 +133,11 @@ data modify storage minecraft:joelbotc player_13_username set value ' '
 data modify storage minecraft:joelbotc player_14_username set value ' '
 data modify storage minecraft:joelbotc player_15_username set value ' '
 data modify storage minecraft:joelbotc player_16_username set value ' '
+
+data modify storage minecraft:joelbotc player_uuid_0 set value ' '
+data modify storage minecraft:joelbotc player_uuid_1 set value ' '
+data modify storage minecraft:joelbotc player_uuid_2 set value ' '
+data modify storage minecraft:joelbotc player_uuid_3 set value ' '
 
 data modify storage minecraft:joelbotc player_1_uuid_0 set value ' '
 data modify storage minecraft:joelbotc player_2_uuid_0 set value ' '

@@ -1,16 +1,16 @@
-function players:kill_revive/revive_p1
-function players:kill_revive/revive_p2
-function players:kill_revive/revive_p3
-function players:kill_revive/revive_p4
-function players:kill_revive/revive_p5
-function players:kill_revive/revive_p6
-function players:kill_revive/revive_p7
-function players:kill_revive/revive_p8
-function players:kill_revive/revive_p9
-function players:kill_revive/revive_p10
-function players:kill_revive/revive_p11
-function players:kill_revive/revive_p12
-function players:kill_revive/revive_p13
-function players:kill_revive/revive_p14
-function players:kill_revive/revive_p15
-function players:kill_revive/revive_p16
+function players:kill_revive/revive {player:1}
+function players:kill_revive/revive {player:2}
+function players:kill_revive/revive {player:3}
+function players:kill_revive/revive {player:4}
+function players:kill_revive/revive {player:5}
+function players:kill_revive/revive {player:6}
+function players:kill_revive/revive {player:7}
+function players:kill_revive/revive {player:8}
+function players:kill_revive/revive {player:9}
+function players:kill_revive/revive {player:10}
+function players:kill_revive/revive {player:11}
+function players:kill_revive/revive {player:12}
+function players:kill_revive/revive {player:13}
+function players:kill_revive/revive {player:14}
+function players:kill_revive/revive {player:15}
+function players:kill_revive/revive {player:16}

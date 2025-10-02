@@ -1,4 +1,3 @@
-
 execute as @e[tag=votelight1] run execute at @s run setblock ~ ~1 ~ air
 execute as @e[tag=votelight2] run execute at @s run setblock ~ ~1 ~ air
 execute as @e[tag=votelight3] run execute at @s run setblock ~ ~1 ~ air

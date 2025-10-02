@@ -1,4 +1,3 @@
-
 # execute as @a run execute if score #fm_colours_on temp matches 1 run fmvariable set player_1_colour false ‌
 # execute as @a run execute if score #fm_colours_on temp matches 1 run fmvariable set player_2_colour false ‌
 # execute as @a run execute if score #fm_colours_on temp matches 1 run fmvariable set player_3_colour false ‌
@@ -32,4 +31,3 @@
 # execute as @a run execute if score #fm_colours_on temp matches 1 run fmvariable set player_14_colour_suffix false ‌
 # execute as @a run execute if score #fm_colours_on temp matches 1 run fmvariable set player_15_colour_suffix false ‌
 # execute as @a run execute if score #fm_colours_on temp matches 1 run fmvariable set player_16_colour_suffix false ‌
-

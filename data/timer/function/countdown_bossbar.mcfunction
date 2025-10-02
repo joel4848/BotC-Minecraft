@@ -1,4 +1,5 @@
 # Reduce visual bossbar score by 1
+
 execute store result bossbar minecraft:timerbar value run scoreboard players remove TimerEntity TimerScore 1
 
 # Repeat this function again unless the timer is at 0
@@ -27,12 +28,14 @@ execute if score TimerEntity TimerPercent matches 15..34 run bossbar set minecra
 execute if score TimerEntity TimerPercent matches 0..14 run bossbar set minecraft:timerbar color red
 
 # Calculate 13000*y/x
+
 scoreboard players set const_13000 TimerMaths 13000
 scoreboard players operation temp_calc TimerMaths = TimerEntity TimerScore
 scoreboard players operation temp_calc TimerMaths *= const_13000 TimerMaths
 scoreboard players operation temp_calc TimerMaths /= TimerEntity TimerMax
 
 # Calculate 13000 - (13000*y/x)
+
 scoreboard players operation result TimerMaths = const_13000 TimerMaths
 scoreboard players operation result TimerMaths -= temp_calc TimerMaths
 

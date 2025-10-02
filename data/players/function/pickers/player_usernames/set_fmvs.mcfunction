@@ -51,23 +51,4 @@ $execute as @s run execute if score #picked_picker temp matches 14 run fmvariabl
 $execute as @s run execute if score #picked_picker temp matches 15 run fmvariable set player_15_username false $(player_15_username)
 $execute as @s run execute if score #picked_picker temp matches 16 run fmvariable set player_16_username false $(player_16_username)
 
-
 # say ran set fmvs
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

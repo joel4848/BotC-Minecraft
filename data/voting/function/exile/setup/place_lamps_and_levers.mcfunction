@@ -1,4 +1,3 @@
-
 execute if score player_count PlayerCount matches 5.. run execute as @e[tag=votelight1] run execute at @s run setblock ~ ~ ~ redstone_lamp
 execute if score player_count PlayerCount matches 5.. run execute as @e[tag=votelight2] run execute at @s run setblock ~ ~ ~ redstone_lamp
 execute if score player_count PlayerCount matches 5.. run execute as @e[tag=votelight3] run execute at @s run setblock ~ ~ ~ redstone_lamp

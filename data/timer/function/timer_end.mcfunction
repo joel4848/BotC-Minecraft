@@ -6,4 +6,3 @@ schedule function timer:discussion_end_bell 4s append
 schedule function timer:discussion_end_bell 8s append
 gamerule doDaylightCycle false
 time set 13000
-

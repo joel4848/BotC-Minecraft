@@ -1,4 +1,3 @@
-
 # Evaluates the final vote tally and determines exile status
 
 # Store the vote tally for the nominated player
@@ -21,4 +20,3 @@ execute if score #vote_tally temp >= #required_votes_traveller temp run function
 # Unlock players from seats
 
 scoreboard players set #vote_running temp 0
-

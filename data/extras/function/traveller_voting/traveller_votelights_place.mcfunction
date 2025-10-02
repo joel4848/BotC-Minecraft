@@ -33,4 +33,3 @@ execute if score player_count PlayerCount matches 13.. run execute as @e[tag=vot
 execute if score player_count PlayerCount matches 14.. run execute as @e[tag=votelight14] at @s run setblock ~ ~4 ~ lever[powered=false,face=ceiling,facing=west]
 execute if score player_count PlayerCount matches 15.. run execute as @e[tag=votelight15] at @s run setblock ~ ~4 ~ lever[powered=false,face=ceiling,facing=north]
 execute if score player_count PlayerCount matches 16.. run execute as @e[tag=votelight16] at @s run setblock ~ ~4 ~ lever[powered=false,face=ceiling,facing=north]
-

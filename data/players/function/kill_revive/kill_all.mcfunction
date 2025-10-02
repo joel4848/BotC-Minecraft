@@ -1,16 +1,16 @@
-function players:kill_revive/kill_p1 with storage minecraft:joelbotc
-function players:kill_revive/kill_p2 with storage minecraft:joelbotc
-function players:kill_revive/kill_p3 with storage minecraft:joelbotc
-function players:kill_revive/kill_p4 with storage minecraft:joelbotc
-function players:kill_revive/kill_p5 with storage minecraft:joelbotc
-function players:kill_revive/kill_p6 with storage minecraft:joelbotc
-function players:kill_revive/kill_p7 with storage minecraft:joelbotc
-function players:kill_revive/kill_p8 with storage minecraft:joelbotc
-function players:kill_revive/kill_p9 with storage minecraft:joelbotc
-function players:kill_revive/kill_p10 with storage minecraft:joelbotc
-function players:kill_revive/kill_p11 with storage minecraft:joelbotc
-function players:kill_revive/kill_p12 with storage minecraft:joelbotc
-function players:kill_revive/kill_p13 with storage minecraft:joelbotc
-function players:kill_revive/kill_p14 with storage minecraft:joelbotc
-function players:kill_revive/kill_p15 with storage minecraft:joelbotc
-function players:kill_revive/kill_p16 with storage minecraft:joelbotc
+function players:kill_revive/kill {player:1}
+function players:kill_revive/kill {player:2}
+function players:kill_revive/kill {player:3}
+function players:kill_revive/kill {player:4}
+function players:kill_revive/kill {player:5}
+function players:kill_revive/kill {player:6}
+function players:kill_revive/kill {player:7}
+function players:kill_revive/kill {player:8}
+function players:kill_revive/kill {player:9}
+function players:kill_revive/kill {player:10}
+function players:kill_revive/kill {player:11}
+function players:kill_revive/kill {player:12}
+function players:kill_revive/kill {player:13}
+function players:kill_revive/kill {player:14}
+function players:kill_revive/kill {player:15}
+function players:kill_revive/kill {player:16}

@@ -38,7 +38,7 @@ layout_action_executable_blocks {
 
 element {
   button_element_executable_block_identifier = b6c5d107-ed25-4b53-b4ce-a03cc647413a-1755870304788
-  [executable_action_instance:0d8cf103-6f40-4772-b692-6447bbdee45b-1755882293225][action_type:sendmessage] = /function timer:set_1min
+  [executable_action_instance:0d8cf103-6f40-4772-b692-6447bbdee45b-1755882293225][action_type:sendmessage] = /function timer:set {minutes:1,seconds:0}
   [executable_action_instance:26cd6ca5-b98f-4c9f-ba6d-36ec72752977-1755882307760][action_type:closegui] = 
   [executable_block:b6c5d107-ed25-4b53-b4ce-a03cc647413a-1755870304788][type:generic] = [executables:0d8cf103-6f40-4772-b692-6447bbdee45b-1755882293225;26cd6ca5-b98f-4c9f-ba6d-36ec72752977-1755882307760;]
   restartbackgroundanimations = true
@@ -98,7 +98,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 77ad8282-1f96-4264-8b02-3c64583d55a4-1755870388293
-  [executable_action_instance:3549d828-b4a5-4e27-b327-bd11d86671e0-1755882319182][action_type:sendmessage] = /function timer:set_2min
+  [executable_action_instance:3549d828-b4a5-4e27-b327-bd11d86671e0-1755882319182][action_type:sendmessage] = /function timer:set {minutes:2,seconds:0}
   [executable_action_instance:cb2ffa13-39e6-4372-893f-ea75efe4f5bd-1755882342147][action_type:closegui] = 
   [executable_block:77ad8282-1f96-4264-8b02-3c64583d55a4-1755870388293][type:generic] = [executables:3549d828-b4a5-4e27-b327-bd11d86671e0-1755882319182;cb2ffa13-39e6-4372-893f-ea75efe4f5bd-1755882342147;]
   restartbackgroundanimations = true
@@ -158,7 +158,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 4346b9b2-68f4-46aa-9b0a-667486b8244a-1755871164415
-  [executable_action_instance:1f0859c2-5ae9-4898-bd9c-c3f564acffeb-1755882348241][action_type:sendmessage] = /function timer:set_3min
+  [executable_action_instance:1f0859c2-5ae9-4898-bd9c-c3f564acffeb-1755882348241][action_type:sendmessage] = /function timer:set {minutes:3,seconds:0}
   [executable_action_instance:a5620336-3add-4e73-bf57-802f8dd5a5e0-1755882355971][action_type:closegui] = 
   [executable_block:4346b9b2-68f4-46aa-9b0a-667486b8244a-1755871164415][type:generic] = [executables:1f0859c2-5ae9-4898-bd9c-c3f564acffeb-1755882348241;a5620336-3add-4e73-bf57-802f8dd5a5e0-1755882355971;]
   restartbackgroundanimations = true
@@ -218,7 +218,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 76a948c1-92cd-4839-9493-00c74d972dd2-1755871187290
-  [executable_action_instance:01129379-6bb1-465d-8515-893a73650126-1755882397253][action_type:sendmessage] = /function timer:set_4min
+  [executable_action_instance:01129379-6bb1-465d-8515-893a73650126-1755882397253][action_type:sendmessage] = /function timer:set {minutes:4,seconds:0}
   [executable_action_instance:b8e630bd-67db-4f6b-a12c-362bb95eebfd-1755882407563][action_type:closegui] = 
   [executable_block:76a948c1-92cd-4839-9493-00c74d972dd2-1755871187290][type:generic] = [executables:01129379-6bb1-465d-8515-893a73650126-1755882397253;b8e630bd-67db-4f6b-a12c-362bb95eebfd-1755882407563;]
   restartbackgroundanimations = true
@@ -278,7 +278,7 @@ element {
 
 element {
   button_element_executable_block_identifier = be513cb1-4cac-435e-b22c-b85abdb3ba9e-1755871205660
-  [executable_action_instance:eaf78033-3b57-4f9c-a97d-ebeb016a595a-1755882414581][action_type:sendmessage] = /function timer:set_5min
+  [executable_action_instance:eaf78033-3b57-4f9c-a97d-ebeb016a595a-1755882414581][action_type:sendmessage] = /function timer:set {minutes:5,seconds:0}
   [executable_action_instance:c0835df7-825e-41cb-b75d-b6e1fef18e86-1755882426670][action_type:closegui] = 
   [executable_block:be513cb1-4cac-435e-b22c-b85abdb3ba9e-1755871205660][type:generic] = [executables:eaf78033-3b57-4f9c-a97d-ebeb016a595a-1755882414581;c0835df7-825e-41cb-b75d-b6e1fef18e86-1755882426670;]
   restartbackgroundanimations = true
@@ -338,7 +338,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 2c96d45b-ff88-4b8f-a2ce-707ffe3d8ea7-1755871227088
-  [executable_action_instance:4d6a8fed-bb56-417b-99f3-6d7e76853b1d-1755882434525][action_type:sendmessage] = /function timer:set_6min
+  [executable_action_instance:4d6a8fed-bb56-417b-99f3-6d7e76853b1d-1755882434525][action_type:sendmessage] = /function timer:set {minutes:6,seconds:0}
   [executable_action_instance:39cc5c7b-9dd1-4101-b59c-97763b9576dd-1755882448200][action_type:closegui] = 
   [executable_block:2c96d45b-ff88-4b8f-a2ce-707ffe3d8ea7-1755871227088][type:generic] = [executables:4d6a8fed-bb56-417b-99f3-6d7e76853b1d-1755882434525;39cc5c7b-9dd1-4101-b59c-97763b9576dd-1755882448200;]
   restartbackgroundanimations = true
@@ -398,7 +398,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 0b45311e-43c7-419a-9b8c-933968d01567-1755871239650
-  [executable_action_instance:7f1894fc-862e-46cb-9a0e-058158f10129-1755882454666][action_type:sendmessage] = /function timer:set_7min
+  [executable_action_instance:7f1894fc-862e-46cb-9a0e-058158f10129-1755882454666][action_type:sendmessage] = /function timer:set {minutes:7,seconds:0}
   [executable_action_instance:52b671ce-d1aa-4a5b-9766-179a69b8d5dd-1755882466179][action_type:closegui] = 
   [executable_block:0b45311e-43c7-419a-9b8c-933968d01567-1755871239650][type:generic] = [executables:7f1894fc-862e-46cb-9a0e-058158f10129-1755882454666;52b671ce-d1aa-4a5b-9766-179a69b8d5dd-1755882466179;]
   restartbackgroundanimations = true
@@ -458,7 +458,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 44d4b75c-49ef-458e-bfe2-31e52d999e5a-1755871253588
-  [executable_action_instance:3d2ef280-49e2-4bbd-8b84-066363865815-1755882473009][action_type:sendmessage] = /function timer:set_8min
+  [executable_action_instance:3d2ef280-49e2-4bbd-8b84-066363865815-1755882473009][action_type:sendmessage] = /function timer:set {minutes:8,seconds:0}
   [executable_action_instance:2eeb59e1-b4a2-49bc-84ed-e0796b33a865-1755882481059][action_type:closegui] = 
   [executable_block:44d4b75c-49ef-458e-bfe2-31e52d999e5a-1755871253588][type:generic] = [executables:3d2ef280-49e2-4bbd-8b84-066363865815-1755882473009;2eeb59e1-b4a2-49bc-84ed-e0796b33a865-1755882481059;]
   restartbackgroundanimations = true
@@ -518,7 +518,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 65d834ab-cf6f-42a3-82bb-2cc7aec4c295-1755871265809
-  [executable_action_instance:32133b00-d76a-4ce2-b1c4-5392460accc2-1755882505630][action_type:sendmessage] = /function timer:set_9min
+  [executable_action_instance:32133b00-d76a-4ce2-b1c4-5392460accc2-1755882505630][action_type:sendmessage] = /function timer:set {minutes:9,seconds:0}
   [executable_action_instance:55b9cddd-481f-4044-a74f-76916c49d923-1755882514969][action_type:closegui] = 
   [executable_block:65d834ab-cf6f-42a3-82bb-2cc7aec4c295-1755871265809][type:generic] = [executables:32133b00-d76a-4ce2-b1c4-5392460accc2-1755882505630;55b9cddd-481f-4044-a74f-76916c49d923-1755882514969;]
   restartbackgroundanimations = true
@@ -578,7 +578,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6cab4cc7-478f-4498-9ffd-25130be97ffd-1755871282123
-  [executable_action_instance:80d750fe-925d-444f-895c-ddc8f3ff090a-1755882521125][action_type:sendmessage] = /function timer:set_10min
+  [executable_action_instance:80d750fe-925d-444f-895c-ddc8f3ff090a-1755882521125][action_type:sendmessage] = /function timer:set {minutes:10,seconds:0}
   [executable_action_instance:edd0e660-58b9-4939-8057-b32e0f174a67-1755882532169][action_type:closegui] = 
   [executable_block:6cab4cc7-478f-4498-9ffd-25130be97ffd-1755871282123][type:generic] = [executables:80d750fe-925d-444f-895c-ddc8f3ff090a-1755882521125;edd0e660-58b9-4939-8057-b32e0f174a67-1755882532169;]
   restartbackgroundanimations = true
@@ -772,7 +772,7 @@ element {
 
 element {
   button_element_executable_block_identifier = b6c5d107-ed25-4b53-b4ce-a03cc647413a-1755870304788
-  [executable_action_instance:1e6bf24a-23df-4298-a055-51df03be0a2b-1755883325971][action_type:sendmessage] = /function timer:add_1min
+  [executable_action_instance:1e6bf24a-23df-4298-a055-51df03be0a2b-1755883325971][action_type:sendmessage] = /function timer:add {minutes:1,seconds:0}
   [executable_action_instance:44ec6c36-1fe3-4038-8165-0a8eae44bde6-1755883355153][action_type:closegui] = 
   [executable_block:b6c5d107-ed25-4b53-b4ce-a03cc647413a-1755870304788][type:generic] = [executables:1e6bf24a-23df-4298-a055-51df03be0a2b-1755883325971;44ec6c36-1fe3-4038-8165-0a8eae44bde6-1755883355153;]
   restartbackgroundanimations = true
@@ -832,7 +832,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 77ad8282-1f96-4264-8b02-3c64583d55a4-1755870388293
-  [executable_action_instance:7e9ffcfc-b145-4095-b299-ec7dfa08ab8a-1755883362239][action_type:sendmessage] = /function timer:add_2min
+  [executable_action_instance:7e9ffcfc-b145-4095-b299-ec7dfa08ab8a-1755883362239][action_type:sendmessage] = /function timer:add {minutes:2,seconds:0}
   [executable_action_instance:a9d3261a-60d2-4987-8db1-541495f8774a-1755883369502][action_type:closegui] = 
   [executable_block:77ad8282-1f96-4264-8b02-3c64583d55a4-1755870388293][type:generic] = [executables:7e9ffcfc-b145-4095-b299-ec7dfa08ab8a-1755883362239;a9d3261a-60d2-4987-8db1-541495f8774a-1755883369502;]
   restartbackgroundanimations = true
@@ -892,7 +892,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 4346b9b2-68f4-46aa-9b0a-667486b8244a-1755871164415
-  [executable_action_instance:575629bd-1a1e-48ec-9f52-c2d30aa9a96c-1755883376547][action_type:sendmessage] = /function timer:add_3min
+  [executable_action_instance:575629bd-1a1e-48ec-9f52-c2d30aa9a96c-1755883376547][action_type:sendmessage] = /function timer:add {minutes:3,seconds:0}
   [executable_action_instance:2a118d91-664b-4a81-ac9d-6b2531e94547-1755883383093][action_type:closegui] = 
   [executable_block:4346b9b2-68f4-46aa-9b0a-667486b8244a-1755871164415][type:generic] = [executables:575629bd-1a1e-48ec-9f52-c2d30aa9a96c-1755883376547;2a118d91-664b-4a81-ac9d-6b2531e94547-1755883383093;]
   restartbackgroundanimations = true
@@ -952,7 +952,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 76a948c1-92cd-4839-9493-00c74d972dd2-1755871187290
-  [executable_action_instance:b6d3c9f7-72bf-4453-8008-1c19f5cb4350-1755883391957][action_type:sendmessage] = /function timer:add_4min
+  [executable_action_instance:b6d3c9f7-72bf-4453-8008-1c19f5cb4350-1755883391957][action_type:sendmessage] = /function timer:add {minutes:4,seconds:0}
   [executable_action_instance:1eb837ec-53b3-4cbd-8822-85f921cb97e5-1755883399530][action_type:closegui] = 
   [executable_block:76a948c1-92cd-4839-9493-00c74d972dd2-1755871187290][type:generic] = [executables:b6d3c9f7-72bf-4453-8008-1c19f5cb4350-1755883391957;1eb837ec-53b3-4cbd-8822-85f921cb97e5-1755883399530;]
   restartbackgroundanimations = true
@@ -1012,7 +1012,7 @@ element {
 
 element {
   button_element_executable_block_identifier = be513cb1-4cac-435e-b22c-b85abdb3ba9e-1755871205660
-  [executable_action_instance:9189c2be-0290-4ce6-b5f5-8cfa986e163b-1755883409474][action_type:sendmessage] = /function timer:add_5min
+  [executable_action_instance:9189c2be-0290-4ce6-b5f5-8cfa986e163b-1755883409474][action_type:sendmessage] = /function timer:add {minutes:5,seconds:0}
   [executable_action_instance:dc55ae57-d0f0-49f1-ac64-c75d3959f478-1755883417278][action_type:closegui] = 
   [executable_block:be513cb1-4cac-435e-b22c-b85abdb3ba9e-1755871205660][type:generic] = [executables:9189c2be-0290-4ce6-b5f5-8cfa986e163b-1755883409474;dc55ae57-d0f0-49f1-ac64-c75d3959f478-1755883417278;]
   restartbackgroundanimations = true

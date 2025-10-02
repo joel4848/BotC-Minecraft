@@ -1,0 +1,1 @@
+$item replace entity @a[scores={Player=-$(player)}] armor.head with player_head[profile={name:"$(player_username)"},custom_data={name:$(player_username)}] 1
