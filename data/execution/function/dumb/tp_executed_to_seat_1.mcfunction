@@ -17,7 +17,7 @@ execute as @e[limit=1,tag=seat16,type=minecraft:marker] at @s run execute if ent
 
 execute as @a[scores={Wheee=1}] unless score @s Player matches ..-1 run tp @s 167 91 1
 
-execute at @a[scores={Wheee=1}] run playsound entity.player.teleport master @a ~ ~ ~ 1 1 1
+execute at @a run playsound entity.player.teleport master @a ~ ~ ~ 1 1 1
 
 scoreboard players set @a[scores={Wheee=1}] Wheee 0
 
