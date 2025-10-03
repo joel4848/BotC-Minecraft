@@ -20,7 +20,7 @@ execute if score #start_player temp > #player_count temp run scoreboard players 
 
 # Initialize vote counter
 scoreboard players set #current_player temp 0
-scoreboard players set #vote_tally temp 0
+scoreboard players set #exile_vote_tally temp 0
 scoreboard players reset #current_votelight temp
 scoreboard players set #start_player_passed temp 0
 

@@ -81,6 +81,6 @@ execute if score #current_seat temp = #nominated temp run schedule function voti
 
 
 # tellraw @a [{"text":"[Start Player] - ","color":"yellow"},{"score":{"name":"#start_player","objective":"temp"}}]
-# tellraw @a [{"text":"[Vote Tally] - ","color":"yellow"},{"score":{"name":"#vote_tally","objective":"temp"}}]
+# tellraw @a [{"text":"[Vote Tally] - ","color":"yellow"},{"score":{"name":"#exile_vote_tally","objective":"temp"}}]
 
 # tellraw @a [{"text":"[Seat] - ","color":"yellow"},{"score":{"name":"#seat","objective":"temp"}}]
