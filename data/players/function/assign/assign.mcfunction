@@ -1,7 +1,7 @@
 # call with players:assign/assign {player:%d}
 
-$execute at @a[scores={Player=-$(player)}] run function players:assign/unassign
 $execute unless score @p Player matches -$(player) run give @p writable_book
+$execute at @a[scores={Player=-$(player)}] run function players:assign/unassign
 $scoreboard players set @p Player -$(player)
 scoreboard players set @p Alive 1
 scoreboard players set @p Storyteller 0
