@@ -30,7 +30,7 @@ scoreboard players set #start_player_passed temp 0
 
 execute if score #og_enabled temp matches 0 run tellraw @a [{"color":"aqua","text":"These players voted","underlined":true},{"color":"aqua","text":":","underlined":false}]
 execute if score #og_enabled temp matches 1 run tellraw @a [{"color":"red","text":"The Organ Grinder obscures the vote...","underlined":false}]
-execute if score #og_enabled temp matches 1 run tellraw @a[scores={Storyteller=1}] [{"color":"aqua","text":"These players voted","underlined":true},{"color":"aqua","text":":","underlined":false}]
+execute if score #og_enabled temp matches 1 run tellraw @a[scores={Storyteller=1}] [{"color":"aqua","text":"These players voted","underlined":true},{"color":"aqua","text":":","underlined":false},{"color":"red","text":" (hidden from players by OG)","underlined":false}]
 
 
 # ------------------------------------------------------
