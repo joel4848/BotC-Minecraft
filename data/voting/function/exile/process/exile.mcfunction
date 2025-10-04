@@ -2,7 +2,7 @@
 
 # Announce result first (while we can still target the nominated player)
 
-tellraw @a [{"text":"","color":"red"},{"score":{"name":"#vote_tally","objective":"temp"}},{"text":" votes is enough to exile "},{"selector":"@a[scores={Nominated=1}]"}]
+tellraw @a [{"text":"","color":"red"},{"score":{"name":"#exile_vote_tally","objective":"temp"}},{"text":" votes is enough to exile "},{"selector":"@a[scores={Nominated=1}]"}]
 
 # Exile the nominated player and clear/reapply glowing (necessary for OG mode)
 

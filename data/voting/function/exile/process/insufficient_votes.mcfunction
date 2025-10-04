@@ -2,7 +2,7 @@
 
 # Announce result using selector, then clear nomination
 
-tellraw @a [{"text":"","color":"green"},{"score":{"name":"#vote_tally","objective":"temp"}},{"text":" votes is not enough to exile "},{"selector":"@a[scores={Nominated=1}]"}]
+tellraw @a [{"text":"","color":"green"},{"score":{"name":"#exile_vote_tally","objective":"temp"}},{"text":" votes is not enough to exile "},{"selector":"@a[scores={Nominated=1}]"}]
 
 # Clear nominated status and glowing
 

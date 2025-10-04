@@ -39,3 +39,5 @@ scoreboard players set @a[scores={Marked=1}] Wheee 1
 function execution:execution_messages/run_display_message
 
 scoreboard players set @a[scores={Marked=1}] Marked 0
+
+schedule clear execution:dumb/lock_to_seats

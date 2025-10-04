@@ -2,7 +2,7 @@
 
 # Store the vote tally for the nominated player
 
-execute as @e[scores={Nominated=1}] run scoreboard players operation @s VoteTally = #vote_tally temp
+execute as @e[scores={Nominated=1}] run scoreboard players operation @s VoteTally = #exile_vote_tally temp
 
 # Calculate how many votes are needed (half of all players, rounded up)
 
@@ -13,8 +13,8 @@ scoreboard players operation #required_votes_traveller temp /= #2 const
 
 # Determine the outcome with clearer logic
 
-execute if score #vote_tally temp < #required_votes_traveller temp run function voting:exile/process/insufficient_votes
-execute if score #vote_tally temp >= #required_votes_traveller temp run function voting:exile/process/exile
+execute if score #exile_vote_tally temp < #required_votes_traveller temp run function voting:exile/process/insufficient_votes
+execute if score #exile_vote_tally temp >= #required_votes_traveller temp run function voting:exile/process/exile
 
 
 # Unlock players from seats
