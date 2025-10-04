@@ -1,3 +1,5 @@
+title @a times 20t 60t 20t
+
 scoreboard players set TimerEntity TimerPaused 1
 time set 0
 gamerule doDaylightCycle false

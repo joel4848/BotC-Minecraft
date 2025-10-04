@@ -1,3 +1,5 @@
+title @a times 20t 60t 20t
+
 time set 18000
 gamerule doDaylightCycle false
 function timer:discussion_end_bell
