@@ -3,13 +3,18 @@ type = fancymenu_layout
 layout-meta {
   identifier = extras_and_travellers
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1759371592938
+  last_edited_time = 1759587071667
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:5fcdc1ee-53d6-43ca-bd6d-2da615e1e6ab-1759371580359] = [groups:][instances:]
+  [loading_requirement_container_meta:0f545c89-8373-4e82-883a-7a04af3cc4fd-1759587051323] = [groups:][instances:]
+}
+
+customization {
+  action = setscale
+  scale = 3.0
 }
 
 customization {
