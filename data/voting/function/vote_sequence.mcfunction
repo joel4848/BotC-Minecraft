@@ -31,28 +31,15 @@ scoreboard players set #big_hand_speed temp 6
 # tellraw @a [{"text":"[Storage Votelight] - ","color":"yellow"},{"nbt":"current_votelight","storage":"joelbotc"}]
 # tellraw @a [{"text":"[Current Player] - ","color":"yellow"},{"score":{"name":"#current_player","objective":"temp"}}]
 # tellraw @a [{"text":"[Current Seat] - ","color":"yellow"},{"score":{"name":"#current_seat","objective":"temp"}}]
+# tellraw @a [{"text":"[Next Seat] - ","color":"yellow"},{"score":{"name":"#next_seat","objective":"temp"}}]
+# tellraw @a [{"text":"--------- ","color":"dark_blue"}]
 
-# execute unless score #current_seat temp = #start_player temp run 
 
-########
 
-# execute unless score #current_seat temp matches 1 run schedule function voting:call_move_big_hand 2t
+execute unless score #current_seat temp matches 1 run execute unless score #next_seat temp > player_count PlayerCount run execute unless score #current_seat temp matches 1 run schedule function voting:call_move_big_hand 2t
 
-execute unless score #next_seat temp > player_count PlayerCount run schedule function voting:call_move_big_hand 2t
 
-########
-# execute if score #start_player_passed temp matches 0 run execute unless score #current_seat temp matches 1 run schedule function voting:call_move_big_hand 2t
-# execute unless score #current_seat temp = #start_player temp run execute unless score #current_seat temp matches 1 run say VS called Move Big Hand
-
-# execute unless score #current_seat temp = #start_player temp run 
-execute unless score #storyteller Nominated matches 1 run execute if score #next_seat temp matches 1 run function voting:call_move_big_hand_skip
-
-# execute if score #start_player_passed temp matches 0 run execute if score #next_seat temp matches 1 run schedule function voting:call_move_big_hand_skip 7t
-# execute unless score #current_seat temp = #start_player temp run execute if score #next_seat temp matches 1 run say VS called Move Big Hand Skip
-
-# execute if score #current_seat temp = #nominated temp run scoreboard players set #start_player_passed temp 1
-
-# Recursive function to handle each player's vote in clockwise order
+execute unless score #storyteller Nominated matches 1 run execute if score #next_seat temp matches 1 run execute unless score #nominated temp = player_count PlayerCount run function voting:call_move_big_hand_skip
 
 # First retract the piston (remove redstone power)
 
@@ -81,12 +68,9 @@ execute if score #storyteller Nominated matches 1 run execute if score #current_
 
 # tellraw @a [{"text":"[Current Player] - ","color":"yellow"},{"score":{"name":"#current_player","objective":"temp"}}]
 # tellraw @a [{"text":"[Current Seat] - ","color":"yellow"},{"score":{"name":"#current_seat","objective":"temp"}}]
-# tellraw @a [{"text":"[Current Seat] - ","color":"yellow"},{"score":{"name":"player_count","objective":"PlayerCount"}}]
+# tellraw @a [{"text":"[Player Count] - ","color":"yellow"},{"score":{"name":"player_count","objective":"PlayerCount"}}]
 # tellraw @a [{"text":"[Seat] - ","color":"yellow"},{"score":{"name":"#seat","objective":"temp"}}]
 # tellraw @a [{"text":"[Current Votelight] - ","color":"yellow"},{"score":{"name":"#current_votelight","objective":"temp"}}]
-
-
 # tellraw @a [{"text":"[Start Player] - ","color":"yellow"},{"score":{"name":"#start_player","objective":"temp"}}]
 # tellraw @a [{"text":"[Vote Tally] - ","color":"yellow"},{"score":{"name":"#vote_tally","objective":"temp"}}]
-
 # tellraw @a [{"text":"[Seat] - ","color":"yellow"},{"score":{"name":"#seat","objective":"temp"}}]
