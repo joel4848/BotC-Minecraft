@@ -26,55 +26,55 @@ variable {
 
 variable {
   name = player_11_colour
-  value = %#55FF55%
+  value = %#555555%
   reset_on_launch = false
 }
 
 variable {
   name = player_2_username
-  value = p2
+  value =  ‌
   reset_on_launch = false
 }
 
 variable {
   name = player_8_username
-  value = p8
+  value =  ‌
   reset_on_launch = false
 }
 
 variable {
   name = player_10_colour
-  value = %#55FF55%
+  value = %#555555%
   reset_on_launch = false
 }
 
 variable {
   name = player_12_colour
-  value = %#55FF55%
+  value = %#555555%
   reset_on_launch = false
 }
 
 variable {
   name = player_13_colour
-  value = %#55FF55%
+  value = %#555555%
   reset_on_launch = false
 }
 
 variable {
   name = player_14_colour
-  value = %#55FF55%
+  value = %#555555%
   reset_on_launch = false
 }
 
 variable {
   name = player_15_colour
-  value = %#55FF55%
+  value = %#555555%
   reset_on_launch = false
 }
 
 variable {
   name = player_16_colour
-  value = %#55FF55%
+  value = %#555555%
   reset_on_launch = false
 }
 
@@ -104,7 +104,7 @@ variable {
 
 variable {
   name = player_11_username
-  value = p11
+  value =  ‌
   reset_on_launch = false
 }
 
@@ -140,7 +140,7 @@ variable {
 
 variable {
   name = player_8_colour
-  value = %#55FF55%
+  value = %#555555%
   reset_on_launch = false
 }
 
@@ -176,19 +176,19 @@ variable {
 
 variable {
   name = player_3_username
-  value = p3
+  value =  ‌
   reset_on_launch = false
 }
 
 variable {
   name = player_7_username
-  value = p7
+  value =  ‌
   reset_on_launch = false
 }
 
 variable {
   name = player_count
-  value = 16
+  value = 5
   reset_on_launch = false
 }
 
@@ -224,31 +224,31 @@ variable {
 
 variable {
   name = player_6_colour
-  value = %#55FF55%
+  value = %#555555%
   reset_on_launch = false
 }
 
 variable {
   name = player_2_colour
-  value = %#55FF55%
+  value = %#00AA00%
   reset_on_launch = false
 }
 
 variable {
   name = player_12_username
-  value = P12
+  value =  ‌
   reset_on_launch = false
 }
 
 variable {
   name = player_13_username
-  value = p13
+  value =  ‌
   reset_on_launch = false
 }
 
 variable {
   name = player_10_username
-  value = P10
+  value =  ‌
   reset_on_launch = false
 }
 
@@ -284,7 +284,7 @@ variable {
 
 variable {
   name = player_6_username
-  value = p6
+  value =  ‌
   reset_on_launch = false
 }
 
@@ -296,7 +296,7 @@ variable {
 
 variable {
   name = player_1_username
-  value = p1
+  value =  ‌
   reset_on_launch = false
 }
 
@@ -308,13 +308,13 @@ variable {
 
 variable {
   name = player_9_username
-  value = p9
+  value =  ‌
   reset_on_launch = false
 }
 
 variable {
   name = player_16_username
-  value = P16
+  value =  ‌
   reset_on_launch = false
 }
 
@@ -332,31 +332,31 @@ variable {
 
 variable {
   name = player_9_colour
-  value = %#55FF55%
+  value = %#555555%
   reset_on_launch = false
 }
 
 variable {
   name = banshee_0_username
-  value =  
+  value = MinnieMcG 
   reset_on_launch = false
 }
 
 variable {
   name = player_4_username
-  value = p4
+  value =  ‌
   reset_on_launch = false
 }
 
 variable {
   name = player_14_username
-  value = P14
+  value =  ‌
   reset_on_launch = false
 }
 
 variable {
   name = banshee_0
-  value = 
+  value = 3
   reset_on_launch = false
 }
 
@@ -386,7 +386,7 @@ variable {
 
 variable {
   name = player_15_username
-  value = P15
+  value =  ‌
   reset_on_launch = false
 }
 
@@ -404,7 +404,7 @@ variable {
 
 variable {
   name = player_5_colour
-  value = %#55FF55%
+  value = %#00AA00%
   reset_on_launch = false
 }
 
@@ -416,7 +416,7 @@ variable {
 
 variable {
   name = player_3_colour
-  value = %#55FF55%
+  value = %#00AA00%
   reset_on_launch = false
 }
 
@@ -428,13 +428,13 @@ variable {
 
 variable {
   name = player_7_colour
-  value = %#55FF55%
+  value = %#555555%
   reset_on_launch = false
 }
 
 variable {
   name = player_5_username
-  value = p5
+  value =  ‌
   reset_on_launch = false
 }
 
