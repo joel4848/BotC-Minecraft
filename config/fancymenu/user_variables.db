@@ -26,55 +26,55 @@ variable {
 
 variable {
   name = player_11_colour
-  value = %#555555%
+  value = &8
   reset_on_launch = false
 }
 
 variable {
   name = player_2_username
-  value =  ‌
+  value = Dibbs93
   reset_on_launch = false
 }
 
 variable {
   name = player_8_username
-  value =  ‌
+  value = EastPlaysss
   reset_on_launch = false
 }
 
 variable {
   name = player_10_colour
-  value = %#555555%
+  value = &8
   reset_on_launch = false
 }
 
 variable {
   name = player_12_colour
-  value = %#555555%
+  value = &8
   reset_on_launch = false
 }
 
 variable {
   name = player_13_colour
-  value = %#555555%
+  value = &8
   reset_on_launch = false
 }
 
 variable {
   name = player_14_colour
-  value = %#555555%
+  value = &8
   reset_on_launch = false
 }
 
 variable {
   name = player_15_colour
-  value = %#555555%
+  value = &8
   reset_on_launch = false
 }
 
 variable {
   name = player_16_colour
-  value = %#555555%
+  value = &8
   reset_on_launch = false
 }
 
@@ -140,7 +140,7 @@ variable {
 
 variable {
   name = player_8_colour
-  value = %#555555%
+  value = &a
   reset_on_launch = false
 }
 
@@ -176,19 +176,19 @@ variable {
 
 variable {
   name = player_3_username
-  value =  ‌
+  value = iyfBrainBug
   reset_on_launch = false
 }
 
 variable {
   name = player_7_username
-  value =  ‌
+  value = Kk5288
   reset_on_launch = false
 }
 
 variable {
   name = player_count
-  value = 5
+  value = 8
   reset_on_launch = false
 }
 
@@ -206,7 +206,7 @@ variable {
 
 variable {
   name = player_4_colour
-  value = %#55FF55%
+  value = &a
   reset_on_launch = false
 }
 
@@ -224,13 +224,13 @@ variable {
 
 variable {
   name = player_6_colour
-  value = %#555555%
+  value = &a
   reset_on_launch = false
 }
 
 variable {
   name = player_2_colour
-  value = %#00AA00%
+  value = &a
   reset_on_launch = false
 }
 
@@ -284,7 +284,7 @@ variable {
 
 variable {
   name = player_6_username
-  value =  ‌
+  value = gurtiman10
   reset_on_launch = false
 }
 
@@ -296,7 +296,7 @@ variable {
 
 variable {
   name = player_1_username
-  value =  ‌
+  value = ForgottenChav
   reset_on_launch = false
 }
 
@@ -332,19 +332,19 @@ variable {
 
 variable {
   name = player_9_colour
-  value = %#555555%
+  value = &8
   reset_on_launch = false
 }
 
 variable {
   name = banshee_0_username
-  value = MinnieMcG 
+  value =  
   reset_on_launch = false
 }
 
 variable {
   name = player_4_username
-  value =  ‌
+  value = WylerI
   reset_on_launch = false
 }
 
@@ -356,7 +356,7 @@ variable {
 
 variable {
   name = banshee_0
-  value = 3
+  value = 
   reset_on_launch = false
 }
 
@@ -380,7 +380,7 @@ variable {
 
 variable {
   name = player_1_colour
-  value = %#55FF55%
+  value = &a
   reset_on_launch = false
 }
 
@@ -404,7 +404,7 @@ variable {
 
 variable {
   name = player_5_colour
-  value = %#00AA00%
+  value = &a
   reset_on_launch = false
 }
 
@@ -416,7 +416,7 @@ variable {
 
 variable {
   name = player_3_colour
-  value = %#00AA00%
+  value = &a
   reset_on_launch = false
 }
 
@@ -428,13 +428,13 @@ variable {
 
 variable {
   name = player_7_colour
-  value = %#555555%
+  value = &a
   reset_on_launch = false
 }
 
 variable {
   name = player_5_username
-  value =  ‌
+  value = LorekeeperGGuy
   reset_on_launch = false
 }
 

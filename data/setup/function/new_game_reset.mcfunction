@@ -64,32 +64,32 @@ function players:usernames/extract_username/clear_signs
 
 # scoreboard players operation #fm_colours_on temp = #were_fm_colours_on temp
 
-execute as @s run execute if score player_count PlayerCount matches 5.. run fmvariable set player_1_colour false %#FFFFFF%
-execute as @s run execute if score player_count PlayerCount matches 5.. run fmvariable set player_2_colour false %#FFFFFF%
-execute as @s run execute if score player_count PlayerCount matches 5.. run fmvariable set player_3_colour false %#FFFFFF%
-execute as @s run execute if score player_count PlayerCount matches 5.. run fmvariable set player_4_colour false %#FFFFFF%
-execute as @s run execute if score player_count PlayerCount matches 5.. run fmvariable set player_5_colour false %#FFFFFF%
-execute as @s run execute if score player_count PlayerCount matches 6.. run fmvariable set player_6_colour false %#FFFFFF%
-execute as @s run execute if score player_count PlayerCount matches 7.. run fmvariable set player_7_colour false %#FFFFFF%
-execute as @s run execute if score player_count PlayerCount matches 8.. run fmvariable set player_8_colour false %#FFFFFF%
-execute as @s run execute if score player_count PlayerCount matches 9.. run fmvariable set player_9_colour false %#FFFFFF%
-execute as @s run execute if score player_count PlayerCount matches 10.. run fmvariable set player_10_colour false %#FFFFFF%
-execute as @s run execute if score player_count PlayerCount matches 11.. run fmvariable set player_11_colour false %#FFFFFF%
-execute as @s run execute if score player_count PlayerCount matches 12.. run fmvariable set player_12_colour false %#FFFFFF%
-execute as @s run execute if score player_count PlayerCount matches 13.. run fmvariable set player_13_colour false %#FFFFFF%
-execute as @s run execute if score player_count PlayerCount matches 14.. run fmvariable set player_14_colour false %#FFFFFF%
-execute as @s run execute if score player_count PlayerCount matches 15.. run fmvariable set player_15_colour false %#FFFFFF%
-execute as @s run execute if score player_count PlayerCount matches 16.. run fmvariable set player_16_colour false %#FFFFFF%
+execute as @s run execute if score player_count PlayerCount matches 5.. run fmvariable set player_1_colour false &f
+execute as @s run execute if score player_count PlayerCount matches 5.. run fmvariable set player_2_colour false &f
+execute as @s run execute if score player_count PlayerCount matches 5.. run fmvariable set player_3_colour false &f
+execute as @s run execute if score player_count PlayerCount matches 5.. run fmvariable set player_4_colour false &f
+execute as @s run execute if score player_count PlayerCount matches 5.. run fmvariable set player_5_colour false &f
+execute as @s run execute if score player_count PlayerCount matches 6.. run fmvariable set player_6_colour false &f
+execute as @s run execute if score player_count PlayerCount matches 7.. run fmvariable set player_7_colour false &f
+execute as @s run execute if score player_count PlayerCount matches 8.. run fmvariable set player_8_colour false &f
+execute as @s run execute if score player_count PlayerCount matches 9.. run fmvariable set player_9_colour false &f
+execute as @s run execute if score player_count PlayerCount matches 10.. run fmvariable set player_10_colour false &f
+execute as @s run execute if score player_count PlayerCount matches 11.. run fmvariable set player_11_colour false &f
+execute as @s run execute if score player_count PlayerCount matches 12.. run fmvariable set player_12_colour false &f
+execute as @s run execute if score player_count PlayerCount matches 13.. run fmvariable set player_13_colour false &f
+execute as @s run execute if score player_count PlayerCount matches 14.. run fmvariable set player_14_colour false &f
+execute as @s run execute if score player_count PlayerCount matches 15.. run fmvariable set player_15_colour false &f
+execute as @s run execute if score player_count PlayerCount matches 16.. run fmvariable set player_16_colour false &f
 
 
-execute as @s run execute if score player_count PlayerCount matches ..5 run fmvariable set player_6_colour false %#555555%
-execute as @s run execute if score player_count PlayerCount matches ..6 run fmvariable set player_7_colour false %#555555%
-execute as @s run execute if score player_count PlayerCount matches ..7 run fmvariable set player_8_colour false %#555555%
-execute as @s run execute if score player_count PlayerCount matches ..8 run fmvariable set player_9_colour false %#555555%
-execute as @s run execute if score player_count PlayerCount matches ..9 run fmvariable set player_10_colour false %#555555%
-execute as @s run execute if score player_count PlayerCount matches ..10 run fmvariable set player_11_colour false %#555555%
-execute as @s run execute if score player_count PlayerCount matches ..11 run fmvariable set player_12_colour false %#555555%
-execute as @s run execute if score player_count PlayerCount matches ..12 run fmvariable set player_13_colour false %#555555%
-execute as @s run execute if score player_count PlayerCount matches ..13 run fmvariable set player_14_colour false %#555555%
-execute as @s run execute if score player_count PlayerCount matches ..14 run fmvariable set player_15_colour false %#555555%
-execute as @s run execute if score player_count PlayerCount matches ..15 run fmvariable set player_16_colour false %#555555%
+execute as @s run execute if score player_count PlayerCount matches ..5 run fmvariable set player_6_colour false &f
+execute as @s run execute if score player_count PlayerCount matches ..6 run fmvariable set player_7_colour false &f
+execute as @s run execute if score player_count PlayerCount matches ..7 run fmvariable set player_8_colour false &f
+execute as @s run execute if score player_count PlayerCount matches ..8 run fmvariable set player_9_colour false &f
+execute as @s run execute if score player_count PlayerCount matches ..9 run fmvariable set player_10_colour false &f
+execute as @s run execute if score player_count PlayerCount matches ..10 run fmvariable set player_11_colour false &f
+execute as @s run execute if score player_count PlayerCount matches ..11 run fmvariable set player_12_colour false &f
+execute as @s run execute if score player_count PlayerCount matches ..12 run fmvariable set player_13_colour false &f
+execute as @s run execute if score player_count PlayerCount matches ..13 run fmvariable set player_14_colour false &f
+execute as @s run execute if score player_count PlayerCount matches ..14 run fmvariable set player_15_colour false &f
+execute as @s run execute if score player_count PlayerCount matches ..15 run fmvariable set player_16_colour false &f
