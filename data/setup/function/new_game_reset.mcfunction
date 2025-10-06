@@ -11,6 +11,10 @@ scoreboard objectives add HasSeat dummy
 
 function setup:clonechests
 
+# Place blank large canvases on empty easels
+
+execute as @e[type=xercapaint:easel,tag=house_easel] run data modify entity @e[type=xercapaint:easel,limit=1,sort=nearest] Item.id set value "xercapaint:item_canvas_large"
+
 # Revive everyone
 
 function players:kill_revive/revive_all
