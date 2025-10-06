@@ -564,7 +564,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:1}
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:1,yaw:-90}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   restartbackgroundanimations = true
@@ -623,7 +623,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:2}
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:2,yaw:-135}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   restartbackgroundanimations = true
@@ -682,7 +682,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:3}
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:3,yaw:35}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   restartbackgroundanimations = true
@@ -741,7 +741,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:4}
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:4,yaw:0}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   restartbackgroundanimations = true
@@ -800,7 +800,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:5}
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:5,yaw:-70}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   restartbackgroundanimations = true
@@ -859,7 +859,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:6}
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:6,yaw:-60}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   restartbackgroundanimations = true
@@ -918,7 +918,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:7}
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:7,yaw:60}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   restartbackgroundanimations = true
@@ -977,7 +977,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:8}
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:8,yaw:90}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   restartbackgroundanimations = true
@@ -1036,7 +1036,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:9}
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:9,yaw:90}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   restartbackgroundanimations = true
@@ -1095,7 +1095,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:10}
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:10,yaw:-180}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   restartbackgroundanimations = true
@@ -1154,7 +1154,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:11}
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:11,yaw:180}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   restartbackgroundanimations = true
@@ -1213,7 +1213,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:12}
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:12,yaw:145}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   restartbackgroundanimations = true
@@ -1272,7 +1272,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:13}
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:13,yaw:90}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   restartbackgroundanimations = true
@@ -1331,7 +1331,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:14}
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:14,yaw:135}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   restartbackgroundanimations = true
@@ -1390,7 +1390,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:15}
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:15,yaw:125}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   restartbackgroundanimations = true
@@ -1449,7 +1449,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:16}
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:16,yaw:-90}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   restartbackgroundanimations = true
