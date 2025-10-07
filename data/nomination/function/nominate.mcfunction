@@ -29,3 +29,8 @@ execute store result storage joelbotc nominated_player_big_hand int 1 run scoreb
 
 schedule function nomination:call_big_hand_nominate 1t
 function clock_hand:big_hand/start
+
+# Place Start Vote button in chat for Storyteller
+
+tellraw @a[scores={Storyteller=1}] [{"color":"light_purple","text":"Click here to start vote: ["},{"clickEvent":{"action":"run_command","value":"/function voting:start_countdown"},"color":"gold","text":"Start Vote","underlined":true},{"color":"light_purple","text":"]"}]
+

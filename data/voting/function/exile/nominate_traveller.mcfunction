@@ -27,3 +27,5 @@ $scoreboard players set #nominated_player_big_hand temp $(player)
 execute store result storage joelbotc nominated_player_big_hand int 1 run scoreboard players get #nominated_player_big_hand temp
 schedule function nomination:call_big_hand_nominate 1t
 function clock_hand:big_hand/start
+
+tellraw @a[scores={Storyteller=1}] [{"color":"light_purple","text":"Click here to start vote: ["},{"clickEvent":{"action":"run_command","value":"/function voting:exile/process/start_countdown"},"color":"gold","text":"Start Vote","underlined":true},{"color":"light_purple","text":"]"}]
