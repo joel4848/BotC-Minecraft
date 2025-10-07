@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = extras_and_travellers
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1759686810421
+  last_edited_time = 1759840704062
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:7bd54f2f-87f4-42a2-beba-d7b62245c7a0-1759683178804] = [groups:][instances:]
+  [loading_requirement_container_meta:ad40c140-0ee5-4532-ae33-6245c5e3cee5-1759840658081] = [groups:][instances:]
 }
 
 customization {
@@ -500,10 +500,8 @@ element {
 
 element {
   button_element_executable_block_identifier = 07e998d8-38e1-4497-9d1b-8c579e8e37fe-1756313067842
-  [executable_action_instance:8290521a-652c-481c-bd4a-4b048b945e0d-1756489458539][action_type:sendmessage] = /scoreboard objectives remove ThiefSelected
-  [executable_action_instance:992cbdab-618a-424d-93c1-2455e0de34e8-1756489512472][action_type:sendmessage] = /scoreboard objectives add ThiefSelected dummy
-  [executable_action_instance:2207e7f6-df19-443a-812b-6e22cc5de51f-1756489543455][action_type:set_variable] = thief_chosen:
-  [executable_block:07e998d8-38e1-4497-9d1b-8c579e8e37fe-1756313067842][type:generic] = [executables:8290521a-652c-481c-bd4a-4b048b945e0d-1756489458539;992cbdab-618a-424d-93c1-2455e0de34e8-1756489512472;2207e7f6-df19-443a-812b-6e22cc5de51f-1756489543455;]
+  [executable_action_instance:8290521a-652c-481c-bd4a-4b048b945e0d-1756489458539][action_type:sendmessage] = /function extras:thief/clear_thief_chosen
+  [executable_block:07e998d8-38e1-4497-9d1b-8c579e8e37fe-1756313067842][type:generic] = [executables:8290521a-652c-481c-bd4a-4b048b945e0d-1756489458539;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -559,10 +557,8 @@ element {
 
 element {
   button_element_executable_block_identifier = 07e998d8-38e1-4497-9d1b-8c579e8e37fe-1756313067842
-  [executable_action_instance:8290521a-652c-481c-bd4a-4b048b945e0d-1756489458539][action_type:sendmessage] = /scoreboard objectives remove BureaucratSelected
-  [executable_action_instance:992cbdab-618a-424d-93c1-2455e0de34e8-1756489512472][action_type:sendmessage] = /scoreboard objectives add BureaucratSelected dummy
-  [executable_action_instance:2207e7f6-df19-443a-812b-6e22cc5de51f-1756489543455][action_type:set_variable] = bureaucrat_chosen:
-  [executable_block:07e998d8-38e1-4497-9d1b-8c579e8e37fe-1756313067842][type:generic] = [executables:8290521a-652c-481c-bd4a-4b048b945e0d-1756489458539;992cbdab-618a-424d-93c1-2455e0de34e8-1756489512472;2207e7f6-df19-443a-812b-6e22cc5de51f-1756489543455;]
+  [executable_action_instance:8290521a-652c-481c-bd4a-4b048b945e0d-1756489458539][action_type:sendmessage] = /function extras:bureaucrat/clear_bureaucrat_chosen
+  [executable_block:07e998d8-38e1-4497-9d1b-8c579e8e37fe-1756313067842][type:generic] = [executables:8290521a-652c-481c-bd4a-4b048b945e0d-1756489458539;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5

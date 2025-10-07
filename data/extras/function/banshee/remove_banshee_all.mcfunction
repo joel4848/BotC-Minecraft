@@ -1,3 +1,6 @@
+scoreboard objectives remove IsBanshee
+scoreboard objectives add IsBanshee dummy
+
 data modify block 162 106 41 front_text.messages[0] set value '{"text":""}'
 data modify block 162 106 41 front_text.messages[1] set value '{"text":""}'
 data modify block 162 106 41 front_text.messages[2] set value '{"text":""}'

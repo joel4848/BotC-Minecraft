@@ -52,6 +52,14 @@ function setup:clear_username_storage
 
 function players:usernames/extract_username/clear_signs
 
+# Reset Banshees and Thief and Bureaucrat chosen players
+
+function extras:banshee/remove_banshee_all
+
+function extras:thief/clear_thief_chosen
+
+function extras:bureaucrat/clear_bureaucrat_chosen
+
 # Empty FM player list
 
 # function players:pickers/player_usernames/set_fmvs with storage minecraft:joelbotc
