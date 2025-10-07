@@ -49,11 +49,16 @@ scoreboard objectives add temp dummy
 scoreboard objectives add Booth dummy
 scoreboard objectives add SummonSTInteracted dummy
 scoreboard objectives add SummonSTConfirmed trigger
-# scoreboard objectives add  dummy
+scoreboard objectives add Annoying dummy
 # scoreboard objectives add  dummy
 # scoreboard objectives add  dummy
 
+# Set scoreboard displays
+# 'temp' MUST be displayed somewhere, so that FancyMenu can pull scores from it to display in GUIs
+
 scoreboard objectives setdisplay sidebar Player
+scoreboard objectives setdisplay sidebar.team.light_purple temp
+
 
 # Creates teams
 
