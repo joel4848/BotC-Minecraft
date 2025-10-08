@@ -12,3 +12,5 @@ $team join Marked @a[scores={Player=-$(player)}]
 $effect give @a[scores={Player=-$(player)}] glowing infinite 99 true
 
 function nomination:marked_particles
+
+scoreboard players set #has_anyone_been_marked temp 1
