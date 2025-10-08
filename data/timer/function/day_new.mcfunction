@@ -31,3 +31,7 @@ scoreboard players set #tp_disabled temp 1
 
 scoreboard players set #is_nighttime temp 0
 title @a actionbar ""
+
+# Give ST glowing effect if option enabled in Setup
+
+execute if score #st_glowing_during_day temp matches 1 run effect give @a[scores={Storyteller=1}] glowing infinite 99 true

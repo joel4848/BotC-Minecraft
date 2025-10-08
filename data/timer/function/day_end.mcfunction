@@ -36,3 +36,7 @@ function setup:remove_buttons
 # Set score for "It is nighttime" action bar announcement
 
 scoreboard players set #is_nighttime temp 1
+
+# Remove ST glowing effect (regardless of whether option enabled in Setup)
+
+effect clear @a[scores={Storyteller=1}] glowing
