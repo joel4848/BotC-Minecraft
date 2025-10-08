@@ -3,7 +3,7 @@ title @a times 20t 60t 20t
 scoreboard players set TimerEntity TimerPaused 1
 time set 0
 gamerule doDaylightCycle false
-playsound minecraft:block.bell.use ambient @a ~ ~ ~ 5 1 1
+playsound minecraft:block.bell.use master @a ~ ~ ~ 5 1 1
 title @a title {"text":"Wake up!","bold":true,"color":"yellow"}
 title @a subtitle [{"text":"A new day dawns in ","color":"yellow"},{"nbt":"front_text.messages[2]","block":"168 107 29","interpret":true,"color":"yellow","italic":true},{"text":"...","color":"yellow"}]
 
