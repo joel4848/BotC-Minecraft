@@ -70,6 +70,10 @@ scoreboard players set #big_hand_speed temp 6
 
 execute if score #og_enabled temp matches 1 run function extras:organ_grinder/hide_ghost_votes/og_hgv_disable
 
+# Silence votelight interactions if OG mode enabled
+
+execute if score #og_enabled temp matches 1 run scoreboard players set #og_silence_votelights temp 1
+
 # Lock players to seats
 
 scoreboard players set #vote_running temp 1

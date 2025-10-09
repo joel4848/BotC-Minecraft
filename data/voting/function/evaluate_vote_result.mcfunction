@@ -39,6 +39,10 @@ execute if score #og_enabled temp matches 1 run function voting:reset_vote
 
 execute if score #og_enabled temp matches 1 run schedule function extras:organ_grinder/hide_ghost_votes/og_hgv_enable 2t
 
+# Unsilence votelight interactions if OG mode enabled
+
+execute if score #og_enabled temp matches 1 run scoreboard players set #og_silence_votelights temp 0
+
 # Reset vote automatically after voting complete
 
 schedule function voting:reset_vote 2s
