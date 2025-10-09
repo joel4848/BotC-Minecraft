@@ -7,3 +7,7 @@ team modify Dead nametagVisibility never
 team modify Storyteller nametagVisibility never
 team modify Nominated nametagVisibility never
 team modify Marked nametagVisibility never
+
+# Remove glowing effects from nominated player
+
+effect clear @a[scores={Nominated=1}] glowing
