@@ -40,3 +40,9 @@ scoreboard players set #is_nighttime temp 1
 # Remove ST glowing effect (regardless of whether option enabled in Setup)
 
 effect clear @a[scores={Storyteller=1}] glowing
+
+# Give compasses if not already given, then mark as given
+
+execute unless score #compasses_given temp matches 1 run function buildings:call_give_compass
+
+execute unless score #compasses_given temp matches 1 run scoreboard players set #compasses_given temp 1

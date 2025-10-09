@@ -7,6 +7,12 @@ team leave @a[team=!Storyteller]
 scoreboard objectives remove HasSeat
 scoreboard objectives add HasSeat dummy
 
+# Remove compasses and reset whether compasses already given
+
+clear @a compass
+
+scoreboard players set #compasses_given temp 0
+
 # Clone chests
 
 function setup:clonechests
