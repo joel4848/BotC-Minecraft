@@ -11,3 +11,5 @@ execute as @a run fmvariable set og_enabled false false
 # Unsilence votelight interactions
 
 execute if score #og_enabled temp matches 1 run scoreboard players set #og_silence_votelights temp 0
+
+# Clear questionmark block displays

@@ -5,10 +5,6 @@
       "required": false
     },
     {
-      "id": "extras:organ_grinder/hide_ghost_votes/og_hgv_particles",
-      "required": false
-    },
-    {
       "id": "players:set_signs",
       "required": false
     },

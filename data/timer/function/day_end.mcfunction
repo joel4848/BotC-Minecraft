@@ -1,3 +1,11 @@
+# Disable OG mode if enabled
+
+execute if score #og_enabled temp matches 1 run kill @e[tag=questionmark]
+
+execute if score #og_enabled temp matches 1 run function extras:organ_grinder/og_disable
+
+# Announce day end
+
 title @a times 20t 60t 20t
 
 time set 18000

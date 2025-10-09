@@ -35,3 +35,22 @@ execute as @e[tag=votelight13] if score @a[scores={Player=-13},limit=1] GhostVot
 execute as @e[tag=votelight14] if score @a[scores={Player=-14},limit=1] GhostVoteUsedMaster matches 0 run execute if score @a[scores={Player=-14},limit=1] GhostVoteUnusedToday matches 1 run function extras:organ_grinder/hide_ghost_votes/unused_unhide_stack
 execute as @e[tag=votelight15] if score @a[scores={Player=-15},limit=1] GhostVoteUsedMaster matches 0 run execute if score @a[scores={Player=-15},limit=1] GhostVoteUnusedToday matches 1 run function extras:organ_grinder/hide_ghost_votes/unused_unhide_stack
 execute as @e[tag=votelight16] if score @a[scores={Player=-16},limit=1] GhostVoteUsedMaster matches 0 run execute if score @a[scores={Player=-16},limit=1] GhostVoteUnusedToday matches 1 run function extras:organ_grinder/hide_ghost_votes/unused_unhide_stack
+
+# Remove reinforced deepslate if it's in the votelight position
+
+execute as @e[tag=votelight1] at @s if block ~ ~ ~ reinforced_deepslate run setblock ~ ~ ~ air
+execute as @e[tag=votelight2] at @s if block ~ ~ ~ reinforced_deepslate run setblock ~ ~ ~ air
+execute as @e[tag=votelight3] at @s if block ~ ~ ~ reinforced_deepslate run setblock ~ ~ ~ air
+execute as @e[tag=votelight4] at @s if block ~ ~ ~ reinforced_deepslate run setblock ~ ~ ~ air
+execute as @e[tag=votelight5] at @s if block ~ ~ ~ reinforced_deepslate run setblock ~ ~ ~ air
+execute as @e[tag=votelight6] at @s if block ~ ~ ~ reinforced_deepslate run setblock ~ ~ ~ air
+execute as @e[tag=votelight7] at @s if block ~ ~ ~ reinforced_deepslate run setblock ~ ~ ~ air
+execute as @e[tag=votelight8] at @s if block ~ ~ ~ reinforced_deepslate run setblock ~ ~ ~ air
+execute as @e[tag=votelight9] at @s if block ~ ~ ~ reinforced_deepslate run setblock ~ ~ ~ air
+execute as @e[tag=votelight10] at @s if block ~ ~ ~ reinforced_deepslate run setblock ~ ~ ~ air
+execute as @e[tag=votelight11] at @s if block ~ ~ ~ reinforced_deepslate run setblock ~ ~ ~ air
+execute as @e[tag=votelight12] at @s if block ~ ~ ~ reinforced_deepslate run setblock ~ ~ ~ air
+execute as @e[tag=votelight13] at @s if block ~ ~ ~ reinforced_deepslate run setblock ~ ~ ~ air
+execute as @e[tag=votelight14] at @s if block ~ ~ ~ reinforced_deepslate run setblock ~ ~ ~ air
+execute as @e[tag=votelight15] at @s if block ~ ~ ~ reinforced_deepslate run setblock ~ ~ ~ air
+execute as @e[tag=votelight16] at @s if block ~ ~ ~ reinforced_deepslate run setblock ~ ~ ~ air
