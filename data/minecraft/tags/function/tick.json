@@ -5,10 +5,6 @@
       "required": false
     },
     {
-      "id": "extras:organ_grinder/silence_levers",
-      "required": false
-    },
-    {
       "id": "extras:organ_grinder/hide_ghost_votes/og_hgv_particles",
       "required": false
     },
@@ -17,7 +13,7 @@
       "required": false
     },
     {
-      "id": "setup:voice_groups",
+      "id": "buildings:voice_group_tick",
       "required": false
     }
   ]
