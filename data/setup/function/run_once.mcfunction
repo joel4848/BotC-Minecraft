@@ -50,6 +50,7 @@ scoreboard objectives add Booth dummy
 scoreboard objectives add SummonSTInteracted dummy
 scoreboard objectives add SummonSTConfirmed trigger
 scoreboard objectives add Annoying dummy
+scoreboard objectives add InHouse dummy
 # scoreboard objectives add  dummy
 # scoreboard objectives add  dummy
 

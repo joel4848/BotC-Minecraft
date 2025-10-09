@@ -46,3 +46,9 @@ effect clear @a[scores={Storyteller=1}] glowing
 execute unless score #compasses_given temp matches 1 run function buildings:call_give_compass
 
 execute unless score #compasses_given temp matches 1 run scoreboard players set #compasses_given temp 1
+
+# Give everyone a score of 0 on the InHouse scoreboard and start particles function
+
+scoreboard players set @a InHouse 0
+
+function buildings:entrance_particles

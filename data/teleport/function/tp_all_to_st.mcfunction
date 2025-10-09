@@ -15,6 +15,8 @@ teleport @a[scores={Player=-14}] @e[scores={Storyteller=1},limit=1]
 teleport @a[scores={Player=-15}] @e[scores={Storyteller=1},limit=1]
 teleport @a[scores={Player=-16}] @e[scores={Storyteller=1},limit=1]
 
+# Open discussion room doors
+
 execute if block 199 95 0 lever[powered=false] run setblock 199 95 0 lever[face=wall,facing=east,powered=true]
 execute if block 168 94 28 lever[powered=false] run setblock 168 94 28 lever[face=wall,facing=south,powered=true]
 execute if block 138 94 18 lever[powered=false] run setblock 138 94 18 lever[face=wall,facing=west,powered=true]
@@ -38,3 +40,22 @@ setblock 135 94 0 air
 setblock 136 94 -14 air
 setblock 171 94 -28 air
 setblock 194 95 -32 air
+
+# Mark players as not in their houses
+
+scoreboard players set @a[scores={Player=-1}] InHouse 0
+scoreboard players set @a[scores={Player=-2}] InHouse 0
+scoreboard players set @a[scores={Player=-3}] InHouse 0
+scoreboard players set @a[scores={Player=-4}] InHouse 0
+scoreboard players set @a[scores={Player=-5}] InHouse 0
+scoreboard players set @a[scores={Player=-6}] InHouse 0
+scoreboard players set @a[scores={Player=-7}] InHouse 0
+scoreboard players set @a[scores={Player=-8}] InHouse 0
+scoreboard players set @a[scores={Player=-9}] InHouse 0
+scoreboard players set @a[scores={Player=-10}] InHouse 0
+scoreboard players set @a[scores={Player=-11}] InHouse 0
+scoreboard players set @a[scores={Player=-12}] InHouse 0
+scoreboard players set @a[scores={Player=-13}] InHouse 0
+scoreboard players set @a[scores={Player=-14}] InHouse 0
+scoreboard players set @a[scores={Player=-15}] InHouse 0
+scoreboard players set @a[scores={Player=-16}] InHouse 0

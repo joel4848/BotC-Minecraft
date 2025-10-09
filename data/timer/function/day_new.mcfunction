@@ -35,3 +35,7 @@ title @a actionbar ""
 # Give ST glowing effect if option enabled in Setup
 
 execute if score #st_glowing_during_day temp matches 1 run effect give @a[scores={Storyteller=1}] glowing infinite 99 true
+
+# Stop particles function if running
+
+schedule clear buildings:entrance_particles
