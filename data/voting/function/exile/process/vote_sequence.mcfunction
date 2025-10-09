@@ -72,7 +72,9 @@ execute unless score #current_seat temp = #nominated temp run execute if score #
 
 # execute if score #current_player temp >= #player_count temp run schedule function voting:evaluate_vote_result 20t
 
-execute if score #current_seat temp = #nominated temp run schedule function voting:exile/process/evaluate_vote_result 25t
+execute unless score #is_cult_leader_vote temp matches 1 run execute if score #current_seat temp = #nominated temp run schedule function voting:exile/process/evaluate_vote_result 25t
+
+execute if score #is_cult_leader_vote temp matches 1 run execute if score #current_seat temp = #nominated temp run schedule function extras:cult_leader/cult_leader_vote_complete 25t
 
 # tellraw @a [{"text":"[Current Player] - ","color":"yellow"},{"score":{"name":"#current_player","objective":"temp"}}]
 # tellraw @a [{"text":"[Current Seat] - ","color":"yellow"},{"score":{"name":"#current_seat","objective":"temp"}}]

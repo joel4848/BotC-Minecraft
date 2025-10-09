@@ -16,7 +16,7 @@ $scoreboard players set @a[scores={Player=-$(player)}] Nominated 1
 $effect give @a[scores={Player=-$(player)}] glowing infinite 99 true
 
 function voting:exile/setup/set_up_exile_voting
-function voting:exile/process/announce_required_votes
+execute unless score #is_cult_leader_vote temp matches 1 run function voting:exile/process/announce_required_votes
 function nomination:nominated_particles
 
 execute if score #big_hand_present temp matches 0 run function clock_hand:big_hand/summon_neutral
