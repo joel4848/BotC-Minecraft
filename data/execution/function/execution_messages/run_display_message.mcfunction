@@ -1,7 +1,7 @@
 
 # Set how many execution messages there are:
 
-data modify storage minecraft:joelbotc execution_message_amount set value 10
+data modify storage minecraft:joelbotc execution_message_amount set value 91
 
 function execution:execution_messages/find_unseen_message_number with storage minecraft:joelbotc
 
