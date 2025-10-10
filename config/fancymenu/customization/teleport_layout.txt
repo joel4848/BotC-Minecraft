@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = teleport
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1760118586735
+  last_edited_time = 1760121681345
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:ef592cfd-0404-4e49-875d-caabcd973d5e-1760112447880] = [groups:][instances:]
+  [loading_requirement_container_meta:21e2ac97-e3a3-404b-8a3a-41460e501df9-1760121643001] = [groups:][instances:]
 }
 
 customization {
@@ -3487,7 +3487,7 @@ element {
 
 element {
   button_element_executable_block_identifier = f0dcc3c6-fbf9-4120-8aa0-b292391c0a81-1755886702394
-  [executable_action_instance:123fda1e-7db6-46c0-add3-49cc11ab3cc7-1755886708913][action_type:sendmessage] = /execute as @e[limit=1,tag=lair,type=minecraft:marker] at @s run tp @a[scores={Storyteller=1}] ~ ~ ~ -180 0.0
+  [executable_action_instance:123fda1e-7db6-46c0-add3-49cc11ab3cc7-1755886708913][action_type:sendmessage] = /function teleport:legion_lair_st
   [executable_action_instance:8d797827-c28f-4e7c-a151-2dc1a4e81ad9-1755886721677][action_type:closegui] = 
   [executable_block:f0dcc3c6-fbf9-4120-8aa0-b292391c0a81-1755886702394][type:generic] = [executables:123fda1e-7db6-46c0-add3-49cc11ab3cc7-1755886708913;8d797827-c28f-4e7c-a151-2dc1a4e81ad9-1755886721677;]
   restartbackgroundanimations = true

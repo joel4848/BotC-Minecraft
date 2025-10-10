@@ -1,17 +1,17 @@
 
-execute if entity @p[scores={Player=-1},distance=..2] run teleport @a[scores={Player=-1}] @e[limit=1,tag=house1,type=minecraft:marker]
-execute if entity @p[scores={Player=-2},distance=..2] run teleport @a[scores={Player=-2}] @e[limit=1,tag=house2,type=minecraft:marker]
-execute if entity @p[scores={Player=-3},distance=..2] run teleport @a[scores={Player=-3}] @e[limit=1,tag=house3,type=minecraft:marker]
-execute if entity @p[scores={Player=-4},distance=..2] run teleport @a[scores={Player=-4}] @e[limit=1,tag=house4,type=minecraft:marker]
-execute if entity @p[scores={Player=-5},distance=..2] run teleport @a[scores={Player=-5}] @e[limit=1,tag=house5,type=minecraft:marker]
-execute if entity @p[scores={Player=-6},distance=..2] run teleport @a[scores={Player=-6}] @e[limit=1,tag=house6,type=minecraft:marker]
-execute if entity @p[scores={Player=-7},distance=..2] run teleport @a[scores={Player=-7}] @e[limit=1,tag=house7,type=minecraft:marker]
-execute if entity @p[scores={Player=-8},distance=..2] run teleport @a[scores={Player=-8}] @e[limit=1,tag=house8,type=minecraft:marker]
-execute if entity @p[scores={Player=-9},distance=..2] run teleport @a[scores={Player=-9}] @e[limit=1,tag=house9,type=minecraft:marker]
-execute if entity @p[scores={Player=-10},distance=..2] run teleport @a[scores={Player=-10}] @e[limit=1,tag=house10,type=minecraft:marker]
-execute if entity @p[scores={Player=-11},distance=..2] run teleport @a[scores={Player=-11}] @e[limit=1,tag=house11,type=minecraft:marker]
-execute if entity @p[scores={Player=-12},distance=..2] run teleport @a[scores={Player=-12}] @e[limit=1,tag=house12,type=minecraft:marker]
-execute if entity @p[scores={Player=-13},distance=..2] run teleport @a[scores={Player=-13}] @e[limit=1,tag=house13,type=minecraft:marker]
-execute if entity @p[scores={Player=-14},distance=..2] run teleport @a[scores={Player=-14}] @e[limit=1,tag=house14,type=minecraft:marker]
-execute if entity @p[scores={Player=-15},distance=..2] run teleport @a[scores={Player=-15}] @e[limit=1,tag=house15,type=minecraft:marker]
-execute if entity @p[scores={Player=-16},distance=..2] run teleport @a[scores={Player=-16}] @e[limit=1,tag=house16,type=minecraft:marker]
+execute as @e[type=marker,tag=lair_player] at @s run execute as @a[scores={Player=-1,},distance=..10] run function teleport:player_to_house {player:1,yaw:-90}
+execute as @e[type=marker,tag=lair_player] at @s run execute as @a[scores={Player=-2,},distance=..10] run function teleport:player_to_house {player:2,yaw:-135}
+execute as @e[type=marker,tag=lair_player] at @s run execute as @a[scores={Player=-3,},distance=..10] run function teleport:player_to_house {player:3,yaw:35}
+execute as @e[type=marker,tag=lair_player] at @s run execute as @a[scores={Player=-4,},distance=..10] run function teleport:player_to_house {player:4,yaw:0}
+execute as @e[type=marker,tag=lair_player] at @s run execute as @a[scores={Player=-5,},distance=..10] run function teleport:player_to_house {player:5,yaw:-70}
+execute as @e[type=marker,tag=lair_player] at @s run execute as @a[scores={Player=-6,},distance=..10] run function teleport:player_to_house {player:6,yaw:-60}
+execute as @e[type=marker,tag=lair_player] at @s run execute as @a[scores={Player=-7,},distance=..10] run function teleport:player_to_house {player:7,yaw:60}
+execute as @e[type=marker,tag=lair_player] at @s run execute as @a[scores={Player=-8,},distance=..10] run function teleport:player_to_house {player:8,yaw:90}
+execute as @e[type=marker,tag=lair_player] at @s run execute as @a[scores={Player=-9,},distance=..10] run function teleport:player_to_house {player:9,yaw:90}
+execute as @e[type=marker,tag=lair_player] at @s run execute as @a[scores={Player=-10,},distance=..10] run function teleport:player_to_house {player:10,yaw:-180}
+execute as @e[type=marker,tag=lair_player] at @s run execute as @a[scores={Player=-11,},distance=..10] run function teleport:player_to_house {player:11,yaw:180}
+execute as @e[type=marker,tag=lair_player] at @s run execute as @a[scores={Player=-12,},distance=..10] run function teleport:player_to_house {player:12,yaw:145}
+execute as @e[type=marker,tag=lair_player] at @s run execute as @a[scores={Player=-13,},distance=..10] run function teleport:player_to_house {player:13,yaw:90}
+execute as @e[type=marker,tag=lair_player] at @s run execute as @a[scores={Player=-14,},distance=..10] run function teleport:player_to_house {player:14,yaw:135}
+execute as @e[type=marker,tag=lair_player] at @s run execute as @a[scores={Player=-15,},distance=..10] run function teleport:player_to_house {player:15,yaw:125}
+execute as @e[type=marker,tag=lair_player] at @s run execute as @a[scores={Player=-16,},distance=..10] run function teleport:player_to_house {player:16,yaw:-90}
