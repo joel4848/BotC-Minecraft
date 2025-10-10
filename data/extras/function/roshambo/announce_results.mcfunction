@@ -18,6 +18,7 @@ execute if score @a[scores={Marked=1},limit=1] Roshambo matches 3 run data modif
 # Tie
 
 execute if score @a[scores={Marked=1},limit=1] Roshambo = @a[scores={Nominator=1},limit=1] Roshambo run summon text_display 167 97 1 {billboard:"vertical",alignment:"center",Tags:["roshambo","result_roshambo"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[5f,5f,5f]},text:'{"color":"gold","text":"It\'s a tie!"}',background:-16777216}
+execute if score @a[scores={Marked=1},limit=1] Roshambo = @a[scores={Nominator=1},limit=1] Roshambo run function execution:clear_mark
 
 # Nominator wins
 
@@ -30,3 +31,10 @@ execute if score @a[scores={Nominator=1},limit=1] Roshambo matches 3 if score @a
 execute if score @a[scores={Marked=1},limit=1] Roshambo matches 1 if score @a[scores={Nominator=1},limit=1] Roshambo matches 3 run summon text_display 167 97 1 {billboard:"vertical",alignment:"center",Tags:["roshambo","result_roshambo"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[8f,8f,8f]},text:'[{"selector":"@a[scores={Marked=1},limit=1]"},{"color":"gold","text":" wins!"}]',background:-16777216}
 execute if score @a[scores={Marked=1},limit=1] Roshambo matches 2 if score @a[scores={Nominator=1},limit=1] Roshambo matches 1 run summon text_display 167 97 1 {billboard:"vertical",alignment:"center",Tags:["roshambo","result_roshambo"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[8f,8f,8f]},text:'[{"selector":"@a[scores={Marked=1},limit=1]"},{"color":"gold","text":" wins!"}]',background:-16777216}
 execute if score @a[scores={Marked=1},limit=1] Roshambo matches 3 if score @a[scores={Nominator=1},limit=1] Roshambo matches 2 run summon text_display 167 97 1 {billboard:"vertical",alignment:"center",Tags:["roshambo","result_roshambo"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[8f,8f,8f]},text:'[{"selector":"@a[scores={Marked=1},limit=1]"},{"color":"gold","text":" wins!"}]',background:-16777216}
+
+execute if score @a[scores={Marked=1},limit=1] Roshambo matches 1 if score @a[scores={Nominator=1},limit=1] Roshambo matches 3 run function execution:clear_mark
+execute if score @a[scores={Marked=1},limit=1] Roshambo matches 2 if score @a[scores={Nominator=1},limit=1] Roshambo matches 1 run function execution:clear_mark
+execute if score @a[scores={Marked=1},limit=1] Roshambo matches 3 if score @a[scores={Nominator=1},limit=1] Roshambo matches 2 run function execution:clear_mark
+
+
+tellraw @a[scores={Storyteller=1}] [{"color":"light_purple","text":"Click here to clear the Roshambo setup & return the Roshamboists to their seats: ["},{"clickEvent":{"action":"run_command","value":"/function extras:roshambo/clear"},"color":"gold","text":"Clear Roshambo","underlined":true},{"color":"light_purple","text":"]"}]

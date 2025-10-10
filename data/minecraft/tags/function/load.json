@@ -1,4 +1,8 @@
 {
 "values":[
+    {
+      "id": "setup:load",
+      "required": false
+    }
 ]
 }

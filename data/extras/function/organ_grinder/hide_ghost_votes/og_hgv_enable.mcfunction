@@ -1,5 +1,7 @@
 scoreboard players set #HGV_enabled temp 1
 
+function extras:organ_grinder/hide_ghost_votes/og_hgv_particles
+
 function extras:organ_grinder/og_remove_votelights
 
 # function extras:organ_grinder/hide_ghost_votes/set_scores

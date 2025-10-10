@@ -17,6 +17,8 @@ execute if score #lock_to_seats temp matches 1 run scoreboard players set #was_l
 scoreboard players set #lock_to_seats temp 0
 execute as @a run fmvariable set lock_to_seats false false
 
+function clock_hand:remove_hands
+
 function execution:dumb/dumb_process
 
 # Hide scoreboard, so more room for execution message

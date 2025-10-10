@@ -3,4 +3,4 @@ execute at @s run setblock ~ ~-2 ~ minecraft:sticky_piston[extended=false,facing
 execute at @s run setblock ~ ~ ~ air
 kill @e[tag=questionmark]
 
-# tellraw @a "test"
+# execute as @s run say Ran used unhide stack

@@ -1,3 +1,13 @@
+# Disable OG mode if enabled
+
+execute if score #og_enabled temp matches 1 run kill @e[tag=questionmark]
+
+execute if score #og_enabled temp matches 1 run function extras:organ_grinder/og_disable
+
+# Announce day end
+
+title @a times 20t 60t 20t
+
 time set 18000
 gamerule doDaylightCycle false
 function timer:discussion_end_bell
@@ -34,3 +44,19 @@ function setup:remove_buttons
 # Set score for "It is nighttime" action bar announcement
 
 scoreboard players set #is_nighttime temp 1
+
+# Remove ST glowing effect (regardless of whether option enabled in Setup)
+
+effect clear @a[scores={Storyteller=1}] glowing
+
+# Give compasses if not already given, then mark as given
+
+execute unless score #compasses_given temp matches 1 run function buildings:call_give_compass
+
+execute unless score #compasses_given temp matches 1 run scoreboard players set #compasses_given temp 1
+
+# Give everyone a score of 0 on the InHouse scoreboard and start particles function
+
+scoreboard players set @a InHouse 0
+
+function buildings:entrance_particles

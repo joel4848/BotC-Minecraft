@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = master
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1759371146811
+  last_edited_time = 1759844855628
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:1b9f87f3-e46d-4a88-b1a4-f5d7026b59b5-1759371082631] = [groups:][instances:]
+  [loading_requirement_container_meta:d31e6acd-878a-4d19-a682-84126aaf8c6a-1759844496880] = [groups:][instances:]
 }
 
 customization {
@@ -564,7 +564,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:1}
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:1,yaw:-90}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   restartbackgroundanimations = true
@@ -603,7 +603,7 @@ element {
   anchor_point = element
   anchor_point_element = 9ee9920a-4d39-4397-a645-7ff1424b0027-1756151009444
   x = 5
-  y = 23
+  y = 19
   width = 20
   height = 20
   stretch_x = false
@@ -623,7 +623,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:2}
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:2,yaw:-135}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   restartbackgroundanimations = true
@@ -662,7 +662,7 @@ element {
   anchor_point = element
   anchor_point_element = 9ee9920a-4d39-4397-a645-7ff1424b0027-1756151009444
   x = 30
-  y = 23
+  y = 19
   width = 20
   height = 20
   stretch_x = false
@@ -682,7 +682,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:3}
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:3,yaw:35}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   restartbackgroundanimations = true
@@ -721,7 +721,7 @@ element {
   anchor_point = element
   anchor_point_element = 9ee9920a-4d39-4397-a645-7ff1424b0027-1756151009444
   x = 55
-  y = 23
+  y = 19
   width = 20
   height = 20
   stretch_x = false
@@ -741,7 +741,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:4}
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:4,yaw:0}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   restartbackgroundanimations = true
@@ -780,7 +780,7 @@ element {
   anchor_point = element
   anchor_point_element = 9ee9920a-4d39-4397-a645-7ff1424b0027-1756151009444
   x = 80
-  y = 23
+  y = 19
   width = 20
   height = 20
   stretch_x = false
@@ -800,7 +800,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:5}
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:5,yaw:-70}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   restartbackgroundanimations = true
@@ -839,7 +839,7 @@ element {
   anchor_point = element
   anchor_point_element = 9ee9920a-4d39-4397-a645-7ff1424b0027-1756151009444
   x = 5
-  y = 48
+  y = 44
   width = 20
   height = 20
   stretch_x = false
@@ -859,7 +859,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:6}
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:6,yaw:-60}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   restartbackgroundanimations = true
@@ -898,7 +898,7 @@ element {
   anchor_point = element
   anchor_point_element = 9ee9920a-4d39-4397-a645-7ff1424b0027-1756151009444
   x = 30
-  y = 48
+  y = 44
   width = 20
   height = 20
   stretch_x = false
@@ -918,7 +918,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:7}
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:7,yaw:60}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   restartbackgroundanimations = true
@@ -957,7 +957,7 @@ element {
   anchor_point = element
   anchor_point_element = 9ee9920a-4d39-4397-a645-7ff1424b0027-1756151009444
   x = 55
-  y = 48
+  y = 44
   width = 20
   height = 20
   stretch_x = false
@@ -977,7 +977,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:8}
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:8,yaw:90}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   restartbackgroundanimations = true
@@ -1016,7 +1016,7 @@ element {
   anchor_point = element
   anchor_point_element = 9ee9920a-4d39-4397-a645-7ff1424b0027-1756151009444
   x = 80
-  y = 48
+  y = 44
   width = 20
   height = 20
   stretch_x = false
@@ -1036,7 +1036,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:9}
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:9,yaw:90}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   restartbackgroundanimations = true
@@ -1075,7 +1075,7 @@ element {
   anchor_point = element
   anchor_point_element = 9ee9920a-4d39-4397-a645-7ff1424b0027-1756151009444
   x = 5
-  y = 73
+  y = 69
   width = 20
   height = 20
   stretch_x = false
@@ -1095,7 +1095,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:10}
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:10,yaw:-180}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   restartbackgroundanimations = true
@@ -1134,7 +1134,7 @@ element {
   anchor_point = element
   anchor_point_element = 9ee9920a-4d39-4397-a645-7ff1424b0027-1756151009444
   x = 30
-  y = 73
+  y = 69
   width = 20
   height = 20
   stretch_x = false
@@ -1154,7 +1154,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:11}
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:11,yaw:180}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   restartbackgroundanimations = true
@@ -1193,7 +1193,7 @@ element {
   anchor_point = element
   anchor_point_element = 9ee9920a-4d39-4397-a645-7ff1424b0027-1756151009444
   x = 55
-  y = 73
+  y = 69
   width = 20
   height = 20
   stretch_x = false
@@ -1213,7 +1213,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:12}
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:12,yaw:145}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   restartbackgroundanimations = true
@@ -1252,7 +1252,7 @@ element {
   anchor_point = element
   anchor_point_element = 9ee9920a-4d39-4397-a645-7ff1424b0027-1756151009444
   x = 80
-  y = 73
+  y = 69
   width = 20
   height = 20
   stretch_x = false
@@ -1272,7 +1272,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:13}
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:13,yaw:90}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   restartbackgroundanimations = true
@@ -1311,7 +1311,7 @@ element {
   anchor_point = element
   anchor_point_element = 9ee9920a-4d39-4397-a645-7ff1424b0027-1756151009444
   x = 5
-  y = 98
+  y = 94
   width = 20
   height = 20
   stretch_x = false
@@ -1331,7 +1331,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:14}
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:14,yaw:135}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   restartbackgroundanimations = true
@@ -1370,7 +1370,7 @@ element {
   anchor_point = element
   anchor_point_element = 9ee9920a-4d39-4397-a645-7ff1424b0027-1756151009444
   x = 30
-  y = 98
+  y = 94
   width = 20
   height = 20
   stretch_x = false
@@ -1390,7 +1390,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:15}
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:15,yaw:125}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   restartbackgroundanimations = true
@@ -1429,7 +1429,7 @@ element {
   anchor_point = element
   anchor_point_element = 9ee9920a-4d39-4397-a645-7ff1424b0027-1756151009444
   x = 55
-  y = 98
+  y = 94
   width = 20
   height = 20
   stretch_x = false
@@ -1449,7 +1449,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:16}
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:16,yaw:-90}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   restartbackgroundanimations = true
@@ -1488,7 +1488,7 @@ element {
   anchor_point = element
   anchor_point_element = 9ee9920a-4d39-4397-a645-7ff1424b0027-1756151009444
   x = 80
-  y = 98
+  y = 94
   width = 20
   height = 20
   stretch_x = false
@@ -1555,7 +1555,7 @@ element {
   anchor_point = element
   anchor_point_element = 59c04f94-815e-4381-84bb-c66a6f3b50ec-1756151498772
   x = -25
-  y = 100
+  y = 76
   width = 105
   height = 16
   stretch_x = false
@@ -1891,7 +1891,7 @@ element {
 
 element {
   interactable = true
-  source = |||%n%{"placeholder":"getvariable","values":{"name":"player_1_colour"}}{"placeholder":"getvariable","values":{"name":"player_1_username"}}%#%%n%{"placeholder":"getvariable","values":{"name":"player_2_colour"}}{"placeholder":"getvariable","values":{"name":"player_2_username"}}%#%%n%{"placeholder":"getvariable","values":{"name":"player_3_colour"}}{"placeholder":"getvariable","values":{"name":"player_3_username"}}%#%%n%{"placeholder":"getvariable","values":{"name":"player_4_colour"}}{"placeholder":"getvariable","values":{"name":"player_4_username"}}%#%%n%{"placeholder":"getvariable","values":{"name":"player_5_colour"}}{"placeholder":"getvariable","values":{"name":"player_5_username"}}%#%%n%{"placeholder":"getvariable","values":{"name":"player_6_colour"}}{"placeholder":"getvariable","values":{"name":"player_6_username"}}%#%%n%{"placeholder":"getvariable","values":{"name":"player_7_colour"}}{"placeholder":"getvariable","values":{"name":"player_7_username"}}%#%%n%{"placeholder":"getvariable","values":{"name":"player_8_colour"}}{"placeholder":"getvariable","values":{"name":"player_8_username"}}%#%%n%{"placeholder":"getvariable","values":{"name":"player_9_colour"}}{"placeholder":"getvariable","values":{"name":"player_9_username"}}%#%%n%{"placeholder":"getvariable","values":{"name":"player_10_colour"}}{"placeholder":"getvariable","values":{"name":"player_10_username"}}%#%%n%{"placeholder":"getvariable","values":{"name":"player_11_colour"}}{"placeholder":"getvariable","values":{"name":"player_11_username"}}%#%%n%{"placeholder":"getvariable","values":{"name":"player_12_colour"}}{"placeholder":"getvariable","values":{"name":"player_12_username"}}%#%%n%{"placeholder":"getvariable","values":{"name":"player_13_colour"}}{"placeholder":"getvariable","values":{"name":"player_13_username"}}%#%%n%{"placeholder":"getvariable","values":{"name":"player_14_colour"}}{"placeholder":"getvariable","values":{"name":"player_14_username"}}%#%%n%{"placeholder":"getvariable","values":{"name":"player_15_colour"}}{"placeholder":"getvariable","values":{"name":"player_15_username"}}%#%%n%{"placeholder":"getvariable","values":{"name":"player_16_colour"}}{"placeholder":"getvariable","values":{"name":"player_16_username"}}%#%%n%|||%n%
+  source = |||%n%;;{"placeholder":"getvariable","values":{"name":"player_1_colour"}}{"placeholder":"getvariable","values":{"name":"player_1_username"}};;%n%;;{"placeholder":"getvariable","values":{"name":"player_2_colour"}}{"placeholder":"getvariable","values":{"name":"player_2_username"}};;%n%;;{"placeholder":"getvariable","values":{"name":"player_3_colour"}}{"placeholder":"getvariable","values":{"name":"player_3_username"}};;%n%;;{"placeholder":"getvariable","values":{"name":"player_4_colour"}}{"placeholder":"getvariable","values":{"name":"player_4_username"}};;%n%;;{"placeholder":"getvariable","values":{"name":"player_5_colour"}}{"placeholder":"getvariable","values":{"name":"player_5_username"}};;%n%;;{"placeholder":"getvariable","values":{"name":"player_6_colour"}}{"placeholder":"getvariable","values":{"name":"player_6_username"}};;%n%;;{"placeholder":"getvariable","values":{"name":"player_7_colour"}}{"placeholder":"getvariable","values":{"name":"player_7_username"}};;%n%;;{"placeholder":"getvariable","values":{"name":"player_8_colour"}}{"placeholder":"getvariable","values":{"name":"player_8_username"}};;%n%;;{"placeholder":"getvariable","values":{"name":"player_9_colour"}}{"placeholder":"getvariable","values":{"name":"player_9_username"}};;%n%;;{"placeholder":"getvariable","values":{"name":"player_10_colour"}}{"placeholder":"getvariable","values":{"name":"player_10_username"}};;%n%;;{"placeholder":"getvariable","values":{"name":"player_11_colour"}}{"placeholder":"getvariable","values":{"name":"player_11_username"}};;%n%;;{"placeholder":"getvariable","values":{"name":"player_12_colour"}}{"placeholder":"getvariable","values":{"name":"player_12_username"}};;%n%;;{"placeholder":"getvariable","values":{"name":"player_13_colour"}}{"placeholder":"getvariable","values":{"name":"player_13_username"}};;%n%;;{"placeholder":"getvariable","values":{"name":"player_14_colour"}}{"placeholder":"getvariable","values":{"name":"player_14_username"}};;%n%;;{"placeholder":"getvariable","values":{"name":"player_15_colour"}}{"placeholder":"getvariable","values":{"name":"player_15_username"}};;%n%;;{"placeholder":"getvariable","values":{"name":"player_16_colour"}}{"placeholder":"getvariable","values":{"name":"player_16_username"}};;%n%|||%n%
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -1936,7 +1936,7 @@ element {
   auto_sizing_base_screen_height = 1011
   sticky_anchor = false
   anchor_point = mid-right
-  x = -142
+  x = -147
   y = -93
   width = 102
   height = 180
@@ -1957,7 +1957,7 @@ element {
 
 element {
   interactable = true
-  source = {"placeholder":"getvariable","values":{"name":"player_1_colour"}}- 1%#%%n%{"placeholder":"getvariable","values":{"name":"player_2_colour"}}- 2%#%%n%{"placeholder":"getvariable","values":{"name":"player_3_colour"}}- 3%#%%n%{"placeholder":"getvariable","values":{"name":"player_4_colour"}}- 4%#%%n%{"placeholder":"getvariable","values":{"name":"player_5_colour"}}- 5%#%%n%{"placeholder":"getvariable","values":{"name":"player_6_colour"}}- 6%#%%n%{"placeholder":"getvariable","values":{"name":"player_7_colour"}}- 7%#%%n%{"placeholder":"getvariable","values":{"name":"player_8_colour"}}- 8%#%%n%{"placeholder":"getvariable","values":{"name":"player_9_colour"}}- 9%#%%n%{"placeholder":"getvariable","values":{"name":"player_10_colour"}}- 10%#%%n%{"placeholder":"getvariable","values":{"name":"player_11_colour"}}- 11%#%%n%{"placeholder":"getvariable","values":{"name":"player_12_colour"}}- 12%#%%n%{"placeholder":"getvariable","values":{"name":"player_13_colour"}}- 13%#%%n%{"placeholder":"getvariable","values":{"name":"player_14_colour"}}- 14%#%%n%{"placeholder":"getvariable","values":{"name":"player_15_colour"}}- 15%#%%n%{"placeholder":"getvariable","values":{"name":"player_16_colour"}}- 16%#%
+  source = {"placeholder":"getvariable","values":{"name":"player_1_colour"}}- {"placeholder":"getvariable","values":{"name":"player_1_colour"}}1%n%{"placeholder":"getvariable","values":{"name":"player_2_colour"}}- {"placeholder":"getvariable","values":{"name":"player_2_colour"}}2%n%{"placeholder":"getvariable","values":{"name":"player_3_colour"}}- {"placeholder":"getvariable","values":{"name":"player_3_colour"}}3%n%{"placeholder":"getvariable","values":{"name":"player_4_colour"}}- {"placeholder":"getvariable","values":{"name":"player_4_colour"}}4%n%{"placeholder":"getvariable","values":{"name":"player_5_colour"}}- {"placeholder":"getvariable","values":{"name":"player_5_colour"}}5%n%{"placeholder":"getvariable","values":{"name":"player_6_colour"}}- {"placeholder":"getvariable","values":{"name":"player_6_colour"}}6%n%{"placeholder":"getvariable","values":{"name":"player_7_colour"}}- {"placeholder":"getvariable","values":{"name":"player_7_colour"}}7%n%{"placeholder":"getvariable","values":{"name":"player_8_colour"}}- {"placeholder":"getvariable","values":{"name":"player_8_colour"}}8%n%{"placeholder":"getvariable","values":{"name":"player_9_colour"}}- {"placeholder":"getvariable","values":{"name":"player_9_colour"}}9%n%{"placeholder":"getvariable","values":{"name":"player_10_colour"}}- {"placeholder":"getvariable","values":{"name":"player_10_colour"}}10%n%{"placeholder":"getvariable","values":{"name":"player_11_colour"}}- {"placeholder":"getvariable","values":{"name":"player_11_colour"}}11%n%{"placeholder":"getvariable","values":{"name":"player_12_colour"}}- {"placeholder":"getvariable","values":{"name":"player_12_colour"}}12%n%{"placeholder":"getvariable","values":{"name":"player_13_colour"}}- {"placeholder":"getvariable","values":{"name":"player_13_colour"}}13%n%{"placeholder":"getvariable","values":{"name":"player_14_colour"}}- {"placeholder":"getvariable","values":{"name":"player_14_colour"}}14%n%{"placeholder":"getvariable","values":{"name":"player_15_colour"}}- {"placeholder":"getvariable","values":{"name":"player_15_colour"}}15%n%{"placeholder":"getvariable","values":{"name":"player_16_colour"}}- {"placeholder":"getvariable","values":{"name":"player_16_colour"}}16
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -2222,11 +2222,11 @@ element {
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1011
+  auto_sizing_base_screen_height = 975
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 59c04f94-815e-4381-84bb-c66a6f3b50ec-1756151498772
-  x = -23
+  x = -286
   y = 76
   width = 100
   height = 19
@@ -2235,6 +2235,64 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 99c92ee0-23a4-4803-8149-e5eef9afbd12-1759370595829
   [loading_requirement_container_meta:99c92ee0-23a4-4803-8149-e5eef9afbd12-1759370595829] = [groups:][instances:]
+  enable_parallax = false
+  parallax_intensity_v2 = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+  layer_hidden_in_editor = false
+}
+
+element {
+  button_element_executable_block_identifier = 4a87738b-74c3-48ae-ae38-f8a490f48f83-1756140431054
+  [executable_action_instance:74bcd283-25a6-4e51-95a0-638b860dbefd-1756140451287][action_type:opengui] = debug
+  [executable_block:4a87738b-74c3-48ae-ae38-f8a490f48f83-1756140431054][type:generic] = [executables:74bcd283-25a6-4e51-95a0-638b860dbefd-1756140451287;]
+  restartbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = Debug
+  navigatable = true
+  widget_active_state_requirement_container_identifier = a7b45dfb-bb01-46fd-a386-04d00cd8da99-1756140431054
+  [loading_requirement_container_meta:a7b45dfb-bb01-46fd-a386-04d00cd8da99-1756140431054] = [groups:][instances:]
+  is_template = false
+  template_apply_width = false
+  template_apply_height = false
+  template_apply_posx = false
+  template_apply_posy = false
+  template_apply_opacity = false
+  template_apply_visibility = false
+  template_apply_label = false
+  template_share_with = buttons
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+  element_type = custom_button
+  instance_identifier = ae9f26da-ed33-4982-8e33-1b99ee90c168-1759587124346
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1011
+  sticky_anchor = false
+  anchor_point = element
+  anchor_point_element = 7d1f436b-3dad-4c7f-bb11-08f9f9e1060f-1756152464817
+  x = -217
+  y = -93
+  width = 100
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = efd7cfb3-3bb4-487b-81e7-cb15912bd913-1756140431054
+  [loading_requirement_container_meta:efd7cfb3-3bb4-487b-81e7-cb15912bd913-1756140431054] = [groups:][instances:]
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false

@@ -1,7 +1,9 @@
+title @a times 20t 60t 20t
+
 scoreboard players set TimerEntity TimerPaused 1
 time set 0
 gamerule doDaylightCycle false
-playsound minecraft:block.bell.use ambient @a ~ ~ ~ 5 1 1
+playsound minecraft:block.bell.use master @a ~ ~ ~ 5 1 1
 title @a title {"text":"Wake up!","bold":true,"color":"yellow"}
 title @a subtitle [{"text":"A new day dawns in ","color":"yellow"},{"nbt":"front_text.messages[2]","block":"168 107 29","interpret":true,"color":"yellow","italic":true},{"text":"...","color":"yellow"}]
 
@@ -29,3 +31,11 @@ scoreboard players set #tp_disabled temp 1
 
 scoreboard players set #is_nighttime temp 0
 title @a actionbar ""
+
+# Give ST glowing effect if option enabled in Setup
+
+execute if score #st_glowing_during_day temp matches 1 run effect give @a[scores={Storyteller=1}] glowing infinite 99 true
+
+# Stop particles function if running
+
+schedule clear buildings:entrance_particles

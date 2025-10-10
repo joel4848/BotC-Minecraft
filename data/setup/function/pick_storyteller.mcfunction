@@ -9,4 +9,4 @@ scoreboard objectives add Storyteller dummy
 scoreboard players set @a Storyteller 0
 scoreboard players set @s Storyteller 1
 scoreboard players reset @s Alive
-item replace entity @a[scores={Storyteller=1}] armor.head with minecraft:diamond_helmet 1
+execute as @s run function players:usernames/update_username/storyteller

@@ -3,13 +3,18 @@ type = fancymenu_layout
 layout-meta {
   identifier = storyteller_booth
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1759372115223
+  last_edited_time = 1759587056332
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:457af013-4c04-401b-93f9-833b98b3ecec-1759371848780] = [groups:][instances:]
+  [loading_requirement_container_meta:2771e38a-ed2a-4019-8cc2-78bc1dc96d3d-1759587051422] = [groups:][instances:]
+}
+
+customization {
+  action = setscale
+  scale = 3.0
 }
 
 customization {

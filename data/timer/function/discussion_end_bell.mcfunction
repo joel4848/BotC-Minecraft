@@ -1,1 +1,1 @@
-playsound minecraft:block.bell.use ambient @a ~ ~ ~ 5 0.6 1
+playsound minecraft:block.bell.use master @a ~ ~ ~ 5 0.6 1
