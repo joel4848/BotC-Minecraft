@@ -32,13 +32,13 @@ variable {
 
 variable {
   name = player_11_colour
-  value = &f
+  value = &8
   reset_on_launch = false
 }
 
 variable {
   name = player_2_username
-  value = joel4848
+  value = p2
   reset_on_launch = false
 }
 
@@ -50,37 +50,37 @@ variable {
 
 variable {
   name = player_10_colour
-  value = &f
+  value = &8
   reset_on_launch = false
 }
 
 variable {
   name = player_12_colour
-  value = &f
+  value = &8
   reset_on_launch = false
 }
 
 variable {
   name = player_13_colour
-  value = &f
+  value = &8
   reset_on_launch = false
 }
 
 variable {
   name = player_14_colour
-  value = &f
+  value = &8
   reset_on_launch = false
 }
 
 variable {
   name = player_15_colour
-  value = &f
+  value = &8
   reset_on_launch = false
 }
 
 variable {
   name = player_16_colour
-  value = &f
+  value = &8
   reset_on_launch = false
 }
 
@@ -200,13 +200,13 @@ variable {
 
 variable {
   name = player_3_username
-  value = NothinButAClutz
+  value = p3
   reset_on_launch = false
 }
 
 variable {
   name = player_7_username
-  value =  ‌
+  value = p7
   reset_on_launch = false
 }
 
@@ -218,7 +218,7 @@ variable {
 
 variable {
   name = player_count
-  value = 16
+  value = 8
   reset_on_launch = false
 }
 
@@ -242,7 +242,7 @@ variable {
 
 variable {
   name = player_4_colour
-  value = &f
+  value = &a
   reset_on_launch = false
 }
 
@@ -260,7 +260,7 @@ variable {
 
 variable {
   name = player_6_colour
-  value = &f
+  value = &a
   reset_on_launch = false
 }
 
@@ -332,7 +332,7 @@ variable {
 
 variable {
   name = player_6_username
-  value =  ‌
+  value = p6
   reset_on_launch = false
 }
 
@@ -344,7 +344,7 @@ variable {
 
 variable {
   name = player_1_username
-  value = SpaceJuice9907
+  value = p1
   reset_on_launch = false
 }
 
@@ -386,7 +386,7 @@ variable {
 
 variable {
   name = player_9_colour
-  value = &f
+  value = &8
   reset_on_launch = false
 }
 
@@ -398,7 +398,7 @@ variable {
 
 variable {
   name = player_4_username
-  value =  ‌
+  value = p4
   reset_on_launch = false
 }
 
@@ -416,7 +416,7 @@ variable {
 
 variable {
   name = banshee_0
-  value = 8
+  value = 
   reset_on_launch = false
 }
 
@@ -440,7 +440,7 @@ variable {
 
 variable {
   name = player_1_colour
-  value = &c
+  value = &a
   reset_on_launch = false
 }
 
@@ -470,7 +470,7 @@ variable {
 
 variable {
   name = player_5_colour
-  value = &f
+  value = &a
   reset_on_launch = false
 }
 
@@ -494,13 +494,13 @@ variable {
 
 variable {
   name = player_7_colour
-  value = &f
+  value = &a
   reset_on_launch = false
 }
 
 variable {
   name = player_5_username
-  value =  ‌
+  value = p5
   reset_on_launch = false
 }
 
