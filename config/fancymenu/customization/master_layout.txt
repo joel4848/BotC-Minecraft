@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = master
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1759844855628
+  last_edited_time = 1760120500122
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:d31e6acd-878a-4d19-a682-84126aaf8c6a-1759844496880] = [groups:][instances:]
+  [loading_requirement_container_meta:eeb2c3d7-901d-4cdb-b9cc-34f8df4a6119-1760120453773] = [groups:][instances:]
 }
 
 customization {
@@ -1555,7 +1555,7 @@ element {
   anchor_point = element
   anchor_point_element = 59c04f94-815e-4381-84bb-c66a6f3b50ec-1756151498772
   x = -25
-  y = 76
+  y = 81
   width = 105
   height = 16
   stretch_x = false
@@ -1680,7 +1680,7 @@ element {
   sticky_anchor = false
   anchor_point = mid-centered
   x = 43
-  y = -73
+  y = -63
   width = 55
   height = 15
   stretch_x = false
@@ -2169,7 +2169,7 @@ element {
   anchor_point = element
   anchor_point_element = 7d1f436b-3dad-4c7f-bb11-08f9f9e1060f-1756152464817
   x = -30
-  y = 174
+  y = 175
   width = 100
   height = 20
   stretch_x = false
@@ -2222,12 +2222,12 @@ element {
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 975
+  auto_sizing_base_screen_height = 1011
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 59c04f94-815e-4381-84bb-c66a6f3b50ec-1756151498772
   x = -286
-  y = 76
+  y = 75
   width = 100
   height = 19
   stretch_x = false
