@@ -1,23 +1,16 @@
 
-# Joel's BotC map code rewrite
+# Joel's BotC in Minecraft datapack
 
-Turning the command block setup from [Jimbusk's BotC in Minecraft map](https://www.planetminecraft.com/project/blood-on-the-clocktower/) into Minecraft function form in order to streamline functionality and improve ease of adding new features.
-
-
-## Documentation
-
-Coming after v1 completion
+A datapack for playing Blood on the Clocktower in Minecraft, written to support the Banan community map.
 
 
 ## Acknowledgements
 
- - Jimbusk, for his [incredible BotC in Minecraft map](https://www.planetminecraft.com/project/blood-on-the-clocktower/)
- - Twinner, for his seemingly-limitless patience, kindness, selflessness and support
- - KK5288, for not judging me too harshly on my awful, awful code. Gah!
- - Stretch, for some very cool ideas and willingness to act as a guinepig. God give you bread as long as you live!
- - Wyler, for the hours of conversation while I nearly dig my own eyes out in frustration (at the code, not at Wyler's conversation)
- - Brim for, yaknow, being Brim
- - The whole Banan BotC group for their willingness to be guineapigs, and for somehow being impressed by the 'features' I shit out
+ - Jimbusk's [command block-driven BotC Minecraft map](https://www.planetminecraft.com/project/blood-on-the-clocktower/), which inspired this datapack and was the starting point for my map
+ - Twinner, for his regular help & support
+ - [AlexAsterisk](https://github.com/alexasterisk), who wrote the functions for the Storyteller Den, permissible votelights and the fun parts of the Psychopath and Slayer, macro-fied a lot of my code, and mostly fixed the stuff that he broke
+ - Stretch, for her Nightclub & fancy dancefloor, some very cool ideas, and her general willingness to act as a guinepig
+ - The whole Banan BotC group for their willingness to be guineapigs!
 
 
 ## License

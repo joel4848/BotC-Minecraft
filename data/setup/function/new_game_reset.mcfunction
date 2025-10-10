@@ -68,15 +68,25 @@ function extras:thief/clear_thief_chosen
 
 function extras:bureaucrat/clear_bureaucrat_chosen
 
-# Empty FM player list
+# Credits/bugs/feedback/suggestions message
 
-# function players:pickers/player_usernames/set_fmvs with storage minecraft:joelbotc
+# This map/datapack is licensed under Attribution-NonCommercial-ShareAlike 4.0 International https://creativecommons.org/licenses/by-nc-sa/4.0/
+# If you change/remove this message, you're in breach of the license - and also a bad person who makes Ben Burns sad
+# No, seriously: months of my time and the time of others went into making this what it is, and I'm sharing it publicly for the BotC community,
+# out of trust. A lot of BotC is based on trust - in the ST, in your players. Falsely claiming credit for this work is not in the spirit of Botc.
 
-# scoreboard players operation #were_fm_colours_on temp = #fm_colours_on temp
 
-# scoreboard players set #fm_colours_on temp 1
+tellraw @a {"color":"gold","text":"----------------------------------------------------"}
+tellraw @a {"color":"aqua","text":""}
+tellraw @a [{"color":"aqua","text":"Thanks for playing "},{"color":"gold","text":"Joel4848's BotC Minecraft"}," map & datapack!"]
+tellraw @a {"color":"aqua","text":""}
+tellraw @a {"color":"aqua","text":"For the wiki, or to report any bugs, suggest new features, or"}
+tellraw @a {"color":"aqua","text":"just give feedback, please visit: "}
+tellraw @a {"color":"aqua","text":""}
+tellraw @a {"clickEvent":{"action":"open_url","value":"https://github.com/joel4848/BotC-Minecraft"},"color":"blue","text":"https://github.com/joel4848/BotC-Minecraft","underlined":true}
+tellraw @a {"color":"aqua","text":""}
+tellraw @a {"color":"gold","text":"----------------------------------------------------"}
 
-# function setup:fm_colours_clear_all
 
 # scoreboard players operation #fm_colours_on temp = #were_fm_colours_on temp
 
