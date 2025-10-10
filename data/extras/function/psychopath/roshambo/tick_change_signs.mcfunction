@@ -210,9 +210,9 @@ execute if score @a[scores={Nominator=1},limit=1] RoshamboLocked matches 1 run e
 
 # Repeat if roshambo running
 
-execute if score #running Roshambo matches 1 run schedule function extras:roshambo/tick_change_signs 1t
+execute if score #running Roshambo matches 1 run schedule function extras:psychopath/roshambo/tick_change_signs 1t
 
-execute unless score #roshambo_reveal_message_sent temp matches 1 run execute if score @a[scores={Marked=1},limit=1] RoshamboLocked matches 1 if score @a[scores={Nominator=1},limit=1] RoshamboLocked matches 1 run tellraw @a[scores={Storyteller=1}] [{"color":"light_purple","text":"Roshambo choices locked in! Click here to reveal the result: ["},{"clickEvent":{"action":"run_command","value":"/function extras:roshambo/start_announce_results"},"color":"gold","text":"Reveal Result","underlined":true},{"color":"light_purple","text":"]"}]
+execute unless score #roshambo_reveal_message_sent temp matches 1 run execute if score @a[scores={Marked=1},limit=1] RoshamboLocked matches 1 if score @a[scores={Nominator=1},limit=1] RoshamboLocked matches 1 run tellraw @a[scores={Storyteller=1}] [{"color":"light_purple","text":"Roshambo choices locked in! Click here to reveal the result: ["},{"clickEvent":{"action":"run_command","value":"/function extras:psychopath/roshambo/start_announce_results"},"color":"gold","text":"Reveal Result","underlined":true},{"color":"light_purple","text":"]"}]
 
 execute if score @a[scores={Marked=1},limit=1] RoshamboLocked matches 1 if score @a[scores={Nominator=1},limit=1] RoshamboLocked matches 1 run scoreboard players set #roshambo_reveal_message_sent temp 1
 

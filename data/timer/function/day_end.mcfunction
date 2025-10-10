@@ -60,3 +60,13 @@ execute unless score #compasses_given temp matches 1 run scoreboard players set 
 scoreboard players set @a InHouse 0
 
 function buildings:entrance_particles
+
+# Make Psychopath killing unallowed and remove all axes
+
+data remove storage extras:psychopath allowed
+execute as @a run function extras:psychopath/axe/remove
+effect clear @a resistance
+
+# Make sure PVP is turned off
+
+execute if score #immersive_pvp temp matches 1 if score #pvp_enabled temp matches 0 run gamerule pvp false

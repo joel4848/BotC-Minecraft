@@ -1228,7 +1228,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 515c32f0-81b3-4da4-b870-a90526a2a663-1758307518428
-  [executable_action_instance:b850d351-5e54-464d-af6d-70115f482b3f-1758307648059][action_type:sendmessage] = /function extras:roshambo/start
+  [executable_action_instance:b850d351-5e54-464d-af6d-70115f482b3f-1758307648059][action_type:sendmessage] = /function extras:psychopath/roshambo/start
   [executable_action_instance:72b81a13-5979-41f1-8b23-a0accd651c39-1758307674309][action_type:closegui] = 
   [executable_block:515c32f0-81b3-4da4-b870-a90526a2a663-1758307518428][type:generic] = [executables:b850d351-5e54-464d-af6d-70115f482b3f-1758307648059;72b81a13-5979-41f1-8b23-a0accd651c39-1758307674309;]
   restartbackgroundanimations = true
@@ -1286,7 +1286,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 515c32f0-81b3-4da4-b870-a90526a2a663-1758307518428
-  [executable_action_instance:a54fd277-84c9-4211-97f7-20247355157b-1758307683108][action_type:sendmessage] = /function extras:roshambo/start_announce_results
+  [executable_action_instance:a54fd277-84c9-4211-97f7-20247355157b-1758307683108][action_type:sendmessage] = /function extras:psychopath/roshambo/start_announce_results
   [executable_action_instance:253e42af-ad7a-4272-99e1-9c28d650c4cb-1758307699175][action_type:closegui] = 
   [executable_block:515c32f0-81b3-4da4-b870-a90526a2a663-1758307518428][type:generic] = [executables:a54fd277-84c9-4211-97f7-20247355157b-1758307683108;253e42af-ad7a-4272-99e1-9c28d650c4cb-1758307699175;]
   restartbackgroundanimations = true
@@ -1344,7 +1344,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 515c32f0-81b3-4da4-b870-a90526a2a663-1758307518428
-  [executable_action_instance:250baac7-0712-446a-a655-dd19c4e9207a-1758307707825][action_type:sendmessage] = /function extras:roshambo/clear
+  [executable_action_instance:250baac7-0712-446a-a655-dd19c4e9207a-1758307707825][action_type:sendmessage] = /function extras:psychopath/roshambo/clear
   [executable_action_instance:2727e08e-ec45-4fa8-9833-d343aba48920-1758307717575][action_type:closegui] = 
   [executable_block:515c32f0-81b3-4da4-b870-a90526a2a663-1758307518428][type:generic] = [executables:250baac7-0712-446a-a655-dd19c4e9207a-1758307707825;2727e08e-ec45-4fa8-9833-d343aba48920-1758307717575;]
   restartbackgroundanimations = true

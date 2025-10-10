@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "attack": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "player"
+                },
+                "player": {
+                    "nbt": "{SelectedItem:{components:{\"minecraft:custom_data\":{psychopath_axe:true}}}}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "extras:psychopath/axe/hit_check"
+    }
+}

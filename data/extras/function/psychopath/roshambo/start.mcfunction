@@ -14,12 +14,12 @@ fill 185 99 3 184 101 -1 air replace
 
 # Place signs
 
-schedule function extras:roshambo/place_signs 1t
+schedule function extras:psychopath/roshambo/place_signs 1t
 
 # Start tick function
 
 scoreboard players set #running Roshambo 1
-schedule function extras:roshambo/tick_change_signs 2t
+schedule function extras:psychopath/roshambo/tick_change_signs 2t
 
 # tp players
 

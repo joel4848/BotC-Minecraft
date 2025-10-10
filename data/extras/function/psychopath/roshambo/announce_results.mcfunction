@@ -1,5 +1,5 @@
 scoreboard players set #cycle_roshambo_choices temp 0
-schedule clear extras:roshambo/cycle_choices
+schedule clear extras:psychopath/roshambo/cycle_choices
 
 # Announce Nominator's choice
 
@@ -37,4 +37,4 @@ execute if score @a[scores={Marked=1},limit=1] Roshambo matches 2 if score @a[sc
 execute if score @a[scores={Marked=1},limit=1] Roshambo matches 3 if score @a[scores={Nominator=1},limit=1] Roshambo matches 2 run function execution:clear_mark
 
 
-tellraw @a[scores={Storyteller=1}] [{"color":"light_purple","text":"Click here to clear the Roshambo setup & return the Roshamboists to their seats: ["},{"clickEvent":{"action":"run_command","value":"/function extras:roshambo/clear"},"color":"gold","text":"Clear Roshambo","underlined":true},{"color":"light_purple","text":"]"}]
+tellraw @a[scores={Storyteller=1}] [{"color":"light_purple","text":"Click here to clear the Roshambo setup & return the Roshamboists to their seats: ["},{"clickEvent":{"action":"run_command","value":"/function extras:psychopath/roshambo/clear"},"color":"gold","text":"Clear Roshambo","underlined":true},{"color":"light_purple","text":"]"}]
