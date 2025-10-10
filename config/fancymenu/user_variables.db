@@ -86,7 +86,7 @@ variable {
 
 variable {
   name = timer_seconds_custom
-  value = 
+  value = 1
   reset_on_launch = false
 }
 

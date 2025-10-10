@@ -17,6 +17,9 @@ effect give @a resistance infinite 255 true
 data merge storage extras:psychopath {allowed:true}
 schedule function extras:psychopath/axe/detect_held 1s
 
+data merge storage extras:slayer {allowed:true}
+schedule function extras:slayer/detect_held_arrow 1s
+
 tellraw @a[scores={Player=..-1},gamemode=creative] [ \
     {"text":"You've been whisked away into ","color":"gold"}, \
     {"text":"Adventure","color":"yellow"}, \
