@@ -13,6 +13,11 @@ layout-meta {
 }
 
 customization {
+  action = setscale
+  scale = 3.0
+}
+
+customization {
   action = backgroundoptions
   keepaspectratio = false
 }

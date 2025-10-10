@@ -46,7 +46,7 @@ execute unless score #next_seat temp > player_count PlayerCount run schedule fun
 
 # execute unless score #current_seat temp = #start_player temp run 
 
-execute if score #next_seat temp matches 1 run function voting:call_move_big_hand_skip
+execute if score #next_seat temp matches 1 run execute unless score #nominated temp = player_count PlayerCount run function voting:call_move_big_hand_skip
 
 # execute if score #start_player_passed temp matches 0 run execute if score #next_seat temp matches 1 run schedule function voting:call_move_big_hand_skip 7t
 # execute unless score #current_seat temp = #start_player temp run execute if score #next_seat temp matches 1 run say VS called Move Big Hand Skip
@@ -72,7 +72,9 @@ execute unless score #current_seat temp = #nominated temp run execute if score #
 
 # execute if score #current_player temp >= #player_count temp run schedule function voting:evaluate_vote_result 20t
 
-execute if score #current_seat temp = #nominated temp run schedule function voting:exile/process/evaluate_vote_result 45t
+execute unless score #is_cult_leader_vote temp matches 1 run execute if score #current_seat temp = #nominated temp run schedule function voting:exile/process/evaluate_vote_result 25t
+
+execute if score #is_cult_leader_vote temp matches 1 run execute if score #current_seat temp = #nominated temp run schedule function extras:cult_leader/cult_leader_vote_complete 25t
 
 # tellraw @a [{"text":"[Current Player] - ","color":"yellow"},{"score":{"name":"#current_player","objective":"temp"}}]
 # tellraw @a [{"text":"[Current Seat] - ","color":"yellow"},{"score":{"name":"#current_seat","objective":"temp"}}]

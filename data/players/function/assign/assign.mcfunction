@@ -1,12 +1,12 @@
 # call with players:assign/assign {player:%d}
 
-$execute unless score @p Player matches -$(player) run give @p writable_book
+$execute unless score @s Player matches -$(player) run give @s writable_book
 $execute at @a[scores={Player=-$(player)}] run function players:assign/unassign
-$scoreboard players set @p Player -$(player)
-scoreboard players set @p Alive 1
-scoreboard players set @p Storyteller 0
-team leave @p
-team join Alive @p
+$scoreboard players set @s Player -$(player)
+scoreboard players set @s Alive 1
+scoreboard players set @s Storyteller 0
+team leave @s
+team join Alive @s
 
 $scoreboard players set #picked_picker temp $(player)
 $function players:usernames/update_username/player {player:$(player)}

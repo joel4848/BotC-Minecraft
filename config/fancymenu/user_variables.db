@@ -7,6 +7,12 @@ variable {
 }
 
 variable {
+  name = new_highest_vote_tally
+  value = 
+  reset_on_launch = false
+}
+
+variable {
   name = player_11_colour_suffix
   value = %#%
   reset_on_launch = false
@@ -26,13 +32,13 @@ variable {
 
 variable {
   name = player_11_colour
-  value = %#FFFFFF%
+  value = &f
   reset_on_launch = false
 }
 
 variable {
   name = player_2_username
-  value =  ‌
+  value = joel4848
   reset_on_launch = false
 }
 
@@ -44,37 +50,43 @@ variable {
 
 variable {
   name = player_10_colour
-  value = %#FFFFFF%
+  value = &f
   reset_on_launch = false
 }
 
 variable {
   name = player_12_colour
-  value = %#FFFFFF%
+  value = &f
   reset_on_launch = false
 }
 
 variable {
   name = player_13_colour
-  value = %#FFFFFF%
+  value = &f
   reset_on_launch = false
 }
 
 variable {
   name = player_14_colour
-  value = %#FFFFFF%
+  value = &f
   reset_on_launch = false
 }
 
 variable {
   name = player_15_colour
-  value = %#FFFFFF%
+  value = &f
   reset_on_launch = false
 }
 
 variable {
   name = player_16_colour
-  value = %#FFFFFF%
+  value = &f
+  reset_on_launch = false
+}
+
+variable {
+  name = timer_seconds_custom
+  value = 
   reset_on_launch = false
 }
 
@@ -98,7 +110,7 @@ variable {
 
 variable {
   name = bureaucrat_chosen
-  value = 
+  value = ‌
   reset_on_launch = false
 }
 
@@ -133,8 +145,14 @@ variable {
 }
 
 variable {
+  name = new_highest_votes
+  value = 
+  reset_on_launch = false
+}
+
+variable {
   name = player_8_colour
-  value = %#FFFFFF%
+  value = &f
   reset_on_launch = false
 }
 
@@ -145,8 +163,14 @@ variable {
 }
 
 variable {
+  name = 59
+  value = 59
+  reset_on_launch = false
+}
+
+variable {
   name = og_enabled
-  value = false
+  value = true
   reset_on_launch = false
 }
 
@@ -163,6 +187,12 @@ variable {
 }
 
 variable {
+  name = -5
+  value = 0
+  reset_on_launch = false
+}
+
+variable {
   name = banshee_1_username
   value =  
   reset_on_launch = false
@@ -170,13 +200,19 @@ variable {
 
 variable {
   name = player_3_username
-  value =  ‌
+  value = NothinButAClutz
   reset_on_launch = false
 }
 
 variable {
   name = player_7_username
   value =  ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = 0
+  value = 0
   reset_on_launch = false
 }
 
@@ -199,8 +235,14 @@ variable {
 }
 
 variable {
+  name = reassign_seat
+  value = 
+  reset_on_launch = false
+}
+
+variable {
   name = player_4_colour
-  value = %#FFFFFF%
+  value = &f
   reset_on_launch = false
 }
 
@@ -218,19 +260,31 @@ variable {
 
 variable {
   name = player_6_colour
-  value = %#FFFFFF%
+  value = &f
+  reset_on_launch = false
+}
+
+variable {
+  name = timer_minutes_custom
+  value = 
   reset_on_launch = false
 }
 
 variable {
   name = player_2_colour
-  value = %#FFFFFF%
+  value = &a
   reset_on_launch = false
 }
 
 variable {
   name = player_12_username
   value =  ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = reassign_username
+  value = 
   reset_on_launch = false
 }
 
@@ -290,7 +344,13 @@ variable {
 
 variable {
   name = player_1_username
-  value =  ‌
+  value = SpaceJuice9907
+  reset_on_launch = false
+}
+
+variable {
+  name = 70
+  value = 59
   reset_on_launch = false
 }
 
@@ -326,7 +386,7 @@ variable {
 
 variable {
   name = player_9_colour
-  value = %#FFFFFF%
+  value = &f
   reset_on_launch = false
 }
 
@@ -349,8 +409,14 @@ variable {
 }
 
 variable {
+  name = fake_player_amount
+  value = 7
+  reset_on_launch = false
+}
+
+variable {
   name = banshee_0
-  value = 
+  value = 8
   reset_on_launch = false
 }
 
@@ -374,7 +440,7 @@ variable {
 
 variable {
   name = player_1_colour
-  value = %#FFFFFF%
+  value = &c
   reset_on_launch = false
 }
 
@@ -392,13 +458,19 @@ variable {
 
 variable {
   name = thief_chosen
-  value = 
+  value = ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = 80
+  value = 59
   reset_on_launch = false
 }
 
 variable {
   name = player_5_colour
-  value = %#FFFFFF%
+  value = &f
   reset_on_launch = false
 }
 
@@ -410,7 +482,7 @@ variable {
 
 variable {
   name = player_3_colour
-  value = %#FFFFFF%
+  value = &a
   reset_on_launch = false
 }
 
@@ -422,7 +494,7 @@ variable {
 
 variable {
   name = player_7_colour
-  value = %#FFFFFF%
+  value = &f
   reset_on_launch = false
 }
 
