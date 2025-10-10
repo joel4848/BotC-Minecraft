@@ -16,13 +16,13 @@ execute unless score @a[scores={Marked=1},limit=1] RoshamboLocked matches 1 run 
 
 # Instruction sign default content
 
-execute unless score @a[scores={Marked=1},limit=1] ConfirmRoshamboLock matches 1 run execute unless score @a[scores={Marked=1},limit=1] RoshamboLocked matches 1 run data modify block 184 99 2 front_text.messages[1] set value '{"text":"Right click a sign"}'
+execute unless score @a[scores={Marked=1},limit=1] ConfirmRoshamboLock matches 1 run execute unless score @a[scores={Marked=1},limit=1] RoshamboLocked matches 1 run data modify block 184 99 2 front_text.messages[1] set value '{"text":"Click a sign"}'
 execute unless score @a[scores={Marked=1},limit=1] ConfirmRoshamboLock matches 1 run execute unless score @a[scores={Marked=1},limit=1] RoshamboLocked matches 1 run data modify block 184 99 2 front_text.messages[2] set value '{"text":"to choose!"}'
 execute unless score @a[scores={Marked=1},limit=1] ConfirmRoshamboLock matches 1 run execute unless score @a[scores={Marked=1},limit=1] RoshamboLocked matches 1 run data modify block 184 99 2 front_text.color set value white
 
 # Lock-in sign default content
 
-execute unless score @a[scores={Marked=1},limit=1] ConfirmRoshamboLock matches 1 run execute unless score @a[scores={Marked=1},limit=1] RoshamboLocked matches 1 run data modify block 184 99 0 front_text.messages[1] set value '{"text":"Right click to lock"}'
+execute unless score @a[scores={Marked=1},limit=1] ConfirmRoshamboLock matches 1 run execute unless score @a[scores={Marked=1},limit=1] RoshamboLocked matches 1 run data modify block 184 99 0 front_text.messages[1] set value '{"text":"Click here to lock"}'
 execute unless score @a[scores={Marked=1},limit=1] ConfirmRoshamboLock matches 1 run execute unless score @a[scores={Marked=1},limit=1] RoshamboLocked matches 1 run data modify block 184 99 0 front_text.messages[2] set value '{"text":"in your choice!","clickEvent":{"action":"run_command","value":"/trigger ConfirmRoshamboLock set 1"}}'
 execute unless score @a[scores={Marked=1},limit=1] ConfirmRoshamboLock matches 1 run execute unless score @a[scores={Marked=1},limit=1] RoshamboLocked matches 1 run data modify block 184 99 0 front_text.color set value white
 
@@ -116,13 +116,13 @@ execute unless score @a[scores={Nominator=1},limit=1] RoshamboLocked matches 1 r
 
 # Instruction sign default content
 
-execute unless score @a[scores={Nominator=1},limit=1] ConfirmRoshamboLock matches 1 run execute unless score @a[scores={Nominator=1},limit=1] RoshamboLocked matches 1 run data modify block 150 99 0 front_text.messages[1] set value '{"text":"Right click a sign"}'
+execute unless score @a[scores={Nominator=1},limit=1] ConfirmRoshamboLock matches 1 run execute unless score @a[scores={Nominator=1},limit=1] RoshamboLocked matches 1 run data modify block 150 99 0 front_text.messages[1] set value '{"text":"Click a sign"}'
 execute unless score @a[scores={Nominator=1},limit=1] ConfirmRoshamboLock matches 1 run execute unless score @a[scores={Nominator=1},limit=1] RoshamboLocked matches 1 run data modify block 150 99 0 front_text.messages[2] set value '{"text":"to choose!"}'
 execute unless score @a[scores={Nominator=1},limit=1] ConfirmRoshamboLock matches 1 run execute unless score @a[scores={Nominator=1},limit=1] RoshamboLocked matches 1 run data modify block 150 99 0 front_text.color set value white
 
 # Lock-in sign default content
 
-execute unless score @a[scores={Nominator=1},limit=1] ConfirmRoshamboLock matches 1 run execute unless score @a[scores={Nominator=1},limit=1] RoshamboLocked matches 1 run data modify block 150 99 2 front_text.messages[1] set value '{"text":"Right click to lock"}'
+execute unless score @a[scores={Nominator=1},limit=1] ConfirmRoshamboLock matches 1 run execute unless score @a[scores={Nominator=1},limit=1] RoshamboLocked matches 1 run data modify block 150 99 2 front_text.messages[1] set value '{"text":"Click here to lock"}'
 execute unless score @a[scores={Nominator=1},limit=1] ConfirmRoshamboLock matches 1 run execute unless score @a[scores={Nominator=1},limit=1] RoshamboLocked matches 1 run data modify block 150 99 2 front_text.messages[2] set value '{"text":"in your choice!","clickEvent":{"action":"run_command","value":"/trigger ConfirmRoshamboLock set 1"}}'
 execute unless score @a[scores={Nominator=1},limit=1] ConfirmRoshamboLock matches 1 run execute unless score @a[scores={Nominator=1},limit=1] RoshamboLocked matches 1 run data modify block 150 99 2 front_text.color set value white
 
