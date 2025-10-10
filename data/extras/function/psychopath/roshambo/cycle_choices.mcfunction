@@ -1,0 +1,7 @@
+execute if score #cycle_roshambo_choices temp matches 1 run function extras:psychopath/roshambo/cycle_rock
+
+execute if score #cycle_roshambo_choices temp matches 1 run schedule function extras:psychopath/roshambo/cycle_paper 2t
+
+execute if score #cycle_roshambo_choices temp matches 1 run schedule function extras:psychopath/roshambo/cycle_scissors 4t
+
+execute if score #cycle_roshambo_choices temp matches 1 run schedule function extras:psychopath/roshambo/cycle_choices 6t replace

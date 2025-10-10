@@ -1,5 +1,5 @@
 scoreboard players set #running Roshambo 0
-schedule clear extras:roshambo/tick_change_signs
+schedule clear extras:psychopath/roshambo/tick_change_signs
 
 scoreboard players reset @a RoshamboLocked
 scoreboard players reset @a ConfirmRoshamboLock

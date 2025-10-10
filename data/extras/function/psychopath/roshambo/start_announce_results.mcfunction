@@ -1,5 +1,5 @@
 scoreboard players set #running Roshambo 0
-schedule clear extras:roshambo/tick_change_signs
+schedule clear extras:psychopath/roshambo/tick_change_signs
 
 # Announce Nominator's choice
 
@@ -13,8 +13,8 @@ summon text_display 167 99 1 {billboard:"vertical",alignment:"center",Tags:["ros
 
 scoreboard players set #cycle_roshambo_choices temp 1
 
-schedule function extras:roshambo/cycle_choices 5t
+schedule function extras:psychopath/roshambo/cycle_choices 5t
 
 # Announce results
 
-schedule function extras:roshambo/announce_results 71t
+schedule function extras:psychopath/roshambo/announce_results 71t
