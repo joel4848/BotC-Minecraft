@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "shot_crossbow": {
+            "trigger": "shot_crossbow",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "custom_data": {
+                            "slayer_weapon": true
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "extras:slayer/shot_crossbow"
+    }
+}

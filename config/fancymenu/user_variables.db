@@ -38,7 +38,7 @@ variable {
 
 variable {
   name = player_2_username
-  value = joel4848
+  value =  ‌
   reset_on_launch = false
 }
 
@@ -86,7 +86,7 @@ variable {
 
 variable {
   name = timer_seconds_custom
-  value = 
+  value = 1
   reset_on_launch = false
 }
 
@@ -200,7 +200,7 @@ variable {
 
 variable {
   name = player_3_username
-  value = NothinButAClutz
+  value =  ‌
   reset_on_launch = false
 }
 
@@ -272,7 +272,7 @@ variable {
 
 variable {
   name = player_2_colour
-  value = &a
+  value = &f
   reset_on_launch = false
 }
 
@@ -344,7 +344,7 @@ variable {
 
 variable {
   name = player_1_username
-  value = SpaceJuice9907
+  value =  ‌
   reset_on_launch = false
 }
 
@@ -416,7 +416,7 @@ variable {
 
 variable {
   name = banshee_0
-  value = 8
+  value = 
   reset_on_launch = false
 }
 
@@ -440,7 +440,7 @@ variable {
 
 variable {
   name = player_1_colour
-  value = &c
+  value = &f
   reset_on_launch = false
 }
 
@@ -482,7 +482,7 @@ variable {
 
 variable {
   name = player_3_colour
-  value = &a
+  value = &f
   reset_on_launch = false
 }
 

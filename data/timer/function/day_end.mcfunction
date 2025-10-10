@@ -65,8 +65,11 @@ function buildings:entrance_particles
 
 data remove storage extras:psychopath allowed
 execute as @a run function extras:psychopath/axe/remove
-effect clear @a resistance
+
+data remove storage extras:slayer allowed
+execute as @a run function extras:slayer/remove_crossbow
 
 # Make sure PVP is turned off
 
 execute if score #immersive_pvp temp matches 1 if score #pvp_enabled temp matches 0 run gamerule pvp false
+effect clear @a resistance
