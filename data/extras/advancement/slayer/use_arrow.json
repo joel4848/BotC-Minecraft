@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "use_item": {
+            "trigger": "using_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "custom_data": {
+                            "slayer_weapon": true,
+                            "slayer_arrow": true
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "extras:slayer/use_arrow_check"
+    }
+}

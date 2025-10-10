@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "hit_by_arrow": {
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "source_entity": {
+                            "type": "player"
+                        },
+                        "direct_entity": {
+                            "type": "#arrows"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "extras:slayer/hit_by_arrow_check"
+    }
+}

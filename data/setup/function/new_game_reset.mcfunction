@@ -107,3 +107,16 @@ execute as @s run execute if score player_count PlayerCount matches ..12 run fmv
 execute as @s run execute if score player_count PlayerCount matches ..13 run fmvariable set player_14_colour false &f
 execute as @s run execute if score player_count PlayerCount matches ..14 run fmvariable set player_15_colour false &f
 execute as @s run execute if score player_count PlayerCount matches ..15 run fmvariable set player_16_colour false &f
+
+# Make Psychopath killing unallowed and remove all axes
+
+data remove storage extras:psychopath allowed
+execute as @a run function extras:psychopath/axe/remove
+
+data remove storage extras:slayer allowed
+execute as @a run function extras:slayer/remove_crossbow
+
+# Make sure PVP is turned off
+
+execute if score #immersive_pvp temp matches 1 if score #pvp_enabled temp matches 0 run gamerule pvp false
+effect clear @a resistance
