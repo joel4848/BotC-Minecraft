@@ -4,6 +4,7 @@ team add Storyteller
 team modify Storyteller color blue
 team modify Storyteller nametagVisibility never
 execute as @s run team join Storyteller
+gamemode creative @s
 scoreboard objectives remove Storyteller
 scoreboard objectives add Storyteller dummy
 scoreboard players set @a Storyteller 0

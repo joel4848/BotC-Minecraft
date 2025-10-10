@@ -3,6 +3,7 @@
 $execute unless score @s Player matches -$(player) run give @s writable_book
 $execute at @a[scores={Player=-$(player)}] run function players:assign/unassign
 $scoreboard players set @s Player -$(player)
+gamemode adventure @s
 scoreboard players set @s Alive 1
 scoreboard players set @s Storyteller 0
 team leave @s

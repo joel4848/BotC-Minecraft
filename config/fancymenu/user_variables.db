@@ -44,7 +44,7 @@ variable {
 
 variable {
   name = player_8_username
-  value =  ‌
+  value = joel4848
   reset_on_launch = false
 }
 
@@ -152,7 +152,7 @@ variable {
 
 variable {
   name = player_8_colour
-  value = &f
+  value = &a
   reset_on_launch = false
 }
 
