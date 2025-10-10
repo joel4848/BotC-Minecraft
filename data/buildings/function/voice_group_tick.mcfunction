@@ -44,6 +44,34 @@ execute unless score @a[scores={Player=-14},limit=1,sort=nearest] InHouse matche
 execute unless score @a[scores={Player=-15},limit=1,sort=nearest] InHouse matches 1 run execute as @e[type=marker,tag=house15] at @s run execute as @a[scores={Player=-15},distance=..1] run scoreboard players set @s InHouse 1
 execute unless score @a[scores={Player=-16},limit=1,sort=nearest] InHouse matches 1 run execute as @e[type=marker,tag=house16] at @s run execute as @a[scores={Player=-16},distance=..1] run scoreboard players set @s InHouse 1
 
+scoreboard players display numberformat @a[scores={InHouse=0}] InHouse fixed {"text":"✘","color":"dark_red"}
+scoreboard players display numberformat @a[scores={InHouse=1}] InHouse fixed {"text":"✔","color":"green"}
+
+execute unless score #is_nighttime temp matches 0 run execute as @a[scores={Player=..0,InHouse=0}] run scoreboard objectives setdisplay sidebar.team.blue InHouse
+execute unless score #is_nighttime temp matches 0 run execute as @a[scores={Player=..0,InHouse=0}] run scoreboard players set #in_house_sb_removed temp 0
+execute unless score #is_nighttime temp matches 0 run execute as @a[scores={Player=..0,InHouse=0}] run scoreboard players set #all_in_houses temp 0
+
+execute unless score @a[scores={Player=-1},limit=1,sort=nearest] InHouse matches 0 unless score #all_in_houses temp matches 1 run \
+    execute unless score @a[scores={Player=-2},limit=1,sort=nearest] InHouse matches 0 unless score #all_in_houses temp matches 1 run \
+        execute unless score @a[scores={Player=-3},limit=1,sort=nearest] InHouse matches 0 unless score #all_in_houses temp matches 1 run \
+            execute unless score @a[scores={Player=-4},limit=1,sort=nearest] InHouse matches 0 unless score #all_in_houses temp matches 1 run \
+                execute unless score @a[scores={Player=-5},limit=1,sort=nearest] InHouse matches 0 unless score #all_in_houses temp matches 1 run \
+                    execute unless score @a[scores={Player=-6},limit=1,sort=nearest] InHouse matches 0 unless score #all_in_houses temp matches 1 run \
+                        execute unless score @a[scores={Player=-7},limit=1,sort=nearest] InHouse matches 0 unless score #all_in_houses temp matches 1 run \
+                            execute unless score @a[scores={Player=-8},limit=1,sort=nearest] InHouse matches 0 unless score #all_in_houses temp matches 1 run \
+                                execute unless score @a[scores={Player=-9},limit=1,sort=nearest] InHouse matches 0 unless score #all_in_houses temp matches 1 run \
+                                    execute unless score @a[scores={Player=-10},limit=1,sort=nearest] InHouse matches 0 unless score #all_in_houses temp matches 1 run \
+                                        execute unless score @a[scores={Player=-11},limit=1,sort=nearest] InHouse matches 0 unless score #all_in_houses temp matches 1 run \
+                                            execute unless score @a[scores={Player=-12},limit=1,sort=nearest] InHouse matches 0 unless score #all_in_houses temp matches 1 run \
+                                                execute unless score @a[scores={Player=-13},limit=1,sort=nearest] InHouse matches 0 unless score #all_in_houses temp matches 1 run \
+                                                    execute unless score @a[scores={Player=-14},limit=1,sort=nearest] InHouse matches 0 unless score #all_in_houses temp matches 1 run \
+                                                        execute unless score @a[scores={Player=-15},limit=1,sort=nearest] InHouse matches 0 unless score #all_in_houses temp matches 1 run \
+                                                            execute unless score @a[scores={Player=-16},limit=1,sort=nearest] InHouse matches 0 unless score #all_in_houses temp matches 1 run \
+                                                                execute as @a[scores={Storyteller=1}] run scoreboard players set #all_in_houses temp 1 
+
+execute if score #all_in_houses temp matches 1 unless score #in_house_sb_removed temp matches 1 run function buildings:all_in_houses
+
+
 # House leave
 
 execute as @e[type=marker,tag=house_exit1] at @s run execute as @a[distance=..1] run voicechat leave

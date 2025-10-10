@@ -39,3 +39,7 @@ execute if score #st_glowing_during_day temp matches 1 run effect give @a[scores
 # Stop particles function if running
 
 schedule clear buildings:entrance_particles
+
+# Set ST scoreboard sidebar to Player
+
+scoreboard objectives setdisplay sidebar.team.blue Player

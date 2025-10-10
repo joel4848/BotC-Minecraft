@@ -50,7 +50,7 @@ scoreboard objectives add Booth dummy
 scoreboard objectives add SummonSTInteracted dummy
 scoreboard objectives add SummonSTConfirmed trigger
 scoreboard objectives add Annoying dummy
-scoreboard objectives add InHouse dummy
+scoreboard objectives add InHouse dummy "In House"
 scoreboard objectives add psychopath_axe_cooldown dummy
 scoreboard objectives add slayer_arrow_cooldown dummy
 # scoreboard objectives add  dummy

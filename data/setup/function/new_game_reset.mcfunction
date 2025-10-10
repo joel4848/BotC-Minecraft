@@ -6,6 +6,8 @@ scoreboard objectives setdisplay sidebar Player
 team leave @a[team=!Storyteller]
 scoreboard objectives remove HasSeat
 scoreboard objectives add HasSeat dummy
+scoreboard objectives remove InHouse
+scoreboard objectives add InHouse dummy "In House"
 
 # Remove compasses and reset whether compasses already given
 
