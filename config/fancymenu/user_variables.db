@@ -344,7 +344,7 @@ variable {
 
 variable {
   name = player_1_username
-  value = NothinButAClutz
+  value =  ‌
   reset_on_launch = false
 }
 

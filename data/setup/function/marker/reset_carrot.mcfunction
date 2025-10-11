@@ -3,5 +3,5 @@ execute if score joel4848 carrot matches 1 run execute store result storage joel
 
 # execute if score joel4848 carrot matches 1 run function marker:summon_votelight with storage joelbotc
 
-execute if score joel4848 carrot matches 1 run function marker:summon_seat with storage joelbotc
+execute if score joel4848 carrot matches 1 run function setup:marker/summon_seat with storage joelbotc
 scoreboard players set joel4848 carrot 0
