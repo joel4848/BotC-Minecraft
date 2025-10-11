@@ -4,6 +4,10 @@ scoreboard players set @a RoshamboLocked 0
 scoreboard players set @a ConfirmRoshamboLock 0
 scoreboard players set @a Roshambo 0
 
+# Set score for debug in 'Clear' function
+
+scoreboard players set #psychopath_lost_roshambo temp 0
+
 # Place glass boxes
 
 fill 148 98 -2 151 102 4 light_blue_stained_glass replace

@@ -38,7 +38,7 @@ variable {
 
 variable {
   name = player_2_username
-  value =  ‌
+  value = p2
   reset_on_launch = false
 }
 
@@ -200,13 +200,13 @@ variable {
 
 variable {
   name = player_3_username
-  value =  ‌
+  value = p3
   reset_on_launch = false
 }
 
 variable {
   name = player_7_username
-  value =  ‌
+  value = p7
   reset_on_launch = false
 }
 
@@ -242,7 +242,7 @@ variable {
 
 variable {
   name = player_4_colour
-  value = &f
+  value = &a
   reset_on_launch = false
 }
 
@@ -260,7 +260,7 @@ variable {
 
 variable {
   name = player_6_colour
-  value = &f
+  value = &a
   reset_on_launch = false
 }
 
@@ -272,7 +272,7 @@ variable {
 
 variable {
   name = player_2_colour
-  value = &f
+  value = &a
   reset_on_launch = false
 }
 
@@ -332,7 +332,7 @@ variable {
 
 variable {
   name = player_6_username
-  value =  ‌
+  value = p6
   reset_on_launch = false
 }
 
@@ -344,7 +344,7 @@ variable {
 
 variable {
   name = player_1_username
-  value =  ‌
+  value = p1
   reset_on_launch = false
 }
 
@@ -398,7 +398,7 @@ variable {
 
 variable {
   name = player_4_username
-  value =  ‌
+  value = p4
   reset_on_launch = false
 }
 
@@ -410,7 +410,7 @@ variable {
 
 variable {
   name = fake_player_amount
-  value = 16
+  value = 7
   reset_on_launch = false
 }
 
@@ -440,7 +440,7 @@ variable {
 
 variable {
   name = player_1_colour
-  value = &f
+  value = &c
   reset_on_launch = false
 }
 
@@ -470,7 +470,7 @@ variable {
 
 variable {
   name = player_5_colour
-  value = &f
+  value = &a
   reset_on_launch = false
 }
 
@@ -482,7 +482,7 @@ variable {
 
 variable {
   name = player_3_colour
-  value = &f
+  value = &a
   reset_on_launch = false
 }
 
@@ -494,13 +494,13 @@ variable {
 
 variable {
   name = player_7_colour
-  value = &f
+  value = &a
   reset_on_launch = false
 }
 
 variable {
   name = player_5_username
-  value =  ‌
+  value = p5
   reset_on_launch = false
 }
 
