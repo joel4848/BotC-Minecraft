@@ -86,7 +86,7 @@ variable {
 
 variable {
   name = timer_seconds_custom
-  value = 
+  value = 0
   reset_on_launch = false
 }
 
@@ -242,7 +242,7 @@ variable {
 
 variable {
   name = player_4_colour
-  value = &f
+  value = &c
   reset_on_launch = false
 }
 
@@ -266,13 +266,13 @@ variable {
 
 variable {
   name = timer_minutes_custom
-  value = 
+  value = 0
   reset_on_launch = false
 }
 
 variable {
   name = player_2_colour
-  value = &f
+  value = &a
   reset_on_launch = false
 }
 
@@ -344,7 +344,7 @@ variable {
 
 variable {
   name = player_1_username
-  value =  ‌
+  value = NothinButAClutz
   reset_on_launch = false
 }
 
@@ -440,7 +440,7 @@ variable {
 
 variable {
   name = player_1_colour
-  value = &f
+  value = &a
   reset_on_launch = false
 }
 
@@ -482,7 +482,7 @@ variable {
 
 variable {
   name = player_3_colour
-  value = &f
+  value = &c
   reset_on_launch = false
 }
 
