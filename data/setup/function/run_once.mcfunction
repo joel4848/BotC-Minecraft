@@ -53,6 +53,7 @@ scoreboard objectives add Annoying dummy
 scoreboard objectives add InHouse dummy "In House"
 scoreboard objectives add psychopath_axe_cooldown dummy
 scoreboard objectives add slayer_arrow_cooldown dummy
+scoreboard objectives add InCemetary dummy
 # scoreboard objectives add  dummy
 # scoreboard objectives add  dummy
 

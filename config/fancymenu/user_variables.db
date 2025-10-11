@@ -242,7 +242,7 @@ variable {
 
 variable {
   name = player_4_colour
-  value = &c
+  value = &f
   reset_on_launch = false
 }
 
@@ -272,7 +272,7 @@ variable {
 
 variable {
   name = player_2_colour
-  value = &a
+  value = &f
   reset_on_launch = false
 }
 
@@ -440,7 +440,7 @@ variable {
 
 variable {
   name = player_1_colour
-  value = &a
+  value = &f
   reset_on_launch = false
 }
 
@@ -482,7 +482,7 @@ variable {
 
 variable {
   name = player_3_colour
-  value = &c
+  value = &f
   reset_on_launch = false
 }
 

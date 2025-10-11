@@ -1,4 +1,51 @@
 
+#####################################
+# Discussion Rooms                  #
+#####################################
+
+# Discussion room join
+
+execute as @e[type=marker,tag=discussion_room_entrance_cemetary] at @s run execute as @a[distance=..1] run voicechat join "Cemetary"
+execute as @e[type=marker,tag=discussion_room_entrance_crematorium] at @s run execute as @a[distance=..1] run voicechat join "Crematorium"
+execute as @e[type=marker,tag=discussion_room_entrance_clocktower] at @s run execute as @a[distance=..1] run voicechat join "Clocktower"
+execute as @e[type=marker,tag=discussion_room_entrance_nightclub] at @s run execute as @a[distance=..1] run voicechat join "Nightclub"
+execute as @e[type=marker,tag=discussion_room_entrance_tavern] at @s run execute as @a[distance=..1] run voicechat join "Tavern"
+execute as @e[type=marker,tag=discussion_room_entrance_blacksmith] at @s run execute as @a[distance=..1] run voicechat join "Blacksmith"
+execute as @e[type=marker,tag=discussion_room_entrance_library] at @s run execute as @a[distance=..1] run voicechat join "Library"
+
+# Discussion room leave
+
+execute as @e[type=marker,tag=discussion_room_exit_cemetary] at @s run execute as @a[distance=..1] run voicechat leave
+execute as @e[type=marker,tag=discussion_room_exit_crematorium] at @s run execute as @a[distance=..1] run voicechat leave
+execute as @e[type=marker,tag=discussion_room_exit_clocktower] at @s run execute as @a[distance=..1] run voicechat leave
+execute as @e[type=marker,tag=discussion_room_exit_nightclub] at @s run execute as @a[distance=..1] run voicechat leave
+execute as @e[type=marker,tag=discussion_room_exit_tavern] at @s run execute as @a[distance=..1] run voicechat leave
+execute as @e[type=marker,tag=discussion_room_exit_blacksmith] at @s run execute as @a[distance=..1] run voicechat leave
+execute as @e[type=marker,tag=discussion_room_exit_library] at @s run execute as @a[distance=..1] run voicechat leave
+
+# Trigger/stop ghost swing animation
+
+# Trigger
+
+execute as @e[type=marker,tag=discussion_room_entrance_cemetary] at @s run execute as @a[distance=..1] run scoreboard players set @s InCemetary 1
+scoreboard players set #cemetary_occupied temp 0
+execute unless score #cemetary_occupied temp matches 1 run execute as @a[scores={InCemetary=1}] run scoreboard players set #cemetary_occupied temp 1
+execute unless score #ghost_loop_running temp matches 1 run execute if score #cemetary_occupied temp matches 1 run tag @e[type=block_display,tag=ghost_swing_root] remove animation_pause
+execute unless score #ghost_loop_running temp matches 1 run execute if score #cemetary_occupied temp matches 1 run schedule function ghost_swing:k/default/keyframe_0 5t
+execute unless score #ghost_loop_running temp matches 1 run execute if score #cemetary_occupied temp matches 1 run scoreboard players set #ghost_loop_running temp 1
+
+# Stop
+
+execute as @e[type=marker,tag=discussion_room_exit_cemetary] at @s run execute as @a[distance=..1] run scoreboard players set @s InCemetary 0
+scoreboard players set #cemetary_occupied temp 0
+execute unless score #cemetary_occupied temp matches 1 run execute as @a[scores={InCemetary=1}] run scoreboard players set #cemetary_occupied temp 1
+execute if score #cemetary_occupied temp matches 0 run tag @e[type=block_display,tag=ghost_swing_root] add animation_pause
+execute if score #cemetary_occupied temp matches 0 run scoreboard players set #ghost_loop_running temp 0
+
+#####################################
+# Town Square                       #
+#####################################
+
 # Town square (large cube around town square adding everyone inside - four walls and a ceiling removing people
 
 execute as @a[x=151,y=93,z=-15,dx=32,dy=11,dz=32] run voicechat join "~ Town Square"
@@ -7,6 +54,10 @@ execute as @a[x=184,y=104,z=-16,dx=0,dy=-11,dz=34,] run voicechat leave
 execute as @a[x=150,y=93,z=-16,dx=34,dy=11,dz=0,] run voicechat leave
 execute as @a[x=150,y=104,z=18,dx=0,dy=-11,dz=-34,] run voicechat leave
 execute as @a[x=184,y=93,z=18,dx=-34,dy=11,dz=0] run voicechat leave
+
+#####################################
+# Houses                            #
+#####################################
 
 # House join
 
@@ -44,12 +95,14 @@ execute unless score @a[scores={Player=-14},limit=1,sort=nearest] InHouse matche
 execute unless score @a[scores={Player=-15},limit=1,sort=nearest] InHouse matches 1 run execute as @e[type=marker,tag=house15] at @s run execute as @a[scores={Player=-15},distance=..1] run scoreboard players set @s InHouse 1
 execute unless score @a[scores={Player=-16},limit=1,sort=nearest] InHouse matches 1 run execute as @e[type=marker,tag=house16] at @s run execute as @a[scores={Player=-16},distance=..1] run scoreboard players set @s InHouse 1
 
-scoreboard players display numberformat @a[scores={InHouse=0}] InHouse fixed {"text":"✘","color":"dark_red"}
-scoreboard players display numberformat @a[scores={InHouse=1}] InHouse fixed {"text":"✔","color":"green"}
+# Show 'InHouse' scoreboard to ST and display ✔ or ✘ depending on whether player is in their house or not
 
 execute unless score #is_nighttime temp matches 0 run execute as @a[scores={Player=..0,InHouse=0}] run scoreboard objectives setdisplay sidebar.team.blue InHouse
 execute unless score #is_nighttime temp matches 0 run execute as @a[scores={Player=..0,InHouse=0}] run scoreboard players set #in_house_sb_removed temp 0
 execute unless score #is_nighttime temp matches 0 run execute as @a[scores={Player=..0,InHouse=0}] run scoreboard players set #all_in_houses temp 0
+
+scoreboard players display numberformat @a[scores={InHouse=0}] InHouse fixed {"text":"✘","color":"dark_red"}
+scoreboard players display numberformat @a[scores={InHouse=1}] InHouse fixed {"text":"✔","color":"green"}
 
 execute unless score @a[scores={Player=-1},limit=1,sort=nearest] InHouse matches 0 unless score #all_in_houses temp matches 1 run \
     execute unless score @a[scores={Player=-2},limit=1,sort=nearest] InHouse matches 0 unless score #all_in_houses temp matches 1 run \
@@ -70,7 +123,6 @@ execute unless score @a[scores={Player=-1},limit=1,sort=nearest] InHouse matches
                                                                 execute as @a[scores={Storyteller=1}] run scoreboard players set #all_in_houses temp 1 
 
 execute if score #all_in_houses temp matches 1 unless score #in_house_sb_removed temp matches 1 run function buildings:all_in_houses
-
 
 # House leave
 

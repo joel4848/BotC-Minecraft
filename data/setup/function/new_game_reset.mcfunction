@@ -68,12 +68,20 @@ function extras:thief/clear_thief_chosen
 
 function extras:bureaucrat/clear_bureaucrat_chosen
 
+# Reset ghost swing trigger
+
+scoreboard objectives remove InCemetary
+scoreboard objectives add InCemetary dummy
+scoreboard players set #cemetary_occupied temp 0
+tag @e[type=block_display,tag=ghost_swing_root] add animation_pause
+scoreboard players set #ghost_loop_running temp 0
+
 # Credits/bugs/feedback/suggestions message
 
 # This map/datapack is licensed under Attribution-NonCommercial-ShareAlike 4.0 International https://creativecommons.org/licenses/by-nc-sa/4.0/
-# If you change/remove this message, you're in breach of the license - and also a bad person who makes Ben Burns sad
-# No, seriously: months of my time and the time of others went into making this what it is, and I'm sharing it publicly for the BotC community,
-# out of trust. A lot of BotC is based on trust - in the ST, in your players. Falsely claiming credit for this work is not in the spirit of Botc.
+# If you change/remove this message, you're in breach of the license - and also a bad person who makes Ben Burns sad.
+# No, seriously: months of my time and the time of others went into making this what it is, and I'm sharing it publicly for the BotC community out
+# of trust. A lot of BotC is based on trust - in the ST, in your players, etc... Falsely claiming credit for this work is not in the spirit of Botc.
 
 
 tellraw @a {"color":"gold","text":"----------------------------------------------------"}
