@@ -8,7 +8,7 @@ A datapack for playing Blood on the Clocktower in Minecraft, written to support 
 
  - Jimbusk's [command block-driven BotC Minecraft map](https://www.planetminecraft.com/project/blood-on-the-clocktower/), which inspired this datapack and was the starting point for my map
  - Twinner, for his regular help & support
- - [AlexAsterisk](https://github.com/alexasterisk), who wrote the functions for the Storyteller Den, permissible votelights and the fun parts of the Psychopath and Slayer, macro-fied a lot of my code, and mostly fixed the stuff that he broke
+ - [alexasterisk](https://github.com/alexasterisk), who wrote the functions for the Storyteller Den, permissible votelights and the fun parts of the Psychopath and Slayer, macro-fied a lot of my code, and mostly fixed the stuff that he broke
  - Stretch, for her Nightclub & fancy dancefloor, some very cool ideas, and her general willingness to act as a guinepig
  - The whole Banan BotC group for their willingness to be guineapigs!
 
