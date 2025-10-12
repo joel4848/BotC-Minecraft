@@ -38,7 +38,7 @@ variable {
 
 variable {
   name = player_2_username
-  value = p2
+  value = chloecat0
   reset_on_launch = false
 }
 
@@ -86,7 +86,7 @@ variable {
 
 variable {
   name = timer_seconds_custom
-  value = 0
+  value = 1
   reset_on_launch = false
 }
 
@@ -200,13 +200,13 @@ variable {
 
 variable {
   name = player_3_username
-  value = p3
+  value = pontasu
   reset_on_launch = false
 }
 
 variable {
   name = player_7_username
-  value = p7
+  value =  ‌
   reset_on_launch = false
 }
 
@@ -218,7 +218,7 @@ variable {
 
 variable {
   name = player_count
-  value = 
+  value = 6
   reset_on_launch = false
 }
 
@@ -260,19 +260,19 @@ variable {
 
 variable {
   name = player_6_colour
-  value = &a
+  value = &2
   reset_on_launch = false
 }
 
 variable {
   name = timer_minutes_custom
-  value = 0
+  value = 3
   reset_on_launch = false
 }
 
 variable {
   name = player_2_colour
-  value = &a
+  value = &2
   reset_on_launch = false
 }
 
@@ -332,7 +332,7 @@ variable {
 
 variable {
   name = player_6_username
-  value = p6
+  value = aurifex5128
   reset_on_launch = false
 }
 
@@ -344,7 +344,7 @@ variable {
 
 variable {
   name = player_1_username
-  value = p1
+  value = NothinButAClutz
   reset_on_launch = false
 }
 
@@ -398,7 +398,7 @@ variable {
 
 variable {
   name = player_4_username
-  value = p4
+  value = EastPlaysss
   reset_on_launch = false
 }
 
@@ -440,7 +440,7 @@ variable {
 
 variable {
   name = player_1_colour
-  value = &c
+  value = &2
   reset_on_launch = false
 }
 
@@ -470,7 +470,7 @@ variable {
 
 variable {
   name = player_5_colour
-  value = &a
+  value = &2
   reset_on_launch = false
 }
 
@@ -494,13 +494,13 @@ variable {
 
 variable {
   name = player_7_colour
-  value = &a
+  value = &8
   reset_on_launch = false
 }
 
 variable {
   name = player_5_username
-  value = p5
+  value = eleaphante
   reset_on_launch = false
 }
 
