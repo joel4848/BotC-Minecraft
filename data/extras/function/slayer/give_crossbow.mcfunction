@@ -14,7 +14,8 @@ execute if score #immersive_pvp temp matches 0 if score #pvp_enabled temp matche
     }, \
     custom_data={ \
         slayer_weapon: true, \
-        slayer_arrow: true \
+        slayer_arrow: true, \
+        bypasses_pvp: true \
     } \
 ]
 
@@ -23,7 +24,8 @@ give @s crossbow[ \
     lore=["{\"text\":\"Die.\",\"italic\":false,\"color\":\"light_purple\"}"], \
     enchantment_glint_override=true, \
     custom_data={ \
-        slayer_weapon: true \
+        slayer_weapon: true, \
+        bypasses_pvp: true \
     } \
 ]
 

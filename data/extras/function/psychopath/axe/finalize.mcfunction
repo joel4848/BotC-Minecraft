@@ -6,8 +6,8 @@ execute as @a[team=Psychopath] if score @s Alive matches 0 run team join Dead @s
 
 data remove storage extras:psychopath psychopath
 data remove storage extras:psychopath target
-data merge storage extras:psychopath {allowed:true}
 
-schedule function extras:psychopath/axe/detect_held 1s
+data merge storage extras:immersive_pvp {allowed:true}
+schedule function extras:immersive_pvp/weapon_check 1s replace
 
 schedule function setup:reset_title_times 10s

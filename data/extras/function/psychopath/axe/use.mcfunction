@@ -6,7 +6,7 @@ execute anchored eyes positioned ^ ^ ^2.5 as @a[distance=..2.4,sort=nearest,scor
 # store the psychopath and target into storage for easier macro
 # deny storyteller psychopath killing
 
-data remove storage extras:psychopath allowed
+data remove storage extras:immersive_pvp allowed
 execute store result storage extras:psychopath psychopath int -1 run scoreboard players get @s Player
 execute \
     anchored eyes \

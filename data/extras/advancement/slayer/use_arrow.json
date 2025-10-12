@@ -7,7 +7,8 @@
                     "predicates": {
                         "custom_data": {
                             "slayer_weapon": true,
-                            "slayer_arrow": true
+                            "slayer_arrow": true,
+                            "bypasses_pvp": true
                         }
                     }
                 }

@@ -1,5 +1,5 @@
 execute \
-    if data storage extras:psychopath allowed \
+    if data storage extras:immersive_pvp allowed \
     if predicate extras:looking_at_player \
     run function extras:psychopath/axe/use
 
