@@ -1,7 +1,7 @@
 execute anchored eyes positioned ^ ^ ^2.5 run particle witch ~ ~ ~ 0.1 0.1 0.1 1 20
 execute anchored eyes positioned ^ ^ ^2.5 as @a[distance=..2.4,sort=nearest,scores={Player=..-1},limit=1] at @s run particle happy_villager ~ ~ ~ 0.1 0.1 0.1 1 20
 
-data remove storage extras:slayer allowed
+data remove storage extras:immersive_pvp allowed
 execute store result storage extras:slayer slayer int -1 run scoreboard players get @s Player
 execute \
     anchored eyes \

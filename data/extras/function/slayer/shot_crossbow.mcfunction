@@ -2,7 +2,7 @@ advancement revoke @s only extras:slayer/shot_crossbow
 
 # Kill false arrows
 
-execute unless data storage extras:slayer allowed run return run kill @e[limit=1,sort=nearest,type=arrow]
+execute unless data storage extras:immersive_pvp allowed run return run kill @e[limit=1,sort=nearest,type=arrow]
 
 # Store the slayer data
 

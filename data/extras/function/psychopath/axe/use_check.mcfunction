@@ -3,7 +3,7 @@
 # cannot be used if there's already an active psychopath choice
 
 execute \
-    if data storage extras:psychopath allowed \
+    if data storage extras:immersive_pvp allowed \
     unless score @s psychopath_axe_cooldown matches 1.. \
     if predicate extras:looking_at_player \
     run function extras:psychopath/axe/use
