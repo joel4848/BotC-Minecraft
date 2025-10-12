@@ -7,7 +7,7 @@
                     "type": "player"
                 },
                 "player": {
-                    "nbt": "{SelectedItem:{components:{\"minecraft:custom_data\":{psychopath_axe:true}}}}"
+                    "nbt": "{SelectedItem:{components:{\"minecraft:custom_data\":{psychopath_axe:true,bypasses_pvp:true}}}}"
                 }
             }
         }

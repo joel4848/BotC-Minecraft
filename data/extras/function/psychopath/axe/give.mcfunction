@@ -13,6 +13,7 @@ give @s golden_axe[ \
         eat_seconds: 2147483647 \
     }, \
     custom_data={ \
-        psychopath_axe: true \
+        psychopath_axe: true, \
+        bypasses_pvp: true \
     } \
 ]

@@ -130,10 +130,8 @@ execute as @s run execute if score player_count PlayerCount matches ..15 run fmv
 
 # Make Psychopath killing unallowed and remove all axes
 
-data remove storage extras:psychopath allowed
+data remove storage extras:immersive_pvp allowed
 execute as @a run function extras:psychopath/axe/remove
-
-data remove storage extras:slayer allowed
 execute as @a run function extras:slayer/remove_crossbow
 
 # Make sure PVP is turned off
