@@ -1,3 +1,7 @@
+# Set spawnpoint
+
+spawnpoint @a 167 93 10 -180
+
 # Put this in here rather than having another tick function
 
 execute if score #is_nighttime temp matches 1 run title @a actionbar "It is nighttime"
