@@ -12,7 +12,8 @@ function voting:calculate_required_votes
 # Get the current highest vote tally from previously voted players (excluding the current nominee)
 
 scoreboard players set #highest_previous temp 0
-execute as @a[scores={VoteTally=1..}] unless entity @s[scores={Nominated=1}] run scoreboard players operation #highest_previous temp > @s VoteTally
+execute if score #storyteller Nominated matches 1 run execute as @a[scores={VoteTally=1..}] unless entity @s[scores={Nominated=1}] unless entity @s[scores={Storyteller=1}] run scoreboard players operation #highest_previous temp > @s VoteTally
+execute unless score #storyteller Nominated matches 1 run execute as @a[scores={VoteTally=1..}] unless entity @s[scores={Nominated=1}] run scoreboard players operation #highest_previous temp > @s VoteTally
 
 # Check if someone else is currently marked for execution
 
