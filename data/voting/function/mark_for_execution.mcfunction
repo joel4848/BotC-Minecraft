@@ -28,6 +28,7 @@ execute if score #og_enabled temp matches 0 run execute as @a[scores={Nominated=
 execute as @a[scores={Nominated=1}] run scoreboard players set @s Nominated 0
 
 execute if score #og_enabled temp matches 0 run effect give @a[scores={Marked=1}] glowing infinite 99 true
+execute if score #og_enabled temp matches 0 run function nomination:marked_particles
 
 # Set has anyone been marked to 1
 
