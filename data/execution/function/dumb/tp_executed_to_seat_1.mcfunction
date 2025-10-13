@@ -15,7 +15,7 @@ execute as @e[limit=1,tag=seat14,type=minecraft:marker] at @s run execute if ent
 execute as @e[limit=1,tag=seat15,type=minecraft:marker] at @s run execute if entity @a[scores={Player=-15,Wheee=1}] run tp @a[scores={Player=-15}] ~ ~ ~ facing entity @e[limit=1,sort=nearest,tag=votelight15,type=marker]
 execute as @e[limit=1,tag=seat16,type=minecraft:marker] at @s run execute if entity @a[scores={Player=-16,Wheee=1}] run tp @a[scores={Player=-16}] ~ ~ ~ facing entity @e[limit=1,sort=nearest,tag=votelight16,type=marker]
 
-execute as @a[scores={Wheee=1}] unless score @s Player matches ..-1 run tp @s 167 91 1
+execute as @a[scores={Wheee=1}] unless score @s Player matches ..-1 run tp @s 167 92.5 1
 
 execute at @a run playsound entity.player.teleport master @a ~ ~ ~ 1 1 1
 

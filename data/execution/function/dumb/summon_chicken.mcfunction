@@ -1,1 +1,1 @@
-summon chicken 167 93 1 {DeathLootTable:"minecraft:empty",active_effects:[{id:"minecraft:wind_charged",amplifier:1,duration:-1,show_particles:1b,show_icon:0b}]}
+summon chicken 167 93 1 {Invulnerable:1b,DeathLootTable:"minecraft:empty",active_effects:[{id:"minecraft:wind_charged",amplifier:1,duration:-1,show_particles:1b,show_icon:0b}]}

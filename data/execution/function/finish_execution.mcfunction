@@ -11,9 +11,11 @@ team leave @a[scores={Marked=1}]
 execute as @a[scores={Marked=1}] run execute if score @s Storyteller matches 1 run team join Storyteller
 
 effect clear @a[scores={Marked=1}] glowing
-effect give @a[scores={Marked=1}] invisibility infinite 99 true
+# effect give @a[scores={Marked=1}] invisibility infinite 99 true
 
-# item replace entity @a[scores={Marked=1}] armor.head with minecraft:golden_helmet 1
+# kill executed player
+
+execute if score @e[scores={Marked=1},limit=1] Storyteller matches 1 run function setup:give_st_invisibility with storage minecraft:joelbotc
 
 execute if score @e[scores={Marked=1},limit=1] Player matches -1 run function players:kill_revive/kill {player:1}
 execute if score @e[scores={Marked=1},limit=1] Player matches -2 run function players:kill_revive/kill {player:2}
@@ -31,8 +33,6 @@ execute if score @e[scores={Marked=1},limit=1] Player matches -13 run function p
 execute if score @e[scores={Marked=1},limit=1] Player matches -14 run function players:kill_revive/kill {player:14}
 execute if score @e[scores={Marked=1},limit=1] Player matches -15 run function players:kill_revive/kill {player:15}
 execute if score @e[scores={Marked=1},limit=1] Player matches -16 run function players:kill_revive/kill {player:16}
-
-# item replace entity @a[scores={Marked=1}] armor.feet with golden_boots 1
 
 scoreboard players set @a[scores={Marked=1}] Wheee 1
 
