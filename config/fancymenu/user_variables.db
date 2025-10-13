@@ -272,7 +272,7 @@ variable {
 
 variable {
   name = player_2_colour
-  value = &f
+  value = &a
   reset_on_launch = false
 }
 
@@ -344,7 +344,7 @@ variable {
 
 variable {
   name = player_1_username
-  value =  ‌
+  value = p1
   reset_on_launch = false
 }
 
@@ -368,7 +368,7 @@ variable {
 
 variable {
   name = player_16_username
-  value = joel4848
+  value =  ‌
   reset_on_launch = false
 }
 
@@ -410,7 +410,7 @@ variable {
 
 variable {
   name = fake_player_amount
-  value = 15
+  value = 1
   reset_on_launch = false
 }
 
@@ -440,7 +440,7 @@ variable {
 
 variable {
   name = player_1_colour
-  value = &f
+  value = &a
   reset_on_launch = false
 }
 

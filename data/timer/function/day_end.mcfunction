@@ -57,6 +57,8 @@ execute unless score #compasses_given temp matches 1 run scoreboard players set 
 
 # Reset InHouse scoreboard and start particles function
 
+scoreboard objectives remove InHouse
+scoreboard objectives add InHouse dummy "In House"
 scoreboard players add @a[scores={Player=..0}] InHouse 0
 # scoreboard objectives setdisplay sidebar.team.blue InHouse
 scoreboard players set #all_in_houses temp 0

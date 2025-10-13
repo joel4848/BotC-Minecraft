@@ -10,4 +10,5 @@ scoreboard objectives add Storyteller dummy
 scoreboard players set @a Storyteller 0
 scoreboard players set @s Storyteller 1
 scoreboard players reset @s Alive
+scoreboard players reset @s InHouse
 execute as @s run function players:usernames/update_username/storyteller
