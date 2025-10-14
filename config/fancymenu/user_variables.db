@@ -110,7 +110,7 @@ variable {
 
 variable {
   name = bureaucrat_chosen
-  value = ‌1
+  value = 3
   reset_on_launch = false
 }
 
@@ -236,13 +236,13 @@ variable {
 
 variable {
   name = reassign_seat
-  value = 
+  value = 2
   reset_on_launch = false
 }
 
 variable {
   name = player_4_colour
-  value = &a
+  value = &f
   reset_on_launch = false
 }
 
@@ -272,7 +272,7 @@ variable {
 
 variable {
   name = player_2_colour
-  value = &c
+  value = &a
   reset_on_launch = false
 }
 
@@ -284,13 +284,19 @@ variable {
 
 variable {
   name = reassign_username
-  value = 
+  value = joel4848
   reset_on_launch = false
 }
 
 variable {
   name = player_13_username
   value =  ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = bureaucrat_chosen_temp
+  value = 
   reset_on_launch = false
 }
 
@@ -392,7 +398,7 @@ variable {
 
 variable {
   name = banshee_0_username
-  value = p1 
+  value =  
   reset_on_launch = false
 }
 
@@ -409,6 +415,12 @@ variable {
 }
 
 variable {
+  name = thief_chosen_temp
+  value = 
+  reset_on_launch = false
+}
+
+variable {
   name = fake_player_amount
   value = 8
   reset_on_launch = false
@@ -416,7 +428,7 @@ variable {
 
 variable {
   name = banshee_0
-  value = 1
+  value = 
   reset_on_launch = false
 }
 
@@ -458,7 +470,7 @@ variable {
 
 variable {
   name = thief_chosen
-  value = ‌1
+  value = ‌
   reset_on_launch = false
 }
 
@@ -482,7 +494,7 @@ variable {
 
 variable {
   name = player_3_colour
-  value = &a
+  value = &2
   reset_on_launch = false
 }
 
