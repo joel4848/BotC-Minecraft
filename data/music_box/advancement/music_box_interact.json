@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "click": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{\"Tags\":[\"music_box_interaction\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "music_box:start"
+  }
+}
