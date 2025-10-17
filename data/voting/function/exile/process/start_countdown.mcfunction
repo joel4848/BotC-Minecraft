@@ -26,7 +26,8 @@ scoreboard players set #start_player_passed temp 0
 
 # Start announcing who voted:
 
-tellraw @a [{"color":"aqua","text":"These players voted","underlined":true},{"color":"aqua","text":":","underlined":false}]
+execute unless score #is_cult_leader_vote temp matches 1 run tellraw @a [{"color":"aqua","text":"These players voted","underlined":true},{"color":"aqua","text":":\n","underlined":false}]
+execute if score #is_cult_leader_vote temp matches 1 run tellraw @a [{"color":"light_purple","text":"These players want to be cultists","underlined":true},{"color":"light_purple","text":":\n","underlined":false}]
 
 
 # ------------------------------------------------------

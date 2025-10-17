@@ -25,7 +25,7 @@ execute if score @e[scores={Nominated=1},limit=1] Player matches -14 run functio
 execute if score @e[scores={Nominated=1},limit=1] Player matches -15 run function players:kill_revive/kill {player:15}
 execute if score @e[scores={Nominated=1},limit=1] Player matches -16 run function players:kill_revive/kill {player:16}
 
-scoreboard players set @a[scores={Nominated=1},limit=1] VoteTally 0
+# scoreboard players set @a[scores={Nominated=1},limit=1] VoteTally 0
 
 execute as @a[scores={Nominated=1}] run scoreboard players set @s Nominated 0
 

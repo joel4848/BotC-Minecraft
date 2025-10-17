@@ -17,10 +17,12 @@ $effect give @a[scores={Player=-$(player)}] glowing infinite 99 true
 
 function voting:exile/setup/set_up_exile_voting
 execute unless score #is_cult_leader_vote temp matches 1 run function voting:exile/process/announce_required_votes
+execute if score #is_cult_leader_vote temp matches 1 run function extras:cult_leader/announce_cult_vote
 function nomination:nominated_particles
 
 execute if score #big_hand_present temp matches 0 run function clock_hand:big_hand/summon_neutral
 execute if score #big_hand_present temp matches 0 run scoreboard players set #big_hand_present temp 1
+function clock_hand:remove_little_hand
 $scoreboard players set #big_hand_target temp $(player)
 $scoreboard players set #nominated_player_big_hand temp $(player)
 
