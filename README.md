@@ -1,4 +1,3 @@
-
 # Joel's BotC in Minecraft datapack
 
 A datapack for playing Blood on the Clocktower in Minecraft, written to support the Banan community map.
@@ -15,4 +14,14 @@ A datapack for playing Blood on the Clocktower in Minecraft, written to support 
 
 ## License
 
-[Joel's BotC in Minecraft datapack](https://github.com/joel4848/Joel-BotC-Rewrite) by [Joel4848](https://github.com/joel4848) is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+
+[Joel's BotC in Minecraft datapack](https://github.com/joel4848/Joel-BotC-Rewrite) by [Joel4848](https://github.com/joel4848) is licensed under [CC BY-NC-SA 4.0][cc-by-nc-sa].
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+
+
+
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
