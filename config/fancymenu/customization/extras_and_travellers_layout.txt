@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = extras_and_travellers
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1760711029192
+  last_edited_time = 1760712798622
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:b43003a7-b747-468a-a8f7-b08f83610347-1760711004489] = [groups:][instances:]
+  [loading_requirement_container_meta:6bd083b9-6c3e-4029-92bd-060d341c2008-1760712722500] = [groups:][instances:]
 }
 
 customization {
@@ -676,16 +676,16 @@ element {
   [executable_block:4b8d9b41-6008-4252-813f-ff4fee87daf4-1757543848524][type:else] = [executables:b4361000-1b9b-4a15-a8a9-754fbd52af5c-1757543850290;3162c8b3-f2ab-4526-99d5-aa7ceb460846-1757544099155;]
   [else_if_executable_block_body:b44a1a1c-d181-41f1-bab5-a90ea3ef73de-1757543435144] = a4f0742a-c17b-45b8-a3a8-4778f09b3ebb-1757543422060
   [loading_requirement_container_meta:a4f0742a-c17b-45b8-a3a8-4778f09b3ebb-1757543422060] = [groups:][instances:c076587d-f282-4cac-91a5-7e0d1ca16c49-1757543424193;]
-  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:c076587d-f282-4cac-91a5-7e0d1ca16c49-1757543424193] = banshee_3:
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if][req_id:c076587d-f282-4cac-91a5-7e0d1ca16c49-1757543424193] = ["mode":"equals","text":"{"placeholder":"nbt_data_get","values":{"source_type":"block","block_pos":"175 87 0","nbt_path":"front_text.messages[3]","return_type":"string"}}","compare_with":""""]$
   [else_if_executable_block_body:b93714f0-fc8f-47ea-9818-38945c58bcdc-1757542006418] = c8581de0-d851-4855-832c-843bf47b75d1-1757541966960
   [loading_requirement_container_meta:c8581de0-d851-4855-832c-843bf47b75d1-1757541966960] = [groups:][instances:07f84d3f-7b44-4326-b660-fd4bc830ed05-1757541972072;]
-  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:07f84d3f-7b44-4326-b660-fd4bc830ed05-1757541972072] = banshee_2:
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if][req_id:07f84d3f-7b44-4326-b660-fd4bc830ed05-1757541972072] = ["mode":"equals","text":"{"placeholder":"nbt_data_get","values":{"source_type":"block","block_pos":"175 87 0","nbt_path":"front_text.messages[2]","return_type":"string"}}","compare_with":""""]$
   [else_if_executable_block_body:ac2c8684-8c72-4891-b0d0-eaac13dcc623-1757541780217] = 24e194f3-1ebf-405c-93dc-dc08db32ff2b-1757541763882
   [loading_requirement_container_meta:24e194f3-1ebf-405c-93dc-dc08db32ff2b-1757541763882] = [groups:][instances:29394668-520c-4b40-bb4c-26ede615a282-1757541767500;]
-  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:29394668-520c-4b40-bb4c-26ede615a282-1757541767500] = banshee_1:
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if][req_id:29394668-520c-4b40-bb4c-26ede615a282-1757541767500] = ["mode":"equals","text":"{"placeholder":"nbt_data_get","values":{"source_type":"block","block_pos":"175 87 0","nbt_path":"front_text.messages[1]","return_type":"string"}}","compare_with":""""]$
   [if_executable_block_body:68578122-3b4c-4a24-b689-c9579a98909d-1757449371892] = e0564ffe-8267-4ee7-9bd4-f14fd7783ab3-1757449356642
   [loading_requirement_container_meta:e0564ffe-8267-4ee7-9bd4-f14fd7783ab3-1757449356642] = [groups:][instances:805f7ebb-6104-48de-9355-20a81d35ae42-1757449358115;]
-  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:805f7ebb-6104-48de-9355-20a81d35ae42-1757449358115] = banshee_0:
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if][req_id:805f7ebb-6104-48de-9355-20a81d35ae42-1757449358115] = ["mode":"equals","text":"{"placeholder":"nbt_data_get","values":{"source_type":"block","block_pos":"175 87 0","nbt_path":"front_text.messages[0]","return_type":"string"}}","compare_with":""""]$
   [executable_action_instance:a3569656-9f75-4b49-81e4-515b732a092f-1757544134770][action_type:set_variable] = is_banshee:
   [executable_action_instance:962a1d17-270c-4b0b-b4bf-345f6ce6575d-1757544151155][action_type:set_variable] = banshee_change:false
   [executable_block:a1895dc8-849e-4852-8b1b-127df4815d19-1757006070890][type:generic] = [executables:ffdcc5f3-709e-4482-86c1-3ff81327098f-1757006365476;68578122-3b4c-4a24-b689-c9579a98909d-1757449371892;a3569656-9f75-4b49-81e4-515b732a092f-1757544134770;962a1d17-270c-4b0b-b4bf-345f6ce6575d-1757544151155;]

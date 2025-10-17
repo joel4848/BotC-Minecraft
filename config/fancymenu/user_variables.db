@@ -494,7 +494,7 @@ variable {
 
 variable {
   name = player_3_colour
-  value = &f
+  value = &a
   reset_on_launch = false
 }
 
