@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = extras_and_travellers
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1760712798622
+  last_edited_time = 1760713017459
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:6bd083b9-6c3e-4029-92bd-060d341c2008-1760712722500] = [groups:][instances:]
+  [loading_requirement_container_meta:ca087af4-f416-4213-8319-09bb2e97b527-1760712913252] = [groups:][instances:]
 }
 
 customization {
@@ -204,7 +204,7 @@ element {
   sticky_anchor = false
   anchor_point = mid-centered
   x = -302
-  y = -5
+  y = -1
   width = 73
   height = 16
   stretch_x = false
@@ -224,7 +224,7 @@ element {
 
 element {
   interactable = true
-  source = Thief chosen player:%#ff8d00% {"placeholder":"getvariable","values":{"name":"thief_chosen"}}%#%
+  source = Thief chosen player:%#ff8d00% {"placeholder":"getvariable","values":{"name":"thief_chosen"}}%#%%n%(seat number)
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -270,9 +270,9 @@ element {
   sticky_anchor = false
   anchor_point = mid-centered
   x = -310
-  y = 34
+  y = 19
   width = 123
-  height = 15
+  height = 27
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -308,7 +308,7 @@ element {
   sticky_anchor = false
   anchor_point = mid-centered
   x = -306
-  y = 52
+  y = 49
   width = 30
   height = 16
   stretch_x = false
@@ -378,7 +378,7 @@ element {
   sticky_anchor = false
   anchor_point = mid-centered
   x = -271
-  y = 50
+  y = 47
   width = 40
   height = 20
   stretch_x = false
@@ -436,7 +436,7 @@ element {
   sticky_anchor = false
   anchor_point = mid-centered
   x = -227
-  y = 50
+  y = 47
   width = 40
   height = 20
   stretch_x = false
@@ -6000,7 +6000,7 @@ element {
 
 element {
   interactable = true
-  source = Bureaucrat%n%chosen player:%#ff8d00% {"placeholder":"getvariable","values":{"name":"bureaucrat_chosen"}}%#%
+  source = Bureaucrat%n%chosen player:%#ff8d00% {"placeholder":"getvariable","values":{"name":"bureaucrat_chosen"}}%#%%n%(seat number)
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -6046,9 +6046,9 @@ element {
   sticky_anchor = false
   anchor_point = mid-centered
   x = -310
-  y = 74
+  y = 68
   width = 123
-  height = 25
+  height = 35
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -6084,7 +6084,7 @@ element {
   sticky_anchor = false
   anchor_point = mid-centered
   x = -306
-  y = 103
+  y = 107
   width = 30
   height = 16
   stretch_x = false
@@ -6154,7 +6154,7 @@ element {
   sticky_anchor = false
   anchor_point = mid-centered
   x = -271
-  y = 101
+  y = 105
   width = 40
   height = 20
   stretch_x = false
@@ -6212,7 +6212,7 @@ element {
   sticky_anchor = false
   anchor_point = mid-centered
   x = -227
-  y = 101
+  y = 105
   width = 40
   height = 20
   stretch_x = false
