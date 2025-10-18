@@ -107,6 +107,16 @@ scoreboard players set #minutes_to_add temp 0
 scoreboard players set #seconds_to_add temp 0
 scoreboard players set #time_to_add temp 0
 
+# Sets doorbell cooldown scores to 0
+
+scoreboard players set #doorbell_clocktower_cooldown temp 0
+scoreboard players set #doorbell_nightclub_cooldown temp 0
+scoreboard players set #doorbell_tavern_cooldown temp 0
+scoreboard players set #doorbell_blacksmith_cooldown temp 0
+scoreboard players set #doorbell_library_cooldown temp 0
+scoreboard players set #doorbell_cemetary_cooldown temp 0
+scoreboard players set #doorbell_crematorium_cooldown temp 0
+
 # Give required IDs to the votelights
 
 scoreboard players set @e[tag=votelight1,type=marker] lightID 1

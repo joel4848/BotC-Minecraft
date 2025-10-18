@@ -1,16 +1,8 @@
-tag @e[type=marker,tag=seat1] add seat
-tag @e[type=marker,tag=seat2] add seat
-tag @e[type=marker,tag=seat3] add seat
-tag @e[type=marker,tag=seat4] add seat
-tag @e[type=marker,tag=seat5] add seat
-tag @e[type=marker,tag=seat6] add seat
-tag @e[type=marker,tag=seat7] add seat
-tag @e[type=marker,tag=seat8] add seat
-tag @e[type=marker,tag=seat9] add seat
-tag @e[type=marker,tag=seat10] add seat
-tag @e[type=marker,tag=seat11] add seat
-tag @e[type=marker,tag=seat12] add seat
-tag @e[type=marker,tag=seat13] add seat
-tag @e[type=marker,tag=seat14] add seat
-tag @e[type=marker,tag=seat15] add seat
-tag @e[type=marker,tag=seat16] add seat
+
+scoreboard players set #doorbell_clocktower_cooldown temp 0
+scoreboard players set #doorbell_nightclub_cooldown temp 0
+scoreboard players set #doorbell_tavern_cooldown temp 0
+scoreboard players set #doorbell_blacksmith_cooldown temp 0
+scoreboard players set #doorbell_library_cooldown temp 0
+scoreboard players set #doorbell_cemetary_cooldown temp 0
+scoreboard players set #doorbell_crematorium_cooldown temp 0

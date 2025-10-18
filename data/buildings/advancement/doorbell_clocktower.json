@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "click": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{\"Tags\":[\"doorbell_clocktower_interaction\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "buildings:doorbells/interactions/doorbell_clocktower_interaction"
+  }
+}
