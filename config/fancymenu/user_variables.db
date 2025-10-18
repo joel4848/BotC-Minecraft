@@ -86,7 +86,7 @@ variable {
 
 variable {
   name = timer_seconds_custom
-  value = 1
+  value = 3
   reset_on_launch = false
 }
 
@@ -266,7 +266,7 @@ variable {
 
 variable {
   name = timer_minutes_custom
-  value = 
+  value = 0
   reset_on_launch = false
 }
 
@@ -506,7 +506,7 @@ variable {
 
 variable {
   name = player_7_colour
-  value = &2
+  value = &a
   reset_on_launch = false
 }
 

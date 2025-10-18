@@ -1,5 +1,7 @@
 # call with teleport:st_to_house {player:%d,yaw:%d}
 
+teleport @a[scores={Storyteller=1}] @e[limit=1,tag=townsquare,type=minecraft:marker]
+
 $execute if score #tp_disabled temp matches 0 run execute as @e[limit=1,tag=house$(player),type=marker] at @s run teleport @a[scores={Storyteller=1}] ~ ~ ~ $(yaw) 0.0
 
 execute if score #tp_disabled temp matches 1 run title @a[scores={Storyteller=1}] title {"color":"red","text":"tp disabled","underlined":false}
