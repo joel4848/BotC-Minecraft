@@ -31,3 +31,7 @@ tp @a[scores={Nominator=1}] 149 99 1 facing entity @e[limit=1,sort=nearest,tag=m
 tp @a[scores={Marked=1}] 185 99 1 facing entity @e[limit=1,sort=nearest,tag=mapcentre,type=marker]
 
 scoreboard players set #roshambo_reveal_message_sent temp 0
+
+# Clear glowing for Psychopath (so opponent can't see what they're picking)
+
+effect clear @a[scores={Marked=1}] glowing

@@ -18,3 +18,7 @@ execute if score #someone_marked temp matches 1 run tellraw @a[scores={Storytell
 
 execute if score #psychopath_lost_roshambo temp matches 0 run function execution:clear_mark
 scoreboard players set #psychopath_lost_roshambo temp 0
+
+# Reapply glowing for Psychopath
+
+effect give @a[scores={Marked=1}] glowing infinite 99 true

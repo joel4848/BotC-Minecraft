@@ -32,7 +32,7 @@ variable {
 
 variable {
   name = player_11_colour
-  value = &8
+  value = &f
   reset_on_launch = false
 }
 
@@ -50,37 +50,37 @@ variable {
 
 variable {
   name = player_10_colour
-  value = &8
+  value = &f
   reset_on_launch = false
 }
 
 variable {
   name = player_12_colour
-  value = &8
+  value = &f
   reset_on_launch = false
 }
 
 variable {
   name = player_13_colour
-  value = &8
+  value = &f
   reset_on_launch = false
 }
 
 variable {
   name = player_14_colour
-  value = &8
+  value = &f
   reset_on_launch = false
 }
 
 variable {
   name = player_15_colour
-  value = &8
+  value = &f
   reset_on_launch = false
 }
 
 variable {
   name = player_16_colour
-  value = &8
+  value = &f
   reset_on_launch = false
 }
 
@@ -152,7 +152,7 @@ variable {
 
 variable {
   name = player_8_colour
-  value = &a
+  value = &f
   reset_on_launch = false
 }
 
@@ -218,7 +218,7 @@ variable {
 
 variable {
   name = player_count
-  value = 8
+  value = 16
   reset_on_launch = false
 }
 
@@ -242,7 +242,7 @@ variable {
 
 variable {
   name = player_4_colour
-  value = &a
+  value = &f
   reset_on_launch = false
 }
 
@@ -260,7 +260,7 @@ variable {
 
 variable {
   name = player_6_colour
-  value = &a
+  value = &f
   reset_on_launch = false
 }
 
@@ -272,7 +272,7 @@ variable {
 
 variable {
   name = player_2_colour
-  value = &a
+  value = &f
   reset_on_launch = false
 }
 
@@ -392,7 +392,7 @@ variable {
 
 variable {
   name = player_9_colour
-  value = &8
+  value = &f
   reset_on_launch = false
 }
 
@@ -452,7 +452,7 @@ variable {
 
 variable {
   name = player_1_colour
-  value = &a
+  value = &f
   reset_on_launch = false
 }
 
@@ -482,7 +482,7 @@ variable {
 
 variable {
   name = player_5_colour
-  value = &a
+  value = &f
   reset_on_launch = false
 }
 
@@ -494,7 +494,7 @@ variable {
 
 variable {
   name = player_3_colour
-  value = &a
+  value = &f
   reset_on_launch = false
 }
 
@@ -506,7 +506,7 @@ variable {
 
 variable {
   name = player_7_colour
-  value = &a
+  value = &f
   reset_on_launch = false
 }
 
