@@ -26,6 +26,10 @@ execute unless score @a[scores={Marked=1},limit=1] ConfirmRoshamboLock matches 1
 execute unless score @a[scores={Marked=1},limit=1] ConfirmRoshamboLock matches 1 run execute unless score @a[scores={Marked=1},limit=1] RoshamboLocked matches 1 run data modify block 184 99 0 front_text.messages[2] set value '{"text":"in your choice!","clickEvent":{"action":"run_command","value":"/trigger ConfirmRoshamboLock set 1"}}'
 execute unless score @a[scores={Marked=1},limit=1] ConfirmRoshamboLock matches 1 run execute unless score @a[scores={Marked=1},limit=1] RoshamboLocked matches 1 run data modify block 184 99 0 front_text.color set value white
 
+execute unless score @a[scores={Marked=1},limit=1] ConfirmRoshamboLock matches 1 run execute if score @a[scores={Marked=1},limit=1] Roshambo matches 1 run particle glow 184.1 99.5 0 0.1 0.1 0.1 0.05 1 force @p
+execute unless score @a[scores={Marked=1},limit=1] ConfirmRoshamboLock matches 1 run execute if score @a[scores={Marked=1},limit=1] Roshambo matches 2 run particle glow 184.1 99.5 0 0.1 0.1 0.1 0.05 1 force @p
+execute unless score @a[scores={Marked=1},limit=1] ConfirmRoshamboLock matches 1 run execute if score @a[scores={Marked=1},limit=1] Roshambo matches 3 run particle glow 184.1 99.5 0 0.1 0.1 0.1 0.05 1 force @p
+
 # Rock Paper Scissors default content
 
 execute unless score @a[scores={Marked=1},limit=1] ConfirmRoshamboLock matches 1 run data modify block 184 100 2 front_text.messages[1] set value '{"text":"Rock","clickEvent":{"action":"run_command","value":"/trigger Roshambo set 1"}}'
@@ -125,6 +129,10 @@ execute unless score @a[scores={Nominator=1},limit=1] ConfirmRoshamboLock matche
 execute unless score @a[scores={Nominator=1},limit=1] ConfirmRoshamboLock matches 1 run execute unless score @a[scores={Nominator=1},limit=1] RoshamboLocked matches 1 run data modify block 150 99 2 front_text.messages[1] set value '{"text":"Click here to lock"}'
 execute unless score @a[scores={Nominator=1},limit=1] ConfirmRoshamboLock matches 1 run execute unless score @a[scores={Nominator=1},limit=1] RoshamboLocked matches 1 run data modify block 150 99 2 front_text.messages[2] set value '{"text":"in your choice!","clickEvent":{"action":"run_command","value":"/trigger ConfirmRoshamboLock set 1"}}'
 execute unless score @a[scores={Nominator=1},limit=1] ConfirmRoshamboLock matches 1 run execute unless score @a[scores={Nominator=1},limit=1] RoshamboLocked matches 1 run data modify block 150 99 2 front_text.color set value white
+
+execute unless score @a[scores={Nominator=1},limit=1] ConfirmRoshamboLock matches 1 run execute if score @a[scores={Nominator=1},limit=1] Roshambo matches 1 run particle glow 150.9 99.5 2 0.1 0.1 0.1 0.05 1 force @p
+execute unless score @a[scores={Nominator=1},limit=1] ConfirmRoshamboLock matches 1 run execute if score @a[scores={Nominator=1},limit=1] Roshambo matches 2 run particle glow 150.9 99.5 2 0.1 0.1 0.1 0.05 1 force @p
+execute unless score @a[scores={Nominator=1},limit=1] ConfirmRoshamboLock matches 1 run execute if score @a[scores={Nominator=1},limit=1] Roshambo matches 3 run particle glow 150.9 99.5 2 0.1 0.1 0.1 0.05 1 force @p
 
 # Rock Paper Scissors default content
 
