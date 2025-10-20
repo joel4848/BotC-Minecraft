@@ -1,0 +1,5 @@
+
+data merge entity @e[tag=crematorium_belt_1,tag=crematorium_belt_1_1,limit=1] {start_interpolation:-1,interpolation_duration:240,transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[1.438f,1.0f,1.0f],translation:[0.0f,0.0f,-6.5f]}}
+data merge entity @e[tag=crematorium_belt_1,tag=crematorium_belt_1_2,limit=1] {start_interpolation:-1,interpolation_duration:240,transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[1.438f,1.0f,1.0f],translation:[0.0f,0.0f,-6.5f]}}
+data merge entity @e[tag=crematorium_belt_1,tag=crematorium_belt_1_3,limit=1] {start_interpolation:-1,interpolation_duration:240,transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[1.438f,1.0f,1.0f],translation:[0.0f,0.0f,-6.5f]}}
+data merge entity @e[tag=crematorium_belt_1,tag=crematorium_belt_1_4,limit=1] {start_interpolation:-1,interpolation_duration:240,transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f],right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[1.438f,1.0f,1.006f],translation:[0.0f,0.0f,-6.497f]}}

@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = master
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1760721836078
+  last_edited_time = 1760914422025
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:b6d4d8ba-9e51-4731-8a61-5853af708a12-1760716539170] = [groups:][instances:]
+  [loading_requirement_container_meta:c3179647-9420-4cfa-bc95-bd1c7bd756e4-1760914393547] = [groups:][instances:]
 }
 
 customization {
@@ -76,7 +76,7 @@ element {
   anchor_point = element
   anchor_point_element = 7d1f436b-3dad-4c7f-bb11-08f9f9e1060f-1756152464817
   x = -30
-  y = 50
+  y = 51
   width = 100
   height = 20
   stretch_x = false
@@ -134,7 +134,7 @@ element {
   anchor_point = element
   anchor_point_element = 7d1f436b-3dad-4c7f-bb11-08f9f9e1060f-1756152464817
   x = -30
-  y = 75
+  y = 76
   width = 100
   height = 20
   stretch_x = false
@@ -187,12 +187,12 @@ element {
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1011
+  auto_sizing_base_screen_height = 975
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 7d1f436b-3dad-4c7f-bb11-08f9f9e1060f-1756152464817
   x = -30
-  y = 25
+  y = 26
   width = 100
   height = 20
   stretch_x = false
@@ -250,7 +250,7 @@ element {
   anchor_point = element
   anchor_point_element = 7d1f436b-3dad-4c7f-bb11-08f9f9e1060f-1756152464817
   x = -30
-  y = 100
+  y = 101
   width = 100
   height = 20
   stretch_x = false
@@ -308,7 +308,7 @@ element {
   anchor_point = element
   anchor_point_element = 7d1f436b-3dad-4c7f-bb11-08f9f9e1060f-1756152464817
   x = -30
-  y = 150
+  y = 151
   width = 100
   height = 20
   stretch_x = false
@@ -539,12 +539,12 @@ element {
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1011
+  auto_sizing_base_screen_height = 975
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 59c04f94-815e-4381-84bb-c66a6f3b50ec-1756151498772
   x = -23
-  y = 50
+  y = 26
   width = 100
   height = 20
   stretch_x = false
@@ -598,7 +598,7 @@ element {
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1011
+  auto_sizing_base_screen_height = 975
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 9ee9920a-4d39-4397-a645-7ff1424b0027-1756151009444
@@ -657,7 +657,7 @@ element {
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1011
+  auto_sizing_base_screen_height = 975
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 9ee9920a-4d39-4397-a645-7ff1424b0027-1756151009444
@@ -716,7 +716,7 @@ element {
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1011
+  auto_sizing_base_screen_height = 975
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 9ee9920a-4d39-4397-a645-7ff1424b0027-1756151009444
@@ -775,7 +775,7 @@ element {
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1011
+  auto_sizing_base_screen_height = 975
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 9ee9920a-4d39-4397-a645-7ff1424b0027-1756151009444
@@ -834,7 +834,7 @@ element {
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1011
+  auto_sizing_base_screen_height = 975
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 9ee9920a-4d39-4397-a645-7ff1424b0027-1756151009444
@@ -893,7 +893,7 @@ element {
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1011
+  auto_sizing_base_screen_height = 975
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 9ee9920a-4d39-4397-a645-7ff1424b0027-1756151009444
@@ -952,7 +952,7 @@ element {
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1011
+  auto_sizing_base_screen_height = 975
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 9ee9920a-4d39-4397-a645-7ff1424b0027-1756151009444
@@ -1011,7 +1011,7 @@ element {
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1011
+  auto_sizing_base_screen_height = 975
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 9ee9920a-4d39-4397-a645-7ff1424b0027-1756151009444
@@ -1070,7 +1070,7 @@ element {
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1011
+  auto_sizing_base_screen_height = 975
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 9ee9920a-4d39-4397-a645-7ff1424b0027-1756151009444
@@ -1129,7 +1129,7 @@ element {
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1011
+  auto_sizing_base_screen_height = 975
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 9ee9920a-4d39-4397-a645-7ff1424b0027-1756151009444
@@ -1188,7 +1188,7 @@ element {
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1011
+  auto_sizing_base_screen_height = 975
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 9ee9920a-4d39-4397-a645-7ff1424b0027-1756151009444
@@ -1247,7 +1247,7 @@ element {
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1011
+  auto_sizing_base_screen_height = 975
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 9ee9920a-4d39-4397-a645-7ff1424b0027-1756151009444
@@ -1306,7 +1306,7 @@ element {
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1011
+  auto_sizing_base_screen_height = 975
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 9ee9920a-4d39-4397-a645-7ff1424b0027-1756151009444
@@ -1365,7 +1365,7 @@ element {
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1011
+  auto_sizing_base_screen_height = 975
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 9ee9920a-4d39-4397-a645-7ff1424b0027-1756151009444
@@ -1424,7 +1424,7 @@ element {
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1011
+  auto_sizing_base_screen_height = 975
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 9ee9920a-4d39-4397-a645-7ff1424b0027-1756151009444
@@ -1483,7 +1483,7 @@ element {
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1011
+  auto_sizing_base_screen_height = 975
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 9ee9920a-4d39-4397-a645-7ff1424b0027-1756151009444
@@ -1550,12 +1550,12 @@ element {
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1011
+  auto_sizing_base_screen_height = 975
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 59c04f94-815e-4381-84bb-c66a6f3b50ec-1756151498772
   x = -25
-  y = 81
+  y = 52
   width = 105
   height = 16
   stretch_x = false
@@ -1609,12 +1609,12 @@ element {
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1011
+  auto_sizing_base_screen_height = 975
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 59c04f94-815e-4381-84bb-c66a6f3b50ec-1756151498772
   x = -23
-  y = 25
+  y = 176
   width = 100
   height = 20
   stretch_x = false
@@ -1871,7 +1871,7 @@ element {
   anchor_point = element
   anchor_point_element = 7d1f436b-3dad-4c7f-bb11-08f9f9e1060f-1756152464817
   x = -30
-  y = 125
+  y = 126
   width = 100
   height = 20
   stretch_x = false
@@ -2164,12 +2164,12 @@ element {
   base_opacity = 1.0
   auto_sizing = false
   auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1011
+  auto_sizing_base_screen_height = 975
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 7d1f436b-3dad-4c7f-bb11-08f9f9e1060f-1756152464817
   x = -30
-  y = 175
+  y = 176
   width = 100
   height = 20
   stretch_x = false

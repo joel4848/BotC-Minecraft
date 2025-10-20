@@ -1,0 +1,5 @@
+
+function buildings:crematorium/conveyor/kill_conveyor_1
+function buildings:crematorium/conveyor/kill_conveyor_2
+function buildings:crematorium/conveyor/kill_conveyor_3
+function buildings:crematorium/conveyor/kill_conveyor_4

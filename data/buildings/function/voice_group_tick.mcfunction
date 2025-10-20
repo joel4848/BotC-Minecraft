@@ -42,6 +42,23 @@ execute unless score #cemetary_occupied temp matches 1 run execute as @a[scores=
 execute if score #cemetary_occupied temp matches 0 run tag @e[type=block_display,tag=ghost_swing_root] add animation_pause
 execute if score #cemetary_occupied temp matches 0 run scoreboard players set #ghost_loop_running temp 0
 
+# Trigger/stop crematorium crusher/conveyor animations
+
+# Trigger
+
+execute as @e[type=marker,tag=discussion_room_entrance_crematorium] at @s run execute as @a[distance=..1] run scoreboard players set @s InCrematorium 1
+scoreboard players set #crematorium_occupied temp 0
+execute unless score #crematorium_occupied temp matches 1 run execute as @a[scores={InCrematorium=1}] run scoreboard players set #crematorium_occupied temp 1
+execute unless score #crematorium_running temp matches 1 run execute if score #crematorium_occupied temp matches 1 run function buildings:crematorium/start
+
+
+# Stop
+
+execute as @e[type=marker,tag=discussion_room_exit_crematorium] at @s run execute as @a[distance=..1] run scoreboard players set @s InCrematorium 0
+scoreboard players set #crematorium_occupied temp 0
+execute unless score #crematorium_occupied temp matches 1 run execute as @a[scores={InCrematorium=1}] run scoreboard players set #crematorium_occupied temp 1
+execute if score #crematorium_running temp matches 1 run execute if score #crematorium_occupied temp matches 0 run function buildings:crematorium/stop
+
 #####################################
 # Town Square                       #
 #####################################
