@@ -31,3 +31,5 @@ function buildings:crematorium/conveyor/move_players
 
 function buildings:crematorium/conveyor/crush_players
 
+function buildings:crematorium/crusher_sound
+
