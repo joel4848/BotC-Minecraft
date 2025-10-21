@@ -1,0 +1,3 @@
+
+function buildings:doorbells/animations/bell_pull_library_down
+schedule function buildings:doorbells/animations/bell_pull_library_up 7t
