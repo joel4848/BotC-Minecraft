@@ -6,19 +6,20 @@ function buildings:crematorium/crusher_bottom/_/delete
 function buildings:crematorium/crusher_bottom/_/stop_anim
 
 scoreboard players set #crematorium_running temp 1
+scoreboard players set #crematorium_conveyor_running temp 1
 
 function buildings:crematorium/conveyor/summon_conveyor_1
 function buildings:crematorium/conveyor/summon_conveyor_2
 function buildings:crematorium/conveyor/summon_conveyor_3
 function buildings:crematorium/conveyor/summon_conveyor_4
 
-schedule function buildings:crematorium/conveyor/loops/loop_1 20t
+schedule function buildings:crematorium/conveyor/loops/loop_1 10t
 
-schedule function buildings:crematorium/conveyor/loops/loop_2 94t
+schedule function buildings:crematorium/conveyor/loops/loop_2 84t
 
-schedule function buildings:crematorium/conveyor/loops/loop_3 168t
+schedule function buildings:crematorium/conveyor/loops/loop_3 158t
 
-schedule function buildings:crematorium/conveyor/loops/loop_4 242t
+schedule function buildings:crematorium/conveyor/loops/loop_4 232t
 
 schedule function buildings:crematorium/summon_crushers 10t
 
