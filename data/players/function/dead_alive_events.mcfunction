@@ -19,8 +19,8 @@ effect give @a minecraft:fire_resistance infinite 99 true
 
 effect clear @a[scores={Alive=1}] invisibility
 # execute as @a[scores={Alive=1,Player=..0}] run execute if items entity @s armor.head player_head run item replace entity @s armor.head with minecraft:air
-execute as @a[scores={Alive=1,Player=..0}] run item replace entity @s armor.head with minecraft:air
-execute as @a[scores={Alive=1,Player=..0}] run execute if items entity @s armor.feet golden_boots run item replace entity @s armor.feet with minecraft:air
+execute if score #give_dead_players_heads temp matches 1 run execute as @a[scores={Alive=1,Player=..0}] run item replace entity @s armor.head with minecraft:air
+execute if score #give_dead_players_heads temp matches 1 run execute as @a[scores={Alive=1,Player=..0}] run execute if items entity @s armor.feet golden_boots run item replace entity @s armor.feet with minecraft:air
 
 # Give dead players invisibility
 

@@ -148,7 +148,11 @@ scoreboard players set #doorbell_library_cooldown temp 0
 scoreboard players set #doorbell_cemetary_cooldown temp 0
 scoreboard players set #doorbell_crematorium_cooldown temp 0
 
-# Give required IDs to the votelights
+# Sets misc scoreboard scores required by the datapack/FancyMenu
+
+scoreboard players set #give_dead_players_heads temp 1
+
+# Gives required IDs to the votelights
 
 scoreboard players set @e[tag=votelight1,type=marker] lightID 1
 scoreboard players set @e[tag=votelight2,type=marker] lightID 2
