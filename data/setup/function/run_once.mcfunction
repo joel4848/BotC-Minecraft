@@ -66,6 +66,34 @@ scoreboard objectives add InCrematorium dummy
 scoreboard objectives setdisplay sidebar Player
 scoreboard objectives setdisplay sidebar.team.light_purple temp
 
+# Creates voice groups
+
+persistentgroup add "~ House 01" isolated
+persistentgroup add "~ House 02" isolated
+persistentgroup add "~ House 03" isolated
+persistentgroup add "~ House 04" isolated
+persistentgroup add "~ House 05" isolated
+persistentgroup add "~ House 06" isolated
+persistentgroup add "~ House 07" isolated
+persistentgroup add "~ House 08" isolated
+persistentgroup add "~ House 09" isolated
+persistentgroup add "~ House 10" isolated
+persistentgroup add "~ House 11" isolated
+persistentgroup add "~ House 12" isolated
+persistentgroup add "Cemetary" isolated
+persistentgroup add "Tavern" isolated
+persistentgroup add "Library" isolated
+persistentgroup add "Blacksmith" isolated
+persistentgroup add "Crematorium" isolated
+persistentgroup add "Church" isolated
+persistentgroup add "Clocktower" isolated
+persistentgroup add "~ Town Square" open
+persistentgroup add "Nightclub" isolated
+persistentgroup add "Storyteller Den" isolated
+persistentgroup add "~ House 13" isolated
+persistentgroup add "~ House 14" isolated
+persistentgroup add "~ House 15" isolated
+persistentgroup add "~ House 16" isolated
 
 # Creates teams
 
