@@ -114,12 +114,43 @@ execute unless score @a[scores={Player=-16},limit=1,sort=nearest] InHouse matche
 
 # Show 'InHouse' scoreboard to ST and display ✔ or ✘ depending on whether player is in their house or not
 
-execute unless score #is_nighttime temp matches 0 run execute as @a[scores={Player=..0,InHouse=0}] run scoreboard objectives setdisplay sidebar.team.blue InHouse
+execute unless score #is_nighttime temp matches 0 run execute as @a[scores={Player=..0,InHouse=0}] run scoreboard objectives setdisplay sidebar.team.blue InHouseShown
 execute unless score #is_nighttime temp matches 0 run execute as @a[scores={Player=..0,InHouse=0}] run scoreboard players set #in_house_sb_removed temp 0
 execute unless score #is_nighttime temp matches 0 run execute as @a[scores={Player=..0,InHouse=0}] run scoreboard players set #all_in_houses temp 0
 
-scoreboard players display numberformat @a[scores={InHouse=0}] InHouse fixed {"text":"✘","color":"dark_red"}
-scoreboard players display numberformat @a[scores={InHouse=1}] InHouse fixed {"text":"✔","color":"green"}
+scoreboard players display numberformat @a[scores={Player=-1,InHouse=0}] InHouseShown fixed {"text":"1 ✘","color":"red"}
+scoreboard players display numberformat @a[scores={Player=-2,InHouse=0}] InHouseShown fixed {"text":"2 ✘","color":"red"}
+scoreboard players display numberformat @a[scores={Player=-3,InHouse=0}] InHouseShown fixed {"text":"3 ✘","color":"red"}
+scoreboard players display numberformat @a[scores={Player=-4,InHouse=0}] InHouseShown fixed {"text":"4 ✘","color":"red"}
+scoreboard players display numberformat @a[scores={Player=-5,InHouse=0}] InHouseShown fixed {"text":"5 ✘","color":"red"}
+scoreboard players display numberformat @a[scores={Player=-6,InHouse=0}] InHouseShown fixed {"text":"6 ✘","color":"red"}
+scoreboard players display numberformat @a[scores={Player=-7,InHouse=0}] InHouseShown fixed {"text":"7 ✘","color":"red"}
+scoreboard players display numberformat @a[scores={Player=-8,InHouse=0}] InHouseShown fixed {"text":"8 ✘","color":"red"}
+scoreboard players display numberformat @a[scores={Player=-9,InHouse=0}] InHouseShown fixed {"text":"9 ✘","color":"red"}
+scoreboard players display numberformat @a[scores={Player=-10,InHouse=0}] InHouseShown fixed {"text":"10 ✘","color":"red"}
+scoreboard players display numberformat @a[scores={Player=-11,InHouse=0}] InHouseShown fixed {"text":"11 ✘","color":"red"}
+scoreboard players display numberformat @a[scores={Player=-12,InHouse=0}] InHouseShown fixed {"text":"12 ✘","color":"red"}
+scoreboard players display numberformat @a[scores={Player=-13,InHouse=0}] InHouseShown fixed {"text":"13 ✘","color":"red"}
+scoreboard players display numberformat @a[scores={Player=-14,InHouse=0}] InHouseShown fixed {"text":"14 ✘","color":"red"}
+scoreboard players display numberformat @a[scores={Player=-15,InHouse=0}] InHouseShown fixed {"text":"15 ✘","color":"red"}
+scoreboard players display numberformat @a[scores={Player=-16,InHouse=0}] InHouseShown fixed {"text":"16 ✘","color":"red"}
+
+scoreboard players display numberformat @a[scores={Player=-1,InHouse=1}] InHouseShown fixed {"text":"1 ✔","color":"green"}
+scoreboard players display numberformat @a[scores={Player=-2,InHouse=1}] InHouseShown fixed {"text":"2 ✔","color":"green"}
+scoreboard players display numberformat @a[scores={Player=-3,InHouse=1}] InHouseShown fixed {"text":"3 ✔","color":"green"}
+scoreboard players display numberformat @a[scores={Player=-4,InHouse=1}] InHouseShown fixed {"text":"4 ✔","color":"green"}
+scoreboard players display numberformat @a[scores={Player=-5,InHouse=1}] InHouseShown fixed {"text":"5 ✔","color":"green"}
+scoreboard players display numberformat @a[scores={Player=-6,InHouse=1}] InHouseShown fixed {"text":"6 ✔","color":"green"}
+scoreboard players display numberformat @a[scores={Player=-7,InHouse=1}] InHouseShown fixed {"text":"7 ✔","color":"green"}
+scoreboard players display numberformat @a[scores={Player=-8,InHouse=1}] InHouseShown fixed {"text":"8 ✔","color":"green"}
+scoreboard players display numberformat @a[scores={Player=-9,InHouse=1}] InHouseShown fixed {"text":"9 ✔","color":"green"}
+scoreboard players display numberformat @a[scores={Player=-10,InHouse=1}] InHouseShown fixed {"text":"10 ✔","color":"green"}
+scoreboard players display numberformat @a[scores={Player=-11,InHouse=1}] InHouseShown fixed {"text":"11 ✔","color":"green"}
+scoreboard players display numberformat @a[scores={Player=-12,InHouse=1}] InHouseShown fixed {"text":"12 ✔","color":"green"}
+scoreboard players display numberformat @a[scores={Player=-13,InHouse=1}] InHouseShown fixed {"text":"13 ✔","color":"green"}
+scoreboard players display numberformat @a[scores={Player=-14,InHouse=1}] InHouseShown fixed {"text":"14 ✔","color":"green"}
+scoreboard players display numberformat @a[scores={Player=-15,InHouse=1}] InHouseShown fixed {"text":"15 ✔","color":"green"}
+scoreboard players display numberformat @a[scores={Player=-16,InHouse=1}] InHouseShown fixed {"text":"16 ✔","color":"green"}
 
 execute unless entity @a[scores={Player=..0,InHouse=0}] unless score #all_in_houses temp matches 1 run scoreboard players set #all_in_houses temp 1 
 
