@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = storyteller_booth
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1760120518936
+  last_edited_time = 1761080664873
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:ce1fffdf-9bf5-4d13-944c-5622b3c685c1-1760120513541] = [groups:][instances:]
+  [loading_requirement_container_meta:d027bfb6-3232-4dc4-8728-a5bef0e2d8ea-1761072319441] = [groups:][instances:]
 }
 
 customization {
@@ -742,7 +742,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:booth/bring {player:12}
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:booth/bring {player:11}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   restartbackgroundanimations = true
@@ -801,7 +801,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436
-  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:st_to_house {player:12}
+  [executable_action_instance:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102][action_type:sendmessage] = /function teleport:booth/bring {player:12}
   [executable_action_instance:02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135][action_type:closegui] = 
   [executable_block:6c1bc365-4146-42e1-abb7-3473eeda1aa5-1755888138436][type:generic] = [executables:e09b2c68-13dc-411f-84f0-631768e3ffad-1755888201102;02e13be4-910d-434b-bc3a-314d329b2eca-1755888244135;]
   restartbackgroundanimations = true
