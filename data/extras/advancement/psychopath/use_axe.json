@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "use_item": {
+            "trigger": "using_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "custom_data": {
+                            "psychopath_axe": true,
+                            "bypasses_pvp": true
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "extras:psychopath/axe/use_check"
+    }
+}

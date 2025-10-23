@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "tick": {
+            "trigger": "tick"
+        }
+    },
+    "rewards": {
+        "function": "extras:psychopath/axe/cooldown"
+    }
+}

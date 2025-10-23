@@ -26,7 +26,7 @@
 # 
 # # Start announcing who voted:
 # 
-# tellraw @a [{"color":"aqua","text":"These players voted","underlined":true},{"color":"aqua","text":":","underlined":false}]
+# tellraw @a [{"color":"aqua","text":"These players voted","underlined":true},{"color":"aqua","text":":\n","underlined":false}]
 # 
 # # Start the voting sequence
 # function voting:exile/process/vote_sequence

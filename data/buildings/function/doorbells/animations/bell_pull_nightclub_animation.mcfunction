@@ -1,0 +1,3 @@
+
+function buildings:doorbells/animations/bell_pull_nightclub_down
+schedule function buildings:doorbells/animations/bell_pull_nightclub_up 7t

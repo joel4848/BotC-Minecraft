@@ -3,7 +3,7 @@
 
 # Copy the JSON string from the sign
 
-data modify storage temp:parse json_string set from block 162 106 41 front_text.messages[2]
+data modify storage temp:parse json_string set from block 175 87 0 front_text.messages[2]
 
 # Remove the first 57 characters: {"clickEvent":{"action":"suggest_command","value":"/tell 
 

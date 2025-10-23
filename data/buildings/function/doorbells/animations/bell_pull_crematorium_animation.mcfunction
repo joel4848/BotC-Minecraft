@@ -1,0 +1,3 @@
+
+function buildings:doorbells/animations/bell_pull_crematorium_down
+schedule function buildings:doorbells/animations/bell_pull_crematorium_up 7t

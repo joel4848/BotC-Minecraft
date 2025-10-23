@@ -80,5 +80,8 @@ execute as @e[type=minecraft:marker,tag=house16,limit=1] store result storage mi
 execute as @e[type=minecraft:marker,tag=house16,limit=1] store result storage minecraft:joelbotc marker_house_16_y int 1 run data get entity @s Pos[1]
 execute as @e[type=minecraft:marker,tag=house16,limit=1] store result storage minecraft:joelbotc marker_house_16_z int 1 run data get entity @s Pos[2]
 
+# Remove old compasses
+clear @a compass
+
 # Call the give_compass function with the stored integer coordinates
 function buildings:give_compass with storage minecraft:joelbotc

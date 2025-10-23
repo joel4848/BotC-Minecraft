@@ -1,3 +1,4 @@
+say Ran exile announce required votes
 # Announce who has nominated whom
 
 tellraw @a [{"color":"gold","text":"------------------------------------"}]

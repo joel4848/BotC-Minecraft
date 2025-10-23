@@ -55,8 +55,44 @@ execute unless score #compasses_given temp matches 1 run function buildings:call
 
 execute unless score #compasses_given temp matches 1 run scoreboard players set #compasses_given temp 1
 
-# Give everyone a score of 0 on the InHouse scoreboard and start particles function
+# Reset InHouse scoreboard and start particles function
 
-scoreboard players set @a InHouse 0
+scoreboard objectives remove InHouse
+scoreboard objectives remove InHouseShown
+scoreboard objectives add InHouse dummy
+scoreboard objectives add InHouseShown dummy "In House"
+
+scoreboard players add @a[scores={Player=..0}] InHouse 0
+
+scoreboard players set @a[scores={Player=-1}] InHouseShown -1
+scoreboard players set @a[scores={Player=-2}] InHouseShown -2
+scoreboard players set @a[scores={Player=-3}] InHouseShown -3
+scoreboard players set @a[scores={Player=-4}] InHouseShown -4
+scoreboard players set @a[scores={Player=-5}] InHouseShown -5
+scoreboard players set @a[scores={Player=-6}] InHouseShown -6
+scoreboard players set @a[scores={Player=-7}] InHouseShown -7
+scoreboard players set @a[scores={Player=-8}] InHouseShown -8
+scoreboard players set @a[scores={Player=-9}] InHouseShown -9
+scoreboard players set @a[scores={Player=-10}] InHouseShown -10
+scoreboard players set @a[scores={Player=-11}] InHouseShown -11
+scoreboard players set @a[scores={Player=-12}] InHouseShown -12
+scoreboard players set @a[scores={Player=-13}] InHouseShown -13
+scoreboard players set @a[scores={Player=-14}] InHouseShown -14
+scoreboard players set @a[scores={Player=-15}] InHouseShown -15
+scoreboard players set @a[scores={Player=-16}] InHouseShown -16
+
+scoreboard players set #all_in_houses temp 0
+scoreboard players set #in_house_sb_removed temp 0
 
 function buildings:entrance_particles
+
+# Make Psychopath killing unallowed and remove all axes
+
+data remove storage extras:immersive_pvp allowed
+execute as @a run function extras:psychopath/axe/remove
+execute as @a run function extras:slayer/remove_crossbow
+
+# Make sure PVP is turned off
+
+execute if score #immersive_pvp temp matches 1 if score #pvp_enabled temp matches 0 run gamerule pvp false
+effect clear @a resistance

@@ -6,6 +6,8 @@ scoreboard objectives setdisplay sidebar Player
 team leave @a[team=!Storyteller]
 scoreboard objectives remove HasSeat
 scoreboard objectives add HasSeat dummy
+scoreboard objectives remove InHouse
+scoreboard objectives add InHouse dummy "In House"
 
 # Remove compasses and reset whether compasses already given
 
@@ -66,15 +68,33 @@ function extras:thief/clear_thief_chosen
 
 function extras:bureaucrat/clear_bureaucrat_chosen
 
-# Empty FM player list
+# Reset ghost swing trigger
 
-# function players:pickers/player_usernames/set_fmvs with storage minecraft:joelbotc
+scoreboard objectives remove InCemetary
+scoreboard objectives add InCemetary dummy
+scoreboard players set #cemetary_occupied temp 0
+tag @e[type=block_display,tag=ghost_swing_root] add animation_pause
+scoreboard players set #ghost_loop_running temp 0
 
-# scoreboard players operation #were_fm_colours_on temp = #fm_colours_on temp
+# Credits/bugs/feedback/suggestions message
 
-# scoreboard players set #fm_colours_on temp 1
+# This map/datapack is licensed under Attribution-NonCommercial-ShareAlike 4.0 International https://creativecommons.org/licenses/by-nc-sa/4.0/
+# If you change/remove this message, you're in breach of the license - and also a bad person who makes Ben Burns sad.
+# No, seriously: months of my time and the time of others went into making this what it is, and I'm sharing it publicly for the BotC community out
+# of trust. A lot of BotC is based on trust - in the ST, in your players, etc... Falsely claiming credit for this work is not in the spirit of Botc.
 
-# function setup:fm_colours_clear_all
+
+tellraw @a {"color":"gold","text":"----------------------------------------------------"}
+tellraw @a {"color":"aqua","text":""}
+tellraw @a [{"color":"aqua","text":"Thanks for playing "},{"color":"gold","text":"Joel4848's BotC Minecraft"}," map & datapack!"]
+tellraw @a {"color":"aqua","text":""}
+tellraw @a {"color":"aqua","text":"For the wiki, or to report any bugs, suggest new features, or"}
+tellraw @a {"color":"aqua","text":"just give feedback, please visit: "}
+tellraw @a {"color":"aqua","text":""}
+tellraw @a {"clickEvent":{"action":"open_url","value":"https://github.com/joel4848/BotC-Minecraft"},"color":"blue","text":"https://github.com/joel4848/BotC-Minecraft","underlined":true}
+tellraw @a {"color":"aqua","text":""}
+tellraw @a {"color":"gold","text":"----------------------------------------------------"}
+
 
 # scoreboard players operation #fm_colours_on temp = #were_fm_colours_on temp
 
@@ -107,3 +127,14 @@ execute as @s run execute if score player_count PlayerCount matches ..12 run fmv
 execute as @s run execute if score player_count PlayerCount matches ..13 run fmvariable set player_14_colour false &f
 execute as @s run execute if score player_count PlayerCount matches ..14 run fmvariable set player_15_colour false &f
 execute as @s run execute if score player_count PlayerCount matches ..15 run fmvariable set player_16_colour false &f
+
+# Make Psychopath killing unallowed and remove all axes
+
+data remove storage extras:immersive_pvp allowed
+execute as @a run function extras:psychopath/axe/remove
+execute as @a run function extras:slayer/remove_crossbow
+
+# Make sure PVP is turned off
+
+execute if score #immersive_pvp temp matches 1 if score #pvp_enabled temp matches 0 run gamerule pvp false
+effect clear @a resistance
