@@ -33,23 +33,23 @@ extra_css:
 #   This site is an example showcase for my "mkdocs-coverpage" repository.
 
 # Custom Homepage Button(s)
-# home_button1_name: Main Clicky                   # Comment this parameter out to remove the button.
-# home_button1_url: Folder1/                       # This path starts at your root mkdocs directory.
-# home_button1_theme: md-button--primary # Options: "md-button", "md-button md-button--primary"
-# home_button1_icon: people                        # Options: "people", "gear", "image"
-# home_button1_blurb: |                            # Short description of this button / section.
-#   This joker navigates to the shadow wizard armory located in "/Folder1/index.md"
+home_button1_name: Documentation                 # Comment this parameter out to remove the button.
+home_button1_url: documentation/                       # This path starts at your root mkdocs directory.
+home_button1_theme: md-button--primary           # Options: "md-button", "md-button md-button--primary"
+home_button1_icon: people                        # Options: "people", "gear", "image"
+home_button1_blurb: |                            # Short description of this button / section.
+  Documentation for setting up and running Joel4848's BotC map & datapack
 
-# home_button2_name: Clicky 2   # Comment this parameter out to remove the button.
-# home_button2_url: Folder2/    # This path starts at your root mkdocs directory.
-# home_button2_theme: md-button # Options: "md-button", "md-button md-button--primary"
-# home_button2_icon: gear       # Options: "people", "gear", "image"
-# home_button2_blurb: |         # Short description of this button / section.
-#   This goober navigates to some important thingies located in "/Folder2/index.md"
+home_button2_name: Issues & Feedback   # Comment this parameter out to remove the button.
+home_button2_url: https://github.com/joel4848/BotC-Minecraft/issues    # This path starts at your root mkdocs directory.
+home_button2_theme: md-button # Options: "md-button", "md-button md-button--primary"
+home_button2_icon: gear       # Options: "people", "gear", "image"
+home_button2_blurb: |         # Short description of this button / section.
+  Please click here to report and issues or give feedback via the Github repo
 
-# home_button3_name: Clicky 3   # Comment this parameter out to remove the button.
-# home_button3_url: Folder3/    # This path starts at your root mkdocs directory.
-# home_button3_theme: md-button # Options: "md-button", "md-button md-button--primary"
-# home_button3_icon: image      # Options: "people", "gear", "image"
-# home_button3_blurb: |         # Short description of this button / section.
-#   This psycho navigates to an interesting table of stuff located in "/Folder3/index.md"
+home_button3_name: Custom Maps   # Comment this parameter out to remove the button.
+home_button3_url: Folder3/    # This path starts at your root mkdocs directory.
+home_button3_theme: md-button # Options: "md-button", "md-button md-button--primary"
+home_button3_icon: image      # Options: "people", "gear", "image"
+home_button3_blurb: |         # Short description of this button / section.
+  Documentation on setting up and running the datapack on your own map
