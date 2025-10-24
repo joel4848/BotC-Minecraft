@@ -8,6 +8,8 @@ template: home.html
 
 ### Welcome to Joel's BotC in Minecraft
 
+Docs coming soon™
+
 
 
 
