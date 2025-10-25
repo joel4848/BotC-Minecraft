@@ -4,7 +4,7 @@
 # Copy the JSON string from the sign
 
 data remove storage temp:parse json_string
-$data modify storage temp:parse json_string set from block 175 87 0 front_text.messages[$(banshee_number)]
+$data modify storage temp:parse json_string set from block 168 87 36 front_text.messages[$(banshee_number)]
 
 # Remove the first 57 characters: {"clickEvent":{"action":"suggest_command","value":"/tell 
 

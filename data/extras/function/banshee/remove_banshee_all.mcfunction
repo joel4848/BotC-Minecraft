@@ -1,10 +1,10 @@
 scoreboard objectives remove IsBanshee
 scoreboard objectives add IsBanshee dummy
 
-data modify block 175 87 0 front_text.messages[0] set value '{"text":""}'
-data modify block 175 87 0 front_text.messages[1] set value '{"text":""}'
-data modify block 175 87 0 front_text.messages[2] set value '{"text":""}'
-data modify block 175 87 0 front_text.messages[3] set value '{"text":""}'
+data modify block 168 87 36 front_text.messages[0] set value '{"text":""}'
+data modify block 168 87 36 front_text.messages[1] set value '{"text":""}'
+data modify block 168 87 36 front_text.messages[2] set value '{"text":""}'
+data modify block 168 87 36 front_text.messages[3] set value '{"text":""}'
 
 schedule function extras:banshee/update_banshee_0_username 1t
 schedule function extras:banshee/update_banshee_1_username 1t
