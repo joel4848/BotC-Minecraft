@@ -1,5 +1,9 @@
 # called with nominator:nominate {player:%d}
 
+# Remove nomination prosecution/defence podiums to tp plays back if the previous nomination was in error
+
+execute if score #use_nomination_podiums temp matches 1 run function nomination:nomination_podiums_remove
+
 # reset already nominated player
 
 effect clear @a[scores={Nominated=1}] glowing
@@ -34,3 +38,6 @@ function clock_hand:big_hand/start
 
 tellraw @a[scores={Storyteller=1}] [{"color":"light_purple","text":"Click here to start vote: ["},{"clickEvent":{"action":"run_command","value":"/function voting:start_countdown"},"color":"gold","text":"Start Vote","underlined":true},{"color":"light_purple","text":"]"}]
 
+# Place nomination prosecution/defence podiums, and TP players
+
+execute if score #use_nomination_podiums temp matches 1 run function nomination:nomination_podiums_place

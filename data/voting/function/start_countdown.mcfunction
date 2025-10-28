@@ -1,5 +1,9 @@
 # Main function to initiate the voting process
 
+# Remove nomination prosecution/defence podiums and tp players back
+
+execute if score #use_nomination_podiums temp matches 1 run function nomination:nomination_podiums_remove
+
 # Lock players to seats
 scoreboard players set #vote_running temp 1
 function voting:lock_to_seats
