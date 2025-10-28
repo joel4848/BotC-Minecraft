@@ -1,0 +1,3 @@
+
+function buildings:doorbells/animations/bell_pull_pumpkin_down
+schedule function buildings:doorbells/animations/bell_pull_pumpkin_up 7t

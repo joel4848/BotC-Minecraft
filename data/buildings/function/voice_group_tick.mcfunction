@@ -12,6 +12,7 @@ execute as @e[type=marker,tag=discussion_room_entrance_nightclub] at @s run exec
 execute as @e[type=marker,tag=discussion_room_entrance_tavern] at @s run execute as @a[distance=..1] run voicechat join "Tavern"
 execute as @e[type=marker,tag=discussion_room_entrance_blacksmith] at @s run execute as @a[distance=..1] run voicechat join "Blacksmith"
 execute as @e[type=marker,tag=discussion_room_entrance_library] at @s run execute as @a[distance=..1] run voicechat join "Library"
+execute as @e[type=marker,tag=discussion_room_entrance_pumpkin] at @s run execute as @a[distance=..1] run voicechat join "Pumpkin"
 
 # Discussion room leave
 
@@ -22,6 +23,7 @@ execute as @e[type=marker,tag=discussion_room_exit_nightclub] at @s run execute 
 execute as @e[type=marker,tag=discussion_room_exit_tavern] at @s run execute as @a[distance=..1] run voicechat leave
 execute as @e[type=marker,tag=discussion_room_exit_blacksmith] at @s run execute as @a[distance=..1] run voicechat leave
 execute as @e[type=marker,tag=discussion_room_exit_library] at @s run execute as @a[distance=..1] run voicechat leave
+execute as @e[type=marker,tag=discussion_room_exit_pumpkin] at @s run execute as @a[distance=..1] run voicechat leave
 
 # Trigger/stop ghost swing animation
 
