@@ -17,6 +17,7 @@ team empty Nominated
 $team leave @a[scores={Player=-$(player)}]
 $scoreboard players set @a[scores={Player=-$(player)}] Nominated 1
 $effect give @a[scores={Player=-$(player)}] glowing infinite 99 true
+$data modify storage minecraft:joelbotc nominated_player set value $(player)
 
 # function voting:reset_vote
 
