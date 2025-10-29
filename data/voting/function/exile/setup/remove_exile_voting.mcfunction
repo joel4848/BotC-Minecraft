@@ -17,5 +17,7 @@ execute as @e[tag=votelight14] at @s run execute if block ~ ~-1 ~ waxed_oxidized
 execute as @e[tag=votelight15] at @s run execute if block ~ ~-1 ~ waxed_oxidized_copper_bulb[lit=true] run setblock ~ ~-1 ~ waxed_oxidized_copper_bulb[lit=false] replace
 execute as @e[tag=votelight16] at @s run execute if block ~ ~-1 ~ waxed_oxidized_copper_bulb[lit=true] run setblock ~ ~-1 ~ waxed_oxidized_copper_bulb[lit=false] replace
 
+scoreboard players set #traveller_votelights_placed temp 0
+
 schedule function voting:exile/setup/replace_pistons 2t
 schedule function voting:reset_vote 5t

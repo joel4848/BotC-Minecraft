@@ -1,3 +1,5 @@
+scoreboard players set #traveller_votelights_placed temp 1
+
 function voting:exile/setup/force_retract_pistons
 
 function voting:remove_votelight_interactions_all
