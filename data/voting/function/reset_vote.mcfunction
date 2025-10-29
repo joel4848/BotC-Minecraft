@@ -1,5 +1,9 @@
 # Resets vote
 
+# Resets vote running
+
+scoreboard players set #vote_running temp 0
+
 # Reset Nominator scoreboard
 
 scoreboard objectives remove Nominator
