@@ -1,0 +1,9 @@
+type = panorama
+
+panorama-meta {
+  name = joelbotctitle
+  speed = 1.5
+  fov = 85.0
+  angle = 45.0
+  start_rotation = 90
+}

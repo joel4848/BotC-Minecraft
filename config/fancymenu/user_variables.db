@@ -8,7 +8,7 @@ variable {
 
 variable {
   name = new_highest_vote_tally
-  value = 5
+  value = 
   reset_on_launch = false
 }
 
@@ -38,7 +38,7 @@ variable {
 
 variable {
   name = player_2_username
-  value = p2
+  value =  ‌
   reset_on_launch = false
 }
 
@@ -86,7 +86,7 @@ variable {
 
 variable {
   name = timer_seconds_custom
-  value = 3
+  value = 39
   reset_on_launch = false
 }
 
@@ -164,7 +164,7 @@ variable {
 
 variable {
   name = player_8_colour
-  value = &8
+  value = &f
   reset_on_launch = false
 }
 
@@ -212,13 +212,13 @@ variable {
 
 variable {
   name = player_3_username
-  value = p3
+  value =  ‌
   reset_on_launch = false
 }
 
 variable {
   name = player_7_username
-  value = p7
+  value =  ‌
   reset_on_launch = false
 }
 
@@ -230,7 +230,7 @@ variable {
 
 variable {
   name = player_count
-  value = 6
+  value = 10
   reset_on_launch = false
 }
 
@@ -254,7 +254,7 @@ variable {
 
 variable {
   name = player_4_colour
-  value = &a
+  value = &f
   reset_on_launch = false
 }
 
@@ -272,19 +272,19 @@ variable {
 
 variable {
   name = player_6_colour
-  value = &a
+  value = &f
   reset_on_launch = false
 }
 
 variable {
   name = timer_minutes_custom
-  value = 9
+  value = 8
   reset_on_launch = false
 }
 
 variable {
   name = player_2_colour
-  value = &a
+  value = &f
   reset_on_launch = false
 }
 
@@ -320,7 +320,7 @@ variable {
 
 variable {
   name = kill_revive_multiple
-  value = Disabled
+  value = Enabled
   reset_on_launch = false
 }
 
@@ -350,7 +350,7 @@ variable {
 
 variable {
   name = player_6_username
-  value = p6
+  value =  ‌
   reset_on_launch = false
 }
 
@@ -362,7 +362,7 @@ variable {
 
 variable {
   name = player_1_username
-  value = p1
+  value = joel4848
   reset_on_launch = false
 }
 
@@ -416,7 +416,7 @@ variable {
 
 variable {
   name = player_4_username
-  value = p4
+  value =  ‌
   reset_on_launch = false
 }
 
@@ -434,7 +434,7 @@ variable {
 
 variable {
   name = fake_player_amount
-  value = 16
+  value = 8
   reset_on_launch = false
 }
 
@@ -494,7 +494,7 @@ variable {
 
 variable {
   name = player_5_colour
-  value = &a
+  value = &f
   reset_on_launch = false
 }
 
@@ -506,7 +506,7 @@ variable {
 
 variable {
   name = player_3_colour
-  value = &a
+  value = &f
   reset_on_launch = false
 }
 
@@ -518,13 +518,13 @@ variable {
 
 variable {
   name = player_7_colour
-  value = &a
+  value = &f
   reset_on_launch = false
 }
 
 variable {
   name = player_5_username
-  value = p5
+  value =  ‌
   reset_on_launch = false
 }
 

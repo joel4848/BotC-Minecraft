@@ -3,3 +3,30 @@ type = customizablemenus
 de.keksuccino.spiffyhud.customization.SpiffyOverlayScreen {
 }
 
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+net.minecraft.class_442 {
+}
+
+net.minecraft.class_500 {
+}
+
+net.minecraft.class_419 {
+}
+
+net.minecraft.class_412 {
+}
+
+net.minecraft.class_3928 {
+}
+
+net.minecraft.class_424 {
+}
+
+net.minecraft.class_435 {
+}
+
+net.minecraft.class_434 {
+}
+
