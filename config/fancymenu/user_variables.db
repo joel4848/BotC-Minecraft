@@ -32,55 +32,55 @@ variable {
 
 variable {
   name = player_11_colour
-  value = &8
+  value = &a
   reset_on_launch = false
 }
 
 variable {
   name = player_2_username
-  value =  ‌
+  value = p2
   reset_on_launch = false
 }
 
 variable {
   name = player_8_username
-  value =  ‌
+  value = p8
   reset_on_launch = false
 }
 
 variable {
   name = player_10_colour
-  value = &8
+  value = &a
   reset_on_launch = false
 }
 
 variable {
   name = player_12_colour
-  value = &8
+  value = &a
   reset_on_launch = false
 }
 
 variable {
   name = player_13_colour
-  value = &8
+  value = &a
   reset_on_launch = false
 }
 
 variable {
   name = player_14_colour
-  value = &8
+  value = &a
   reset_on_launch = false
 }
 
 variable {
   name = player_15_colour
-  value = &8
+  value = &a
   reset_on_launch = false
 }
 
 variable {
   name = player_16_colour
-  value = &8
+  value = &a
   reset_on_launch = false
 }
 
@@ -116,7 +116,7 @@ variable {
 
 variable {
   name = player_11_username
-  value =  ‌
+  value = p11
   reset_on_launch = false
 }
 
@@ -164,13 +164,13 @@ variable {
 
 variable {
   name = player_8_colour
-  value = &f
+  value = &a
   reset_on_launch = false
 }
 
 variable {
   name = test
-  value = "joel4848"
+  value = hello
   reset_on_launch = false
 }
 
@@ -212,13 +212,13 @@ variable {
 
 variable {
   name = player_3_username
-  value =  ‌
+  value = p3
   reset_on_launch = false
 }
 
 variable {
   name = player_7_username
-  value =  ‌
+  value = p7
   reset_on_launch = false
 }
 
@@ -230,7 +230,7 @@ variable {
 
 variable {
   name = player_count
-  value = 10
+  value = 
   reset_on_launch = false
 }
 
@@ -254,7 +254,7 @@ variable {
 
 variable {
   name = player_4_colour
-  value = &f
+  value = &a
   reset_on_launch = false
 }
 
@@ -272,7 +272,7 @@ variable {
 
 variable {
   name = player_6_colour
-  value = &f
+  value = &a
   reset_on_launch = false
 }
 
@@ -284,13 +284,13 @@ variable {
 
 variable {
   name = player_2_colour
-  value = &f
+  value = &a
   reset_on_launch = false
 }
 
 variable {
   name = player_12_username
-  value =  ‌
+  value = P12
   reset_on_launch = false
 }
 
@@ -302,7 +302,7 @@ variable {
 
 variable {
   name = player_13_username
-  value =  ‌
+  value = p13
   reset_on_launch = false
 }
 
@@ -314,13 +314,13 @@ variable {
 
 variable {
   name = player_10_username
-  value =  ‌
+  value = P10
   reset_on_launch = false
 }
 
 variable {
   name = kill_revive_multiple
-  value = Enabled
+  value = Disabled
   reset_on_launch = false
 }
 
@@ -350,7 +350,7 @@ variable {
 
 variable {
   name = player_6_username
-  value =  ‌
+  value = p6
   reset_on_launch = false
 }
 
@@ -362,7 +362,7 @@ variable {
 
 variable {
   name = player_1_username
-  value = joel4848
+  value = p1
   reset_on_launch = false
 }
 
@@ -380,13 +380,13 @@ variable {
 
 variable {
   name = player_9_username
-  value =  ‌
+  value = p9
   reset_on_launch = false
 }
 
 variable {
   name = player_16_username
-  value =  ‌
+  value = P16
   reset_on_launch = false
 }
 
@@ -404,7 +404,7 @@ variable {
 
 variable {
   name = player_9_colour
-  value = &8
+  value = &a
   reset_on_launch = false
 }
 
@@ -416,13 +416,13 @@ variable {
 
 variable {
   name = player_4_username
-  value =  ‌
+  value = p4
   reset_on_launch = false
 }
 
 variable {
   name = player_14_username
-  value =  ‌
+  value = P14
   reset_on_launch = false
 }
 
@@ -434,7 +434,7 @@ variable {
 
 variable {
   name = fake_player_amount
-  value = 8
+  value = 16
   reset_on_launch = false
 }
 
@@ -470,7 +470,7 @@ variable {
 
 variable {
   name = player_15_username
-  value =  ‌
+  value = P15
   reset_on_launch = false
 }
 
@@ -494,7 +494,7 @@ variable {
 
 variable {
   name = player_5_colour
-  value = &f
+  value = &a
   reset_on_launch = false
 }
 
@@ -506,7 +506,7 @@ variable {
 
 variable {
   name = player_3_colour
-  value = &f
+  value = &a
   reset_on_launch = false
 }
 
@@ -518,13 +518,13 @@ variable {
 
 variable {
   name = player_7_colour
-  value = &f
+  value = &a
   reset_on_launch = false
 }
 
 variable {
   name = player_5_username
-  value =  ‌
+  value = p5
   reset_on_launch = false
 }
 
