@@ -5,7 +5,7 @@ time set 0
 gamerule doDaylightCycle false
 playsound minecraft:block.bell.use master @a ~ ~ ~ 5 1 1
 title @a title {"text":"Wake up!","bold":true,"color":"yellow"}
-title @a subtitle [{"text":"A new day dawns in ","color":"yellow"},{"nbt":"front_text.messages[2]","block":"168 107 29","interpret":true,"color":"yellow","italic":true},{"text":"...","color":"yellow"}]
+title @a subtitle [{"text":"A new day dawns in ","color":"yellow"},{"nbt":"town_name","storage":"minecraft:joelbotc","color":"yellow","italic":true},{"text":"...","color":"yellow"}]
 
 # scoreboard players set Marked Marked -1
 # setblock 167 91 2 minecraft:cobbled_deepslate
@@ -47,5 +47,5 @@ scoreboard objectives setdisplay sidebar.team.blue Player
 # Announce new day in chat
 
 tellraw @a [{"color":"#00aaff","text":"------------------------------------"}]
-tellraw @a [{"color":"#00aaff","text":"A new day dawns in "},{"nbt":"front_text.messages[2]","block":"168 107 29","interpret":true,"color":"#00aaff","italic":true},{"text":"...","color":"#00aaff"}]
+tellraw @a [{"color":"#00aaff","text":"A new day dawns in "},{"nbt":"town_name","storage":"minecraft:joelbotc","color":"#00aaff","italic":true},{"text":"...","color":"#00aaff"}]
 tellraw @a [{"color":"#00aaff","text":"------------------------------------"}]
