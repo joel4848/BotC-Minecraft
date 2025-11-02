@@ -43,3 +43,9 @@ schedule clear buildings:entrance_particles
 # Set ST scoreboard sidebar to Player
 
 scoreboard objectives setdisplay sidebar.team.blue Player
+
+# Announce new day in chat
+
+tellraw @a [{"color":"#00aaff","text":"------------------------------------"}]
+tellraw @a [{"color":"#00aaff","text":"A new day dawns in "},{"nbt":"front_text.messages[2]","block":"168 107 29","interpret":true,"color":"#00aaff","italic":true},{"text":"...","color":"#00aaff"}]
+tellraw @a [{"color":"#00aaff","text":"------------------------------------"}]
