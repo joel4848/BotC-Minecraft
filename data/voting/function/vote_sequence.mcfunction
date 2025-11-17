@@ -37,11 +37,11 @@ scoreboard players set #big_hand_speed temp 6
 
 
 # execute unless score #current_seat temp matches 1 run execute unless score #next_seat temp > player_count PlayerCount run execute unless score #current_seat temp matches 1 run schedule function voting:call_move_big_hand 2t
-execute unless score #next_seat temp > player_count PlayerCount run schedule function voting:call_move_big_hand 2t
+# execute unless score #next_seat temp > player_count PlayerCount run schedule function voting:call_move_big_hand 2t
 
-execute if score #storyteller Nominated matches 1 run execute unless score #next_seat temp > player_count PlayerCount run execute if score #current_seat temp matches 1 run schedule function voting:call_move_big_hand 2t
+# execute if score #storyteller Nominated matches 1 run execute unless score #next_seat temp > player_count PlayerCount run execute if score #current_seat temp matches 1 run schedule function voting:call_move_big_hand 2t
 
-execute unless score #storyteller Nominated matches 1 run execute if score #next_seat temp matches 1 run execute unless score #nominated temp = player_count PlayerCount run function voting:call_move_big_hand_skip
+# execute unless score #storyteller Nominated matches 1 run execute if score #next_seat temp matches 1 run execute unless score #nominated temp = player_count PlayerCount run function voting:call_move_big_hand_skip
 
 # First retract the piston (remove redstone power)
 

@@ -23,17 +23,17 @@ $data modify storage minecraft:joelbotc nominated_player set value $(player)
 
 function nomination:announce_required_votes
 function nomination:nominated_particles
-execute if score #big_hand_present temp matches 0 run function clock_hand:big_hand/summon_neutral
-execute if score #big_hand_present temp matches 0 run scoreboard players set #big_hand_present temp 1
+# execute if score #big_hand_present temp matches 0 run function clock_hand:big_hand/summon_neutral
+# execute if score #big_hand_present temp matches 0 run scoreboard players set #big_hand_present temp 1
 
 # $function clock_hand:big_hand/rotate_to_$(player) with storage joelbotc
 
-$scoreboard players set #big_hand_target temp $(player)
-$scoreboard players set #nominated_player_big_hand temp $(player)
-execute store result storage joelbotc nominated_player_big_hand int 1 run scoreboard players get #nominated_player_big_hand temp
+# $scoreboard players set #big_hand_target temp $(player)
+# $scoreboard players set #nominated_player_big_hand temp $(player)
+# execute store result storage joelbotc nominated_player_big_hand int 1 run scoreboard players get #nominated_player_big_hand temp
 
-schedule function nomination:call_big_hand_nominate 1t
-function clock_hand:big_hand/start
+# schedule function nomination:call_big_hand_nominate 1t
+# function clock_hand:big_hand/start
 
 # Place Start Vote button in chat for Storyteller
 
