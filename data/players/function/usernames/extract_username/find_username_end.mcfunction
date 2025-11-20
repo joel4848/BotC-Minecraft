@@ -2,7 +2,7 @@
 # This checks each character position until it finds a quote
 
 # Check if we've reached the maximum username length (16 characters)
-execute if score username_length temp matches 17.. run return fail
+execute if score username_length temp matches 18.. run return fail
 
 # Set username + 2 to properly extract single character
 scoreboard players operation username_length_plus_1 temp = username_length temp
