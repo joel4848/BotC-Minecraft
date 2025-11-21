@@ -54,10 +54,17 @@ scoreboard objectives add InHouse dummy
 scoreboard objectives add InHouseShown dummy "In House"
 scoreboard objectives add psychopath_axe_cooldown dummy
 scoreboard objectives add slayer_arrow_cooldown dummy
-scoreboard objectives add InCemetary dummy
 scoreboard objectives add tempHealth dummy
-scoreboard objectives add InCrematorium dummy
 scoreboard objectives add SeatSwapped dummy
+scoreboard objectives add InClocktower dummy
+scoreboard objectives add InNightclub dummy
+scoreboard objectives add InTavern dummy
+scoreboard objectives add InBlacksmith dummy
+scoreboard objectives add InLibrary dummy
+scoreboard objectives add InPumpkin dummy
+scoreboard objectives add InCrematorium dummy
+scoreboard objectives add InCemetary dummy
+
 # scoreboard objectives add  dummy
 # scoreboard objectives add  dummy
 

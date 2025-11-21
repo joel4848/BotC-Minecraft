@@ -25,42 +25,6 @@ execute as @e[type=marker,tag=discussion_room_exit_blacksmith] at @s run execute
 execute as @e[type=marker,tag=discussion_room_exit_library] at @s run execute as @a[distance=..1] run voicechat leave
 execute as @e[type=marker,tag=discussion_room_exit_pumpkin] at @s run execute as @a[distance=..1] run voicechat leave
 
-# Trigger/stop ghost swing animation
-
-# Trigger
-
-execute as @e[type=marker,tag=discussion_room_entrance_cemetary] at @s run execute as @a[distance=..1] run scoreboard players set @s InCemetary 1
-scoreboard players set #cemetary_occupied temp 0
-execute unless score #cemetary_occupied temp matches 1 run execute as @a[scores={InCemetary=1}] run scoreboard players set #cemetary_occupied temp 1
-execute unless score #ghost_loop_running temp matches 1 run execute if score #cemetary_occupied temp matches 1 run tag @e[type=block_display,tag=ghost_swing_root] remove animation_pause
-execute unless score #ghost_loop_running temp matches 1 run execute if score #cemetary_occupied temp matches 1 run schedule function ghost_swing:k/default/keyframe_0 5t
-execute unless score #ghost_loop_running temp matches 1 run execute if score #cemetary_occupied temp matches 1 run scoreboard players set #ghost_loop_running temp 1
-
-# Stop
-
-execute as @e[type=marker,tag=discussion_room_exit_cemetary] at @s run execute as @a[distance=..1] run scoreboard players set @s InCemetary 0
-scoreboard players set #cemetary_occupied temp 0
-execute unless score #cemetary_occupied temp matches 1 run execute as @a[scores={InCemetary=1}] run scoreboard players set #cemetary_occupied temp 1
-execute if score #cemetary_occupied temp matches 0 run tag @e[type=block_display,tag=ghost_swing_root] add animation_pause
-execute if score #cemetary_occupied temp matches 0 run scoreboard players set #ghost_loop_running temp 0
-
-# Trigger/stop crematorium crusher/conveyor animations
-
-# Trigger
-
-execute as @e[type=marker,tag=discussion_room_entrance_crematorium] at @s run execute as @a[distance=..1] run scoreboard players set @s InCrematorium 1
-scoreboard players set #crematorium_occupied temp 0
-execute unless score #crematorium_occupied temp matches 1 run execute as @a[scores={InCrematorium=1}] run scoreboard players set #crematorium_occupied temp 1
-execute unless score #crematorium_running temp matches 1 run execute if score #crematorium_occupied temp matches 1 run function buildings:crematorium/start
-
-
-# Stop
-
-execute as @e[type=marker,tag=discussion_room_exit_crematorium] at @s run execute as @a[distance=..1] run scoreboard players set @s InCrematorium 0
-scoreboard players set #crematorium_occupied temp 0
-execute unless score #crematorium_occupied temp matches 1 run execute as @a[scores={InCrematorium=1}] run scoreboard players set #crematorium_occupied temp 1
-execute if score #crematorium_running temp matches 1 run execute if score #crematorium_occupied temp matches 0 run function buildings:crematorium/stop
-
 #####################################
 # Town Square                       #
 #####################################

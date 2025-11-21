@@ -11,6 +11,10 @@
     {
       "id": "buildings:voice_group_tick",
       "required": false
+    },
+    {
+      "id": "buildings:discussion_room_occupation/detection_tick",
+      "required": false
     }
   ]
 }

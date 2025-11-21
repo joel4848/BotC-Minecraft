@@ -1,0 +1,2 @@
+
+function buildings:discussion_room_occupation/text_display_1 with storage minecraft:joelbotc
