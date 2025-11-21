@@ -17,12 +17,18 @@ effect give @a resistance infinite 255 true
 data merge storage extras:immersive_pvp {allowed:true}
 schedule function extras:immersive_pvp/weapon_check 1s
 
-tellraw @a[scores={Player=..-1},gamemode=creative] [ \
+tellraw @a[scores={Player=..-1},gamemode=creative,name=!joel4848] [ \
     {"text":"You've been whisked away into ","color":"gold"}, \
     {"text":"Adventure","color":"yellow"}, \
     {"text":" mode...","color":"gold"} \
 ]
 
-gamemode adventure @a[scores={Player=..-1}]
+gamemode adventure @a[scores={Player=..-1},name=!joel4848]
 
 title @a times 20t 60t 20t
+
+# Remove discussion room occupancy text display
+
+schedule clear buildings:discussion_room_occupation/text_display_process
+scoreboard players set #show_discussion_room_occupancy temp 0
+schedule function buildings:discussion_room_occupation/kill_both 5t

@@ -13,3 +13,8 @@ scoreboard players set @a[scores={SummonSTConfirmed=1}] SummonSTInteracted 0
 
 # Clear ST booth request pending score
 scoreboard players set #summon_st_pending temp 0
+
+# Summon discussion room occupancy text display
+
+scoreboard players set #show_discussion_room_occupancy temp 1
+function buildings:discussion_room_occupation/text_display_process
