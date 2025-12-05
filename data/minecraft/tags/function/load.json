@@ -3,6 +3,10 @@
     {
       "id": "setup:load",
       "required": false
+    },
+    {
+      "id": "triggers:load",
+      "required": true
     }
 ]
 }
