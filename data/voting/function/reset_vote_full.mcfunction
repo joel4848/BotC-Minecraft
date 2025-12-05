@@ -28,8 +28,8 @@ scoreboard players reset @a VoteTally
 
 # Move all players to correct team
 
-team join Alive @a[scores={Alive=1}]
-team join Dead @a[scores={Alive=0}]
+team join Alive @a[scores={Alive=1},team=!Spectator]
+team join Dead @a[scores={Alive=0},team=!Spectator]
 team join Storyteller @a[scores={Storyteller=1}]
 
 # Clear any glowing effects

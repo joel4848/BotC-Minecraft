@@ -14,8 +14,8 @@ scoreboard players set #vote_running temp 0
 # Clear nominated status and glowing
 
 execute as @a[scores={Nominated=1}] run scoreboard players set @s Nominated 0
-execute as @a[scores={Marked=0,Alive=1}] run team join Alive @s
-execute as @a[scores={Marked=0,Alive=0}] run team join Dead @s
+execute as @a[scores={Marked=0,Alive=1},team=!Spectator] run team join Alive @s
+execute as @a[scores={Marked=0,Alive=0},team=!Spectator] run team join Dead @s
 execute as @a[scores={Marked=0,Storyteller=1}] run team join Storyteller @s
 execute as @a[scores={Marked=0 }] run effect clear @s glowing
 # scoreboard players set @a[scores={Nominated=1},limit=1] VoteTally 0

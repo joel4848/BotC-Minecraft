@@ -3,8 +3,8 @@
 # reset already nominated player
 
 effect clear @a[scores={Nominated=1}] glowing
-execute if score @a[scores={Nominated=1},limit=1] Alive matches 1 run team join Alive @a[scores={Nominated=1},limit=1]
-execute if score @a[scores={Nominated=1},limit=1] Alive matches 0 run team join Dead @a[scores={Nominated=1},limit=1]
+execute as @a[scores={Nominated=1},limit=1] if score @s Alive matches 1 run team join Alive
+execute as @a[scores={Nominated=1},limit=1] if score @s Alive matches 0 run team join Dead
 scoreboard players set @a Nominated 0
 team empty Nominated
 

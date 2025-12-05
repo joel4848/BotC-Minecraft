@@ -13,8 +13,8 @@ execute if score #og_enabled temp matches 1 run tellraw @a [{"color":"red","text
 # Clear all previous marks
 
 scoreboard players set @a Marked 0
-team join Alive @a[scores={Alive=1}]
-team join Dead @a[scores={Alive=0}]
+team join Alive @a[scores={Alive=1},team=!Spectator]
+team join Dead @a[scores={Alive=0},team=!Spectator]
 team join Storyteller @a[scores={Storyteller=1}]
 
 # Mark the nominated player and clear/reapply glowing (necessary for OG mode)
