@@ -123,6 +123,7 @@ team add Spectator
 team modify Spectator color dark_gray
 team modify Spectator prefix "[spec] "
 team modify Spectator collisionRule never
+team modify Spectator nametagVisibility never
 scoreboard objectives add become_spectator trigger
 
 # Creates bossbar
