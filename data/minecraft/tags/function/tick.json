@@ -1,7 +1,7 @@
 {
   "values": [
     {
-      "id": "setup:spectator/tick",
+      "id": "triggers:tick",
       "required": true
     },
     {
