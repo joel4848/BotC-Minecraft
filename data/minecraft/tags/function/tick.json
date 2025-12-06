@@ -1,6 +1,10 @@
 {
   "values": [
     {
+      "id": "triggers:tick",
+      "required": true
+    },
+    {
       "id": "players:dead_alive_events",
       "required": false
     },

@@ -4,8 +4,8 @@
 
 scoreboard players set @a Marked 0
 scoreboard players set @a Nominated 0
-team join Alive @a[scores={Alive=1}]
-team join Dead @a[scores={Alive=0}]
+team join Alive @a[scores={Alive=1},team=!Spectator]
+team join Dead @a[scores={Alive=0},team=!Spectator]
 team join Storyteller @a[scores={Storyteller=1}]
 effect clear @a glowing
 
