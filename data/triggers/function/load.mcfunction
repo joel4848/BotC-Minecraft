@@ -1,0 +1,5 @@
+scoreboard objectives add become_spectator trigger
+scoreboard objectives add clear_inventory trigger
+scoreboard objectives add clear_books trigger
+scoreboard objectives add toggle_held_item_persistent trigger
+scoreboard objectives add item_is_currently_persistent dummy

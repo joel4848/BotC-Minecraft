@@ -115,10 +115,15 @@ team add Dead
 team modify Dead color dark_green
 team add Storyteller
 team modify Storyteller color blue
-team add Psychopath
-team modify Psychopath color dark_red
 team modify Storyteller nametagVisibility never
 team modify Storyteller collisionRule pushOtherTeams
+team add Psychopath
+team modify Psychopath color dark_red
+team add Spectator
+team modify Spectator color dark_gray
+team modify Spectator prefix "[spec] "
+team modify Spectator collisionRule never
+team modify Spectator nametagVisibility never
 
 # Creates bossbar
 
