@@ -122,6 +122,25 @@ execute unless entity @a[scores={Player=..0,InHouse=0}] unless score #all_in_hou
 
 execute if score #all_in_houses temp matches 1 unless score #in_house_sb_removed temp matches 1 run function buildings:all_in_houses
 
+# Give role
+
+execute unless score @a[scores={Player=-1}, limit=1] GivenRole matches 1 run execute as @e[type=marker,tag=house1] at @s run execute as @a[distance=..1] run function setup:give_player_roles/give_p1_role with storage minecraft:joelbotc
+execute unless score @a[scores={Player=-2}, limit=1] GivenRole matches 1 run execute as @e[type=marker,tag=house2] at @s run execute as @a[distance=..1] run function setup:give_player_roles/give_p2_role with storage minecraft:joelbotc
+execute unless score @a[scores={Player=-3}, limit=1] GivenRole matches 1 run execute as @e[type=marker,tag=house3] at @s run execute as @a[distance=..1] run function setup:give_player_roles/give_p3_role with storage minecraft:joelbotc
+execute unless score @a[scores={Player=-4}, limit=1] GivenRole matches 1 run execute as @e[type=marker,tag=house4] at @s run execute as @a[distance=..1] run function setup:give_player_roles/give_p4_role with storage minecraft:joelbotc
+execute unless score @a[scores={Player=-5}, limit=1] GivenRole matches 1 run execute as @e[type=marker,tag=house5] at @s run execute as @a[distance=..1] run function setup:give_player_roles/give_p5_role with storage minecraft:joelbotc
+execute unless score @a[scores={Player=-6}, limit=1] GivenRole matches 1 run execute as @e[type=marker,tag=house6] at @s run execute as @a[distance=..1.5] run function setup:give_player_roles/give_p6_role with storage minecraft:joelbotc
+execute unless score @a[scores={Player=-7}, limit=1] GivenRole matches 1 run execute as @e[type=marker,tag=house7] at @s run execute as @a[distance=..1.5] run function setup:give_player_roles/give_p7_role with storage minecraft:joelbotc
+execute unless score @a[scores={Player=-8}, limit=1] GivenRole matches 1 run execute as @e[type=marker,tag=house8] at @s run execute as @a[distance=..1.5] run function setup:give_player_roles/give_p8_role with storage minecraft:joelbotc
+execute unless score @a[scores={Player=-9}, limit=1] GivenRole matches 1 run execute as @e[type=marker,tag=house9] at @s run execute as @a[distance=..1.5] run function setup:give_player_roles/give_p9_role with storage minecraft:joelbotc
+execute unless score @a[scores={Player=-10}, limit=1] GivenRole matches 1 run execute as @e[type=marker,tag=house10] at @s run execute as @a[distance=..1] run function setup:give_player_roles/give_p10_role with storage minecraft:joelbotc
+execute unless score @a[scores={Player=-11}, limit=1] GivenRole matches 1 run execute as @e[type=marker,tag=house11] at @s run execute as @a[distance=..1] run function setup:give_player_roles/give_p11_role with storage minecraft:joelbotc
+execute unless score @a[scores={Player=-12}, limit=1] GivenRole matches 1 run execute as @e[type=marker,tag=house12] at @s run execute as @a[distance=..1] run function setup:give_player_roles/give_p12_role with storage minecraft:joelbotc
+execute unless score @a[scores={Player=-13}, limit=1] GivenRole matches 1 run execute as @e[type=marker,tag=house13] at @s run execute as @a[distance=..1] run function setup:give_player_roles/give_p13_role with storage minecraft:joelbotc
+execute unless score @a[scores={Player=-14}, limit=1] GivenRole matches 1 run execute as @e[type=marker,tag=house14] at @s run execute as @a[distance=..1] run function setup:give_player_roles/give_p14_role with storage minecraft:joelbotc
+execute unless score @a[scores={Player=-15}, limit=1] GivenRole matches 1 run execute as @e[type=marker,tag=house15] at @s run execute as @a[distance=..1] run function setup:give_player_roles/give_p15_role with storage minecraft:joelbotc
+execute unless score @a[scores={Player=-16}, limit=1] GivenRole matches 1 run execute as @e[type=marker,tag=house16] at @s run execute as @a[distance=..1] run function setup:give_player_roles/give_p16_role with storage minecraft:joelbotc
+
 # House leave
 
 execute as @e[type=marker,tag=house_exit1] at @s run execute as @a[distance=..1] run voicechat leave

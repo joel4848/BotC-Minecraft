@@ -1,0 +1,1 @@
+function setup:give_player_roles/give1 with storage minecraft:joelbotc

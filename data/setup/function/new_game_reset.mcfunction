@@ -8,6 +8,8 @@ scoreboard objectives remove HasSeat
 scoreboard objectives add HasSeat dummy
 scoreboard objectives remove InHouse
 scoreboard objectives add InHouse dummy "In House"
+scoreboard objectives remove GivenRole
+scoreboard objectives add GivenRole dummy
 
 # Remove compasses and reset whether compasses already given
 

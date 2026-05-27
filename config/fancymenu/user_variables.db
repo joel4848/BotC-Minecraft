@@ -7,12 +7,6 @@ variable {
 }
 
 variable {
-  name = new_highest_vote_tally
-  value = 
-  reset_on_launch = false
-}
-
-variable {
   name = player_11_colour_suffix
   value = %#%
   reset_on_launch = false
@@ -31,14 +25,8 @@ variable {
 }
 
 variable {
-  name = player_11_colour
-  value = &8
-  reset_on_launch = false
-}
-
-variable {
   name = player_2_username
-  value = RandomEthan
+  value =  ‌
   reset_on_launch = false
 }
 
@@ -49,38 +37,8 @@ variable {
 }
 
 variable {
-  name = player_10_colour
-  value = &8
-  reset_on_launch = false
-}
-
-variable {
-  name = player_12_colour
-  value = &8
-  reset_on_launch = false
-}
-
-variable {
-  name = player_13_colour
-  value = &8
-  reset_on_launch = false
-}
-
-variable {
-  name = player_14_colour
-  value = &8
-  reset_on_launch = false
-}
-
-variable {
-  name = player_15_colour
-  value = &8
-  reset_on_launch = false
-}
-
-variable {
-  name = player_16_colour
-  value = &8
+  name = player_2_role_type
+  value = Townsfolk
   reset_on_launch = false
 }
 
@@ -91,26 +49,32 @@ variable {
 }
 
 variable {
-  name = banshee_username_extract
-  value = 
-  reset_on_launch = false
-}
-
-variable {
-  name = lock_to_seats
-  value = false
-  reset_on_launch = false
-}
-
-variable {
   name = player_4_colour_suffix
   value = %#%
   reset_on_launch = false
 }
 
 variable {
-  name = bureaucrat_chosen
-  value = ‌
+  name = player_9_role_type
+  value = Townsfolk
+  reset_on_launch = false
+}
+
+variable {
+  name = player_11_role
+  value = 11
+  reset_on_launch = false
+}
+
+variable {
+  name = player_6_role
+  value = 6
+  reset_on_launch = false
+}
+
+variable {
+  name = player_13_role_type
+  value = Townsfolk
   reset_on_launch = false
 }
 
@@ -127,8 +91,422 @@ variable {
 }
 
 variable {
+  name = player_10_role
+  value = 10
+  reset_on_launch = false
+}
+
+variable {
+  name = new_highest_votes
+  value = 
+  reset_on_launch = false
+}
+
+variable {
+  name = swap_seat_2
+  value = 6
+  reset_on_launch = false
+}
+
+variable {
+  name = player_8_colour
+  value = &f
+  reset_on_launch = false
+}
+
+variable {
+  name = og_enabled
+  value = false
+  reset_on_launch = false
+}
+
+variable {
+  name = player_12_role_type
+  value = Townsfolk
+  reset_on_launch = false
+}
+
+variable {
+  name = banshee_1_username
+  value =  
+  reset_on_launch = false
+}
+
+variable {
+  name = player_3_username
+  value =  ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = player_7_username
+  value =  ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = 0
+  value = 0
+  reset_on_launch = false
+}
+
+variable {
+  name = player_8_role_type
+  value = Townsfolk
+  reset_on_launch = false
+}
+
+variable {
+  name = player_7_colour_suffix
+  value = %#%
+  reset_on_launch = false
+}
+
+variable {
+  name = player_4_colour
+  value = &f
+  reset_on_launch = false
+}
+
+variable {
+  name = player_2_colour_suffix
+  value = %#%
+  reset_on_launch = false
+}
+
+variable {
+  name = player_4_role
+  value = 4
+  reset_on_launch = false
+}
+
+variable {
+  name = player_1_role_type
+  value = Traveller
+  reset_on_launch = false
+}
+
+variable {
+  name = player_6_colour
+  value = &f
+  reset_on_launch = false
+}
+
+variable {
+  name = timer_minutes_custom
+  value = 
+  reset_on_launch = false
+}
+
+variable {
+  name = player_2_colour
+  value = &f
+  reset_on_launch = false
+}
+
+variable {
+  name = player__role
+  value = 
+  reset_on_launch = false
+}
+
+variable {
+  name = player_7_role
+  value = 7
+  reset_on_launch = false
+}
+
+variable {
+  name = player_12_username
+  value =  ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = player_14_role
+  value = 14
+  reset_on_launch = false
+}
+
+variable {
+  name = player_4_role_type
+  value = Townsfolk
+  reset_on_launch = false
+}
+
+variable {
+  name = reassign_username
+  value = 
+  reset_on_launch = false
+}
+
+variable {
+  name = player_13_role
+  value = 13
+  reset_on_launch = false
+}
+
+variable {
+  name = player_6_username
+  value =  ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = banshee_3_username
+  value =  
+  reset_on_launch = false
+}
+
+variable {
+  name = player_1_username
+  value =  ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = player_7_role_type
+  value = Townsfolk
+  reset_on_launch = false
+}
+
+variable {
+  name = burnout
+  value = pair of dice
+  reset_on_launch = false
+}
+
+variable {
+  name = player_9_username
+  value =  ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = player_15_role_type
+  value = Townsfolk
+  reset_on_launch = false
+}
+
+variable {
+  name = player_16_username
+  value =  ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = player_1_colour_suffix
+  value = %#%
+  reset_on_launch = false
+}
+
+variable {
+  name = banshee_3
+  value = 
+  reset_on_launch = false
+}
+
+variable {
+  name = player_9_colour
+  value = &f
+  reset_on_launch = false
+}
+
+variable {
+  name = player_8_role
+  value = 8
+  reset_on_launch = false
+}
+
+variable {
+  name = player_10_role_type
+  value = Townsfolk
+  reset_on_launch = false
+}
+
+variable {
+  name = player_5_role
+  value = 5
+  reset_on_launch = false
+}
+
+variable {
+  name = banshee_0_username
+  value =  
+  reset_on_launch = false
+}
+
+variable {
+  name = player_4_username
+  value =  ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = player_14_username
+  value =  ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = thief_chosen_temp
+  value = 
+  reset_on_launch = false
+}
+
+variable {
+  name = fake_player_amount
+  value = 16
+  reset_on_launch = false
+}
+
+variable {
+  name = banshee_0
+  value = 
+  reset_on_launch = false
+}
+
+variable {
+  name = banshee_1
+  value = 
+  reset_on_launch = false
+}
+
+variable {
+  name = banshee_2
+  value = 
+  reset_on_launch = false
+}
+
+variable {
+  name = player_1_colour
+  value = &f
+  reset_on_launch = false
+}
+
+variable {
+  name = is_banshee
+  value = 
+  reset_on_launch = false
+}
+
+variable {
+  name = thief_chosen
+  value = ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = player_5_colour
+  value = &f
+  reset_on_launch = false
+}
+
+variable {
+  name = og_change
+  value = true
+  reset_on_launch = false
+}
+
+variable {
+  name = lock_player_count_slider
+  value = false
+  reset_on_launch = false
+}
+
+variable {
+  name = new_highest_vote_tally
+  value = 
+  reset_on_launch = false
+}
+
+variable {
+  name = player_11_colour
+  value = &f
+  reset_on_launch = false
+}
+
+variable {
+  name = player_1_role
+  value = Ravenkeeper
+  reset_on_launch = false
+}
+
+variable {
+  name = player_10_colour
+  value = &f
+  reset_on_launch = false
+}
+
+variable {
+  name = player_12_colour
+  value = &f
+  reset_on_launch = false
+}
+
+variable {
+  name = player_16_role_type
+  value = Townsfolk
+  reset_on_launch = false
+}
+
+variable {
+  name = player_13_colour
+  value = &f
+  reset_on_launch = false
+}
+
+variable {
+  name = player_14_colour
+  value = &f
+  reset_on_launch = false
+}
+
+variable {
+  name = player_15_colour
+  value = &f
+  reset_on_launch = false
+}
+
+variable {
+  name = player_16_colour
+  value = &f
+  reset_on_launch = false
+}
+
+variable {
+  name = banshee_username_extract
+  value = 
+  reset_on_launch = false
+}
+
+variable {
+  name = lock_to_seats
+  value = false
+  reset_on_launch = false
+}
+
+variable {
+  name = player_16_role
+  value = 16
+  reset_on_launch = false
+}
+
+variable {
+  name = bureaucrat_chosen
+  value = ‌
+  reset_on_launch = false
+}
+
+variable {
   name = voudon_enabled
   value = false
+  reset_on_launch = false
+}
+
+variable {
+  name = player_2_role
+  value = 2
   reset_on_launch = false
 }
 
@@ -151,24 +529,6 @@ variable {
 }
 
 variable {
-  name = new_highest_votes
-  value = 
-  reset_on_launch = false
-}
-
-variable {
-  name = swap_seat_2
-  value = 6
-  reset_on_launch = false
-}
-
-variable {
-  name = player_8_colour
-  value = &8
-  reset_on_launch = false
-}
-
-variable {
   name = test
   value = hello
   reset_on_launch = false
@@ -181,8 +541,8 @@ variable {
 }
 
 variable {
-  name = og_enabled
-  value = false
+  name = player_5_role_type
+  value = Townsfolk
   reset_on_launch = false
 }
 
@@ -205,38 +565,8 @@ variable {
 }
 
 variable {
-  name = banshee_1_username
-  value =  
-  reset_on_launch = false
-}
-
-variable {
-  name = player_3_username
-  value = SpaceJuice9907
-  reset_on_launch = false
-}
-
-variable {
-  name = player_7_username
-  value =  ‌
-  reset_on_launch = false
-}
-
-variable {
-  name = 0
-  value = 0
-  reset_on_launch = false
-}
-
-variable {
   name = player_count
-  value = 6
-  reset_on_launch = false
-}
-
-variable {
-  name = player_7_colour_suffix
-  value = %#%
+  value = 
   reset_on_launch = false
 }
 
@@ -253,56 +583,26 @@ variable {
 }
 
 variable {
-  name = player_4_colour
-  value = &2
-  reset_on_launch = false
-}
-
-variable {
-  name = player_2_colour_suffix
-  value = %#%
-  reset_on_launch = false
-}
-
-variable {
   name = thief_change
   value = true
   reset_on_launch = false
 }
 
 variable {
-  name = player_6_colour
-  value = &2
-  reset_on_launch = false
-}
-
-variable {
-  name = timer_minutes_custom
-  value = 
-  reset_on_launch = false
-}
-
-variable {
-  name = player_2_colour
-  value = &2
-  reset_on_launch = false
-}
-
-variable {
-  name = player_12_username
-  value =  ‌
-  reset_on_launch = false
-}
-
-variable {
-  name = reassign_username
-  value = 
+  name = player__role_type
+  value = Townsfolk
   reset_on_launch = false
 }
 
 variable {
   name = player_13_username
   value =  ‌
+  reset_on_launch = false
+}
+
+variable {
+  name = player_11_role_type
+  value = Townsfolk
   reset_on_launch = false
 }
 
@@ -355,20 +655,8 @@ variable {
 }
 
 variable {
-  name = player_6_username
-  value = stretch22
-  reset_on_launch = false
-}
-
-variable {
-  name = banshee_3_username
-  value =  
-  reset_on_launch = false
-}
-
-variable {
-  name = player_1_username
-  value = LordSedgley
+  name = player_9_role
+  value = 9
   reset_on_launch = false
 }
 
@@ -379,86 +667,14 @@ variable {
 }
 
 variable {
-  name = burnout
-  value = pair of dice
+  name = player_3_role_type
+  value = Townsfolk
   reset_on_launch = false
 }
 
 variable {
-  name = player_9_username
-  value =  ‌
-  reset_on_launch = false
-}
-
-variable {
-  name = player_16_username
-  value =  ‌
-  reset_on_launch = false
-}
-
-variable {
-  name = player_1_colour_suffix
-  value = %#%
-  reset_on_launch = false
-}
-
-variable {
-  name = banshee_3
-  value = 
-  reset_on_launch = false
-}
-
-variable {
-  name = player_9_colour
-  value = &8
-  reset_on_launch = false
-}
-
-variable {
-  name = banshee_0_username
-  value =  
-  reset_on_launch = false
-}
-
-variable {
-  name = player_4_username
-  value = xXRobTxX
-  reset_on_launch = false
-}
-
-variable {
-  name = player_14_username
-  value =  ‌
-  reset_on_launch = false
-}
-
-variable {
-  name = thief_chosen_temp
-  value = 
-  reset_on_launch = false
-}
-
-variable {
-  name = fake_player_amount
-  value = 16
-  reset_on_launch = false
-}
-
-variable {
-  name = banshee_0
-  value = 
-  reset_on_launch = false
-}
-
-variable {
-  name = banshee_1
-  value = 
-  reset_on_launch = false
-}
-
-variable {
-  name = banshee_2
-  value = 
+  name = player_3_role
+  value = 3
   reset_on_launch = false
 }
 
@@ -469,8 +685,8 @@ variable {
 }
 
 variable {
-  name = player_1_colour
-  value = &a
+  name = player_14_role_type
+  value = Townsfolk
   reset_on_launch = false
 }
 
@@ -481,26 +697,8 @@ variable {
 }
 
 variable {
-  name = is_banshee
-  value = 
-  reset_on_launch = false
-}
-
-variable {
-  name = thief_chosen
-  value = ‌
-  reset_on_launch = false
-}
-
-variable {
   name = 80
   value = 59
-  reset_on_launch = false
-}
-
-variable {
-  name = player_5_colour
-  value = &a
   reset_on_launch = false
 }
 
@@ -511,14 +709,14 @@ variable {
 }
 
 variable {
-  name = og_change
-  value = true
+  name = player_12_role
+  value = 12
   reset_on_launch = false
 }
 
 variable {
   name = player_3_colour
-  value = &c
+  value = &f
   reset_on_launch = false
 }
 
@@ -530,19 +728,25 @@ variable {
 
 variable {
   name = player_7_colour
-  value = &8
+  value = &f
   reset_on_launch = false
 }
 
 variable {
   name = player_5_username
-  value = Jerjerrybinks
+  value =  ‌
   reset_on_launch = false
 }
 
 variable {
-  name = lock_player_count_slider
-  value = false
+  name = player_15_role
+  value = 15
+  reset_on_launch = false
+}
+
+variable {
+  name = player_6_role_type
+  value = Townsfolk
   reset_on_launch = false
 }
 
