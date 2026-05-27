@@ -1,8 +1,9 @@
 
-scoreboard players set #doorbell_clocktower_cooldown temp 0
-scoreboard players set #doorbell_nightclub_cooldown temp 0
-scoreboard players set #doorbell_tavern_cooldown temp 0
-scoreboard players set #doorbell_blacksmith_cooldown temp 0
-scoreboard players set #doorbell_library_cooldown temp 0
-scoreboard players set #doorbell_cemetary_cooldown temp 0
-scoreboard players set #doorbell_crematorium_cooldown temp 0
+scoreboard objectives add InClocktower dummy
+scoreboard objectives add InNightclub dummy
+scoreboard objectives add InTavern dummy
+scoreboard objectives add InBlacksmith dummy
+scoreboard objectives add InLibrary dummy
+scoreboard objectives add InPumpkin dummy
+scoreboard objectives add InCrematorium dummy
+scoreboard objectives add InCemetary dummy

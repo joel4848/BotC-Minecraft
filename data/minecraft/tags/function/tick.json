@@ -1,6 +1,10 @@
 {
   "values": [
     {
+      "id": "setup:spectator/tick",
+      "required": true
+    },
+    {
       "id": "players:dead_alive_events",
       "required": false
     },

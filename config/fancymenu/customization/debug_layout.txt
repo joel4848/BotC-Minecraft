@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = debug
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1761665231287
+  last_edited_time = 1764556133995
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:3225fcbe-8813-414e-b4fc-04a4331156c1-1761665219337] = [groups:][instances:]
+  [loading_requirement_container_meta:f9dc1035-126c-438d-998f-1ea1e044e987-1764556126255] = [groups:][instances:]
 }
 
 customization {
@@ -56,7 +56,7 @@ element {
   sticky_anchor = false
   anchor_point = mid-centered
   x = 162
-  y = 109
+  y = 100
   width = 27
   height = 16
   stretch_x = false
@@ -122,7 +122,7 @@ element {
   sticky_anchor = false
   anchor_point = mid-centered
   x = 59
-  y = 104
+  y = 95
   width = 101
   height = 27
   stretch_x = false
@@ -181,7 +181,7 @@ element {
   sticky_anchor = false
   anchor_point = mid-centered
   x = 193
-  y = 107
+  y = 98
   width = 48
   height = 20
   stretch_x = false
@@ -584,7 +584,7 @@ element {
   sticky_anchor = false
   anchor_point = mid-centered
   x = 59
-  y = 78
+  y = 69
   width = 132
   height = 25
   stretch_x = false
@@ -947,8 +947,7 @@ element {
   [executable_action_instance:05089fbc-86db-4513-b281-6648ff8758f3-1759939161994][action_type:sendmessage] = /execute as {"placeholder":"getvariable","values":{"name":"reassign_username"}} run function players:assign/assign {player:{"placeholder":"getvariable","values":{"name":"reassign_seat"}}}
   [executable_action_instance:9d3063ca-cf29-4f91-86d0-b4e1f6533b1a-1759939275094][action_type:set_variable] = reassign_username:
   [executable_action_instance:c26f67ca-b5dc-420d-9b14-2a9bfddbd46c-1759939285760][action_type:set_variable] = reassign_seat:
-  [executable_action_instance:f1915bfd-9fdb-48fd-9ed3-1a0a1121e972-1759939298060][action_type:closegui] = 
-  [executable_block:fc2dce01-ac79-462f-87f8-07deab6485de-1759939126778][type:generic] = [executables:05089fbc-86db-4513-b281-6648ff8758f3-1759939161994;9d3063ca-cf29-4f91-86d0-b4e1f6533b1a-1759939275094;c26f67ca-b5dc-420d-9b14-2a9bfddbd46c-1759939285760;f1915bfd-9fdb-48fd-9ed3-1a0a1121e972-1759939298060;]
+  [executable_block:fc2dce01-ac79-462f-87f8-07deab6485de-1759939126778][type:generic] = [executables:05089fbc-86db-4513-b281-6648ff8758f3-1759939161994;9d3063ca-cf29-4f91-86d0-b4e1f6533b1a-1759939275094;c26f67ca-b5dc-420d-9b14-2a9bfddbd46c-1759939285760;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
@@ -2278,6 +2277,64 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = 189214d5-81ef-4f53-ab7f-f28f35bd0547-1759936455782
   [loading_requirement_container_meta:189214d5-81ef-4f53-ab7f-f28f35bd0547-1759936455782] = [groups:][instances:]
+  enable_parallax = false
+  parallax_intensity_v2 = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+  layer_hidden_in_editor = false
+}
+
+element {
+  button_element_executable_block_identifier = d8a77f49-babe-4ef0-baec-e0ba5c9a6abe-1755893093619
+  [executable_action_instance:298c7644-ec05-4f3b-b9ac-d016aa7bb0d7-1757155035939][action_type:sendmessage] = /function clock_hand:remove_hands
+  [executable_action_instance:6060689d-0f16-4c2d-b8b8-0b2ec286ba3e-1755893480500][action_type:closegui] = 
+  [executable_block:d8a77f49-babe-4ef0-baec-e0ba5c9a6abe-1755893093619][type:generic] = [executables:298c7644-ec05-4f3b-b9ac-d016aa7bb0d7-1757155035939;6060689d-0f16-4c2d-b8b8-0b2ec286ba3e-1755893480500;]
+  restartbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = Remove Hands
+  navigatable = true
+  widget_active_state_requirement_container_identifier = 50e001ef-470c-4e70-b6ab-ee25ec2be86d-1755893093619
+  [loading_requirement_container_meta:50e001ef-470c-4e70-b6ab-ee25ec2be86d-1755893093619] = [groups:][instances:]
+  is_template = false
+  template_apply_width = false
+  template_apply_height = false
+  template_apply_posx = false
+  template_apply_posy = false
+  template_apply_opacity = false
+  template_apply_visibility = false
+  template_apply_label = false
+  template_share_with = buttons
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+  element_type = custom_button
+  instance_identifier = a9887eb8-1313-41c3-9152-28983915b10f-1763847840253
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1011
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = 106
+  y = 127
+  width = 95
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = e56f8017-cd2f-4258-9339-4e3e46d33d56-1755893093619
+  [loading_requirement_container_meta:e56f8017-cd2f-4258-9339-4e3e46d33d56-1755893093619] = [groups:][instances:]
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false

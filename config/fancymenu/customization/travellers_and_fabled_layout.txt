@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = travellers_and_fabled
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1762002954984
+  last_edited_time = 1763766643319
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:79bdbb77-3200-436c-8c18-135f4771b6a2-1762002948648] = [groups:][instances:]
+  [loading_requirement_container_meta:38c0646d-e180-45b3-8879-7c9bd587f1a3-1763766629037] = [groups:][instances:]
 }
 
 customization {
@@ -384,7 +384,7 @@ element {
 
 element {
   interactable = true
-  source = Thief chosen player: 16%#ff8d00% {"placeholder":"getvariable","values":{"name":"thief_chosen"}}%#%%n%^^^%n%(seat number)%n%^^^
+  source = Thief chosen player: %#ff8d00% {"placeholder":"getvariable","values":{"name":"thief_chosen"}}%#%%n%^^^%n%(seat number)%n%^^^
   source_mode = direct
   shadow = true
   scale = 1.0

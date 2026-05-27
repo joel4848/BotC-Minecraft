@@ -1,6 +1,9 @@
 
 execute as @e[tag=mapcentre] at @s run place template nomination:nomination_podiums_remove ~-7 ~1 ~-7
 
+execute as @e[limit=1,tag=townsquare,type=minecraft:marker] at @s run setblock ~ ~ ~ templates:iron_trapdoor
+execute as @e[limit=1,tag=townsquare,type=minecraft:marker] at @s run data modify block ~ ~ ~ s.Name set value "minecraft:black_concrete"
+
 execute as @e[tag=mapcentre] at @s run kill @e[type=item,distance=..10,nbt={Item:{id:"minecraft:written_book"}}]
 
 execute as @a[scores={Nominated=1,Player=-1}] run execute as @e[limit=1,tag=seat1,type=minecraft:marker] at @s run tp @a[scores={Player=-1}] ~ ~ ~ facing entity @e[limit=1,sort=nearest,tag=votelight1,type=marker]

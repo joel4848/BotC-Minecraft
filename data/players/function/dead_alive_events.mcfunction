@@ -51,22 +51,22 @@ scoreboard players display numberformat @a[scores={Player=-16,Alive=1}] Player f
 
 # Set dead players' scores to dark green
 
-scoreboard players display numberformat @a[scores={Player=-1,Alive=0}] Player fixed {"text":"1","color":"dark_green"}
-scoreboard players display numberformat @a[scores={Player=-2,Alive=0}] Player fixed {"text":"2","color":"dark_green"}
-scoreboard players display numberformat @a[scores={Player=-3,Alive=0}] Player fixed {"text":"3","color":"dark_green"}
-scoreboard players display numberformat @a[scores={Player=-4,Alive=0}] Player fixed {"text":"4","color":"dark_green"}
-scoreboard players display numberformat @a[scores={Player=-5,Alive=0}] Player fixed {"text":"5","color":"dark_green"}
-scoreboard players display numberformat @a[scores={Player=-6,Alive=0}] Player fixed {"text":"6","color":"dark_green"}
-scoreboard players display numberformat @a[scores={Player=-7,Alive=0}] Player fixed {"text":"7","color":"dark_green"}
-scoreboard players display numberformat @a[scores={Player=-8,Alive=0}] Player fixed {"text":"8","color":"dark_green"}
-scoreboard players display numberformat @a[scores={Player=-9,Alive=0}] Player fixed {"text":"9","color":"dark_green"}
-scoreboard players display numberformat @a[scores={Player=-10,Alive=0}] Player fixed {"text":"10","color":"dark_green"}
-scoreboard players display numberformat @a[scores={Player=-11,Alive=0}] Player fixed {"text":"11","color":"dark_green"}
-scoreboard players display numberformat @a[scores={Player=-12,Alive=0}] Player fixed {"text":"12","color":"dark_green"}
-scoreboard players display numberformat @a[scores={Player=-13,Alive=0}] Player fixed {"text":"13","color":"dark_green"}
-scoreboard players display numberformat @a[scores={Player=-14,Alive=0}] Player fixed {"text":"14","color":"dark_green"}
-scoreboard players display numberformat @a[scores={Player=-15,Alive=0}] Player fixed {"text":"15","color":"dark_green"}
-scoreboard players display numberformat @a[scores={Player=-16,Alive=0}] Player fixed {"text":"16","color":"dark_green"}
+scoreboard players display numberformat @a[scores={Player=-1,Alive=0}] Player fixed {"text":"☹ 1","color":"dark_green"}
+scoreboard players display numberformat @a[scores={Player=-2,Alive=0}] Player fixed {"text":"☹ 2","color":"dark_green"}
+scoreboard players display numberformat @a[scores={Player=-3,Alive=0}] Player fixed {"text":"☹ 3","color":"dark_green"}
+scoreboard players display numberformat @a[scores={Player=-4,Alive=0}] Player fixed {"text":"☹ 4","color":"dark_green"}
+scoreboard players display numberformat @a[scores={Player=-5,Alive=0}] Player fixed {"text":"☹ 5","color":"dark_green"}
+scoreboard players display numberformat @a[scores={Player=-6,Alive=0}] Player fixed {"text":"☹ 6","color":"dark_green"}
+scoreboard players display numberformat @a[scores={Player=-7,Alive=0}] Player fixed {"text":"☹ 7","color":"dark_green"}
+scoreboard players display numberformat @a[scores={Player=-8,Alive=0}] Player fixed {"text":"☹ 8","color":"dark_green"}
+scoreboard players display numberformat @a[scores={Player=-9,Alive=0}] Player fixed {"text":"☹ 9","color":"dark_green"}
+scoreboard players display numberformat @a[scores={Player=-10,Alive=0}] Player fixed {"text":"☹ 10","color":"dark_green"}
+scoreboard players display numberformat @a[scores={Player=-11,Alive=0}] Player fixed {"text":"☹ 11","color":"dark_green"}
+scoreboard players display numberformat @a[scores={Player=-12,Alive=0}] Player fixed {"text":"☹ 12","color":"dark_green"}
+scoreboard players display numberformat @a[scores={Player=-13,Alive=0}] Player fixed {"text":"☹ 13","color":"dark_green"}
+scoreboard players display numberformat @a[scores={Player=-14,Alive=0}] Player fixed {"text":"☹ 14","color":"dark_green"}
+scoreboard players display numberformat @a[scores={Player=-15,Alive=0}] Player fixed {"text":"☹ 15","color":"dark_green"}
+scoreboard players display numberformat @a[scores={Player=-16,Alive=0}] Player fixed {"text":"☹ 16","color":"dark_green"}
 
 # Turn dead players' vote blocks to ghost votes
 
