@@ -8,8 +8,15 @@ scoreboard objectives remove HasSeat
 scoreboard objectives add HasSeat dummy
 scoreboard objectives remove InHouse
 scoreboard objectives add InHouse dummy "In House"
+
+########### Player role papers ###########
+
+# Reset the scoreboard that tracks whether players have been given their roles this game
 scoreboard objectives remove GivenRole
 scoreboard objectives add GivenRole dummy
+
+# Clear all roles in nbt storage
+function setup:give_player_roles/clear_player_roles
 
 # Remove compasses and reset whether compasses already given
 
